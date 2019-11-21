@@ -10,3 +10,7 @@ INFO 2019-11-21 01:56:00,389 basehttp 154 "GET /static/admin/css/fonts.css HTTP/
 INFO 2019-11-21 01:56:01,165 basehttp 154 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
 INFO 2019-11-21 01:56:01,166 basehttp 154 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
 INFO 2019-11-21 01:56:01,181 basehttp 154 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+INFO 2019-11-21 03:07:07,488 autoreload 217 /Users/liangpingbo/Desktop/线上课程/线上课程api/线上课程api/settings/dev.py changed, reloading.
+INFO 2019-11-21 03:07:08,476 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-21 03:08:27,172 autoreload 217 /Users/liangpingbo/Desktop/线上课程/线上课程api/线上课程api/settings/dev.py changed, reloading.
+INFO 2019-11-21 03:08:28,005 autoreload 597 Watching for file changes with StatReloader

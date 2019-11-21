@@ -202,3 +202,9 @@ LOGGING = {
         }
     }
 }
+
+# 异常错误配置
+REST_FRAMEWORK = {
+    # 异常处理
+    'EXCEPTION_HANDLER': '线上课堂api.utils.exceptions.custom_exception_handler'
+}

@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="094ff10e-59ba-4b58-b30c-867f368accef" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/线上课程.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/线上课程.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/线上课程api/settings/dev.py" beforeDir="false" afterPath="$PROJECT_DIR$/线上课程api/settings/dev.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -111,7 +113,8 @@
       <option name="presentableId" value="Default" />
       <updated>1574299938472</updated>
       <workItem from="1574299939793" duration="2510000" />
-      <workItem from="1574303648879" duration="612000" />
+      <workItem from="1574303648879" duration="1019000" />
+      <workItem from="1574305662576" duration="45000" />
     </task>
     <servers />
   </component>
