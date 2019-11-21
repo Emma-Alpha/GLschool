@@ -1,0 +1,12 @@
+INFO 2019-11-21 01:55:51,273 autoreload 597 Watching for file changes with StatReloader
+ERROR 2019-11-21 01:55:52,795 exception 77 Invalid HTTP_HOST header: '0.0.0.0:8000'. You may need to add '0.0.0.0' to ALLOWED_HOSTS.
+WARNING 2019-11-21 01:55:53,008 log 228 Bad Request: /
+WARNING 2019-11-21 01:55:53,075 basehttp 154 "GET / HTTP/1.1" 400 61320
+ERROR 2019-11-21 01:55:53,785 exception 77 Invalid HTTP_HOST header: '0.0.0.0:8000'. You may need to add '0.0.0.0' to ALLOWED_HOSTS.
+WARNING 2019-11-21 01:55:53,854 log 228 Bad Request: /favicon.ico
+WARNING 2019-11-21 01:55:53,855 basehttp 154 "GET /favicon.ico HTTP/1.1" 400 61363
+INFO 2019-11-21 01:56:00,307 basehttp 154 "GET / HTTP/1.1" 200 16348
+INFO 2019-11-21 01:56:00,389 basehttp 154 "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+INFO 2019-11-21 01:56:01,165 basehttp 154 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+INFO 2019-11-21 01:56:01,166 basehttp 154 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+INFO 2019-11-21 01:56:01,181 basehttp 154 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
