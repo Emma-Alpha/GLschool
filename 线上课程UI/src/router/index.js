@@ -16,7 +16,12 @@ export default new Router({
     // 路由列表
     {  // 一个字典,代表一条url
       name : 'Home',  // name: "路由别名"
-      path: '', // path:"路由地址"
+      path: '/', // path:"路由地址"
+      component: Home,  // component:组件类名
+    },
+    {  // 一个字典,代表一条url
+      name : 'Home',  // name: "路由别名"
+      path: '/home', // path:"路由地址"
       component: Home,  // component:组件类名
     },
     {

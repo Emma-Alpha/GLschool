@@ -15,6 +15,10 @@ import os
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
+# 新增一个系统导包路径
+import sys
+sys.path.insert(0,os.path.join(BASE_DIR, 'apps'))
+
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
@@ -24,7 +28,9 @@ SECRET_KEY = 'g+g%6o0n)0ihwz4*8fis6khxtyo$u$^a6r-7$-9@m^m*2f1x&#'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    '*',
+]
 
 # Application definition
 
@@ -35,6 +41,17 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    'corsheaders',
+    # 注意，加上drf框架的注册
+    'rest_framework',
+    'xadmin',
+    'crispy_forms',
+    'reversion',
+
+    # 子应用
+    'home',
+
 ]
 
 MIDDLEWARE = [
@@ -45,7 +62,15 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+
+    'corsheaders.middleware.CorsMiddleware',
 ]
+
+# CORS组的配置信息
+CORS_ORIGIN_WHITELIST = (
+    'http://127.0.0.1:8080',
+)
+CORS_ALLOW_CREDENTIALS = False  # 允许ajax跨域请求时携带cookie
 
 ROOT_URLCONF = '线上课程api.urls'
 
@@ -72,8 +97,12 @@ WSGI_APPLICATION = '线上课程api.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'online_course',
+        'HOST': '127.0.0.1',
+        'PORT': 3306,
+        'USER': 'root',
+        'PASSWORD': '12345678',
     }
 }
 
@@ -98,9 +127,11 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/2.2/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+# 修改使用中文界面
+LANGUAGE_CODE = 'zh-Hans'
 
-TIME_ZONE = 'UTC'
+# 修改时区
+TIME_ZONE = 'Asia/Shanghai'
 
 USE_I18N = True
 
@@ -111,7 +142,18 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
+# 访问静态文件的url地址前缀
 STATIC_URL = '/static/'
+# 设置django的静态文件目录
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'static')
+]
+
+# 项目中存储上传文件的根目录[暂时配置],注意,uploadsm目录需要手动创建否则上传文件时报错
+MEDIA_ROOT = os.path.join(BASE_DIR,'uploads')
+# 访问上传文件的url地址前缀
+MEDIA_URL = '/media/'
+
 
 # 日志配置
 LOGGING = {

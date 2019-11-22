@@ -1,17 +1,10 @@
 <template>
   <div class="block">
     <el-carousel height="318px">
-      <el-carousel-item>
-        <img src="/static/image/fj_1.jpg" alt="">
-      </el-carousel-item>
-      <el-carousel-item>
-        <img src="/static/image/fj_2.jpg" alt="">
-      </el-carousel-item>
-      <el-carousel-item>
-        <img src="/static/image/fj_3.jpg" alt="">
-      </el-carousel-item>
-      <el-carousel-item>
-        <img src="/static/image/fj_4.jpg" alt="">
+      <el-carousel-item :key="key" v-for="image_url,key in banner_list">
+<!--        <a v-if=item.is_http ><img :src=item.images alt=""></a>-->
+        <a :href="image_url.link" v-if="image_url.is_http"><img :src=image_url.image alt=""></a>
+        <router-link :to="image_url.link" v-else><img :src=image_url.image alt=""></router-link>
       </el-carousel-item>
     </el-carousel>
   </div>
@@ -19,7 +12,26 @@
 
 <script>
     export default {
-        name: "banner"
+        name: "banner",
+        data(){
+            return{
+                banner_list:[]
+            }
+        },
+        created(){
+            this.get_banner()
+        },
+        methods:{
+            get_banner(){
+                //轮播风景图
+                // es6提供了一种允许换行的字符串，叫文档字符串，可以允许在字段中换行并输出js变量
+                this.$axios.get(`${this.$settings.Host}/banner/`).then(response=>{
+                    this.banner_list = response.data
+                }).catch(error=>{
+                    this.$alert("获取轮播图失败",'广东理工学院')
+                })
+            }
+        }
     }
 </script>
 

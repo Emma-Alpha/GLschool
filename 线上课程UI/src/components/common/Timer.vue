@@ -8,16 +8,15 @@
     <div id="yangshi">
       <el-card class="box-card" style="width: 900px;height: 350px" :body-style="{padding : '0px'}">
         <div style="width: 450px;height:350px;display: inline-block;float: left">
-          <!--        <el-card class="box-card" style="width: 400px;height:350px;display: inline-block;float: left" :body-style="{padding:'0px'}">-->
-          <img style="width: 100%" v-for="(img,key) in img_list" :src=img.img_url alt=""
-               :style="index==key?'display:Block':'display:None'">
+          <img style="width: 100%" :key="key" v-for="(img,key) in image_list" :src=img.image v-if="image_index == key">
           <!--        </el-card>-->
         </div>
         <div style="width: 435px;display: inline-block;float: left">
           <div class="row pre-scrollable">
             <ul class="nav nav-pills  nav-stacked">
-              <li v-for="(item , key) in zhibo_list" role="presentation" :class="index==key?'active':''"
-                  @mouseover=add_index(key) style="margin-left: 15px;background: #F0FFFF"><a href.pervent="#">{{item.title}}</a></li>
+              <li v-for="(item,key) in image_list" role="presentation"
+                  @mouseover=show_image(key) style="margin-left: 15px;background: #F0FFFF"><a href.pervent="#">{{item.title}}</a>
+              </li>
             </ul>
           </div>
         </div>
@@ -31,35 +30,24 @@
         name: "Timer",
         data() {
             return {
-                "index": 0,
-                "zhibo_list": [
-                    {"title": "HTML"},
-                    {"title": "JS"},
-                    {"title": "MySQL"},
-                    {"title": "MySQL"},
-                    {"title": "MySQL"},
-                    {"title": "MySQL"},
-                    {"title": "MySQL"},
-                    {"title": "MySQL"},
-                    {"title": "MySQL"},
-                    {"title": "MySQL"},
-                    {"title": "MySQL"},
-                    {"title": "MySQL"},
-                ],
-                "img_list": [
-                    {"img_url": "/static/image/banner3.png"},
-                    {"img_url": "/static/image/banner1.png"},
-                    {"img_url": "/static/image/qq-个人.jpeg"},
-                    {"img_url": "/static/image/Helloworld.jpg"},
-                    {"img_url": "/static/image/强强.JPG"},
-                    {"img_url": "/static/image/余余.JPG"},
-                ]
+                image_list: [],
+                image_index: 0,
             }
         },
+        created() {
+            this.host_image();
+        },
         methods: {
-            add_index(x) {
-                this.index = x
-            }
+            host_image() {
+                this.$axios.get(`${this.$settings.Host}/timer/`).then(response => {
+                    this.image_list = response.data
+                }).catch(error => {
+                    this.$alert(error.response)
+                })
+            },
+            show_image(id) {
+                this.image_index = id
+            },
         }
     }
 </script>
@@ -74,7 +62,8 @@
     text-align: center;
     margin: 0 200px;
   }
-  .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus{
+
+  .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
     background: #48D1CC;
   }
 

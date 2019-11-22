@@ -14,3 +14,695 @@ INFO 2019-11-21 03:07:07,488 autoreload 217 /Users/liangpingbo/Desktop/线上课
 INFO 2019-11-21 03:07:08,476 autoreload 597 Watching for file changes with StatReloader
 INFO 2019-11-21 03:08:27,172 autoreload 217 /Users/liangpingbo/Desktop/线上课程/线上课程api/线上课程api/settings/dev.py changed, reloading.
 INFO 2019-11-21 03:08:28,005 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-21 15:56:37,054 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-21 15:56:42,318 autoreload 217 /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/backends/mysql/base.py changed, reloading.
+INFO 2019-11-21 15:56:43,208 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-21 15:56:54,546 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-21 15:57:00,398 autoreload 217 /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/backends/mysql/operations.py changed, reloading.
+INFO 2019-11-21 15:57:00,907 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-21 15:57:12,809 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-21 15:57:47,496 autoreload 217 /Users/liangpingbo/Desktop/线上课程/线上课程api/线上课程api/settings/dev.py changed, reloading.
+INFO 2019-11-21 15:57:48,467 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-21 15:57:54,340 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-21 15:58:29,382 autoreload 217 /Users/liangpingbo/Desktop/线上课程/线上课程api/线上课程api/settings/dev.py changed, reloading.
+INFO 2019-11-21 15:58:30,304 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-21 15:58:36,827 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-21 15:58:53,180 autoreload 217 /Users/liangpingbo/Desktop/线上课程/线上课程api/线上课程api/settings/dev.py changed, reloading.
+INFO 2019-11-21 15:58:53,914 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-21 15:59:02,573 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-21 15:59:20,572 autoreload 217 /Users/liangpingbo/Desktop/线上课程/线上课程api/线上课程api/settings/dev.py changed, reloading.
+INFO 2019-11-21 15:59:21,446 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-21 15:59:27,562 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-21 16:00:38,878 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-21 16:02:09,032 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-21 16:02:11,188 basehttp 154 "GET / HTTP/1.1" 200 16348
+INFO 2019-11-21 16:47:30,912 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-21 16:47:37,182 autoreload 217 /Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/db/backends/mysql/base.py changed, reloading.
+INFO 2019-11-21 16:47:38,746 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-21 16:47:44,580 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-21 16:47:50,464 autoreload 217 /Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/db/backends/mysql/operations.py changed, reloading.
+INFO 2019-11-21 16:47:51,288 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-21 16:48:02,364 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-21 16:48:09,127 basehttp 154 "GET / HTTP/1.1" 200 16348
+INFO 2019-11-21 16:51:17,770 autoreload 217 /Users/liangpingbo/Desktop/线上课程/线上课程api/线上课程api/settings/dev.py changed, reloading.
+INFO 2019-11-21 16:51:19,918 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-21 16:52:48,215 autoreload 217 /Users/liangpingbo/Desktop/线上课程/线上课程api/线上课程api/settings/dev.py changed, reloading.
+INFO 2019-11-21 16:52:51,055 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-21 16:53:16,967 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-21 16:54:00,259 autoreload 217 /Users/liangpingbo/Desktop/线上课程/线上课程api/线上课程api/settings/dev.py changed, reloading.
+INFO 2019-11-21 16:54:02,968 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-21 16:59:28,121 autoreload 217 /Users/liangpingbo/Desktop/线上课程/线上课程api/线上课程api/settings/dev.py changed, reloading.
+INFO 2019-11-21 16:59:29,892 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-21 16:59:57,605 autoreload 217 /Users/liangpingbo/Desktop/线上课程/线上课程api/线上课程api/settings/dev.py changed, reloading.
+INFO 2019-11-21 16:59:59,661 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-21 17:00:22,248 autoreload 217 /Users/liangpingbo/Desktop/线上课程/线上课程api/线上课程api/settings/dev.py changed, reloading.
+INFO 2019-11-21 17:00:24,278 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-21 17:00:26,645 autoreload 217 /Users/liangpingbo/Desktop/线上课程/线上课程api/线上课程api/settings/dev.py changed, reloading.
+INFO 2019-11-21 17:00:28,471 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-21 17:00:32,567 autoreload 217 /Users/liangpingbo/Desktop/线上课程/线上课程api/线上课程api/settings/dev.py changed, reloading.
+INFO 2019-11-21 17:00:34,675 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-21 17:00:36,941 autoreload 217 /Users/liangpingbo/Desktop/线上课程/线上课程api/线上课程api/settings/dev.py changed, reloading.
+INFO 2019-11-21 17:00:39,471 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-21 17:01:11,507 autoreload 217 /Users/liangpingbo/Desktop/线上课程/线上课程api/线上课程api/settings/dev.py changed, reloading.
+INFO 2019-11-21 17:01:13,502 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-21 17:01:21,508 autoreload 217 /Users/liangpingbo/Desktop/线上课程/线上课程api/线上课程api/settings/dev.py changed, reloading.
+INFO 2019-11-21 17:01:23,235 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-21 17:01:56,499 autoreload 217 /Users/liangpingbo/Desktop/线上课程/线上课程api/线上课程api/settings/dev.py changed, reloading.
+INFO 2019-11-21 17:01:58,915 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-21 17:02:35,807 autoreload 217 /Users/liangpingbo/Desktop/线上课程/线上课程api/线上课程api/urls.py changed, reloading.
+INFO 2019-11-21 17:02:36,660 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-21 17:02:58,418 autoreload 217 /Users/liangpingbo/Desktop/线上课程/线上课程api/线上课程api/urls.py changed, reloading.
+INFO 2019-11-21 17:02:59,539 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-21 17:05:27,691 autoreload 217 /Users/liangpingbo/Desktop/线上课程/线上课程api/线上课程api/settings/dev.py changed, reloading.
+INFO 2019-11-21 17:05:30,003 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-21 17:09:25,742 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-21 17:12:12,473 autoreload 217 /Users/liangpingbo/Desktop/线上课程/线上课程api/线上课程api/settings/dev.py changed, reloading.
+INFO 2019-11-21 17:12:13,249 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-21 17:13:53,514 autoreload 217 /Users/liangpingbo/Desktop/线上课程/线上课程api/线上课程api/settings/dev.py changed, reloading.
+INFO 2019-11-21 17:13:54,744 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-21 17:17:05,169 autoreload 217 /Users/liangpingbo/Desktop/线上课程/线上课程api/线上课程api/apps/home/models.py changed, reloading.
+INFO 2019-11-21 17:17:06,163 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-21 17:18:42,696 autoreload 217 /Users/liangpingbo/Desktop/线上课程/线上课程api/线上课程api/apps/home/models.py changed, reloading.
+INFO 2019-11-21 17:18:44,333 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-21 17:22:15,870 autoreload 217 /Users/liangpingbo/Desktop/线上课程/线上课程api/线上课程api/apps/home/models.py changed, reloading.
+INFO 2019-11-21 17:22:17,608 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-21 17:25:01,387 autoreload 217 /Users/liangpingbo/Desktop/线上课程/线上课程api/线上课程api/apps/home/models.py changed, reloading.
+INFO 2019-11-21 17:25:03,636 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-21 17:26:26,566 autoreload 217 /Users/liangpingbo/Desktop/线上课程/线上课程api/线上课程api/apps/home/models.py changed, reloading.
+INFO 2019-11-21 17:26:27,539 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-21 17:37:24,927 autoreload 597 Watching for file changes with StatReloader
+WARNING 2019-11-21 17:37:27,786 log 228 Not Found: /
+WARNING 2019-11-21 17:37:27,787 basehttp 154 "GET / HTTP/1.1" 404 2208
+INFO 2019-11-21 17:37:34,562 basehttp 154 "GET /banner/ HTTP/1.1" 200 5192
+INFO 2019-11-21 17:37:34,606 basehttp 154 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+INFO 2019-11-21 17:37:34,621 basehttp 154 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2019-11-21 17:37:34,624 basehttp 154 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2019-11-21 17:37:34,625 basehttp 154 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+INFO 2019-11-21 17:37:34,631 basehttp 154 "GET /static/rest_framework/js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+INFO 2019-11-21 17:37:34,632 basehttp 154 "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1131
+INFO 2019-11-21 17:37:34,636 basehttp 154 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1719
+INFO 2019-11-21 17:37:34,639 basehttp 154 "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2019-11-21 17:37:34,640 basehttp 154 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2019-11-21 17:37:34,641 basehttp 154 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 37608
+INFO 2019-11-21 17:37:34,663 basehttp 154 "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+INFO 2019-11-22 01:40:08,391 autoreload 597 Watching for file changes with StatReloader
+WARNING 2019-11-22 01:40:10,333 log 228 Not Found: /
+WARNING 2019-11-22 01:40:10,333 basehttp 154 "GET / HTTP/1.1" 404 2208
+WARNING 2019-11-22 01:40:18,932 log 228 Not Found: /xadmin
+WARNING 2019-11-22 01:40:18,932 basehttp 154 "GET /xadmin HTTP/1.1" 404 2244
+INFO 2019-11-22 01:41:12,858 autoreload 217 /Users/liangpingbo/Desktop/线上课程/线上课程api/线上课程api/urls.py changed, reloading.
+INFO 2019-11-22 01:41:14,091 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-22 01:42:12,164 autoreload 217 /Users/liangpingbo/Desktop/线上课程/线上课程api/线上课程api/urls.py changed, reloading.
+INFO 2019-11-22 01:42:14,215 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-22 01:42:18,999 basehttp 154 "GET /xadmin HTTP/1.1" 301 0
+INFO 2019-11-22 01:42:19,168 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 4151
+INFO 2019-11-22 01:42:19,275 basehttp 154 "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 200 1888
+INFO 2019-11-22 01:42:19,276 basehttp 154 "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 200 8376
+INFO 2019-11-22 01:42:19,278 basehttp 154 "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 200 4361
+INFO 2019-11-22 01:42:19,282 basehttp 154 "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 200 21658
+INFO 2019-11-22 01:42:19,287 basehttp 154 "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 200 175
+INFO 2019-11-22 01:42:19,300 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 200 15069
+INFO 2019-11-22 01:42:19,307 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 200 8195
+INFO 2019-11-22 01:42:19,311 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 200 4561
+INFO 2019-11-22 01:42:19,324 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 4158
+INFO 2019-11-22 01:42:19,325 basehttp 154 "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 200 3401
+INFO 2019-11-22 01:42:19,327 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 200 42543
+INFO 2019-11-22 01:42:19,330 basehttp 154 "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 200 240196
+INFO 2019-11-22 01:42:19,333 basehttp 154 "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 200 58327
+INFO 2019-11-22 01:42:19,335 basehttp 154 "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 200 4165
+INFO 2019-11-22 01:42:19,348 basehttp 154 "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 200 126432
+INFO 2019-11-22 01:42:19,678 basehttp 154 "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 200 44432
+INFO 2019-11-22 01:43:05,606 autoreload 217 /Users/liangpingbo/Desktop/线上课程/线上课程api/线上课程api/urls.py changed, reloading.
+INFO 2019-11-22 01:43:06,838 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-22 01:45:16,667 autoreload 217 /Users/liangpingbo/Desktop/线上课程/线上课程api/线上课程api/apps/home/__init__.py changed, reloading.
+INFO 2019-11-22 01:45:18,481 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-22 01:45:25,702 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-22 01:45:28,729 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 4354
+INFO 2019-11-22 01:45:28,764 basehttp 154 "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+INFO 2019-11-22 01:45:28,811 basehttp 154 "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 304 0
+INFO 2019-11-22 01:45:28,812 basehttp 154 "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 304 0
+INFO 2019-11-22 01:45:28,823 basehttp 154 "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 304 0
+INFO 2019-11-22 01:45:28,824 basehttp 154 "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 304 0
+INFO 2019-11-22 01:45:28,829 basehttp 154 "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 304 0
+INFO 2019-11-22 01:45:28,832 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 304 0
+INFO 2019-11-22 01:45:28,842 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 304 0
+INFO 2019-11-22 01:45:28,843 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.themes.js HTTP/1.1" 200 3489
+INFO 2019-11-22 01:45:28,852 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.effect.js HTTP/1.1" 200 31918
+INFO 2019-11-22 01:45:28,852 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 304 0
+INFO 2019-11-22 01:45:28,854 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 4361
+INFO 2019-11-22 01:45:28,860 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 304 0
+INFO 2019-11-22 01:45:28,861 basehttp 154 "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+INFO 2019-11-22 01:45:28,862 basehttp 154 "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 304 0
+INFO 2019-11-22 01:45:28,867 basehttp 154 "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 304 0
+INFO 2019-11-22 01:45:28,876 basehttp 154 "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2019-11-22 01:45:28,917 basehttp 154 "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 304 0
+INFO 2019-11-22 01:45:29,752 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 4354
+INFO 2019-11-22 01:45:29,805 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 4361
+INFO 2019-11-22 01:45:33,525 basehttp 154 "POST /xadmin/ HTTP/1.1" 302 0
+INFO 2019-11-22 01:45:36,868 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 14416
+INFO 2019-11-22 01:45:36,898 basehttp 154 "GET /static/xadmin/css/xadmin.page.dashboard.css HTTP/1.1" 200 790
+INFO 2019-11-22 01:45:36,902 basehttp 154 "GET /static/xadmin/js/xadmin.page.dashboard.js HTTP/1.1" 200 3208
+INFO 2019-11-22 01:45:36,904 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.1" 200 1000
+INFO 2019-11-22 01:45:36,918 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-22 01:45:40,076 basehttp 154 "GET /xadmin/home/banner/ HTTP/1.1" 200 24288
+INFO 2019-11-22 01:45:40,103 basehttp 154 "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 200 3763
+INFO 2019-11-22 01:45:40,116 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 200 2319
+INFO 2019-11-22 01:45:40,130 basehttp 154 "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 200 1948
+INFO 2019-11-22 01:45:40,133 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 200 529
+INFO 2019-11-22 01:45:40,142 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-22 01:45:40,143 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 200 1990
+INFO 2019-11-22 01:45:40,144 basehttp 154 "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 200 1105
+INFO 2019-11-22 01:45:42,038 basehttp 154 "GET /xadmin/home/banner/add/ HTTP/1.1" 200 20046
+INFO 2019-11-22 01:45:42,067 basehttp 154 "GET /static/xadmin/vendor/bootstrap-image-gallery/css/bootstrap-image-gallery.css HTTP/1.1" 200 3339
+INFO 2019-11-22 01:45:42,081 basehttp 154 "GET /static/xadmin/vendor/bootstrap-image-gallery/js/bootstrap-image-gallery.js HTTP/1.1" 200 15611
+INFO 2019-11-22 01:45:42,083 basehttp 154 "GET /static/xadmin/vendor/load-image/load-image.js HTTP/1.1" 200 8309
+INFO 2019-11-22 01:45:42,104 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-22 01:48:30,971 basehttp 154 "POST /xadmin/home/banner/add/ HTTP/1.1" 302 0
+INFO 2019-11-22 01:48:31,104 basehttp 154 "GET /xadmin/home/banner/ HTTP/1.1" 200 28319
+INFO 2019-11-22 01:48:31,160 basehttp 154 "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 304 0
+INFO 2019-11-22 01:48:31,168 basehttp 154 "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 304 0
+INFO 2019-11-22 01:48:31,176 basehttp 154 "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+INFO 2019-11-22 01:48:31,179 basehttp 154 "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 304 0
+INFO 2019-11-22 01:48:31,190 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.1" 200 4198
+INFO 2019-11-22 01:48:31,192 basehttp 154 "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 304 0
+INFO 2019-11-22 01:48:31,206 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-22 01:48:31,207 basehttp 154 "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 304 0
+INFO 2019-11-22 01:48:31,210 basehttp 154 "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 304 0
+INFO 2019-11-22 01:48:31,212 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 304 0
+INFO 2019-11-22 01:48:31,232 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 304 0
+INFO 2019-11-22 01:48:31,233 basehttp 154 "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2019-11-22 01:48:31,240 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 304 0
+INFO 2019-11-22 01:48:31,241 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.effect.js HTTP/1.1" 304 0
+INFO 2019-11-22 01:48:31,243 basehttp 154 "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 304 0
+INFO 2019-11-22 01:48:31,245 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 304 0
+INFO 2019-11-22 01:48:31,248 basehttp 154 "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+INFO 2019-11-22 01:48:31,253 basehttp 154 "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 304 0
+INFO 2019-11-22 01:48:31,259 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 304 0
+INFO 2019-11-22 01:48:31,274 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 304 0
+INFO 2019-11-22 01:48:31,274 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.themes.js HTTP/1.1" 304 0
+INFO 2019-11-22 01:48:31,279 basehttp 154 "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 304 0
+INFO 2019-11-22 01:48:31,279 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 304 0
+INFO 2019-11-22 01:48:31,281 basehttp 154 "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 304 0
+INFO 2019-11-22 01:48:34,432 basehttp 154 "GET /xadmin/home/banner/add/ HTTP/1.1" 200 20046
+INFO 2019-11-22 01:48:34,476 basehttp 154 "GET /static/xadmin/vendor/bootstrap-image-gallery/css/bootstrap-image-gallery.css HTTP/1.1" 304 0
+INFO 2019-11-22 01:48:34,477 basehttp 154 "GET /static/xadmin/vendor/bootstrap-image-gallery/js/bootstrap-image-gallery.js HTTP/1.1" 304 0
+INFO 2019-11-22 01:48:34,480 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.1" 304 0
+INFO 2019-11-22 01:48:34,481 basehttp 154 "GET /static/xadmin/vendor/load-image/load-image.js HTTP/1.1" 304 0
+INFO 2019-11-22 01:48:34,511 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-22 01:48:53,720 basehttp 154 "POST /xadmin/home/banner/add/ HTTP/1.1" 302 0
+INFO 2019-11-22 01:48:53,922 basehttp 154 "GET /xadmin/home/banner/add/ HTTP/1.1" 200 20407
+INFO 2019-11-22 01:48:53,988 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-22 01:49:11,227 basehttp 154 "POST /xadmin/home/banner/add/ HTTP/1.1" 302 0
+INFO 2019-11-22 01:49:11,384 basehttp 154 "GET /xadmin/home/banner/ HTTP/1.1" 200 29490
+INFO 2019-11-22 01:49:11,442 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-22 01:49:13,048 basehttp 154 "GET /xadmin/home/banner/3/update/ HTTP/1.1" 200 20537
+INFO 2019-11-22 01:49:13,080 basehttp 154 "GET /media/banner/u42336082262710670444fm26gp0.jpg HTTP/1.1" 200 24445
+INFO 2019-11-22 01:49:13,099 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-22 01:49:16,783 basehttp 154 "POST /xadmin/home/banner/3/update/ HTTP/1.1" 302 0
+INFO 2019-11-22 01:49:16,892 basehttp 154 "GET /xadmin/home/banner/ HTTP/1.1" 200 29428
+INFO 2019-11-22 01:49:16,942 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-22 01:53:49,858 basehttp 154 "GET /banner/ HTTP/1.1" 200 357
+INFO 2019-11-22 01:57:37,589 basehttp 154 "GET /banner/ HTTP/1.1" 200 357
+INFO 2019-11-22 01:57:42,742 basehttp 154 "GET /banner HTTP/1.1" 301 0
+INFO 2019-11-22 01:57:42,817 basehttp 154 "GET /banner/ HTTP/1.1" 200 6241
+INFO 2019-11-22 01:57:42,905 basehttp 154 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+INFO 2019-11-22 01:57:42,906 basehttp 154 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+INFO 2019-11-22 01:57:42,911 basehttp 154 "GET /static/rest_framework/js/jquery-3.4.1.min.js HTTP/1.1" 304 0
+INFO 2019-11-22 01:57:42,913 basehttp 154 "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+INFO 2019-11-22 01:57:42,918 basehttp 154 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+INFO 2019-11-22 01:57:42,922 basehttp 154 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+INFO 2019-11-22 01:57:42,925 basehttp 154 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+INFO 2019-11-22 01:57:42,925 basehttp 154 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO 2019-11-22 01:57:42,927 basehttp 154 "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+INFO 2019-11-22 01:57:42,937 basehttp 154 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2019-11-22 01:57:43,110 basehttp 154 "GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+INFO 2019-11-22 01:59:00,077 basehttp 154 "GET /banner/ HTTP/1.1" 200 357
+INFO 2019-11-22 02:00:37,941 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-22 02:00:50,608 basehttp 154 "GET /banner/ HTTP/1.1" 200 357
+INFO 2019-11-22 02:02:48,119 basehttp 154 "GET /banner/ HTTP/1.1" 200 357
+INFO 2019-11-22 02:04:12,612 basehttp 154 "GET /banner/ HTTP/1.1" 200 357
+INFO 2019-11-22 02:05:16,587 basehttp 154 "GET /banner/ HTTP/1.1" 200 357
+INFO 2019-11-22 02:05:40,664 basehttp 154 "GET /banner/ HTTP/1.1" 200 6241
+INFO 2019-11-22 02:05:40,721 basehttp 154 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+INFO 2019-11-22 02:05:40,727 basehttp 154 "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+INFO 2019-11-22 02:05:40,728 basehttp 154 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+INFO 2019-11-22 02:05:40,729 basehttp 154 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+INFO 2019-11-22 02:05:40,732 basehttp 154 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+INFO 2019-11-22 02:05:40,735 basehttp 154 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+INFO 2019-11-22 02:05:40,738 basehttp 154 "GET /static/rest_framework/js/jquery-3.4.1.min.js HTTP/1.1" 304 0
+INFO 2019-11-22 02:05:40,742 basehttp 154 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO 2019-11-22 02:05:40,746 basehttp 154 "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+INFO 2019-11-22 02:05:40,752 basehttp 154 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2019-11-22 02:05:40,868 basehttp 154 "GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+INFO 2019-11-22 02:05:41,783 basehttp 154 "GET /banner/ HTTP/1.1" 200 6241
+WARNING 2019-11-22 02:06:11,177 log 228 Not Found: /
+WARNING 2019-11-22 02:06:11,180 basehttp 154 "GET / HTTP/1.1" 404 2315
+INFO 2019-11-22 02:06:17,207 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 14416
+INFO 2019-11-22 02:06:17,249 basehttp 154 "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+INFO 2019-11-22 02:06:17,260 basehttp 154 "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 304 0
+INFO 2019-11-22 02:06:17,266 basehttp 154 "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 304 0
+INFO 2019-11-22 02:06:17,269 basehttp 154 "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 304 0
+INFO 2019-11-22 02:06:17,272 basehttp 154 "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 304 0
+INFO 2019-11-22 02:06:17,280 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 304 0
+INFO 2019-11-22 02:06:17,284 basehttp 154 "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 304 0
+INFO 2019-11-22 02:06:17,293 basehttp 154 "GET /static/xadmin/css/xadmin.page.dashboard.css HTTP/1.1" 304 0
+INFO 2019-11-22 02:06:17,299 basehttp 154 "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2019-11-22 02:06:17,304 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 304 0
+INFO 2019-11-22 02:06:17,306 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 304 0
+INFO 2019-11-22 02:06:17,309 basehttp 154 "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 304 0
+INFO 2019-11-22 02:06:17,313 basehttp 154 "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+INFO 2019-11-22 02:06:17,315 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 304 0
+INFO 2019-11-22 02:06:17,321 basehttp 154 "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 304 0
+INFO 2019-11-22 02:06:17,323 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.effect.js HTTP/1.1" 304 0
+INFO 2019-11-22 02:06:17,328 basehttp 154 "GET /static/xadmin/js/xadmin.page.dashboard.js HTTP/1.1" 304 0
+INFO 2019-11-22 02:06:17,332 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.1" 304 0
+INFO 2019-11-22 02:06:17,336 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.themes.js HTTP/1.1" 304 0
+INFO 2019-11-22 02:06:17,349 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-22 02:06:17,479 basehttp 154 "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 304 0
+INFO 2019-11-22 02:06:21,011 basehttp 154 "GET /xadmin/home/banner/ HTTP/1.1" 200 29187
+INFO 2019-11-22 02:06:21,084 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.1" 304 0
+INFO 2019-11-22 02:06:21,092 basehttp 154 "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 304 0
+INFO 2019-11-22 02:06:21,100 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 304 0
+INFO 2019-11-22 02:06:21,102 basehttp 154 "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 304 0
+INFO 2019-11-22 02:06:21,114 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-22 02:06:21,118 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 304 0
+INFO 2019-11-22 02:06:21,119 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 304 0
+INFO 2019-11-22 02:06:21,121 basehttp 154 "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 304 0
+INFO 2019-11-22 02:06:23,339 basehttp 154 "GET /xadmin/home/banner/3/update/ HTTP/1.1" 200 20545
+INFO 2019-11-22 02:06:23,379 basehttp 154 "GET /static/xadmin/vendor/bootstrap-image-gallery/css/bootstrap-image-gallery.css HTTP/1.1" 304 0
+INFO 2019-11-22 02:06:23,389 basehttp 154 "GET /media/banner/u42336082262710670444fm26gp0.jpg HTTP/1.1" 304 0
+INFO 2019-11-22 02:06:23,392 basehttp 154 "GET /static/xadmin/vendor/load-image/load-image.js HTTP/1.1" 304 0
+INFO 2019-11-22 02:06:23,408 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-22 02:06:23,409 basehttp 154 "GET /static/xadmin/vendor/bootstrap-image-gallery/js/bootstrap-image-gallery.js HTTP/1.1" 304 0
+INFO 2019-11-22 02:06:44,773 basehttp 154 "GET /banner/ HTTP/1.1" 200 357
+INFO 2019-11-22 02:07:08,816 basehttp 154 "POST /xadmin/home/banner/3/update/ HTTP/1.1" 302 0
+INFO 2019-11-22 02:07:08,940 basehttp 154 "GET /xadmin/home/banner/ HTTP/1.1" 200 29428
+INFO 2019-11-22 02:07:09,012 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-22 02:07:11,960 basehttp 154 "GET /xadmin/home/banner/add/ HTTP/1.1" 200 20046
+INFO 2019-11-22 02:07:12,011 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-22 02:07:38,332 basehttp 154 "POST /xadmin/home/banner/add/ HTTP/1.1" 302 0
+INFO 2019-11-22 02:07:38,463 basehttp 154 "GET /xadmin/home/banner/ HTTP/1.1" 200 30077
+INFO 2019-11-22 02:07:38,528 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-22 02:07:42,770 basehttp 154 "GET /banner/ HTTP/1.1" 200 462
+INFO 2019-11-22 02:08:16,991 basehttp 154 "GET /media/banner/u42336082262710670444fm26gp0.jpg HTTP/1.1" 304 0
+INFO 2019-11-22 02:08:49,856 basehttp 154 "GET /banner/ HTTP/1.1" 200 462
+INFO 2019-11-22 02:09:24,518 basehttp 154 "GET /banner/ HTTP/1.1" 200 462
+INFO 2019-11-22 02:09:43,063 basehttp 154 "GET /banner/ HTTP/1.1" 200 462
+INFO 2019-11-22 02:12:20,492 basehttp 154 "GET /media/banner/u42336082262710670444fm26gp0.jpg HTTP/1.1" 304 0
+INFO 2019-11-22 02:12:20,494 basehttp 154 "GET /media/banner/u11070653901808140437fm26gp0.jpg HTTP/1.1" 200 41460
+INFO 2019-11-22 02:12:20,497 basehttp 154 "GET /media/banner/u17151088223979953737fm26gp0.jpg HTTP/1.1" 200 46157
+INFO 2019-11-22 02:12:20,498 basehttp 154 "GET /media/banner/banner1.png HTTP/1.1" 200 24322
+WARNING 2019-11-22 02:12:22,867 log 228 Not Found: /
+WARNING 2019-11-22 02:12:22,868 basehttp 154 "GET / HTTP/1.1" 404 2315
+INFO 2019-11-22 02:12:27,000 basehttp 154 "GET /banner/ HTTP/1.1" 200 6563
+INFO 2019-11-22 02:12:27,047 basehttp 154 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+INFO 2019-11-22 02:12:27,052 basehttp 154 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2019-11-22 02:12:27,064 basehttp 154 "GET /static/rest_framework/js/jquery-3.4.1.min.js HTTP/1.1" 304 0
+INFO 2019-11-22 02:12:27,051 basehttp 154 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+INFO 2019-11-22 02:12:27,058 basehttp 154 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+INFO 2019-11-22 02:12:27,070 basehttp 154 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+INFO 2019-11-22 02:12:27,055 basehttp 154 "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+INFO 2019-11-22 02:12:27,078 basehttp 154 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+INFO 2019-11-22 02:12:27,079 basehttp 154 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO 2019-11-22 02:12:27,083 basehttp 154 "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+INFO 2019-11-22 02:12:27,094 basehttp 154 "GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+INFO 2019-11-22 02:13:04,099 basehttp 154 "GET /banner/ HTTP/1.1" 200 462
+INFO 2019-11-22 02:13:04,172 basehttp 154 "GET /media/banner/banner1.png HTTP/1.1" 304 0
+INFO 2019-11-22 08:29:18,506 basehttp 154 "GET /banner/ HTTP/1.1" 200 490
+INFO 2019-11-22 09:10:46,459 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-22 09:11:01,580 autoreload 597 Watching for file changes with StatReloader
+WARNING 2019-11-22 09:11:04,131 log 228 Not Found: /
+WARNING 2019-11-22 09:11:04,132 basehttp 154 "GET / HTTP/1.1" 404 2315
+INFO 2019-11-22 09:11:07,958 basehttp 154 "GET /admin HTTP/1.1" 301 0
+INFO 2019-11-22 09:11:08,139 basehttp 154 "GET /admin/ HTTP/1.1" 200 3001
+INFO 2019-11-22 09:11:08,184 basehttp 154 "GET /static/admin/css/base.css HTTP/1.1" 200 16378
+INFO 2019-11-22 09:11:08,186 basehttp 154 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 412
+INFO 2019-11-22 09:11:08,188 basehttp 154 "GET /static/admin/css/responsive.css HTTP/1.1" 200 17944
+INFO 2019-11-22 09:11:08,200 basehttp 154 "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+INFO 2019-11-22 09:11:08,281 basehttp 154 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2019-11-22 09:11:08,288 basehttp 154 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2019-11-22 09:11:08,394 basehttp 154 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+INFO 2019-11-22 09:11:08,406 basehttp 154 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+INFO 2019-11-22 09:11:08,408 basehttp 154 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+INFO 2019-11-22 09:11:13,171 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 14416
+INFO 2019-11-22 09:11:13,199 basehttp 154 "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+INFO 2019-11-22 09:11:13,202 basehttp 154 "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 304 0
+INFO 2019-11-22 09:11:13,212 basehttp 154 "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 304 0
+INFO 2019-11-22 09:11:13,220 basehttp 154 "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 304 0
+INFO 2019-11-22 09:11:13,231 basehttp 154 "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2019-11-22 09:11:13,235 basehttp 154 "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 304 0
+INFO 2019-11-22 09:11:13,236 basehttp 154 "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 304 0
+INFO 2019-11-22 09:11:13,244 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 304 0
+INFO 2019-11-22 09:11:13,246 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 304 0
+INFO 2019-11-22 09:11:13,247 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 304 0
+INFO 2019-11-22 09:11:13,263 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 304 0
+INFO 2019-11-22 09:11:13,264 basehttp 154 "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 304 0
+INFO 2019-11-22 09:11:13,274 basehttp 154 "GET /static/xadmin/css/xadmin.page.dashboard.css HTTP/1.1" 304 0
+INFO 2019-11-22 09:11:13,280 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.1" 304 0
+INFO 2019-11-22 09:11:13,282 basehttp 154 "GET /static/xadmin/js/xadmin.page.dashboard.js HTTP/1.1" 304 0
+INFO 2019-11-22 09:11:13,284 basehttp 154 "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+INFO 2019-11-22 09:11:13,285 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.effect.js HTTP/1.1" 304 0
+INFO 2019-11-22 09:11:13,287 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.themes.js HTTP/1.1" 304 0
+INFO 2019-11-22 09:11:13,289 basehttp 154 "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 304 0
+INFO 2019-11-22 09:11:13,294 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-22 09:11:13,453 basehttp 154 "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 304 0
+ERROR 2019-11-22 09:11:15,932 log 228 Internal Server Error: /xadmin/xadmin/userwidget/add/
+Traceback (most recent call last):
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/core/handlers/base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/core/handlers/base.py", line 143, in _get_response
+    response = response.render()
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/template/response.py", line 106, in render
+    self.content = self.rendered_content
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/template/response.py", line 83, in rendered_content
+    content = template.render(context, self._request)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/crispy_forms/templatetags/crispy_forms_tags.py", line 199, in render
+    c = self.get_render(context).flatten()
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/crispy_forms/templatetags/crispy_forms_tags.py", line 118, in get_render
+    actual_form.form_html = helper.render_layout(actual_form, node_context, template_pack=self.template_pack)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/crispy_forms/helper.py", line 309, in render_layout
+    template_pack=template_pack
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/crispy_forms/layout.py", line 140, in render
+    return self.get_rendered_fields(form, form_style, context, template_pack, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/crispy_forms/layout.py", line 104, in get_rendered_fields
+    for field in self.fields
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/crispy_forms/layout.py", line 104, in <genexpr>
+    for field in self.fields
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/crispy_forms/utils.py", line 61, in render_field
+    form, form_style, context, template_pack=template_pack,
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/crispy_forms/layout.py", line 361, in render
+    fields = self.get_rendered_fields(form, form_style, context, template_pack, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/crispy_forms/layout.py", line 104, in get_rendered_fields
+    for field in self.fields
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/crispy_forms/layout.py", line 104, in <genexpr>
+    for field in self.fields
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/crispy_forms/utils.py", line 61, in render_field
+    form, form_style, context, template_pack=template_pack,
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/crispy_forms/layout.py", line 361, in render
+    fields = self.get_rendered_fields(form, form_style, context, template_pack, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/crispy_forms/layout.py", line 104, in get_rendered_fields
+    for field in self.fields
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/crispy_forms/layout.py", line 104, in <genexpr>
+    for field in self.fields
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/crispy_forms/utils.py", line 61, in render_field
+    form, form_style, context, template_pack=template_pack,
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/crispy_forms/layout.py", line 287, in render
+    fields = self.get_rendered_fields(form, form_style, context, template_pack, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/crispy_forms/layout.py", line 104, in get_rendered_fields
+    for field in self.fields
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/crispy_forms/layout.py", line 104, in <genexpr>
+    for field in self.fields
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/crispy_forms/utils.py", line 147, in render_field
+    html = template.render(context)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/template/defaulttags.py", line 309, in render
+    return nodelist.render(context)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/template/defaulttags.py", line 309, in render
+    return nodelist.render(context)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/template/defaulttags.py", line 309, in render
+    return nodelist.render(context)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/crispy_forms/templatetags/crispy_forms_field.py", line 156, in render
+    return str(field)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/utils/html.py", line 388, in <lambda>
+    klass.__str__ = lambda self: mark_safe(klass_str(self))
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/forms/boundfield.py", line 33, in __str__
+    return self.as_widget()
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/forms/boundfield.py", line 93, in as_widget
+    renderer=self.form.renderer,
+TypeError: render() got an unexpected keyword argument 'renderer'
+ERROR 2019-11-22 09:11:15,937 basehttp 154 "GET /xadmin/xadmin/userwidget/add/?user=1&page_id=home&_redirect=/xadmin/ HTTP/1.1" 500 680726
+INFO 2019-11-22 09:11:18,909 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 14416
+INFO 2019-11-22 09:11:22,362 basehttp 154 "GET /xadmin/reversion/revision/ HTTP/1.1" 200 29056
+INFO 2019-11-22 09:11:22,423 basehttp 154 "GET /static/xadmin/vendor/select2/select2.css HTTP/1.1" 200 19226
+INFO 2019-11-22 09:11:22,432 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.css HTTP/1.1" 200 8425
+INFO 2019-11-22 09:11:22,439 basehttp 154 "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 304 0
+INFO 2019-11-22 09:11:22,446 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.bootstrap3.css HTTP/1.1" 200 10602
+INFO 2019-11-22 09:11:22,459 basehttp 154 "GET /static/xadmin/vendor/bootstrap-datepicker/css/datepicker.css HTTP/1.1" 200 10225
+INFO 2019-11-22 09:11:22,468 basehttp 154 "GET /static/xadmin/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js HTTP/1.1" 200 32656
+INFO 2019-11-22 09:11:22,469 basehttp 154 "GET /static/xadmin/js/xadmin.widget.datetime.js HTTP/1.1" 200 2979
+INFO 2019-11-22 09:11:22,474 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-22 09:11:22,476 basehttp 154 "GET /static/xadmin/vendor/select2/select2.js HTTP/1.1" 200 104906
+INFO 2019-11-22 09:11:22,478 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.js HTTP/1.1" 200 98602
+INFO 2019-11-22 09:11:22,487 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 304 0
+INFO 2019-11-22 09:11:22,491 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 304 0
+INFO 2019-11-22 09:11:22,498 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 200 694
+INFO 2019-11-22 09:11:22,499 basehttp 154 "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 304 0
+INFO 2019-11-22 09:11:22,501 basehttp 154 "GET /static/xadmin/js/xadmin.widget.select.js HTTP/1.1" 200 1344
+INFO 2019-11-22 09:11:22,502 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 304 0
+INFO 2019-11-22 09:11:22,503 basehttp 154 "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 304 0
+INFO 2019-11-22 09:11:24,164 basehttp 154 "GET /xadmin/reversion/revision/add/ HTTP/1.1" 200 27558
+INFO 2019-11-22 09:11:24,218 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.quick-form.js HTTP/1.1" 200 7546
+INFO 2019-11-22 09:11:24,219 basehttp 154 "GET /static/xadmin/css/xadmin.plugin.formset.css HTTP/1.1" 200 1114
+INFO 2019-11-22 09:11:24,219 basehttp 154 "GET /static/xadmin/vendor/bootstrap-clockpicker/bootstrap-clockpicker.css HTTP/1.1" 200 3729
+INFO 2019-11-22 09:11:24,222 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.formset.js HTTP/1.1" 200 5969
+INFO 2019-11-22 09:11:24,227 basehttp 154 "GET /static/xadmin/vendor/bootstrap-clockpicker/bootstrap-clockpicker.js HTTP/1.1" 200 21112
+INFO 2019-11-22 09:11:24,246 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-22 09:11:28,928 basehttp 154 "GET /xadmin/reversion/revision/ HTTP/1.1" 200 29056
+INFO 2019-11-22 09:11:31,444 basehttp 154 "GET /xadmin/home/banner/ HTTP/1.1" 200 29773
+INFO 2019-11-22 09:11:31,487 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.1" 304 0
+INFO 2019-11-22 09:11:31,500 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-22 09:11:33,155 basehttp 154 "GET /xadmin/home/banner/add/ HTTP/1.1" 200 20046
+INFO 2019-11-22 09:11:33,195 basehttp 154 "GET /static/xadmin/vendor/load-image/load-image.js HTTP/1.1" 304 0
+INFO 2019-11-22 09:11:33,197 basehttp 154 "GET /static/xadmin/vendor/bootstrap-image-gallery/css/bootstrap-image-gallery.css HTTP/1.1" 304 0
+INFO 2019-11-22 09:11:33,200 basehttp 154 "GET /static/xadmin/vendor/bootstrap-image-gallery/js/bootstrap-image-gallery.js HTTP/1.1" 304 0
+INFO 2019-11-22 09:11:33,209 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-22 09:12:37,439 autoreload 217 /Users/liangpingbo/Desktop/线上课程/线上课程api/线上课程api/apps/home/models.py changed, reloading.
+INFO 2019-11-22 09:12:38,092 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-22 09:13:08,801 autoreload 217 /Users/liangpingbo/Desktop/线上课程/线上课程api/线上课程api/apps/home/models.py changed, reloading.
+INFO 2019-11-22 09:13:10,252 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-22 09:13:13,186 basehttp 154 "GET /xadmin/home/banner/add/ HTTP/1.1" 200 20046
+INFO 2019-11-22 09:16:09,728 basehttp 154 "GET /banner/ HTTP/1.1" 200 6563
+INFO 2019-11-22 09:16:09,900 basehttp 154 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+INFO 2019-11-22 09:16:09,903 basehttp 154 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+INFO 2019-11-22 09:16:09,903 basehttp 154 "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+INFO 2019-11-22 09:16:09,909 basehttp 154 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+INFO 2019-11-22 09:16:09,911 basehttp 154 "GET /static/rest_framework/js/jquery-3.4.1.min.js HTTP/1.1" 304 0
+INFO 2019-11-22 09:16:09,917 basehttp 154 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+INFO 2019-11-22 09:16:09,917 basehttp 154 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+INFO 2019-11-22 09:16:09,918 basehttp 154 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO 2019-11-22 09:16:09,920 basehttp 154 "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+INFO 2019-11-22 09:16:09,922 basehttp 154 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2019-11-22 09:16:09,998 basehttp 154 "GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+INFO 2019-11-22 09:20:27,046 autoreload 217 /Users/liangpingbo/Desktop/线上课程/线上课程api/线上课程api/apps/home/models.py changed, reloading.
+INFO 2019-11-22 09:20:28,627 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-22 09:21:03,615 autoreload 217 /Users/liangpingbo/Desktop/线上课程/线上课程api/线上课程api/apps/home/models.py changed, reloading.
+INFO 2019-11-22 09:21:05,413 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-22 09:25:46,594 autoreload 217 /Users/liangpingbo/Desktop/线上课程/线上课程api/线上课程api/apps/home/serializers.py changed, reloading.
+INFO 2019-11-22 09:25:49,520 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-22 09:28:44,623 autoreload 597 Watching for file changes with StatReloader
+WARNING 2019-11-22 09:28:52,871 log 228 Not Found: /xadmin/home
+WARNING 2019-11-22 09:28:52,873 basehttp 154 "GET /xadmin/home HTTP/1.1" 404 6539
+INFO 2019-11-22 09:28:57,623 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 14416
+INFO 2019-11-22 09:28:57,721 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-22 09:29:01,856 basehttp 154 "GET /xadmin/home/banner/ HTTP/1.1" 200 29773
+INFO 2019-11-22 09:29:01,902 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-22 09:29:18,728 basehttp 154 "GET /xadmin/home/banner/ HTTP/1.1" 200 29773
+INFO 2019-11-22 09:29:18,771 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-22 09:29:19,594 basehttp 154 "GET /xadmin/home/banner/ HTTP/1.1" 200 29773
+INFO 2019-11-22 09:29:19,641 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-22 09:29:19,943 basehttp 154 "GET /xadmin/home/banner/ HTTP/1.1" 200 29773
+INFO 2019-11-22 09:29:19,978 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-22 09:29:20,563 basehttp 154 "GET /xadmin/home/banner/ HTTP/1.1" 200 29773
+INFO 2019-11-22 09:29:20,606 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-22 09:29:26,682 basehttp 154 "GET /xadmin/home/banner/ HTTP/1.1" 200 29773
+INFO 2019-11-22 09:29:26,731 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-22 09:30:54,035 basehttp 154 "GET /xadmin/home/banner/ HTTP/1.1" 200 29773
+INFO 2019-11-22 09:30:54,123 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-22 09:30:54,323 autoreload 217 /Users/liangpingbo/Desktop/线上课程/线上课程api/线上课程api/apps/home/urls.py changed, reloading.
+INFO 2019-11-22 09:30:55,912 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-22 09:31:00,513 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-22 09:31:04,227 basehttp 154 "GET /xadmin/home/banner/ HTTP/1.1" 200 29773
+INFO 2019-11-22 09:31:04,271 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+WARNING 2019-11-22 09:31:15,020 log 228 Not Found: /xadmin/home/
+WARNING 2019-11-22 09:31:15,021 basehttp 154 "GET /xadmin/home/ HTTP/1.1" 404 6695
+WARNING 2019-11-22 09:31:20,284 log 228 Not Found: /xadmin/home/timer
+WARNING 2019-11-22 09:31:20,285 basehttp 154 "GET /xadmin/home/timer HTTP/1.1" 404 6710
+INFO 2019-11-22 09:31:23,795 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 14416
+INFO 2019-11-22 09:31:23,877 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-22 09:31:35,209 basehttp 154 "GET /timer HTTP/1.1" 301 0
+INFO 2019-11-22 09:31:35,271 basehttp 154 "GET /timer/ HTTP/1.1" 200 5212
+INFO 2019-11-22 09:34:21,171 autoreload 217 /Users/liangpingbo/Desktop/线上课程/线上课程api/线上课程api/apps/home/adminx.py changed, reloading.
+INFO 2019-11-22 09:34:23,031 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-22 09:34:25,734 basehttp 154 "GET /timer/ HTTP/1.1" 200 5212
+INFO 2019-11-22 09:34:31,098 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 14845
+INFO 2019-11-22 09:34:31,205 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-22 09:34:34,257 basehttp 154 "GET /xadmin/home/timer/ HTTP/1.1" 200 24673
+INFO 2019-11-22 09:34:34,310 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-22 09:36:36,465 basehttp 154 "GET /xadmin/home/timer/add/ HTTP/1.1" 200 20428
+INFO 2019-11-22 09:36:36,527 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-22 09:37:40,641 autoreload 217 /Users/liangpingbo/Desktop/线上课程/线上课程api/线上课程api/apps/home/models.py changed, reloading.
+INFO 2019-11-22 09:37:42,150 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-22 09:37:57,278 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-22 09:38:01,056 basehttp 154 "GET /xadmin/home/timer/add/ HTTP/1.1" 200 20438
+INFO 2019-11-22 09:38:01,108 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-22 09:39:18,916 basehttp 154 "POST /xadmin/home/timer/add/ HTTP/1.1" 302 0
+INFO 2019-11-22 09:39:19,036 basehttp 154 "GET /xadmin/home/timer/add/ HTTP/1.1" 200 20801
+INFO 2019-11-22 09:39:19,084 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-22 09:39:56,346 basehttp 154 "POST /xadmin/home/timer/add/ HTTP/1.1" 302 0
+INFO 2019-11-22 09:39:56,466 basehttp 154 "GET /xadmin/home/timer/add/ HTTP/1.1" 200 20792
+INFO 2019-11-22 09:39:56,600 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-22 09:51:43,461 basehttp 154 "POST /xadmin/home/timer/add/ HTTP/1.1" 302 0
+INFO 2019-11-22 09:51:43,572 basehttp 154 "GET /xadmin/home/timer/ HTTP/1.1" 200 29890
+INFO 2019-11-22 09:51:43,670 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-22 10:06:13,898 basehttp 154 "GET /banner/ HTTP/1.1" 200 462
+INFO 2019-11-22 10:06:13,906 basehttp 154 "GET /timer/ HTTP/1.1" 200 417
+INFO 2019-11-22 10:06:31,947 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-22 10:06:36,655 basehttp 154 "GET /timer/ HTTP/1.1" 200 417
+INFO 2019-11-22 10:06:36,656 basehttp 154 "GET /banner/ HTTP/1.1" 200 462
+WARNING 2019-11-22 10:08:31,301 log 228 Not Found: /
+WARNING 2019-11-22 10:08:31,302 basehttp 154 "GET / HTTP/1.1" 404 2468
+INFO 2019-11-22 10:08:33,174 basehttp 154 "GET /timer/ HTTP/1.1" 200 6379
+INFO 2019-11-22 10:08:33,284 basehttp 154 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+INFO 2019-11-22 10:08:33,285 basehttp 154 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+INFO 2019-11-22 10:08:33,289 basehttp 154 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+INFO 2019-11-22 10:08:33,289 basehttp 154 "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+INFO 2019-11-22 10:08:33,292 basehttp 154 "GET /static/rest_framework/js/jquery-3.4.1.min.js HTTP/1.1" 304 0
+INFO 2019-11-22 10:08:33,293 basehttp 154 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+INFO 2019-11-22 10:08:33,310 basehttp 154 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO 2019-11-22 10:08:33,319 basehttp 154 "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+INFO 2019-11-22 10:08:33,320 basehttp 154 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+INFO 2019-11-22 10:08:33,351 basehttp 154 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2019-11-22 10:08:33,429 basehttp 154 "GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+INFO 2019-11-22 10:12:58,140 autoreload 217 /Users/liangpingbo/Desktop/线上课程/线上课程api/线上课程api/apps/home/serializers.py changed, reloading.
+INFO 2019-11-22 10:13:01,459 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-22 10:13:05,285 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-22 10:13:08,697 basehttp 154 "GET /timer/ HTTP/1.1" 200 6556
+INFO 2019-11-22 10:13:55,211 basehttp 154 "GET /banner/ HTTP/1.1" 200 462
+INFO 2019-11-22 10:13:55,213 basehttp 154 "GET /timer/ HTTP/1.1" 200 504
+INFO 2019-11-22 10:14:26,581 basehttp 154 "GET /banner/ HTTP/1.1" 200 462
+INFO 2019-11-22 10:14:26,584 basehttp 154 "GET /timer/ HTTP/1.1" 200 504
+INFO 2019-11-22 10:14:27,012 basehttp 154 "GET /media/banner/u11070653901808140437fm26gp0.jpg HTTP/1.1" 304 0
+INFO 2019-11-22 10:14:27,013 basehttp 154 "GET /media/banner/u17151088223979953737fm26gp0.jpg HTTP/1.1" 304 0
+INFO 2019-11-22 10:14:27,013 basehttp 154 "GET /media/banner/u42336082262710670444fm26gp0.jpg HTTP/1.1" 304 0
+INFO 2019-11-22 10:14:27,014 basehttp 154 "GET /media/banner/banner1.png HTTP/1.1" 304 0
+INFO 2019-11-22 10:14:27,043 basehttp 154 "GET /media/host_video_image/u42336082262710670444fm26gp0.jpg HTTP/1.1" 200 24445
+INFO 2019-11-22 10:14:27,046 basehttp 154 "GET /media/host_video_image/u11070653901808140437fm26gp0.jpg HTTP/1.1" 200 41460
+INFO 2019-11-22 10:14:27,048 basehttp 154 "GET /media/host_video_image/u17151088223979953737fm26gp0.jpg HTTP/1.1" 200 46157
+INFO 2019-11-22 10:15:33,264 basehttp 154 "GET /timer/ HTTP/1.1" 200 504
+INFO 2019-11-22 10:15:34,620 basehttp 154 "GET /timer/ HTTP/1.1" 200 504
+INFO 2019-11-22 10:15:34,620 basehttp 154 "GET /banner/ HTTP/1.1" 200 462
+INFO 2019-11-22 10:16:03,934 basehttp 154 "GET /timer/ HTTP/1.1" 200 504
+INFO 2019-11-22 10:16:03,934 basehttp 154 "GET /banner/ HTTP/1.1" 200 462
+INFO 2019-11-22 10:16:18,423 basehttp 154 "GET /timer/ HTTP/1.1" 200 504
+INFO 2019-11-22 10:16:19,640 basehttp 154 "GET /banner/ HTTP/1.1" 200 462
+INFO 2019-11-22 10:16:19,643 basehttp 154 "GET /timer/ HTTP/1.1" 200 504
+INFO 2019-11-22 10:16:55,143 basehttp 154 "GET /timer/ HTTP/1.1" 200 504
+INFO 2019-11-22 10:16:55,145 basehttp 154 "GET /banner/ HTTP/1.1" 200 462
+INFO 2019-11-22 10:16:55,228 basehttp 154 "GET /media/host_video_image/u42336082262710670444fm26gp0.jpg HTTP/1.1" 304 0
+INFO 2019-11-22 10:19:35,028 basehttp 154 "GET /timer/ HTTP/1.1" 200 504
+INFO 2019-11-22 10:19:35,030 basehttp 154 "GET /banner/ HTTP/1.1" 200 462
+INFO 2019-11-22 10:19:35,218 basehttp 154 "GET /media/host_video_image/u42336082262710670444fm26gp0.jpg HTTP/1.1" 304 0
+INFO 2019-11-22 10:19:35,219 basehttp 154 "GET /media/host_video_image/u17151088223979953737fm26gp0.jpg HTTP/1.1" 304 0
+INFO 2019-11-22 10:19:35,220 basehttp 154 "GET /media/host_video_image/u11070653901808140437fm26gp0.jpg HTTP/1.1" 304 0
+INFO 2019-11-22 10:19:52,568 basehttp 154 "GET /timer/ HTTP/1.1" 200 504
+INFO 2019-11-22 10:19:52,570 basehttp 154 "GET /banner/ HTTP/1.1" 200 462
+INFO 2019-11-22 10:22:45,594 basehttp 154 "GET /banner/ HTTP/1.1" 200 462
+INFO 2019-11-22 10:22:45,594 basehttp 154 "GET /timer/ HTTP/1.1" 200 504
+INFO 2019-11-22 10:22:45,855 basehttp 154 "GET /media/host_video_image/u42336082262710670444fm26gp0.jpg HTTP/1.1" 304 0
+INFO 2019-11-22 10:23:39,298 basehttp 154 "GET /timer/ HTTP/1.1" 200 504
+INFO 2019-11-22 10:23:39,300 basehttp 154 "GET /banner/ HTTP/1.1" 200 462
+INFO 2019-11-22 10:23:39,416 basehttp 154 "GET /media/host_video_image/u17151088223979953737fm26gp0.jpg HTTP/1.1" 304 0
+INFO 2019-11-22 10:23:39,417 basehttp 154 "GET /media/host_video_image/u11070653901808140437fm26gp0.jpg HTTP/1.1" 304 0
+INFO 2019-11-22 10:26:13,718 basehttp 154 "GET /banner/ HTTP/1.1" 200 462
+INFO 2019-11-22 10:26:13,720 basehttp 154 "GET /timer/ HTTP/1.1" 200 504
+INFO 2019-11-22 10:26:14,660 basehttp 154 "GET /media/host_video_image/u42336082262710670444fm26gp0.jpg HTTP/1.1" 304 0
+INFO 2019-11-22 10:26:18,556 basehttp 154 "GET /banner/ HTTP/1.1" 200 462
+INFO 2019-11-22 10:26:18,571 basehttp 154 "GET /timer/ HTTP/1.1" 200 504
+INFO 2019-11-22 10:27:01,134 basehttp 154 "GET /banner/ HTTP/1.1" 200 462
+INFO 2019-11-22 10:27:01,137 basehttp 154 "GET /timer/ HTTP/1.1" 200 504
+INFO 2019-11-22 10:27:27,961 basehttp 154 "GET /banner/ HTTP/1.1" 200 462
+INFO 2019-11-22 10:27:27,961 basehttp 154 "GET /timer/ HTTP/1.1" 200 504
+INFO 2019-11-22 10:29:16,242 basehttp 154 "GET /timer/ HTTP/1.1" 200 504
+INFO 2019-11-22 10:29:16,245 basehttp 154 "GET /banner/ HTTP/1.1" 200 462
+INFO 2019-11-22 10:29:16,550 basehttp 154 "GET /media/host_video_image/u17151088223979953737fm26gp0.jpg HTTP/1.1" 304 0
+INFO 2019-11-22 10:29:16,551 basehttp 154 "GET /media/host_video_image/u11070653901808140437fm26gp0.jpg HTTP/1.1" 304 0
+INFO 2019-11-22 10:29:55,780 basehttp 154 "GET /timer/ HTTP/1.1" 200 504
+INFO 2019-11-22 10:29:55,787 basehttp 154 "GET /timer/ HTTP/1.1" 200 504
+INFO 2019-11-22 10:29:58,217 basehttp 154 "GET /timer/ HTTP/1.1" 200 504
+INFO 2019-11-22 10:29:58,217 basehttp 154 "GET /banner/ HTTP/1.1" 200 462
+INFO 2019-11-22 10:29:58,830 basehttp 154 "GET /media/host_video_image/u42336082262710670444fm26gp0.jpg HTTP/1.1" 304 0
+INFO 2019-11-22 10:30:25,733 basehttp 154 "GET /timer/ HTTP/1.1" 200 504
+INFO 2019-11-22 10:30:25,808 basehttp 154 "GET /timer/ HTTP/1.1" 200 504
+INFO 2019-11-22 10:30:31,092 basehttp 154 "GET /banner/ HTTP/1.1" 200 462
+INFO 2019-11-22 10:30:31,093 basehttp 154 "GET /timer/ HTTP/1.1" 200 504
+INFO 2019-11-22 10:39:20,046 basehttp 154 "GET /timer/ HTTP/1.1" 200 504
+INFO 2019-11-22 10:39:22,653 basehttp 154 "GET /banner/ HTTP/1.1" 200 462
+INFO 2019-11-22 10:39:22,663 basehttp 154 "GET /timer/ HTTP/1.1" 200 504
+INFO 2019-11-22 10:39:23,040 basehttp 154 "GET /media/host_video_image/u11070653901808140437fm26gp0.jpg HTTP/1.1" 304 0
+INFO 2019-11-22 10:39:23,042 basehttp 154 "GET /media/host_video_image/u17151088223979953737fm26gp0.jpg HTTP/1.1" 304 0
+INFO 2019-11-22 10:39:23,043 basehttp 154 "GET /media/host_video_image/u42336082262710670444fm26gp0.jpg HTTP/1.1" 304 0
+INFO 2019-11-22 10:40:51,375 basehttp 154 "GET /timer/ HTTP/1.1" 200 504
+INFO 2019-11-22 10:40:53,394 basehttp 154 "GET /banner/ HTTP/1.1" 200 462
+INFO 2019-11-22 10:40:53,396 basehttp 154 "GET /timer/ HTTP/1.1" 200 504
+INFO 2019-11-22 10:41:44,352 basehttp 154 "GET /timer/ HTTP/1.1" 200 504
+INFO 2019-11-22 10:41:44,367 basehttp 154 "GET /timer/ HTTP/1.1" 200 504
+INFO 2019-11-22 10:44:00,017 basehttp 154 "GET /timer/ HTTP/1.1" 200 504
+INFO 2019-11-22 10:44:02,090 basehttp 154 "GET /banner/ HTTP/1.1" 200 462
+INFO 2019-11-22 10:44:02,092 basehttp 154 "GET /timer/ HTTP/1.1" 200 504
+INFO 2019-11-22 10:44:12,672 basehttp 154 "GET /media/host_video_image/u42336082262710670444fm26gp0.jpg HTTP/1.1" 304 0
+INFO 2019-11-22 10:45:57,724 basehttp 154 "GET /banner/ HTTP/1.1" 200 462
+INFO 2019-11-22 10:45:59,512 basehttp 154 "GET /timer/ HTTP/1.1" 200 504
+INFO 2019-11-22 10:45:59,513 basehttp 154 "GET /banner/ HTTP/1.1" 200 462
+INFO 2019-11-22 10:45:59,839 basehttp 154 "GET /media/host_video_image/u11070653901808140437fm26gp0.jpg HTTP/1.1" 304 0
+INFO 2019-11-22 10:46:51,829 basehttp 154 "GET /media/host_video_image/u17151088223979953737fm26gp0.jpg HTTP/1.1" 304 0
