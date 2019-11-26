@@ -2,24 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="094ff10e-59ba-4b58-b30c-867f368accef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../线上课程UI/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../线上课程UI/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../线上课程UI/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../线上课程UI/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../线上课程UI/src/components/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../线上课程UI/src/components/Home.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../线上课程UI/src/components/Video.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../线上课程UI/src/components/Video.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../线上课程UI/src/components/common/Timer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../线上课程UI/src/components/common/Timer.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../线上课程UI/src/components/common/banner.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../线上课程UI/src/components/common/banner.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../线上课程UI/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../线上课程UI/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../线上课程UI/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../线上课程UI/src/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../线上课程UI/config/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../线上课程UI/config/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/线上课程api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/线上课程api.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/线上课程.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/线上课程.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/线上课程api/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/线上课程api/settings/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/线上课程api/settings/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/线上课程api/apps/home/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/线上课程api/apps/home/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/线上课程api/settings/dev.py" beforeDir="false" afterPath="$PROJECT_DIR$/线上课程api/settings/dev.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/线上课程api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/线上课程api/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -154,6 +141,26 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@e8f2f40" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@e8f2f40" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@709e432" type="9fbbdea:ServiceModel$ServiceNode" />
+            </path>
+          </expand>
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -170,6 +177,7 @@
       <workItem from="1574349803868" duration="1000" />
       <workItem from="1574351320911" duration="6873000" />
       <workItem from="1574384038727" duration="4752000" />
+      <workItem from="1574695867406" duration="1920000" />
     </task>
     <servers />
   </component>
@@ -190,6 +198,6 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/api$manage.coverage" NAME="manage Coverage Results" MODIFIED="1574388783157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/api$manage.coverage" NAME="manage Coverage Results" MODIFIED="1574729016553" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

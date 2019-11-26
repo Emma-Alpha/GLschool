@@ -51,6 +51,7 @@ INSTALLED_APPS = [
 
     # 子应用
     'home',
+    'user',
 
 ]
 
@@ -123,6 +124,9 @@ AUTH_PASSWORD_VALIDATORS = [
         'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
     },
 ]
+
+# 使用自定义的模型类
+AUTH_USER_MODEL = 'user.User'
 
 # Internationalization
 # https://docs.djangoproject.com/en/2.2/topics/i18n/

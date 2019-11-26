@@ -706,3 +706,77 @@ INFO 2019-11-22 10:45:59,512 basehttp 154 "GET /timer/ HTTP/1.1" 200 504
 INFO 2019-11-22 10:45:59,513 basehttp 154 "GET /banner/ HTTP/1.1" 200 462
 INFO 2019-11-22 10:45:59,839 basehttp 154 "GET /media/host_video_image/u11070653901808140437fm26gp0.jpg HTTP/1.1" 304 0
 INFO 2019-11-22 10:46:51,829 basehttp 154 "GET /media/host_video_image/u17151088223979953737fm26gp0.jpg HTTP/1.1" 304 0
+INFO 2019-11-25 23:31:15,931 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-25 23:31:31,952 basehttp 154 "GET /banner/ HTTP/1.1" 200 462
+INFO 2019-11-25 23:31:31,965 basehttp 154 "GET /timer/ HTTP/1.1" 200 504
+INFO 2019-11-25 23:31:32,361 basehttp 154 "GET /media/banner/u42336082262710670444fm26gp0.jpg HTTP/1.1" 200 24445
+INFO 2019-11-25 23:31:32,370 basehttp 154 "GET /media/banner/u11070653901808140437fm26gp0.jpg HTTP/1.1" 200 41460
+INFO 2019-11-25 23:31:32,384 basehttp 154 "GET /media/banner/u17151088223979953737fm26gp0.jpg HTTP/1.1" 200 46157
+INFO 2019-11-25 23:31:32,394 basehttp 154 "GET /media/banner/banner1.png HTTP/1.1" 200 24322
+INFO 2019-11-25 23:31:32,410 basehttp 154 "GET /media/host_video_image/u11070653901808140437fm26gp0.jpg HTTP/1.1" 200 41460
+INFO 2019-11-25 23:31:36,345 basehttp 154 "GET /media/host_video_image/u17151088223979953737fm26gp0.jpg HTTP/1.1" 200 46157
+INFO 2019-11-25 23:31:36,593 basehttp 154 "GET /media/host_video_image/u42336082262710670444fm26gp0.jpg HTTP/1.1" 200 24445
+INFO 2019-11-26 08:42:45,379 autoreload 597 Watching for file changes with StatReloader
+WARNING 2019-11-26 08:42:47,138 log 228 Not Found: /
+WARNING 2019-11-26 08:42:47,140 basehttp 154 "GET / HTTP/1.1" 404 2468
+INFO 2019-11-26 08:42:52,492 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 4354
+INFO 2019-11-26 08:42:52,521 basehttp 154 "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 304 0
+INFO 2019-11-26 08:42:52,522 basehttp 154 "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+INFO 2019-11-26 08:42:52,532 basehttp 154 "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 304 0
+INFO 2019-11-26 08:42:52,535 basehttp 154 "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 304 0
+INFO 2019-11-26 08:42:52,540 basehttp 154 "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 304 0
+INFO 2019-11-26 08:42:52,545 basehttp 154 "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2019-11-26 08:42:52,546 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 304 0
+INFO 2019-11-26 08:42:52,547 basehttp 154 "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 304 0
+INFO 2019-11-26 08:42:52,548 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 304 0
+INFO 2019-11-26 08:42:52,558 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 304 0
+INFO 2019-11-26 08:42:52,567 basehttp 154 "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+INFO 2019-11-26 08:42:52,568 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.effect.js HTTP/1.1" 304 0
+INFO 2019-11-26 08:42:52,569 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 304 0
+INFO 2019-11-26 08:42:52,570 basehttp 154 "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 304 0
+INFO 2019-11-26 08:42:52,574 basehttp 154 "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 304 0
+INFO 2019-11-26 08:42:52,582 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 4361
+INFO 2019-11-26 08:42:52,584 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.themes.js HTTP/1.1" 304 0
+INFO 2019-11-26 08:42:52,616 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 4354
+INFO 2019-11-26 08:42:52,701 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 4361
+INFO 2019-11-26 08:42:52,845 basehttp 154 "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 304 0
+INFO 2019-11-26 08:42:56,659 basehttp 154 "POST /xadmin/ HTTP/1.1" 200 4591
+INFO 2019-11-26 08:42:56,706 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 4361
+INFO 2019-11-26 08:43:21,992 basehttp 154 "POST /xadmin/ HTTP/1.1" 302 0
+INFO 2019-11-26 08:43:38,915 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-26 08:43:44,745 basehttp 154 "GET /media/host_video_image/u11070653901808140437fm26gp0.jpg HTTP/1.1" 304 0
+WARNING 2019-11-26 08:43:50,068 log 228 Not Found: /
+WARNING 2019-11-26 08:43:50,070 basehttp 154 "GET / HTTP/1.1" 404 2468
+INFO 2019-11-26 08:44:44,485 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 15591
+INFO 2019-11-26 08:44:44,551 basehttp 154 "GET /static/xadmin/css/xadmin.page.dashboard.css HTTP/1.1" 304 0
+INFO 2019-11-26 08:44:44,572 basehttp 154 "GET /static/xadmin/js/xadmin.page.dashboard.js HTTP/1.1" 304 0
+INFO 2019-11-26 08:44:44,583 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.1" 304 0
+INFO 2019-11-26 08:44:44,604 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-26 08:45:01,724 basehttp 154 "GET /xadmin/user/user/ HTTP/1.1" 200 35652
+INFO 2019-11-26 08:45:01,777 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 304 0
+INFO 2019-11-26 08:45:01,787 basehttp 154 "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 304 0
+INFO 2019-11-26 08:45:01,792 basehttp 154 "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 304 0
+INFO 2019-11-26 08:45:01,797 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 304 0
+INFO 2019-11-26 08:45:01,799 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 304 0
+INFO 2019-11-26 08:45:01,815 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.1" 304 0
+INFO 2019-11-26 08:45:01,817 basehttp 154 "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 304 0
+INFO 2019-11-26 08:45:01,818 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-26 08:45:03,784 basehttp 154 "GET /xadmin/user/user/1/update/ HTTP/1.1" 200 32211
+INFO 2019-11-26 08:45:03,844 basehttp 154 "GET /static/xadmin/css/xadmin.widget.select-transfer.css HTTP/1.1" 200 2317
+INFO 2019-11-26 08:45:03,850 basehttp 154 "GET /static/xadmin/vendor/bootstrap-datepicker/css/datepicker.css HTTP/1.1" 304 0
+INFO 2019-11-26 08:45:03,854 basehttp 154 "GET /static/xadmin/js/xadmin.widget.select-transfer.js HTTP/1.1" 200 8214
+INFO 2019-11-26 08:45:03,862 basehttp 154 "GET /static/xadmin/vendor/bootstrap-image-gallery/js/bootstrap-image-gallery.js HTTP/1.1" 200 15611
+INFO 2019-11-26 08:45:03,869 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-11-26 08:45:03,873 basehttp 154 "GET /static/xadmin/vendor/bootstrap-clockpicker/bootstrap-clockpicker.css HTTP/1.1" 304 0
+INFO 2019-11-26 08:45:03,875 basehttp 154 "GET /static/xadmin/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js HTTP/1.1" 304 0
+INFO 2019-11-26 08:45:03,880 basehttp 154 "GET /static/xadmin/vendor/load-image/load-image.js HTTP/1.1" 304 0
+INFO 2019-11-26 08:45:03,881 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.quick-form.js HTTP/1.1" 304 0
+INFO 2019-11-26 08:45:03,881 basehttp 154 "GET /static/xadmin/vendor/bootstrap-clockpicker/bootstrap-clockpicker.js HTTP/1.1" 200 21112
+INFO 2019-11-26 08:45:03,883 basehttp 154 "GET /static/xadmin/js/xadmin.widget.datetime.js HTTP/1.1" 304 0
+INFO 2019-11-26 08:45:03,888 basehttp 154 "GET /static/xadmin/vendor/bootstrap-image-gallery/css/bootstrap-image-gallery.css HTTP/1.1" 304 0
+INFO 2019-11-26 08:45:20,580 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 15591
+INFO 2019-11-26 08:45:20,664 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 15591
+INFO 2019-11-26 08:53:06,567 autoreload 217 /Users/liangpingbo/Desktop/线上课堂/线上课程api/线上课程api/apps/home/models.py changed, reloading.
+INFO 2019-11-26 08:53:08,085 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-26 08:54:01,042 autoreload 217 /Users/liangpingbo/Desktop/线上课堂/线上课程api/线上课程api/apps/home/models.py changed, reloading.
+INFO 2019-11-26 08:54:02,181 autoreload 597 Watching for file changes with StatReloader

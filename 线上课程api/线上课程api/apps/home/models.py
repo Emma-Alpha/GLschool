@@ -1,9 +1,11 @@
 from django.db import models
 
+from 线上课程api.utils.models import BaseModel
+
 
 # Create your models here.
 
-class Banner(models.Model):
+class Banner(BaseModel):
     """轮播图模型"""
     # 字段
     title = models.CharField(max_length=500, verbose_name="风景图标题")
@@ -12,9 +14,7 @@ class Banner(models.Model):
     link = models.CharField(max_length=255, null=True, blank=True, verbose_name="图片链接")
     is_http = models.BooleanField(default=False, verbose_name="是否是站外链接")
     remark = models.TextField(verbose_name="备注信息")
-    is_show = models.BooleanField(default=False, verbose_name="是否显示")
-    orders = models.IntegerField(default=1, verbose_name="排序")
-    is_deleted = models.BooleanField(default=False, verbose_name="是否删除")
+
 
     # 表信息
     class Meta:
@@ -27,7 +27,7 @@ class Banner(models.Model):
         return self.title
 
 
-class Timer(models.Model):
+class Timer(BaseModel):
     """热门视频"""
     # 字段
     title = models.CharField(max_length=500, verbose_name="视频标题")
@@ -35,9 +35,6 @@ class Timer(models.Model):
     link = models.CharField(max_length=255, null=True, blank=True, verbose_name="图片链接")
     is_http = models.BooleanField(default=False, verbose_name="是否是站外链接")
     remake = models.TextField( verbose_name="备注信息")
-    is_show = models.BooleanField(default=False, verbose_name="是否显示")
-    orders = models.IntegerField(default=1, verbose_name="排序")
-    is_deleted = models.BooleanField(default=False, verbose_name="是否删除")
 
     # 表信息
     class Meta:
