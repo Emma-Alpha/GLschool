@@ -8,17 +8,17 @@
         <ul class="nav full-left">
           <li>
             <el-dropdown>
-              <span class="el-dropdown-link" >
+              <span class="el-dropdown-link">
                 学院介绍<i class="el-icon-arrow-down el-icon--right"></i>
               </span>
               <el-dropdown-menu slot="dropdown">
-                <el-dropdown-item >学校简介</el-dropdown-item>
-                <el-dropdown-item >校训与办学理念</el-dropdown-item>
-                <el-dropdown-item >发展历程</el-dropdown-item>
-                <el-dropdown-item >学院领导</el-dropdown-item>
-                <el-dropdown-item >领导关怀</el-dropdown-item>
-                <el-dropdown-item >奖状荣誉</el-dropdown-item>
-                <el-dropdown-item >校园风光</el-dropdown-item>
+                <el-dropdown-item>学校简介</el-dropdown-item>
+                <el-dropdown-item>校训与办学理念</el-dropdown-item>
+                <el-dropdown-item>发展历程</el-dropdown-item>
+                <el-dropdown-item>学院领导</el-dropdown-item>
+                <el-dropdown-item>领导关怀</el-dropdown-item>
+                <el-dropdown-item>奖状荣誉</el-dropdown-item>
+                <el-dropdown-item>校园风光</el-dropdown-item>
               </el-dropdown-menu>
             </el-dropdown>
           </li>
@@ -27,13 +27,32 @@
           <li><span>题库</span></li>
           <li><span>知识座谈会</span></li>
         </ul>
-        <div class="login-bar full-right">
+        <div class="login-bar full-right" v-if="user_token">
+          <div class="shop-cart full-left">
+            <span class="shop-cart-total">0</span>
+            <img src="/static/image/cart.svg" alt="">
+            <span><router-link to="/cart">购物车</router-link></span>
+          </div>
+          <div class="login-box login-box1 full-left">
+            <router-link to="">学习中心</router-link>
+            <el-menu width="200" class="member el-menu-demo" mode="horizontal">
+              <el-submenu index="2">
+                <template slot="title"><img src="/static/image/logo@2x.png" alt=""></template>
+                <el-menu-item index="2-1">我的账户</el-menu-item>
+                <el-menu-item index="2-2">我的订单</el-menu-item>
+                <el-menu-item index="2-3">我的优惠卷</el-menu-item>
+                <el-menu-item index="2-3"><span @click="LogoutHandler">退出登录</span></el-menu-item>
+              </el-submenu>
+            </el-menu>
+          </div>
+        </div>
+        <div class="login-bar full-right" v-else>
           <div class="shop-cart full-left">
             <img src="/static/image/cart.svg" alt="">
             <span>购物车</span>
           </div>
           <div class="login-box full-left">
-            <span>登录</span>
+            <router-link to="/user/login"><span>登录</span></router-link>
             &nbsp;|&nbsp;
             <span>注册</span>
           </div>
@@ -50,13 +69,27 @@
         data() {
             return {
                 activeName: 'second',
-                T:false
+                T: false,
+                user_token: "",
             };
+        },
+        created() {
+            this.user_token = sessionStorage.user_token || localStorage.user_token
         },
         methods: {
             handleClick(tab, event) {
                 console.log(tab, event);
             },
+            LogoutHandler(){
+                this.user_token = '';
+                sessionStorage.removeItem('user_token');
+                sessionStorage.removeItem('user_id');
+                sessionStorage.removeItem('user_username');
+                localStorage.removeItem('user_token');
+                localStorage.removeItem('user_id');
+                localStorage.removeItem('user_username');
+                this.$message("退出登录成功！");
+            }
         }
     }
 </script>
@@ -166,10 +199,12 @@
   .header .login-bar .login-box span:hover {
     color: #000000;
   }
+
   .el-dropdown-link {
     cursor: pointer;
     /*color: #409EFF;*/
   }
+
   .el-icon-arrow-down {
     font-size: 12px;
   }

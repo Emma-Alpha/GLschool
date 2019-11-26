@@ -17,7 +17,8 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # 新增一个系统导包路径
 import sys
-sys.path.insert(0,os.path.join(BASE_DIR, 'apps'))
+
+sys.path.insert(0, os.path.join(BASE_DIR, 'apps'))
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
@@ -154,10 +155,9 @@ STATICFILES_DIRS = [
 ]
 
 # 项目中存储上传文件的根目录[暂时配置],注意,uploadsm目录需要手动创建否则上传文件时报错
-MEDIA_ROOT = os.path.join(BASE_DIR,'uploads')
+MEDIA_ROOT = os.path.join(BASE_DIR, 'uploads')
 # 访问上传文件的url地址前缀
 MEDIA_URL = '/media/'
-
 
 # 日志配置
 LOGGING = {
@@ -252,5 +252,30 @@ LOGGING = {
 # 异常错误配置
 REST_FRAMEWORK = {
     # 异常处理
-    'EXCEPTION_HANDLER': '线上课堂api.utils.exceptions.custom_exception_handler'
+    'EXCEPTION_HANDLER': '线上课程api.utils.exceptions.custom_exception_handler',
+    # 配置JWT
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+        'rest_framework_jwt.authentication.JSONWebTokenAuthentication',
+        'rest_framework.authentication.SessionAuthentication',
+        'rest_framework.authentication.BasicAuthentication',
+
+    ),
+
+}
+# 配置JWT
+import datetime
+
+JWT_AUTH = {
+    'JWT_EXPIRATION_DELTA': datetime.timedelta(days=1),
+    'JWT_RESPONSE_PAYLOAD_HANDLER': 'user.utils.jwt_response_payload_handler',
+}
+
+# 配置自定义的认证后端
+AUTHENTICATION_BACKENDS = [
+    'user.utils.UsernameMobileAuthBackend',
+]
+
+GEETEST = {
+    "pc_geetest_id":"e951ba436ca7c3f6192615f006d0b2ae",
+    "pc_geetest_key":"fba7357abd64ff84132bd520834afe4e",
 }

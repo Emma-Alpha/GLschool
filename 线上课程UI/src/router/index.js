@@ -3,6 +3,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Home from "../components/Home";
 import Video from "../components/Video";
+import Login from "../components/Login";
 
 // 注册路由类
 Vue.use(Router);
@@ -28,6 +29,11 @@ export default new Router({
       name : 'Video',
       path : '/video/:d',
       component : Video,
+    },
+    {
+      name : "Login",
+      path : "/user/login",
+      component : Login
     },
 
   ]
