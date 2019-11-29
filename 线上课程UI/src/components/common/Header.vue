@@ -54,7 +54,7 @@
           <div class="login-box full-left">
             <router-link to="/user/login"><span>登录</span></router-link>
             &nbsp;|&nbsp;
-            <span>注册</span>
+            <router-link to="/user/register"><span>注册</span></router-link>
           </div>
         </div>
       </div>

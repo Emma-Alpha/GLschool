@@ -4,6 +4,7 @@ import Router from 'vue-router'
 import Home from "../components/Home";
 import Video from "../components/Video";
 import Login from "../components/Login";
+import Register from "../components/Register";
 
 // 注册路由类
 Vue.use(Router);
@@ -35,6 +36,10 @@ export default new Router({
       path : "/user/login",
       component : Login
     },
-
+    {
+      name : "Register",
+      path : "/user/register",
+      component : Register
+    },
   ]
 })
