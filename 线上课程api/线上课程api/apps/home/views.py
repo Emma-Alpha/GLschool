@@ -19,3 +19,5 @@ class BannerListAPIView(ListAPIView):
 class TimerListAPIView(ListAPIView):
     queryset = Timer.objects.filter(is_show=True, is_deleted=False).order_by('orders', '-id')[:constants.HOST_TIMER_IMG]
     serializer_class = TimerModelSerializer
+
+

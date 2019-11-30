@@ -52,9 +52,9 @@
             <span>购物车</span>
           </div>
           <div class="login-box full-left">
-            <router-link to="/user/login"><span>登录</span></router-link>
+            <router-link to="/user/login/"><span>登录</span></router-link>
             &nbsp;|&nbsp;
-            <router-link to="/user/register"><span>注册</span></router-link>
+            <router-link to="/user/register/"><span>注册</span></router-link>
           </div>
         </div>
       </div>

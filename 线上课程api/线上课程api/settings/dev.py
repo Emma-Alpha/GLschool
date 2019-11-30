@@ -57,6 +57,9 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
+
+    'corsheaders.middleware.CorsMiddleware',
+
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -64,8 +67,6 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-
-    'corsheaders.middleware.CorsMiddleware',
 ]
 
 # CORS组的配置信息
@@ -107,6 +108,40 @@ DATABASES = {
         'PASSWORD': '12345678',
     }
 }
+
+# 设置redis缓存
+CACHES = {
+    # 默认缓存
+    "default": {
+        "BACKEND": "django_redis.cache.RedisCache",
+        # 项目上线时,需要调整这里的路径
+        "LOCATION": "redis://127.0.0.1:6379/0",
+
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+        }
+    },
+    # 提供给xadmin或者admin的session存储
+    "session": {
+        "BACKEND": "django_redis.cache.RedisCache",
+        "LOCATION": "redis://127.0.0.1:6379/1",
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+        }
+    },
+    # 提供存储短信验证码
+    "sms_code": {
+        "BACKEND": "django_redis.cache.RedisCache",
+        "LOCATION": "redis://127.0.0.1:6379/2",
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+        }
+    }
+}
+
+# 设置xadmin用户登录时,登录信息session保存到redis
+SESSION_ENGINE = "django.contrib.sessions.backends.cache"
+SESSION_CACHE_ALIAS = "session"
 
 # Password validation
 # https://docs.djangoproject.com/en/2.2/ref/settings/#auth-password-validators
@@ -276,6 +311,15 @@ AUTHENTICATION_BACKENDS = [
 ]
 
 GEETEST = {
-    "pc_geetest_id":"e951ba436ca7c3f6192615f006d0b2ae",
-    "pc_geetest_key":"fba7357abd64ff84132bd520834afe4e",
+    "pc_geetest_id": "e951ba436ca7c3f6192615f006d0b2ae",
+    "pc_geetest_key": "fba7357abd64ff84132bd520834afe4e",
+}
+
+SMS = {
+    "_accountSid": '8a216da86e011fa3016e81327ed646bb',
+    "_accountToken": '23e74a14336c48e892b540e6ac03adee',
+    "_appId": '8a216da86e011fa3016e81327f2a46c1',
+    "_serverIP": 'sandboxapp.cloopen.com',
+    "_serverPort": "8883",
+    "_softVersion": '2013-12-26',
 }
