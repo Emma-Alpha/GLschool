@@ -40,7 +40,7 @@
                         placeholder="请确认密码" show-password></el-input>
             </el-form-item>
             <el-form-item label="短信" prop="sms">
-              <el-input v-model.number="ruleForm.sms" placeholder="请输入短信">
+              <el-input v-model="ruleForm.sms" placeholder="请输入短信">
                 <template slot="append"><span @click="sendSMS" :style="ruleForm.sms_status?'pointer-events:none':''"><i>{{ruleForm.sms_title}}</i></span>
                 </template>
               </el-input>

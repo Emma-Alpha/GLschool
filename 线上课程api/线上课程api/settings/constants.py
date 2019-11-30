@@ -10,3 +10,6 @@ SMS_INTERVAL_TIME = 60
 
 # 短信有效时间
 SMS_EXPIRE_TIME = 5 * 60
+
+# 短信模板号
+SMS_TEMPLATE_ID = 1

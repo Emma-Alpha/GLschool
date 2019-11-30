@@ -26,19 +26,19 @@
         </div>
         <div class="login_padding" style="box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);background: white">
           <div class="register-title" style="text-decoration: none">用户登录</div>
-          <el-form :model="ruleForm" status-icon :rules="rules" ref="ruleForm" label-width="100px"
+          <el-form :model="ruleForm" status-icon :rules="rules" ref="ruleForm" label-width="50px"
                    class="demo-ruleForm">
-            <el-form-item  prop="count" >
+            <el-form-item prop="count">
               <el-input v-model="ruleForm.count" placeholder="用户名/手机号"></el-input>
             </el-form-item>
-            <el-form-item  prop="pass">
+            <el-form-item prop="pass">
               <el-input type="password" v-model="ruleForm.pass" autocomplete="off" placeholder="密码">
               </el-input>
             </el-form-item>
             <div id="geetest1"></div>
             <div class="rember">
               <p>
-                <input type="checkbox" class="no" />
+                <input type="checkbox" class="no" v-model="ruleForm.save_pass"/>
                 <span>记住密码</span>
               </p>
               <p>忘记密码</p>
@@ -63,18 +63,23 @@
             var checkCount = (rule, value, callback) => {
                 if (!value) {
                     return callback(new Error("用户名/手机号不能为空"))
+                }else{
+                    callback()
                 }
             };
 
             var validatePass = (rule, value, callback) => {
                 if (value === '') {
                     callback(new Error('请输入密码'));
+                }else{
+                    callback()
                 }
             };
             return {
                 ruleForm: {
                     pass: '',
                     count: '',
+                    save_pass: false,
 
                 },
                 rules: {
@@ -93,11 +98,35 @@
                 this.$router.push('/')
             },
             submitForm(formName) {
+                let self = this;
                 this.$refs[formName].validate((valid) => {
                     if (valid) {
-                        alert('submit!');
+                        self.$axios.post(`${self.$settings.Host}/user/login/`,{
+                            username : self.ruleForm.count,
+                            password : self.ruleForm.pass
+                        }).then(response=>{
+
+                            if(self.ruleForm.save_pass){
+                                sessionStorage.removeItem('user_token');
+                                sessionStorage.removeItem('user_id');
+                                sessionStorage.removeItem('user_name');
+                                localStorage.setItem('user_token',response.data.token);
+                                localStorage.setItem('user_id',response.data.id);
+                                localStorage.setItem('user_name',response.data.username);
+                            }else{
+                                localStorage.removeItem('user_token');
+                                localStorage.removeItem('user_id');
+                                localStorage.removeItem('user_name');
+                                sessionStorage.setItem('user_token',response.data.token);
+                                sessionStorage.setItem('user_id',response.data.id);
+                                sessionStorage.setItem('user_name',response.data.username);
+                            }
+                            self.$router.go(-1);
+                        }).catch(error=>{
+                            self.$alert("账号或密码错误","广东理工学院");
+                            self.ruleForm.pass = '';
+                        })
                     } else {
-                        console.log('error submit!!');
                         return false;
                     }
                 });
@@ -179,18 +208,17 @@
 
   }
 
-  .go_login{
+  .go_login {
     text-align: center;
     font-size: 14px;
     color: #9b9b9b;
     letter-spacing: .26px;
     padding-top: 20px;
   }
-  .go_login span{
+
+  .go_login span {
     color: #84cc39;
     cursor: pointer;
   }
-  .el-form-item .el-form-item__content {
-  margin-left: 50px!important;
-}
+
 </style>

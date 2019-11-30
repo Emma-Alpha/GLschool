@@ -34,8 +34,8 @@
             <span><router-link to="/cart">购物车</router-link></span>
           </div>
           <div class="login-box login-box1 full-left">
-            <router-link to="">学习中心</router-link>
-            <el-menu width="200" class="member el-menu-demo" mode="horizontal">
+            <router-link to="" style="padding-bottom: -20px">学习中心</router-link>
+            <el-menu width="200" class="member el-menu-demo" style="float: right; height: 30px" mode="horizontal">
               <el-submenu index="2">
                 <template slot="title"><img src="/static/image/logo@2x.png" alt=""></template>
                 <el-menu-item index="2-1">我的账户</el-menu-item>
@@ -84,10 +84,10 @@
                 this.user_token = '';
                 sessionStorage.removeItem('user_token');
                 sessionStorage.removeItem('user_id');
-                sessionStorage.removeItem('user_username');
+                sessionStorage.removeItem('user_name');
                 localStorage.removeItem('user_token');
                 localStorage.removeItem('user_id');
-                localStorage.removeItem('user_username');
+                localStorage.removeItem('user_name');
                 this.$message("退出登录成功！");
             }
         }

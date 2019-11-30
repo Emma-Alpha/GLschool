@@ -2668,3 +2668,133 @@ INFO 2019-11-30 11:46:59,065 autoreload 217 /Users/liangpingbo/Desktop/线上课
 INFO 2019-11-30 11:47:00,940 autoreload 597 Watching for file changes with StatReloader
 INFO 2019-11-30 11:47:11,260 autoreload 217 /Users/liangpingbo/Desktop/线上课堂/线上课程api/线上课程api/apps/user/serializers.py changed, reloading.
 INFO 2019-11-30 11:47:13,700 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-30 11:53:09,339 autoreload 217 /Users/liangpingbo/Desktop/线上课堂/线上课程api/线上课程api/apps/user/views.py changed, reloading.
+INFO 2019-11-30 11:53:10,838 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-30 11:54:05,552 autoreload 217 /Users/liangpingbo/Desktop/线上课堂/线上课程api/线上课程api/apps/user/views.py changed, reloading.
+INFO 2019-11-30 11:54:08,113 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-30 11:54:43,488 autoreload 217 /Users/liangpingbo/Desktop/线上课堂/线上课程api/线上课程api/apps/user/views.py changed, reloading.
+INFO 2019-11-30 11:54:45,463 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-30 11:55:15,538 autoreload 217 /Users/liangpingbo/Desktop/线上课堂/线上课程api/mycelery/sms/tasks.py changed, reloading.
+INFO 2019-11-30 11:55:16,710 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-30 11:56:15,752 autoreload 217 /Users/liangpingbo/Desktop/线上课堂/线上课程api/mycelery/main.py changed, reloading.
+INFO 2019-11-30 11:56:16,934 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-30 11:56:38,275 basehttp 154 "GET /timer/ HTTP/1.1" 200 504
+INFO 2019-11-30 11:56:38,278 basehttp 154 "GET /banner/ HTTP/1.1" 200 462
+INFO 2019-11-30 11:56:44,604 basehttp 154 "GET /user/mobile/15602365270/ HTTP/1.1" 200 16
+INFO 2019-11-30 11:56:49,208 basehttp 154 "GET /user/mobile/15602365270/ HTTP/1.1" 200 16
+INFO 2019-11-30 11:57:12,242 basehttp 154 "GET /user/mobile/15602365270/ HTTP/1.1" 200 15
+INFO 2019-11-30 11:57:17,642 basehttp 154 "GET /user/sms/15602365270/ HTTP/1.1" 200 35
+INFO 2019-11-30 11:58:54,737 autoreload 217 /Users/liangpingbo/Desktop/线上课堂/线上课程api/线上课程api/settings/constants.py changed, reloading.
+INFO 2019-11-30 11:58:57,832 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-30 11:59:05,406 autoreload 217 /Users/liangpingbo/Desktop/线上课堂/线上课程api/线上课程api/settings/constants.py changed, reloading.
+INFO 2019-11-30 11:59:06,432 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-30 11:59:26,122 autoreload 217 /Users/liangpingbo/Desktop/线上课堂/线上课程api/mycelery/sms/tasks.py changed, reloading.
+INFO 2019-11-30 11:59:27,213 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-30 11:59:42,674 basehttp 154 "GET /user/mobile/15602365270/ HTTP/1.1" 200 15
+INFO 2019-11-30 11:59:48,029 basehttp 154 "GET /user/sms/15602365270/ HTTP/1.1" 200 35
+INFO 2019-11-30 12:00:10,712 basehttp 154 "GET /user/mobile/15602365270/ HTTP/1.1" 200 15
+INFO 2019-11-30 12:00:11,702 basehttp 154 "OPTIONS /user/ HTTP/1.1" 200 0
+WARNING 2019-11-30 12:00:11,713 log 228 Bad Request: /user/
+WARNING 2019-11-30 12:00:11,714 basehttp 154 "POST /user/ HTTP/1.1" 400 106
+INFO 2019-11-30 12:01:03,244 basehttp 154 "GET /user/mobile/15602365270/ HTTP/1.1" 200 15
+WARNING 2019-11-30 12:01:04,241 log 228 Bad Request: /user/
+WARNING 2019-11-30 12:01:04,242 basehttp 154 "POST /user/ HTTP/1.1" 400 106
+INFO 2019-11-30 12:01:57,220 autoreload 217 /Users/liangpingbo/Desktop/线上课堂/线上课程api/mycelery/sms/tasks.py changed, reloading.
+INFO 2019-11-30 12:02:00,408 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-30 12:02:04,530 basehttp 154 "GET /user/mobile/15602365270/ HTTP/1.1" 200 15
+INFO 2019-11-30 12:02:10,606 basehttp 154 "GET /user/sms/15602365270/ HTTP/1.1" 200 35
+INFO 2019-11-30 12:02:19,451 basehttp 154 "GET /user/mobile/15602365270/ HTTP/1.1" 200 15
+INFO 2019-11-30 12:02:20,613 basehttp 154 "POST /user/ HTTP/1.1" 201 216
+INFO 2019-11-30 12:02:20,783 basehttp 154 "GET /timer/ HTTP/1.1" 200 504
+INFO 2019-11-30 12:02:20,840 basehttp 154 "GET /banner/ HTTP/1.1" 200 462
+INFO 2019-11-30 14:51:23,598 basehttp 154 "GET /banner/ HTTP/1.1" 200 462
+INFO 2019-11-30 14:51:23,598 basehttp 154 "GET /timer/ HTTP/1.1" 200 504
+INFO 2019-11-30 15:01:58,983 autoreload 217 /Users/liangpingbo/Desktop/线上课堂/线上课程api/线上课程api/apps/home/urls.py changed, reloading.
+INFO 2019-11-30 15:02:00,987 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-30 15:02:13,179 autoreload 217 /Users/liangpingbo/Desktop/线上课堂/线上课程api/线上课程api/apps/home/urls.py changed, reloading.
+INFO 2019-11-30 15:02:15,249 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-30 15:02:37,627 autoreload 217 /Users/liangpingbo/Desktop/线上课堂/线上课程api/线上课程api/apps/home/urls.py changed, reloading.
+INFO 2019-11-30 15:02:40,603 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-30 15:02:53,496 autoreload 217 /Users/liangpingbo/Desktop/线上课堂/线上课程api/线上课程api/apps/home/urls.py changed, reloading.
+INFO 2019-11-30 15:02:54,984 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-30 15:04:05,505 autoreload 217 /Users/liangpingbo/Desktop/线上课堂/线上课程api/线上课程api/apps/home/urls.py changed, reloading.
+INFO 2019-11-30 15:04:07,879 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-30 15:09:37,781 basehttp 154 "POST /user/login/ HTTP/1.1" 200 216
+INFO 2019-11-30 15:09:57,158 basehttp 154 "POST /user/login/ HTTP/1.1" 200 216
+WARNING 2019-11-30 15:10:09,481 log 228 Bad Request: /user/login/
+WARNING 2019-11-30 15:10:09,482 basehttp 154 "POST /user/login/ HTTP/1.1" 400 67
+WARNING 2019-11-30 15:10:19,548 log 228 Bad Request: /user/login/
+WARNING 2019-11-30 15:10:19,549 basehttp 154 "POST /user/login/ HTTP/1.1" 400 67
+INFO 2019-11-30 15:13:03,912 basehttp 154 "POST /user/login/ HTTP/1.1" 200 216
+INFO 2019-11-30 15:14:07,382 basehttp 154 "OPTIONS /user/login/ HTTP/1.1" 200 0
+INFO 2019-11-30 15:14:07,663 basehttp 154 "POST /user/login/ HTTP/1.1" 200 216
+WARNING 2019-11-30 15:17:29,355 log 228 Bad Request: /user/login/
+WARNING 2019-11-30 15:17:29,356 basehttp 154 "POST /user/login/ HTTP/1.1" 400 67
+INFO 2019-11-30 15:17:43,787 basehttp 154 "POST /user/login/ HTTP/1.1" 200 216
+INFO 2019-11-30 15:17:47,485 basehttp 154 "POST /user/login/ HTTP/1.1" 200 216
+INFO 2019-11-30 15:17:53,902 basehttp 154 "POST /user/login/ HTTP/1.1" 200 216
+INFO 2019-11-30 15:17:54,333 basehttp 154 "POST /user/login/ HTTP/1.1" 200 216
+INFO 2019-11-30 15:18:16,354 basehttp 154 "POST /user/login/ HTTP/1.1" 200 216
+INFO 2019-11-30 15:18:17,666 basehttp 154 "POST /user/login/ HTTP/1.1" 200 216
+INFO 2019-11-30 15:18:18,264 basehttp 154 "POST /user/login/ HTTP/1.1" 200 216
+INFO 2019-11-30 15:18:18,368 basehttp 154 "POST /user/login/ HTTP/1.1" 200 216
+INFO 2019-11-30 15:19:02,186 basehttp 154 "POST /user/login/ HTTP/1.1" 200 216
+INFO 2019-11-30 15:19:02,367 basehttp 154 "GET /banner/ HTTP/1.1" 200 462
+INFO 2019-11-30 15:19:02,371 basehttp 154 "GET /timer/ HTTP/1.1" 200 504
+INFO 2019-11-30 15:20:04,894 basehttp 154 "POST /user/login/ HTTP/1.1" 200 216
+INFO 2019-11-30 15:20:05,066 basehttp 154 "GET /banner/ HTTP/1.1" 200 462
+INFO 2019-11-30 15:20:05,078 basehttp 154 "GET /timer/ HTTP/1.1" 200 504
+INFO 2019-11-30 15:20:45,041 basehttp 154 "GET /timer/ HTTP/1.1" 200 504
+INFO 2019-11-30 15:20:45,042 basehttp 154 "GET /banner/ HTTP/1.1" 200 462
+INFO 2019-11-30 15:20:54,386 basehttp 154 "POST /user/login/ HTTP/1.1" 200 216
+INFO 2019-11-30 15:20:54,522 basehttp 154 "GET /banner/ HTTP/1.1" 200 462
+INFO 2019-11-30 15:20:54,537 basehttp 154 "GET /timer/ HTTP/1.1" 200 504
+INFO 2019-11-30 15:22:05,593 basehttp 154 "POST /user/login/ HTTP/1.1" 200 216
+INFO 2019-11-30 15:22:05,714 basehttp 154 "GET /timer/ HTTP/1.1" 200 504
+INFO 2019-11-30 15:22:05,730 basehttp 154 "GET /banner/ HTTP/1.1" 200 462
+INFO 2019-11-30 15:22:42,390 basehttp 154 "GET /banner/ HTTP/1.1" 200 462
+INFO 2019-11-30 15:22:42,395 basehttp 154 "GET /timer/ HTTP/1.1" 200 504
+INFO 2019-11-30 15:23:01,856 basehttp 154 "GET /banner/ HTTP/1.1" 200 462
+INFO 2019-11-30 15:23:01,868 basehttp 154 "GET /timer/ HTTP/1.1" 200 504
+INFO 2019-11-30 15:23:10,881 basehttp 154 "POST /user/login/ HTTP/1.1" 200 216
+INFO 2019-11-30 15:23:11,018 basehttp 154 "GET /banner/ HTTP/1.1" 200 462
+INFO 2019-11-30 15:23:11,026 basehttp 154 "GET /timer/ HTTP/1.1" 200 504
+INFO 2019-11-30 15:23:28,478 basehttp 154 "GET /timer/ HTTP/1.1" 200 504
+INFO 2019-11-30 15:23:28,481 basehttp 154 "GET /banner/ HTTP/1.1" 200 462
+INFO 2019-11-30 15:26:33,241 basehttp 154 "GET /timer/ HTTP/1.1" 200 504
+INFO 2019-11-30 15:26:33,241 basehttp 154 "GET /banner/ HTTP/1.1" 200 462
+INFO 2019-11-30 15:27:02,376 basehttp 154 "GET /banner/ HTTP/1.1" 200 462
+INFO 2019-11-30 15:27:02,400 basehttp 154 "GET /timer/ HTTP/1.1" 200 504
+INFO 2019-11-30 15:27:48,643 basehttp 154 "GET /banner/ HTTP/1.1" 200 462
+INFO 2019-11-30 15:27:48,646 basehttp 154 "GET /timer/ HTTP/1.1" 200 504
+INFO 2019-11-30 15:28:16,620 basehttp 154 "GET /banner/ HTTP/1.1" 200 462
+INFO 2019-11-30 15:28:16,620 basehttp 154 "GET /timer/ HTTP/1.1" 200 504
+INFO 2019-11-30 15:28:34,601 basehttp 154 "GET /timer/ HTTP/1.1" 200 504
+INFO 2019-11-30 15:28:34,608 basehttp 154 "GET /banner/ HTTP/1.1" 200 462
+INFO 2019-11-30 15:30:22,069 basehttp 154 "GET /timer/ HTTP/1.1" 200 504
+INFO 2019-11-30 15:30:22,069 basehttp 154 "GET /banner/ HTTP/1.1" 200 462
+INFO 2019-11-30 15:31:12,883 basehttp 154 "GET /banner/ HTTP/1.1" 200 462
+INFO 2019-11-30 15:31:12,894 basehttp 154 "GET /timer/ HTTP/1.1" 200 504
+INFO 2019-11-30 15:31:35,142 basehttp 154 "GET /banner/ HTTP/1.1" 200 462
+INFO 2019-11-30 15:31:35,145 basehttp 154 "GET /timer/ HTTP/1.1" 200 504
+INFO 2019-11-30 15:32:05,963 basehttp 154 "GET /timer/ HTTP/1.1" 200 504
+INFO 2019-11-30 15:32:05,967 basehttp 154 "GET /banner/ HTTP/1.1" 200 462
+INFO 2019-11-30 15:32:40,936 basehttp 154 "GET /banner/ HTTP/1.1" 200 462
+INFO 2019-11-30 15:32:40,942 basehttp 154 "GET /timer/ HTTP/1.1" 200 504
+INFO 2019-11-30 15:33:18,933 basehttp 154 "GET /timer/ HTTP/1.1" 200 504
+INFO 2019-11-30 15:33:18,934 basehttp 154 "GET /banner/ HTTP/1.1" 200 462
+INFO 2019-11-30 15:35:08,236 basehttp 154 "GET /banner/ HTTP/1.1" 200 462
+INFO 2019-11-30 15:35:08,241 basehttp 154 "GET /timer/ HTTP/1.1" 200 504
+INFO 2019-11-30 15:35:29,502 basehttp 154 "GET /timer/ HTTP/1.1" 200 504
+INFO 2019-11-30 15:35:29,504 basehttp 154 "GET /banner/ HTTP/1.1" 200 462
+INFO 2019-11-30 15:36:29,771 basehttp 154 "GET /banner/ HTTP/1.1" 200 462
+INFO 2019-11-30 15:36:29,779 basehttp 154 "GET /timer/ HTTP/1.1" 200 504
+INFO 2019-11-30 15:36:38,481 basehttp 154 "OPTIONS /user/login/ HTTP/1.1" 200 0
+INFO 2019-11-30 15:36:38,781 basehttp 154 "POST /user/login/ HTTP/1.1" 200 197
+INFO 2019-11-30 15:36:38,951 basehttp 154 "GET /timer/ HTTP/1.1" 200 504
+INFO 2019-11-30 15:36:39,025 basehttp 154 "GET /banner/ HTTP/1.1" 200 462
+WARNING 2019-11-30 15:37:02,229 log 228 Bad Request: /user/login/
+WARNING 2019-11-30 15:37:02,229 basehttp 154 "POST /user/login/ HTTP/1.1" 400 67
+INFO 2019-11-30 15:37:36,489 basehttp 154 "POST /user/login/ HTTP/1.1" 200 197
+INFO 2019-11-30 15:37:36,629 basehttp 154 "GET /timer/ HTTP/1.1" 200 504
+INFO 2019-11-30 15:37:36,638 basehttp 154 "GET /banner/ HTTP/1.1" 200 462

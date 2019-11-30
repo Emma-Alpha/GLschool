@@ -48,7 +48,7 @@ class GeetestCaptchaAPIView(APIView):
 from rest_framework.generics import CreateAPIView
 from .models import User
 from .serializers import UserModelSerializer
-
+from mycelery.sms.tasks import send_sms
 
 class UserAPIView(CreateAPIView):
     """用户注册"""
@@ -94,15 +94,9 @@ class SMSAPIView(APIView):
         # 执行事务
         pipe.execute()
 
-        # 4.todo 调用短信sdk,发送短信
-        # try:
-        #     ccp = CCP()
-        #     ret = ccp.send_template_sms(mobile, [sms_code, constants.SMS_INTERVAL_TIME], 1)
-        #     if ret == -1:
-        #         log.error("用户注册短信发送失败！手机号:%s" % mobile)
-        #         return Response({"message": "发送短信失败"})
-        # except:
-        #     return Response({"message": "发送短信失败"})
+        # 4. 调用短信sdk,发送短信
+        # 调用任务函数，发布任务
+        send_sms.delay(mobile, sms_code)
 
         # 5. 响应发送短信的结果
         return Response({"message": "发送短信成功！"})
