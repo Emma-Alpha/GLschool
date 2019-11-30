@@ -40,7 +40,7 @@
                         placeholder="请确认密码" show-password></el-input>
             </el-form-item>
             <el-form-item label="短信" prop="sms">
-              <el-input v-model="ruleForm.sms" placeholder="请输入短信">
+              <el-input v-model="ruleForm.sms" type="text" placeholder="请输入短信">
                 <template slot="append"><span @click="sendSMS" :style="ruleForm.sms_status?'pointer-events:none':''"><i>{{ruleForm.sms_title}}</i></span>
                 </template>
               </el-input>
@@ -91,16 +91,7 @@
                     return callback(new Error('短信不能为空'));
                 }
                 setTimeout(() => {
-                    if (!Number.isInteger(value)) {
-                        callback(new Error('请输入数字值'));
-                    } else {
-                        if (value > 999999 || value < 999) {
-                            callback(new Error('短信格式4-6位'));
-                        } else {
-
-                            callback();
-                        }
-                    }
+                    callback()
                 }, 1000);
             };
             var validatePass = (rule, value, callback) => {
@@ -155,17 +146,17 @@
                     this.$message(response.data);
                     let num = 60;
                     let self = this;
-                        var test = setInterval(function () {
-                            if(num>0){
+                    var test = setInterval(function () {
+                        if (num > 0) {
                             self.ruleForm.sms_title = `${num}秒后可以重试`;
                             self.ruleForm.sms_status = true;
                             num--;
-                            }else{
-                                self.ruleForm.sms_title = "发送短信";
-                                self.ruleForm.sms_status = false;
-                                clearInterval(test)
-                            }
-                        }, 1000)
+                        } else {
+                            self.ruleForm.sms_title = "发送短信";
+                            self.ruleForm.sms_status = false;
+                            clearInterval(test)
+                        }
+                    }, 1000)
                 }).catch(error => {
                     this.$alert("网络错误！请联系客服工作人员", "广东理工学院")
                 })
@@ -202,9 +193,9 @@
                             localStorage.removeItem("user_token");
                             localStorage.removeItem("user_id");
                             localStorage.removeItem("user_name");
-                            sessionStorage.setItem('user_token',response.data.token);
-                            sessionStorage.setItem('user_id',response.data.id);
-                            sessionStorage.setItem('user_name',response.data.username);
+                            sessionStorage.setItem('user_token', response.data.token);
+                            sessionStorage.setItem('user_id', response.data.id);
+                            sessionStorage.setItem('user_name', response.data.username);
                             self.$router.push("/")
                         }).catch(error => {
                             console.log(error.response.data);

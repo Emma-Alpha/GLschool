@@ -25,9 +25,12 @@
                style="width: 300px ;padding: 0 auto;display: block;margin: 0 auto">
         </div>
         <div class="login_padding" style="box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);background: white">
-          <div class="register-title" style="text-decoration: none">用户登录</div>
+          <div class="register-title" style="text-decoration: none">
+            <p style="display: inline" @click="qiehuan">用户登录 | </p>
+            <p style="display: inline" @click="qiehuan">短信登录</p>
+          </div>
           <el-form :model="ruleForm" status-icon :rules="rules" ref="ruleForm" label-width="50px"
-                   class="demo-ruleForm">
+                   class="demo-ruleForm" v-if="ruleForm.login_main">
             <el-form-item prop="count">
               <el-input v-model="ruleForm.count" placeholder="用户名/手机号"></el-input>
             </el-form-item>
@@ -48,6 +51,24 @@
             </el-form-item>
             <p class="go_login">没有账号 <span>立即注册</span></p>
           </el-form>
+
+          <el-form :model="ruleForm" status-icon :rules="rules" ref="ruleForm" label-width="50px"
+                   class="demo-ruleForm" v-else>
+            <el-form-item prop="mobile">
+              <el-input v-model="ruleForm.mobile" placeholder="手机号"></el-input>
+            </el-form-item>
+            <el-form-item prop="sms">
+              <el-input v-model="ruleForm.sms" placeholder="请输入短信">
+                <template slot="append"><span @click="sendSMS" :style="ruleForm.sms_status?'pointer-events:none':''"><i>{{ruleForm.sms_title}}</i></span>
+                </template>
+              </el-input>
+            </el-form-item>
+            <div id="geetest2"></div>
+            <el-form-item>
+              <el-button type="primary" @click="submitForm1('ruleForm')" style="width: 100%">登录</el-button>
+            </el-form-item>
+            <p class="go_login">没有账号 <span>立即注册</span></p>
+          </el-form>
         </div>
 
       </div>
@@ -59,6 +80,21 @@
     export default {
         name: 'Login',
         data() {
+            var validateSms = (rule, value, callback) => {
+                if(!value) {
+                    return callback(new Error("手机号不能为空"))
+                }else{
+                    callback()
+                }
+            };
+
+            var validateMobile = (rule, value, callback) => {
+                if(!value){
+                    return callback(new Error("短信不能为空"))
+                } else{
+                    callback()
+                }
+            };
 
             var checkCount = (rule, value, callback) => {
                 if (!value) {
@@ -80,7 +116,11 @@
                     pass: '',
                     count: '',
                     save_pass: false,
-
+                    login_main:true,
+                    sms_title: "发送短信",
+                    sms_status: false,
+                    sms : '',
+                    mobile: '',
                 },
                 rules: {
                     count: [
@@ -89,11 +129,43 @@
                     pass: [
                         {validator: validatePass, trigger: 'blur'}
                     ],
+                    sms : [
+                        {validator: validateSms, trigger: 'blur'}
+                    ],
+                    mobile : [
+                        {validator: validateMobile, trigger: 'blur'}
+                    ],
 
                 }
             };
         },
         methods: {
+            sendSMS() {
+                this.$axios.get(`${this.$settings.Host}/user/login/mobile/${this.ruleForm.mobile}`).then(response => {
+                    this.$message(response.data);
+                    let num = 60;
+                    let self = this;
+                    var test = setInterval(function () {
+                        if (num > 0) {
+                            self.ruleForm.sms_title = `${num}秒后可以重试`;
+                            self.ruleForm.sms_status = true;
+                            num--;
+                        } else {
+                            self.ruleForm.sms_title = "发送短信";
+                            self.ruleForm.sms_status = false;
+                            clearInterval(test)
+                        }
+                    }, 1000)
+                }).catch(error => {
+                    this.$alert("网络错误！请联系客服工作人员", "广东理工学院")
+                })
+            },
+
+
+            qiehuan(){
+              this.ruleForm.login_main = !this.ruleForm.login_main
+            },
+
             goBack() {
                 this.$router.push('/')
             },
@@ -131,6 +203,45 @@
                     }
                 });
             },
+
+
+            submitForm1(formName) {
+                let self = this;
+                this.$refs[formName].validate((valid) => {
+                    if (valid) {
+                        console.log(self.ruleForm.mobile);
+                        console.log(self.ruleForm.sms);
+
+                        self.$axios.post(`${self.$settings.Host}/user/login/mobile/`,{
+                            mobile : self.ruleForm.mobile,
+                            sms : self.ruleForm.sms
+                        }).then(response=>{
+                            if(self.ruleForm.save_pass){
+                                sessionStorage.removeItem('user_token');
+                                sessionStorage.removeItem('user_id');
+                                sessionStorage.removeItem('user_name');
+                                localStorage.setItem('user_token',response.data.token);
+                                localStorage.setItem('user_id',response.data.id);
+                                localStorage.setItem('user_name',response.data.username);
+                            }else{
+                                localStorage.removeItem('user_token');
+                                localStorage.removeItem('user_id');
+                                localStorage.removeItem('user_name');
+                                sessionStorage.setItem('user_token',response.data.token);
+                                sessionStorage.setItem('user_id',response.data.id);
+                                sessionStorage.setItem('user_name',response.data.username);
+                            }
+                            self.$router.go(-1);
+                        }).catch(error=>{
+                            self.$alert("账号或密码错误","广东理工学院");
+                            self.ruleForm.sms = '';
+                        })
+                    } else {
+                        return false;
+                    }
+                });
+            },
+
             resetForm(formName) {
                 this.$refs[formName].resetFields();
             }

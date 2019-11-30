@@ -2,6 +2,7 @@ from django.shortcuts import render
 
 # Create your views here.
 from rest_framework.views import APIView
+from rest_framework.generics import ListAPIView
 from 线上课程api.libs.geetest import GeetestLib
 from rest_framework.response import Response
 from django.conf import settings
@@ -50,6 +51,7 @@ from .models import User
 from .serializers import UserModelSerializer
 from mycelery.sms.tasks import send_sms
 
+
 class UserAPIView(CreateAPIView):
     """用户注册"""
     queryset = User.objects.all()
@@ -96,7 +98,37 @@ class SMSAPIView(APIView):
 
         # 4. 调用短信sdk,发送短信
         # 调用任务函数，发布任务
-        send_sms.delay(mobile, sms_code)
+        # send_sms.delay(mobile, sms_code)
 
         # 5. 响应发送短信的结果
         return Response({"message": "发送短信成功！"})
+
+
+from rest_framework_jwt.settings import api_settings
+
+
+class MobileLoginAPIView(APIView):
+    # 短信登录
+    def post(self, request):
+        try:
+            mobile = request.data.get("mobile")
+            sms = request.data.get("sms")
+            user = User.objects.get(mobile=mobile)
+            # 连接redis数据库
+
+            redis_conn = get_redis_connection("sms_code")
+            sms_code = redis_conn.get("sms_%s" % mobile)
+            if sms_code.decode() != sms:
+                return Response({"message": "输入的短信有误，请重新输入"}, status.HTTP_404_NOT_FOUND)
+
+            # 使用restframework_jwt模块提供手动生成token的方法生成登录状态
+            jwt_payload_handler = api_settings.JWT_PAYLOAD_HANDLER
+            jwt_encode_handler = api_settings.JWT_ENCODE_HANDLER
+
+            payload = jwt_payload_handler(user)
+            user.token = jwt_encode_handler(payload)
+
+        except:
+            return Response({"message": "手机号不存在！"}, status.HTTP_404_NOT_FOUND)
+
+        return Response({"token":user.token,"id":user.id,"username":user.username})
