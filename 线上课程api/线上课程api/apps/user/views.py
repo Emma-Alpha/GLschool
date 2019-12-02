@@ -11,6 +11,7 @@ from 线上课程api.settings import constants
 from 线上课程api.libs.yuntongxun.sms import CCP
 import logging
 import random
+import requests
 
 log = logging.getLogger("django")
 
@@ -31,6 +32,7 @@ class GeetestCaptchaAPIView(APIView):
         self.status = self.gt.pre_process(self.user_id)
         # 将来可以使用redis来保存status和user_id
         response_str = self.gt.get_response_str()
+        print("通过第一次验证")
         return Response(response_str)
 
     def post(self, request):
@@ -38,12 +40,43 @@ class GeetestCaptchaAPIView(APIView):
         challenge = request.data.get(self.gt.FN_CHALLENGE, '')
         validate = request.data.get(self.gt.FN_VALIDATE, '')
         seccode = request.data.get(self.gt.FN_SECCODE, '')
+        print(challenge, validate, seccode)
         if self.status:
             result = self.gt.success_validate(challenge, validate, seccode, self.user_id)
         else:
             result = self.gt.failback_validate(challenge, validate, seccode)
+        print("result:>>>>>>>>", result)
         result = {"status": "success"} if result else {"status": "fail"}
         return Response(result)
+
+
+# 腾讯防水墙
+aid = '2086788894'
+AppSecretKey = '02jW5rcPbPwVmgxwlw3UVIA**'
+
+
+class VerifyAPIView(APIView):
+    def get(self, request):
+        # d第一获取验证码
+        return Response(aid, status=status.HTTP_200_OK)
+
+    def post(self, request):
+        Ticket = request.data.get('ticket')
+        Randstr = request.data.get('randstr')
+        # 上线后这里要进行修改,改为动态获取请求的ip
+        UserIP = '127.0.0.1'
+
+        ret = requests.get('https://ssl.captcha.qq.com/ticket/verify', params={
+            'aid': aid,
+            'AppSecretKey': AppSecretKey,
+            'Ticket': Ticket,
+            'Randstr': Randstr,
+            'UserIP': UserIP
+        })
+        dic = ret.json()
+        if dic and dic.get('response') == '1':
+            return Response('校验成功!', status=status.HTTP_200_OK)
+        return Response(dic.get('err_msg'), status=status.HTTP_400_BAD_REQUEST)
 
 
 from rest_framework.generics import CreateAPIView
@@ -128,7 +161,10 @@ class MobileLoginAPIView(APIView):
             payload = jwt_payload_handler(user)
             user.token = jwt_encode_handler(payload)
 
+            redis_conn.delete("sms_%s" % mobile)
+            redis_conn.delete("mobile_%s" % mobile)
+
         except:
             return Response({"message": "手机号不存在！"}, status.HTTP_404_NOT_FOUND)
 
-        return Response({"token":user.token,"id":user.id,"username":user.username})
+        return Response({"token": user.token, "id": user.id, "username": user.username})

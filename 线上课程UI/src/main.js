@@ -18,7 +18,7 @@ import settings from "./settings";
 Vue.prototype.$settings = settings;
 
 // 导入gt极验证
-import '../static/js/gt.js'
+import '../static/js/tx.js'
 
 
 import VideoPlayer from 'vue-video-player'

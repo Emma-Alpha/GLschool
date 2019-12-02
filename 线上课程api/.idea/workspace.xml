@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="094ff10e-59ba-4b58-b30c-867f368accef" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../线上课程UI/src/components/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../线上课程UI/src/components/Login.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../线上课程UI/src/components/Register.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../线上课程UI/src/components/Register.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../线上课程UI/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../线上课程UI/src/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/线上课程.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/线上课程.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/线上课程api/apps/user/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/线上课程api/apps/user/urls.py" afterDir="false" />
@@ -191,7 +191,8 @@
       <workItem from="1574988405299" duration="150000" />
       <workItem from="1574988574134" duration="9420000" />
       <workItem from="1575031291890" duration="14940000" />
-      <workItem from="1575099620550" duration="8057000" />
+      <workItem from="1575099620550" duration="11940000" />
+      <workItem from="1575205657762" duration="741000" />
     </task>
     <servers />
   </component>
@@ -212,6 +213,6 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/api$manage.coverage" NAME="manage Coverage Results" MODIFIED="1575112209715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/api$manage.coverage" NAME="manage Coverage Results" MODIFIED="1575114721862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

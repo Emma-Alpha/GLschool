@@ -47,7 +47,7 @@
               <p>忘记密码</p>
             </div>
             <el-form-item>
-              <el-button type="primary" @click="submitForm('ruleForm')" style="width: 100%">登录</el-button>
+              <el-button type="primary" id="TencentCaptcha" @click="get_verify" style="width: 100%">登录</el-button>
             </el-form-item>
             <p class="go_login">没有账号 <span>立即注册</span></p>
           </el-form>
@@ -65,7 +65,7 @@
             </el-form-item>
             <div id="geetest2"></div>
             <el-form-item>
-              <el-button type="primary" @click="submitForm1('ruleForm')" style="width: 100%">登录</el-button>
+              <el-button type="primary" id="TencentCaptcha1" @click="get_verify1" style="width: 100%">登录</el-button>
             </el-form-item>
             <p class="go_login">没有账号 <span>立即注册</span></p>
           </el-form>
@@ -81,17 +81,17 @@
         name: 'Login',
         data() {
             var validateSms = (rule, value, callback) => {
-                if(!value) {
+                if (!value) {
                     return callback(new Error("手机号不能为空"))
-                }else{
+                } else {
                     callback()
                 }
             };
 
             var validateMobile = (rule, value, callback) => {
-                if(!value){
+                if (!value) {
                     return callback(new Error("短信不能为空"))
-                } else{
+                } else {
                     callback()
                 }
             };
@@ -99,7 +99,7 @@
             var checkCount = (rule, value, callback) => {
                 if (!value) {
                     return callback(new Error("用户名/手机号不能为空"))
-                }else{
+                } else {
                     callback()
                 }
             };
@@ -107,7 +107,7 @@
             var validatePass = (rule, value, callback) => {
                 if (value === '') {
                     callback(new Error('请输入密码'));
-                }else{
+                } else {
                     callback()
                 }
             };
@@ -116,10 +116,10 @@
                     pass: '',
                     count: '',
                     save_pass: false,
-                    login_main:true,
+                    login_main: true,
                     sms_title: "发送短信",
                     sms_status: false,
-                    sms : '',
+                    sms: '',
                     mobile: '',
                 },
                 rules: {
@@ -129,10 +129,10 @@
                     pass: [
                         {validator: validatePass, trigger: 'blur'}
                     ],
-                    sms : [
+                    sms: [
                         {validator: validateSms, trigger: 'blur'}
                     ],
-                    mobile : [
+                    mobile: [
                         {validator: validateMobile, trigger: 'blur'}
                     ],
 
@@ -140,6 +140,98 @@
             };
         },
         methods: {
+            get_verify1() {
+                // 首先从后端获取appId
+                console.log(this.$settings.Host)
+                this.$axios.get(`${this.$settings.Host}/user/verify/`).then(
+                    response => {
+                        // 拿到了appId,构建验证码对象
+                        let appId = response.data;
+                        let self = this;
+                        // 这里其实是给这个元素绑定了一个事件
+                        let tct = new TencentCaptcha(document.getElementById("TencentCaptcha1"),
+                            appId, function (res) {
+                                // 验证码的回调函数
+                                if (res.ret === 0) {
+                                    // 票据
+                                    let ticket = res.ticket;
+                                    let randstr = res.randstr;
+                                    self.check_verify1(ticket, randstr)
+                                }
+                            }
+                        );
+                        // 显示验证码
+                        tct.show()
+                    }
+                ).catch(error => {
+                    this.$message.error("获取验证码出错!请联系管理员!!!!!")
+                })
+            },
+
+            check_verify1(ticket, randstr) {
+                // 将ticket,randstr发送到后端进行验证
+                this.$axios.post(`${this.$settings.Host}/user/verify/`, {
+                    'ticket': ticket,
+                    'randstr': randstr
+                }).then(response => {
+                    if (response.status === 200) {
+                        // 校验成功, 进行登录,这里调用之前写好的登录方法
+                        this.submitForm1('ruleForm')
+                    } else {
+                        this.$message.error("校验失败!")
+                    }
+                }).catch(error => {
+                    console.log(error);
+                    this.$message.error("校验验证码出错!请联系管理员!")
+                })
+            },
+
+            get_verify() {
+                // 首先从后端获取appId
+                console.log(this.$settings.Host)
+                this.$axios.get(`${this.$settings.Host}/user/verify/`).then(
+                    response => {
+                        // 拿到了appId,构建验证码对象
+                        let appId = response.data;
+                        let self = this;
+                        // 这里其实是给这个元素绑定了一个事件
+                        let tct = new TencentCaptcha(document.getElementById("TencentCaptcha"),
+                            appId, function (res) {
+                                // 验证码的回调函数
+                                if (res.ret === 0) {
+                                    // 票据
+                                    let ticket = res.ticket;
+                                    let randstr = res.randstr;
+                                    self.check_verify(ticket, randstr)
+                                }
+                            }
+                        );
+                        // 显示验证码
+                        tct.show()
+                    }
+                ).catch(error => {
+                    this.$message.error("获取验证码出错!请联系管理员!!!!!")
+                })
+            },
+
+            check_verify(ticket, randstr) {
+                // 将ticket,randstr发送到后端进行验证
+                this.$axios.post(`${this.$settings.Host}/user/verify/`, {
+                    'ticket': ticket,
+                    'randstr': randstr
+                }).then(response => {
+                    if (response.status === 200) {
+                        // 校验成功, 进行登录,这里调用之前写好的登录方法
+                        this.submitForm('ruleForm')
+                    } else {
+                        this.$message.error("校验失败!")
+                    }
+                }).catch(error => {
+                    console.log(error);
+                    this.$message.error("校验验证码出错!请联系管理员!")
+                })
+            },
+
             sendSMS() {
                 this.$axios.get(`${this.$settings.Host}/user/login/mobile/${this.ruleForm.mobile}`).then(response => {
                     this.$message(response.data);
@@ -162,8 +254,8 @@
             },
 
 
-            qiehuan(){
-              this.ruleForm.login_main = !this.ruleForm.login_main
+            qiehuan() {
+                this.ruleForm.login_main = !this.ruleForm.login_main
             },
 
             goBack() {
@@ -173,29 +265,29 @@
                 let self = this;
                 this.$refs[formName].validate((valid) => {
                     if (valid) {
-                        self.$axios.post(`${self.$settings.Host}/user/login/`,{
-                            username : self.ruleForm.count,
-                            password : self.ruleForm.pass
-                        }).then(response=>{
+                        self.$axios.post(`${self.$settings.Host}/user/login/`, {
+                            username: self.ruleForm.count,
+                            password: self.ruleForm.pass
+                        }).then(response => {
 
-                            if(self.ruleForm.save_pass){
+                            if (self.ruleForm.save_pass) {
                                 sessionStorage.removeItem('user_token');
                                 sessionStorage.removeItem('user_id');
                                 sessionStorage.removeItem('user_name');
-                                localStorage.setItem('user_token',response.data.token);
-                                localStorage.setItem('user_id',response.data.id);
-                                localStorage.setItem('user_name',response.data.username);
-                            }else{
+                                localStorage.setItem('user_token', response.data.token);
+                                localStorage.setItem('user_id', response.data.id);
+                                localStorage.setItem('user_name', response.data.username);
+                            } else {
                                 localStorage.removeItem('user_token');
                                 localStorage.removeItem('user_id');
                                 localStorage.removeItem('user_name');
-                                sessionStorage.setItem('user_token',response.data.token);
-                                sessionStorage.setItem('user_id',response.data.id);
-                                sessionStorage.setItem('user_name',response.data.username);
+                                sessionStorage.setItem('user_token', response.data.token);
+                                sessionStorage.setItem('user_id', response.data.id);
+                                sessionStorage.setItem('user_name', response.data.username);
                             }
                             self.$router.go(-1);
-                        }).catch(error=>{
-                            self.$alert("账号或密码错误","广东理工学院");
+                        }).catch(error => {
+                            self.$alert("账号或密码错误", "广东理工学院");
                             self.ruleForm.pass = '';
                         })
                     } else {
@@ -212,28 +304,28 @@
                         console.log(self.ruleForm.mobile);
                         console.log(self.ruleForm.sms);
 
-                        self.$axios.post(`${self.$settings.Host}/user/login/mobile/`,{
-                            mobile : self.ruleForm.mobile,
-                            sms : self.ruleForm.sms
-                        }).then(response=>{
-                            if(self.ruleForm.save_pass){
+                        self.$axios.post(`${self.$settings.Host}/user/login/mobile/`, {
+                            mobile: self.ruleForm.mobile,
+                            sms: self.ruleForm.sms
+                        }).then(response => {
+                            if (self.ruleForm.save_pass) {
                                 sessionStorage.removeItem('user_token');
                                 sessionStorage.removeItem('user_id');
                                 sessionStorage.removeItem('user_name');
-                                localStorage.setItem('user_token',response.data.token);
-                                localStorage.setItem('user_id',response.data.id);
-                                localStorage.setItem('user_name',response.data.username);
-                            }else{
+                                localStorage.setItem('user_token', response.data.token);
+                                localStorage.setItem('user_id', response.data.id);
+                                localStorage.setItem('user_name', response.data.username);
+                            } else {
                                 localStorage.removeItem('user_token');
                                 localStorage.removeItem('user_id');
                                 localStorage.removeItem('user_name');
-                                sessionStorage.setItem('user_token',response.data.token);
-                                sessionStorage.setItem('user_id',response.data.id);
-                                sessionStorage.setItem('user_name',response.data.username);
+                                sessionStorage.setItem('user_token', response.data.token);
+                                sessionStorage.setItem('user_id', response.data.id);
+                                sessionStorage.setItem('user_name', response.data.username);
                             }
                             self.$router.go(-1);
-                        }).catch(error=>{
-                            self.$alert("账号或密码错误","广东理工学院");
+                        }).catch(error => {
+                            self.$alert("账号或密码错误", "广东理工学院");
                             self.ruleForm.sms = '';
                         })
                     } else {

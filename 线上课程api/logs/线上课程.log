@@ -3200,3 +3200,120 @@ INFO 2019-11-30 19:18:56,520 basehttp 154 "GET /timer/ HTTP/1.1" 200 504
 INFO 2019-11-30 19:18:56,521 basehttp 154 "GET /banner/ HTTP/1.1" 200 462
 INFO 2019-11-30 19:20:54,253 autoreload 217 /Users/liangpingbo/Desktop/线上课堂/线上课程api/线上课程api/apps/user/views.py changed, reloading.
 INFO 2019-11-30 19:20:56,349 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-30 19:22:41,034 basehttp 154 "GET /user/login/mobile/15602365270 HTTP/1.1" 200 35
+INFO 2019-11-30 19:22:49,283 basehttp 154 "POST /user/login/mobile/ HTTP/1.1" 200 216
+INFO 2019-11-30 19:22:49,485 basehttp 154 "GET /banner/ HTTP/1.1" 200 462
+INFO 2019-11-30 19:22:49,496 basehttp 154 "GET /timer/ HTTP/1.1" 200 504
+INFO 2019-11-30 19:23:22,644 autoreload 217 /Users/liangpingbo/Desktop/线上课堂/线上课程api/线上课程api/apps/user/views.py changed, reloading.
+INFO 2019-11-30 19:23:26,289 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-30 19:23:46,871 autoreload 217 /Users/liangpingbo/Desktop/线上课堂/线上课程api/线上课程api/apps/user/views.py changed, reloading.
+INFO 2019-11-30 19:23:48,706 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-30 19:25:29,231 autoreload 217 /Users/liangpingbo/Desktop/线上课堂/线上课程api/线上课程api/apps/user/views.py changed, reloading.
+INFO 2019-11-30 19:25:31,603 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-30 19:26:12,321 autoreload 217 /Users/liangpingbo/Desktop/线上课堂/线上课程api/线上课程api/apps/user/views.py changed, reloading.
+INFO 2019-11-30 19:26:15,211 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-30 19:36:34,581 basehttp 154 "OPTIONS /user/login/ HTTP/1.1" 200 0
+INFO 2019-11-30 19:36:34,837 basehttp 154 "POST /user/login/ HTTP/1.1" 200 216
+INFO 2019-11-30 19:36:35,011 basehttp 154 "GET /timer/ HTTP/1.1" 200 504
+INFO 2019-11-30 19:36:35,023 basehttp 154 "GET /banner/ HTTP/1.1" 200 462
+INFO 2019-11-30 19:36:35,244 basehttp 154 "GET /media/host_video_image/u17151088223979953737fm26gp0.jpg HTTP/1.1" 200 46157
+INFO 2019-11-30 19:37:23,640 basehttp 154 "GET /user/captcha/ HTTP/1.1" 200 140
+INFO 2019-11-30 19:37:30,048 basehttp 154 "OPTIONS /user/captcha/ HTTP/1.1" 200 0
+INFO 2019-11-30 19:37:30,056 basehttp 154 "POST /user/captcha/ HTTP/1.1" 200 17
+INFO 2019-11-30 19:39:35,388 basehttp 154 "GET /user/captcha/ HTTP/1.1" 200 140
+INFO 2019-11-30 19:39:40,588 basehttp 154 "POST /user/captcha/ HTTP/1.1" 200 17
+INFO 2019-11-30 19:40:59,304 autoreload 217 /Users/liangpingbo/Desktop/线上课堂/线上课程api/线上课程api/apps/user/views.py changed, reloading.
+INFO 2019-11-30 19:41:01,955 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-30 19:41:11,585 basehttp 154 "GET /user/captcha/ HTTP/1.1" 200 140
+INFO 2019-11-30 19:41:16,999 basehttp 154 "POST /user/captcha/ HTTP/1.1" 200 17
+INFO 2019-11-30 19:41:51,142 autoreload 217 /Users/liangpingbo/Desktop/线上课堂/线上课程api/线上课程api/apps/user/views.py changed, reloading.
+INFO 2019-11-30 19:41:53,199 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-30 19:41:57,989 basehttp 154 "GET /user/captcha/ HTTP/1.1" 200 140
+INFO 2019-11-30 19:42:02,604 basehttp 154 "POST /user/captcha/ HTTP/1.1" 200 17
+INFO 2019-11-30 19:43:28,559 autoreload 217 /Users/liangpingbo/Desktop/线上课堂/线上课程api/线上课程api/apps/user/views.py changed, reloading.
+INFO 2019-11-30 19:43:31,471 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-30 19:43:39,701 basehttp 154 "GET /user/captcha/ HTTP/1.1" 200 140
+INFO 2019-11-30 19:43:44,543 basehttp 154 "POST /user/captcha/ HTTP/1.1" 200 17
+INFO 2019-11-30 19:46:28,659 autoreload 217 /Users/liangpingbo/Desktop/线上课堂/线上课程api/线上课程api/settings/dev.py changed, reloading.
+INFO 2019-11-30 19:46:31,142 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-30 19:46:40,796 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-30 19:46:59,191 basehttp 154 "GET /user/captcha/ HTTP/1.1" 200 140
+INFO 2019-11-30 19:47:04,703 basehttp 154 "POST /user/captcha/ HTTP/1.1" 200 17
+INFO 2019-11-30 19:48:09,213 autoreload 217 /Users/liangpingbo/Desktop/线上课堂/线上课程api/线上课程api/settings/dev.py changed, reloading.
+INFO 2019-11-30 19:48:11,145 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-30 19:48:14,222 autoreload 217 /Users/liangpingbo/Desktop/线上课堂/线上课程api/线上课程api/settings/dev.py changed, reloading.
+INFO 2019-11-30 19:48:17,347 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-30 19:48:29,351 basehttp 154 "GET /user/captcha/ HTTP/1.1" 200 140
+INFO 2019-11-30 19:48:34,087 basehttp 154 "POST /user/captcha/ HTTP/1.1" 200 17
+INFO 2019-11-30 19:52:04,930 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-30 19:52:22,858 basehttp 154 "GET /timer/ HTTP/1.1" 200 504
+INFO 2019-11-30 19:52:22,859 basehttp 154 "GET /banner/ HTTP/1.1" 200 462
+INFO 2019-11-30 19:52:31,863 basehttp 154 "GET /user/captcha/ HTTP/1.1" 200 140
+INFO 2019-11-30 19:52:36,999 basehttp 154 "OPTIONS /user/captcha/ HTTP/1.1" 200 0
+INFO 2019-11-30 19:52:37,011 basehttp 154 "POST /user/captcha/ HTTP/1.1" 200 17
+INFO 2019-11-30 19:55:21,552 basehttp 154 "GET /user/captcha/ HTTP/1.1" 200 140
+INFO 2019-11-30 19:55:26,908 basehttp 154 "POST /user/captcha/ HTTP/1.1" 200 17
+INFO 2019-11-30 19:55:49,304 basehttp 154 "GET /user/captcha/ HTTP/1.1" 200 140
+INFO 2019-11-30 19:55:55,548 basehttp 154 "POST /user/captcha/ HTTP/1.1" 200 17
+INFO 2019-11-30 19:56:34,876 basehttp 154 "GET /user/captcha/ HTTP/1.1" 200 140
+INFO 2019-11-30 19:59:16,341 basehttp 154 "POST /user/captcha/ HTTP/1.1" 200 17
+INFO 2019-11-30 19:59:25,905 basehttp 154 "GET /user/captcha/ HTTP/1.1" 200 140
+INFO 2019-11-30 19:59:35,131 basehttp 154 "POST /user/captcha/ HTTP/1.1" 200 17
+INFO 2019-11-30 19:59:52,204 basehttp 154 "GET /user/captcha/ HTTP/1.1" 200 140
+INFO 2019-11-30 20:09:38,846 autoreload 217 /Users/liangpingbo/Desktop/线上课堂/线上课程api/线上课程api/apps/user/urls.py changed, reloading.
+INFO 2019-11-30 20:09:46,731 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-30 20:10:28,438 autoreload 217 /Users/liangpingbo/Desktop/线上课堂/线上课程api/线上课程api/apps/user/urls.py changed, reloading.
+INFO 2019-11-30 20:10:41,327 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-30 20:10:59,424 autoreload 217 /Users/liangpingbo/Desktop/线上课堂/线上课程api/线上课程api/apps/user/views.py changed, reloading.
+INFO 2019-11-30 20:11:02,561 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-30 20:12:20,704 autoreload 217 /Users/liangpingbo/Desktop/线上课堂/线上课程api/线上课程api/apps/user/views.py changed, reloading.
+INFO 2019-11-30 20:12:23,206 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-30 20:12:28,788 autoreload 217 /Users/liangpingbo/Desktop/线上课堂/线上课程api/线上课程api/apps/user/views.py changed, reloading.
+INFO 2019-11-30 20:12:31,746 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-30 20:12:57,174 autoreload 217 /Users/liangpingbo/Desktop/线上课堂/线上课程api/线上课程api/apps/user/views.py changed, reloading.
+INFO 2019-11-30 20:13:06,964 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-30 20:14:15,684 autoreload 217 /Users/liangpingbo/Desktop/线上课堂/线上课程api/线上课程api/apps/user/views.py changed, reloading.
+INFO 2019-11-30 20:14:21,628 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-30 20:15:13,899 autoreload 217 /Users/liangpingbo/Desktop/线上课堂/线上课程api/线上课程api/apps/user/views.py changed, reloading.
+INFO 2019-11-30 20:15:17,092 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-30 20:15:41,076 basehttp 154 "GET /user/verify/ HTTP/1.1" 200 12
+INFO 2019-11-30 20:17:02,201 basehttp 154 "GET /user/verify/ HTTP/1.1" 200 12
+INFO 2019-11-30 20:17:37,449 basehttp 154 "GET /user/verify/ HTTP/1.1" 200 12
+INFO 2019-11-30 20:18:01,717 basehttp 154 "GET /user/verify/ HTTP/1.1" 200 12
+INFO 2019-11-30 20:18:07,418 basehttp 154 "GET /user/verify/ HTTP/1.1" 200 12
+INFO 2019-11-30 20:21:06,902 basehttp 154 "GET /user/verify/ HTTP/1.1" 200 12
+INFO 2019-11-30 20:21:11,851 basehttp 154 "OPTIONS /user/verify/ HTTP/1.1" 200 0
+INFO 2019-11-30 20:21:12,074 basehttp 154 "POST /user/verify/ HTTP/1.1" 200 15
+INFO 2019-11-30 20:23:42,894 basehttp 154 "GET /user/verify/ HTTP/1.1" 200 12
+INFO 2019-11-30 20:23:48,160 basehttp 154 "POST /user/verify/ HTTP/1.1" 200 15
+INFO 2019-11-30 20:25:37,599 basehttp 154 "GET /user/verify/ HTTP/1.1" 200 12
+INFO 2019-11-30 20:25:43,034 basehttp 154 "POST /user/verify/ HTTP/1.1" 200 15
+INFO 2019-11-30 20:26:12,242 basehttp 154 "GET /user/verify/ HTTP/1.1" 200 12
+INFO 2019-11-30 20:26:19,282 basehttp 154 "POST /user/verify/ HTTP/1.1" 200 15
+INFO 2019-11-30 20:26:28,873 basehttp 154 "GET /user/verify/ HTTP/1.1" 200 12
+INFO 2019-11-30 20:26:33,424 basehttp 154 "POST /user/verify/ HTTP/1.1" 200 15
+INFO 2019-11-30 20:26:38,139 basehttp 154 "GET /user/verify/ HTTP/1.1" 200 12
+INFO 2019-11-30 20:26:42,660 basehttp 154 "POST /user/verify/ HTTP/1.1" 200 15
+INFO 2019-11-30 20:28:00,897 basehttp 154 "GET /user/verify/ HTTP/1.1" 200 12
+INFO 2019-11-30 20:28:07,757 basehttp 154 "POST /user/verify/ HTTP/1.1" 200 15
+INFO 2019-11-30 20:28:07,765 basehttp 154 "OPTIONS /user/login/ HTTP/1.1" 200 0
+INFO 2019-11-30 20:28:07,950 basehttp 154 "POST /user/login/ HTTP/1.1" 200 216
+INFO 2019-11-30 20:28:08,200 basehttp 154 "GET /timer/ HTTP/1.1" 200 504
+INFO 2019-11-30 20:28:08,202 basehttp 154 "GET /banner/ HTTP/1.1" 200 462
+INFO 2019-11-30 20:29:30,141 autoreload 217 /Users/liangpingbo/Desktop/线上课堂/线上课程api/线上课程api/apps/user/urls.py changed, reloading.
+INFO 2019-11-30 20:29:32,938 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-11-30 20:30:48,386 basehttp 154 "GET /user/verify/ HTTP/1.1" 200 12
+INFO 2019-11-30 20:30:52,369 basehttp 154 "POST /user/verify/ HTTP/1.1" 200 15
+INFO 2019-11-30 20:30:52,608 basehttp 154 "POST /user/login/ HTTP/1.1" 200 216
+INFO 2019-11-30 20:30:52,758 basehttp 154 "GET /timer/ HTTP/1.1" 200 504
+INFO 2019-11-30 20:30:52,777 basehttp 154 "GET /banner/ HTTP/1.1" 200 462
+INFO 2019-11-30 20:33:18,815 basehttp 154 "GET /user/login/mobile/15602365270 HTTP/1.1" 200 35
+INFO 2019-11-30 20:33:31,383 basehttp 154 "GET /user/verify/ HTTP/1.1" 200 12
+INFO 2019-11-30 20:33:33,935 basehttp 154 "GET /user/verify/ HTTP/1.1" 200 12
+INFO 2019-11-30 20:34:03,233 basehttp 154 "GET /user/verify/ HTTP/1.1" 200 12
+INFO 2019-11-30 20:35:25,952 basehttp 154 "GET /user/verify/ HTTP/1.1" 200 12
+INFO 2019-11-30 20:35:30,845 basehttp 154 "POST /user/verify/ HTTP/1.1" 200 15
+INFO 2019-11-30 20:35:30,856 basehttp 154 "OPTIONS /user/login/mobile/ HTTP/1.1" 200 0
+INFO 2019-11-30 20:35:30,883 basehttp 154 "POST /user/login/mobile/ HTTP/1.1" 200 216
+INFO 2019-11-30 20:35:31,101 basehttp 154 "GET /timer/ HTTP/1.1" 200 504
+INFO 2019-11-30 20:35:31,104 basehttp 154 "GET /banner/ HTTP/1.1" 200 462
