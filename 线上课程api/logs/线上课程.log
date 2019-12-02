@@ -3317,3 +3317,28 @@ INFO 2019-11-30 20:35:30,856 basehttp 154 "OPTIONS /user/login/mobile/ HTTP/1.1"
 INFO 2019-11-30 20:35:30,883 basehttp 154 "POST /user/login/mobile/ HTTP/1.1" 200 216
 INFO 2019-11-30 20:35:31,101 basehttp 154 "GET /timer/ HTTP/1.1" 200 504
 INFO 2019-11-30 20:35:31,104 basehttp 154 "GET /banner/ HTTP/1.1" 200 462
+INFO 2019-12-02 10:59:19,097 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-02 11:00:35,335 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-02 11:01:00,474 basehttp 154 "GET /banner/ HTTP/1.1" 200 462
+INFO 2019-12-02 11:01:00,475 basehttp 154 "GET /timer/ HTTP/1.1" 200 504
+INFO 2019-12-02 11:01:00,809 basehttp 154 "GET /media/banner/u42336082262710670444fm26gp0.jpg HTTP/1.1" 304 0
+INFO 2019-12-02 11:01:00,809 basehttp 154 "GET /media/banner/u11070653901808140437fm26gp0.jpg HTTP/1.1" 304 0
+INFO 2019-12-02 11:01:00,809 basehttp 154 "GET /media/banner/u17151088223979953737fm26gp0.jpg HTTP/1.1" 304 0
+INFO 2019-12-02 11:01:00,809 basehttp 154 "GET /media/banner/banner1.png HTTP/1.1" 304 0
+INFO 2019-12-02 11:01:00,815 basehttp 154 "GET /media/host_video_image/u11070653901808140437fm26gp0.jpg HTTP/1.1" 304 0
+INFO 2019-12-02 11:01:10,707 basehttp 154 "GET /user/login/mobile/15602365270 HTTP/1.1" 200 35
+INFO 2019-12-02 11:01:22,701 basehttp 154 "GET /user/verify/ HTTP/1.1" 200 12
+INFO 2019-12-02 11:01:26,167 basehttp 154 "OPTIONS /user/verify/ HTTP/1.1" 200 0
+INFO 2019-12-02 11:01:26,267 basehttp 154 "POST /user/verify/ HTTP/1.1" 200 15
+INFO 2019-12-02 11:01:26,273 basehttp 154 "OPTIONS /user/login/mobile/ HTTP/1.1" 200 0
+INFO 2019-12-02 11:01:26,303 basehttp 154 "POST /user/login/mobile/ HTTP/1.1" 200 216
+INFO 2019-12-02 11:01:26,515 basehttp 154 "GET /timer/ HTTP/1.1" 200 504
+INFO 2019-12-02 11:01:26,517 basehttp 154 "GET /banner/ HTTP/1.1" 200 462
+INFO 2019-12-02 11:01:28,093 basehttp 154 "GET /media/host_video_image/u42336082262710670444fm26gp0.jpg HTTP/1.1" 200 24445
+INFO 2019-12-02 11:01:28,128 basehttp 154 "GET /media/host_video_image/u17151088223979953737fm26gp0.jpg HTTP/1.1" 304 0
+INFO 2019-12-02 11:01:41,912 basehttp 154 "GET /user/verify/ HTTP/1.1" 200 12
+INFO 2019-12-02 11:01:45,747 basehttp 154 "POST /user/verify/ HTTP/1.1" 200 15
+INFO 2019-12-02 11:01:45,752 basehttp 154 "OPTIONS /user/login/ HTTP/1.1" 200 0
+INFO 2019-12-02 11:01:45,925 basehttp 154 "POST /user/login/ HTTP/1.1" 200 216
+INFO 2019-12-02 11:01:46,050 basehttp 154 "GET /timer/ HTTP/1.1" 200 504
+INFO 2019-12-02 11:01:46,094 basehttp 154 "GET /banner/ HTTP/1.1" 200 462
