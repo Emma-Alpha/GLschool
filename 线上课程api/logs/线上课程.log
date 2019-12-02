@@ -3342,3 +3342,35 @@ INFO 2019-12-02 11:01:45,752 basehttp 154 "OPTIONS /user/login/ HTTP/1.1" 200 0
 INFO 2019-12-02 11:01:45,925 basehttp 154 "POST /user/login/ HTTP/1.1" 200 216
 INFO 2019-12-02 11:01:46,050 basehttp 154 "GET /timer/ HTTP/1.1" 200 504
 INFO 2019-12-02 11:01:46,094 basehttp 154 "GET /banner/ HTTP/1.1" 200 462
+INFO 2019-12-02 11:08:28,803 basehttp 154 "GET /timer/ HTTP/1.1" 200 504
+INFO 2019-12-02 11:08:28,808 basehttp 154 "GET /banner/ HTTP/1.1" 200 462
+INFO 2019-12-02 11:10:22,552 autoreload 217 /Users/liangpingbo/Desktop/线上课堂/线上课程api/线上课程api/settings/dev.py changed, reloading.
+INFO 2019-12-02 11:10:24,391 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-02 11:14:11,137 autoreload 217 /Users/liangpingbo/Desktop/线上课堂/线上课程api/线上课程api/apps/course/models.py changed, reloading.
+INFO 2019-12-02 11:14:13,828 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-02 11:17:17,829 autoreload 217 /Users/liangpingbo/Desktop/线上课堂/线上课程api/线上课程api/apps/course/models.py changed, reloading.
+INFO 2019-12-02 11:17:19,993 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-02 11:18:06,928 autoreload 217 /Users/liangpingbo/Desktop/线上课堂/线上课程api/线上课程api/apps/course/models.py changed, reloading.
+INFO 2019-12-02 11:18:09,039 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-02 11:18:20,965 autoreload 217 /Users/liangpingbo/Desktop/线上课堂/线上课程api/线上课程api/apps/course/models.py changed, reloading.
+INFO 2019-12-02 11:18:22,530 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-02 11:18:41,714 autoreload 217 /Users/liangpingbo/Desktop/线上课堂/线上课程api/线上课程api/apps/course/models.py changed, reloading.
+INFO 2019-12-02 11:18:43,189 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-02 11:20:23,088 autoreload 217 /Users/liangpingbo/Desktop/线上课堂/线上课程api/线上课程api/apps/course/models.py changed, reloading.
+INFO 2019-12-02 11:20:25,362 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-02 11:23:56,891 autoreload 217 /Users/liangpingbo/Desktop/线上课堂/线上课程api/线上课程api/apps/course/models.py changed, reloading.
+INFO 2019-12-02 11:23:58,701 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-02 11:25:02,015 autoreload 217 /Users/liangpingbo/Desktop/线上课堂/线上课程api/线上课程api/apps/course/models.py changed, reloading.
+INFO 2019-12-02 11:25:04,503 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-02 11:25:19,409 autoreload 217 /Users/liangpingbo/Desktop/线上课堂/线上课程api/线上课程api/apps/course/models.py changed, reloading.
+INFO 2019-12-02 11:25:20,928 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-02 11:27:03,947 autoreload 217 /Users/liangpingbo/Desktop/线上课堂/线上课程api/线上课程api/apps/course/models.py changed, reloading.
+INFO 2019-12-02 11:27:07,175 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-02 11:28:48,563 autoreload 217 /Users/liangpingbo/Desktop/线上课堂/线上课程api/线上课程api/apps/course/models.py changed, reloading.
+INFO 2019-12-02 11:28:50,894 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-02 11:30:41,962 autoreload 217 /Users/liangpingbo/Desktop/线上课堂/线上课程api/线上课程api/apps/course/models.py changed, reloading.
+INFO 2019-12-02 11:30:43,292 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-02 11:34:43,059 autoreload 217 /Users/liangpingbo/Desktop/线上课堂/线上课程api/线上课程api/apps/course/models.py changed, reloading.
+INFO 2019-12-02 11:34:45,212 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-02 12:45:05,192 autoreload 217 /Users/liangpingbo/Desktop/线上课堂/线上课程api/线上课程api/apps/course/models.py changed, reloading.
+INFO 2019-12-02 12:45:07,534 autoreload 597 Watching for file changes with StatReloader

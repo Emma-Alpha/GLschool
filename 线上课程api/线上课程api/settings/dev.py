@@ -53,7 +53,7 @@ INSTALLED_APPS = [
     # 子应用
     'home',
     'user',
-
+    'course',
 ]
 
 MIDDLEWARE = [

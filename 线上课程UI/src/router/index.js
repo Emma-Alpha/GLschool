@@ -5,7 +5,7 @@ import Home from "../components/Home";
 import Video from "../components/Video";
 import Login from "../components/Login";
 import Register from "../components/Register";
-
+import IT_Course from "../components/IT_Course";
 // 注册路由类
 Vue.use(Router);
 
@@ -40,6 +40,11 @@ export default new Router({
       name : "Register",
       path : "/user/register",
       component : Register
+    },
+    {
+      name : "IT_Course",
+      path : "/it_course",
+      component : IT_Course
     },
   ]
 })
