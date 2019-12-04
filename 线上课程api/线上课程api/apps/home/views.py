@@ -3,8 +3,8 @@ from django.shortcuts import render
 # Create your views here.
 
 from rest_framework.generics import ListAPIView
-from .models import Banner, Timer
-from .serializers import BannerModelSerializer, TimerModelSerializer
+from .models import Banner
+from .serializers import BannerModelSerializer
 from 线上课程api.settings import constants
 
 
@@ -15,9 +15,5 @@ class BannerListAPIView(ListAPIView):
     serializer_class = BannerModelSerializer
 
 
-# 热门视频序列化器
-class TimerListAPIView(ListAPIView):
-    queryset = Timer.objects.filter(is_show=True, is_deleted=False).order_by('orders', '-id')[:constants.HOST_TIMER_IMG]
-    serializer_class = TimerModelSerializer
 
 

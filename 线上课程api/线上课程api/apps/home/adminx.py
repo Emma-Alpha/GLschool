@@ -21,16 +21,12 @@ class GlobalSettings(object):
 xadmin.site.register(views.CommAdminView, GlobalSettings)
 
 # 轮播图
-from .models import Banner, Timer
+from .models import Banner
 
 
 class BannerXAdmin(object):
     list_display = ["title", "orders", "is_show"]
 
 
-class TimerXAdmin(object):
-    list_display = ['title', 'orders', 'is_show']
-
-
 xadmin.site.register(Banner, BannerXAdmin)
-xadmin.site.register(Timer,TimerXAdmin)
+

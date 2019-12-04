@@ -15,7 +15,6 @@ class Banner(BaseModel):
     is_http = models.BooleanField(default=False, verbose_name="是否是站外链接")
     remark = models.TextField(verbose_name="备注信息")
 
-
     # 表信息
     class Meta:
         db_table = 'gl_banner'
@@ -26,23 +25,4 @@ class Banner(BaseModel):
     def __str__(self):
         return self.title
 
-
-class Timer(BaseModel):
-    """热门视频"""
-    # 字段
-    title = models.CharField(max_length=500, verbose_name="视频标题")
-    image = models.ImageField(upload_to="host_video_image", null=True, blank=True, verbose_name="视频封面名称")
-    link = models.CharField(max_length=255, null=True, blank=True, verbose_name="图片链接")
-    is_http = models.BooleanField(default=False, verbose_name="是否是站外链接")
-    remake = models.TextField( verbose_name="备注信息")
-
-    # 表信息
-    class Meta:
-        db_table = 'gl_timer'
-        verbose_name = "热门视频"
-        verbose_name_plural = verbose_name
-
-    # 自定义方法和自定义字段
-    def __str__(self):
-        return self.title
 

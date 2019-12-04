@@ -54,7 +54,7 @@ class CourseCategory(BaseModel):
 
 class Course(BaseModel):
     """实战课程"""
-    course_type = (
+    course_choices = (
         (0, '大一'),
         (1, '大二'),
         (2, '大三'),
@@ -75,7 +75,7 @@ class Course(BaseModel):
     system = models.ForeignKey("System", on_delete=models.DO_NOTHING, null=True, blank=True, verbose_name="系名称",
                                related_name="sysetem_course")
     course_img = models.ImageField(upload_to="course", max_length=255, verbose_name="封面图片", blank=True, null=True)
-    course_type = models.SmallIntegerField(choices=course_type, default=0, verbose_name="推荐学习阶段")
+    course_type = models.SmallIntegerField(choices=course_choices, default=0, verbose_name="推荐学习阶段")
     # 使用这个字段的原因
     brief = models.TextField(verbose_name="详情介绍", null=True, blank=True)
     level = models.SmallIntegerField(choices=level_choices, default=1, verbose_name="难度等级")
@@ -90,6 +90,7 @@ class Course(BaseModel):
     lessons = models.IntegerField(verbose_name="总课时数量", default=0)
     pub_lessons = models.IntegerField(verbose_name="课时更新数量", default=0)
     teacher = models.ForeignKey("Teacher", on_delete=models.DO_NOTHING, null=True, blank=True, verbose_name="授课老师")
+    is_host = models.BooleanField(default=False, verbose_name="是否推荐到热门视频")
 
     class Meta:
         db_table = "gl_course"
@@ -99,6 +100,9 @@ class Course(BaseModel):
     def __str__(self):
         return "%s" % self.name
 
+    @property
+    def course_list(self):
+        return self.course_choices[self.course_type][1]
 
 class Teacher(BaseModel):
     """讲师、导师表"""
@@ -122,6 +126,10 @@ class Teacher(BaseModel):
 
     def __str__(self):
         return "%s" % self.name
+
+    @property
+    def role_list(self):
+        return self.role_choices[self.role][1]
 
 
 class CourseChapter(BaseModel):

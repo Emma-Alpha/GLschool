@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
+    'django_filters',
     'corsheaders',
     # 注意，加上drf框架的注册
     'rest_framework',
