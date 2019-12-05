@@ -22,7 +22,7 @@
               </el-dropdown-menu>
             </el-dropdown>
           </li>
-          <li><span>轻课</span></li>
+          <li><span><router-link to="/course">轻课</router-link></span></li>
           <li><span>学位课</span></li>
           <li><span>题库</span></li>
           <li><span>知识座谈会</span></li>
@@ -31,7 +31,7 @@
           <div class="shop-cart full-left">
             <span class="shop-cart-total">0</span>
             <img src="/static/image/cart.svg" alt="">
-            <span><router-link to="/cart">购物车</router-link></span>
+            <span><router-link to="/cart">学习计划</router-link></span>
           </div>
           <div class="login-box login-box1 full-left">
             <router-link to="" style="padding-bottom: -20px">学习中心</router-link>
@@ -47,9 +47,8 @@
           </div>
         </div>
         <div class="login-bar full-right" v-else>
-          <div class="shop-cart full-left">
-            <img src="/static/image/cart.svg" alt="">
-            <span>购物车</span>
+          <div class="shop-cart full-left el-icon-reading" >
+            <router-link to="/cart"><span>学习计划</span></router-link>
           </div>
           <div class="login-box full-left">
             <router-link to="/user/login/"><span>登录</span></router-link>

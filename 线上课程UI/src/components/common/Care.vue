@@ -6,38 +6,26 @@
     <!--    <p style="text-align: center" id="title" class="Hiragino Sans GB">未来因你而来,广东理工学院欢迎你</p>-->
     <div id="fa">
       <el-tabs v-model="activeName" @tab-click="handleClick" id="row_Card" style="font-size: 0">
-        <el-tab-pane label="信息技术学院" name="first">
+        <el-tab-pane v-for="(college,key) in college_list" :label="college.name"
+                     :key="college.id"  :id="college.id" :name="'college_'+college.id">
           <el-row>
-            <el-col :span="6" style="padding: 10px 10px;display:inline-block;float:None" v-for="item,key in img_list" v-bind:key="item.id">
-              <a :href="'/video/' + key" target="view_window">
+            <el-col :span="6" style="padding: 10px 10px;display:inline-block;float:None"
+                    v-for="(course,key) in course_dict" :key="key" >
+              <a :href="'/video/' + course.id" target="view_window">
                 <el-card :body-style="{ padding: '0px'}">
-                  <img :src=item.img_url class="image">
+                  <img :src=course.course_img class="image">
                   <div style="padding: 14px;">
-                    <span style="font-size: 30px">{{item.title}}</span>
+                    <span style="font-size: 30px">{{course.name}}</span>
                     <div class="bottom clearfix">
-                      <time class="time">{{item.time_title}}</time>
-                      <el-button type="text" class="button">操作按钮</el-button>
+                      <time class="time">{{course.brief}}</time>
+                      <el-button type="text" class="button">{{course.teacher.name}}</el-button>
                     </div>
                   </div>
                 </el-card>
               </a>
             </el-col>
           </el-row>
-          <div class="block">
-            <span class="demonstration">大于 7 页时的效果</span>
-          </div>
         </el-tab-pane>
-        <el-tab-pane label="经济管理学院" name=""></el-tab-pane>
-        <el-tab-pane label="外国语学院" name=""></el-tab-pane>
-        <el-tab-pane label="电气与电子工程学院" name="fourth"></el-tab-pane>
-        <el-tab-pane label="会计学院" name=""></el-tab-pane>
-        <el-tab-pane label="建设学院" name=""></el-tab-pane>
-        <el-tab-pane label="工业自动化系" name=""></el-tab-pane>
-        <el-tab-pane label="汽车工程系" name=""></el-tab-pane>
-        <el-tab-pane label="艺术系" name=""></el-tab-pane>
-        <el-tab-pane label="体育系" name=""></el-tab-pane>
-        <el-tab-pane label="国际商学院" name=""></el-tab-pane>
-        <el-tab-pane label="产业学院" name=""></el-tab-pane>
       </el-tabs>
     </div>
     <div style="width:1200px;margin: 0 40px">
@@ -52,31 +40,63 @@
         name: "Care",
         data() {
             return {
-                activeName: 'first',
-                img_list: [
-                    {'img_url': "/static/image/jiji.JPG", 'title': "java大神", 'time_title': "在线性感教学"},
-                    {'img_url': "/static/image/ww.jpeg", 'title': "可爱文文在教学", 'time_title': "在线性感教学"},
-                    {'img_url': "/static/image/tz.jpeg", 'title': "团长开团", 'time_title': "在线性感教学"},
-                    {'img_url': "/static/image/cq.JPG", 'title': "性感啊钦", 'time_title': "在线性感教学"},
-                    {'img_url': "/static/image/qq.JPG", 'title': "你楸啥", 'time_title': "在线性感教学"},
-                    {'img_url': "/static/image/jj2.JPG", 'title': "你楸啥", 'time_title': "在线性感教学"},
-                    {'img_url': "/static/image/yy.JPG", 'title': "你楸啥", 'time_title': "在线性感教学"},
-                    {'img_url': "/static/image/laoyu.JPG", 'title': "你楸啥", 'time_title': "在线性感教学"},
-                    // {'img_url': "/static/image/table.JPG", 'title': "你楸啥", 'time_title': "在线性感教学"},
-                    // {'img_url': "/static/image/table.JPG", 'title': "你楸啥", 'time_title': "在线性感教学"},
-                ]
+                category: 0,
+                activeName: 'college_1',
+                college_list: [],
+                course_dict: [{
+                    'college': {},
+                    'teacher': {},
+                    'name': '',
+                },],
             };
         },
-        methods: {
-            handleClick(tab, event) {
-                console.log(tab, event);
+        watch: {
+            // 每次点击不同课程时，要重新获取课程列表
+            category(){
+              this.get_course()
             }
+        },
+
+        created() {
+            this.get_college();
+            this.get_course();
+        },
+
+        methods: {
+
+            handleClick(tab,event){
+                this.category = tab.$attrs.id;
+            },
+
+            get_course() {
+                let filter = {
+                    college : 1
+                };
+                if(this.category > 0){
+                    filter.college = this.category
+                }
+                this.$axios.get(`${this.$settings.Host}/course/`,{
+                    params:filter
+                }).then(response => {
+                    this.course_dict = response.data
+                }).catch(error => {
+                    this.$alert("网络错误!", '广东理工学院')
+                })
+            },
+
+            get_college() {
+                this.$axios.get(`${this.$settings.Host}/course/college/`).then(response => {
+                    this.college_list = response.data
+                }).catch(error => {
+                    this.$alert("网络错误！", "广东理工学院")
+                })
+            },
         }
     }
 </script>
 
 <style scoped>
-    #fa a{
+  #fa a {
     text-decoration: none;
   }
 

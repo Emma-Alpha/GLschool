@@ -19,12 +19,12 @@ class College(models.Model):
 class System(BaseModel):
     """各个系"""
     choice_education = (
-        (0,"专科"),
-        (1,"本科"),
+        (0, "专科"),
+        (1, "本科"),
     )
     name = models.CharField(max_length=50, unique=True, verbose_name="系名称")
     college = models.ForeignKey("College", on_delete=models.CASCADE, related_name="college_system", verbose_name="学院名称")
-    education = models.IntegerField(choices=choice_education, default=1,verbose_name="学历")
+    education = models.IntegerField(choices=choice_education, default=1, verbose_name="学历")
 
     class Meta:
         db_table = 'gl_system'
@@ -104,6 +104,16 @@ class Course(BaseModel):
     def course_list(self):
         return self.course_choices[self.course_type][1]
 
+    @property
+    def course_lessson(self):
+        chapter_lesson = self.course_chapter.filter(self.pk)
+        data = []
+        data.append({
+            "chapter": chapter_lesson.chapter,
+            "name": chapter_lesson.name
+        })
+
+
 class Teacher(BaseModel):
     """讲师、导师表"""
     role_choices = (
@@ -147,3 +157,28 @@ class CourseChapter(BaseModel):
 
     def __str__(self):
         return "%s:(第%s章)%s" % (self.course, self.chapter, self.name)
+
+
+class CourseLesson(BaseModel):
+    """课程课时"""
+    section_type_choices = (
+        (0, '文档'),
+        (1, '练习'),
+        (2, '视频')
+    )
+    coursechapter = models.ForeignKey("CourseChapter", related_name="course_lesson", on_delete=models.CASCADE,
+                                      verbose_name="课程章节")
+    name = models.CharField(max_length=128, verbose_name="课时标题")
+    lesson = models.IntegerField(default=1, verbose_name="第几课时")
+    section_type = models.SmallIntegerField(default=2, choices=section_type_choices, verbose_name="课时种类")
+    section_link = models.CharField(max_length=255, blank=True, null=True, verbose_name="课时附件链接",
+                                    help_text="若是video,填vid,若是文档，填写link")
+    duration = models.CharField(verbose_name="视频时长", blank=True, null=True,max_length=32)
+
+    class Meta:
+        db_table = 'gl_course_lesson'
+        verbose_name = "课程课时"
+        verbose_name_plural = verbose_name
+
+    def __str__(self):
+        return "%s-%s" % (self.coursechapter,self.name)

@@ -8,14 +8,17 @@
     <div id="yangshi">
       <el-card class="box-card" style="width: 900px;height: 350px" :body-style="{padding : '0px'}">
         <div style="width: 450px;height:350px;display: inline-block;float: left">
-          <img style="width: 100%" :key="key" v-for="(img,key) in image_list" :src=img.image v-if="image_index == key">
+          <img style="width: 100%" :key="key" v-for="(img,key) in course_list" :src=img.course_img
+               v-if="image_index === key && img.is_host" >
           <!--        </el-card>-->
         </div>
         <div style="width: 435px;display: inline-block;float: left">
           <div class="row pre-scrollable">
             <ul class="nav nav-pills  nav-stacked">
-              <li v-for="(item,key) in image_list" role="presentation"
-                  @mouseover=show_image(key) style="margin-left: 15px;background: #F0FFFF"><a href.pervent="#">{{item.title}}</a>
+              <li v-for="(item,key) in course_list" role="presentation" :key="key"
+                  @mouseover=show_image(key) style="margin-left: 15px;background: #F0FFFF" v-if="item.is_host"
+                  :class="key===1?'yangshi':''"><a
+                href.pervent="#">{{item.name}}</a>
               </li>
             </ul>
           </div>
@@ -30,8 +33,8 @@
         name: "Timer",
         data() {
             return {
-                image_list: [],
-                image_index: 0,
+                course_list: [],
+                image_index: 1,
             }
         },
         created() {
@@ -39,14 +42,15 @@
         },
         methods: {
             host_image() {
-                this.$axios.get(`${this.$settings.Host}/timer/`).then(response => {
-                    this.image_list = response.data
+                this.$axios.get(`${this.$settings.Host}/course/`).then(response => {
+                    this.course_list = response.data
                 }).catch(error => {
-                    this.$alert(error.response)
+                    // this.$alert(error.response)
+                    this.$message.error("网络错误！")
                 })
             },
             show_image(id) {
-                this.image_index = id
+                this.image_index = id;
             },
         }
     }

@@ -1,6 +1,7 @@
 from django.shortcuts import render
 from rest_framework.views import APIView
-from rest_framework.generics import ListAPIView
+from rest_framework.generics import ListAPIView, RetrieveAPIView
+from rest_framework.response import Response
 from .serializers import CollegeModelSerializer, CourseModelSerializer
 from .models import College, Course
 from django_filters.rest_framework import DjangoFilterBackend
@@ -20,3 +21,9 @@ class S_CourseListAPIView(ListAPIView):
     serializer_class = CourseModelSerializer
     filter_backends = [DjangoFilterBackend,]
     filter_fields = ('college',)
+
+
+class Course_infoAPIView(RetrieveAPIView):
+    """课程详情页"""
+    queryset = Course.objects.filter(is_show=True, is_deleted=False)
+    serializer_class = CourseModelSerializer

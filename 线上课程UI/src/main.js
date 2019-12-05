@@ -41,4 +41,4 @@ new Vue({
   router,  // 注册路由规则对象相当于router:router
   components: { App },
   template: '<App/>'
-})
+});

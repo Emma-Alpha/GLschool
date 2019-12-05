@@ -6,6 +6,8 @@ import Video from "../components/Video";
 import Login from "../components/Login";
 import Register from "../components/Register";
 import IT_Course from "../components/IT_Course";
+import Cart from "../components/Cart";
+import Detail from "../components/Detail";
 // 注册路由类
 Vue.use(Router);
 
@@ -43,8 +45,18 @@ export default new Router({
     },
     {
       name : "IT_Course",
-      path : "/it_course",
+      path : "/course",
       component : IT_Course
+    },
+    {
+      name : "Cart",
+      path : "/cart",
+      component : Cart
+    },
+    {
+      name : "Detail",
+      path : "/course/detail/:id",
+      component : Detail
     },
   ]
 })
