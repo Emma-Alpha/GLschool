@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="094ff10e-59ba-4b58-b30c-867f368accef" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../线上课程UI/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../线上课程UI/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../线上课程UI/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../线上课程UI/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../线上课程UI/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../线上课程UI/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../线上课程UI/src/components/IT_Course.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../线上课程UI/src/components/IT_Course.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../线上课程UI/src/components/common/Care.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../线上课程UI/src/components/common/Care.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../线上课程UI/src/components/common/Header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../线上课程UI/src/components/common/Header.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../线上课程UI/src/components/common/Timer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../线上课程UI/src/components/common/Timer.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../线上课程UI/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../线上课程UI/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../线上课程UI/src/components/Video.vue" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../线上课程UI/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../线上课程UI/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../线上课程UI/src/settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/../线上课程UI/src/settings.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/线上课程.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/线上课程.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/线上课程api/apps/course/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/线上课程api/apps/course/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/线上课程api/apps/course/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/线上课程api/apps/course/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/线上课程api/apps/course/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/线上课程api/apps/course/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/线上课程api/apps/course/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/线上课程api/apps/course/views.py" afterDir="false" />
@@ -203,7 +203,9 @@
       <workItem from="1575268201958" duration="77000" />
       <workItem from="1575370862924" duration="3000" />
       <workItem from="1575376342076" duration="11642000" />
-      <workItem from="1575514161354" duration="4304000" />
+      <workItem from="1575514161354" duration="4709000" />
+      <workItem from="1575598454882" duration="267000" />
+      <workItem from="1575601162381" duration="2890000" />
     </task>
     <servers />
   </component>
@@ -224,6 +226,6 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/api$manage.coverage" NAME="manage Coverage Results" MODIFIED="1575514184828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/api$manage.coverage" NAME="manage Coverage Results" MODIFIED="1575604308806" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

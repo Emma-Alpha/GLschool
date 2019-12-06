@@ -2,7 +2,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Home from "../components/Home";
-import Video from "../components/Video";
+import Aliplayer from "../components/Aliplayer";
 import Login from "../components/Login";
 import Register from "../components/Register";
 import IT_Course from "../components/IT_Course";
@@ -29,9 +29,9 @@ export default new Router({
       component: Home,  // component:组件类名
     },
     {
-      name : 'Video',
-      path : '/video/:d',
-      component : Video,
+      name : 'Aliplayer',
+      path : '/aliplayer/:d',
+      component : Aliplayer,
     },
     {
       name : "Login",
@@ -45,7 +45,7 @@ export default new Router({
     },
     {
       name : "IT_Course",
-      path : "/course",
+      path : "/course:id",
       component : IT_Course
     },
     {

@@ -67,20 +67,35 @@
         data() {
             return {
                 category: 0,
-                course_list: []
+                course_list: [],
+                category_course : [],
+                token : '',
             }
         },
 
         created() {
+            this.check_token();
             this.get_course();
+            this.get_course_category();
         },
 
         methods: {
+            check_token(){
+              this.token = this.$settings.check_user_login();
+            },
+
             get_course() {
                 this.$axios.get(`${this.$settings.Host}/course/`).then(response => {
                     this.course_list = response.data
                 }).catch(error => {
                     this.$message.error("获取课程失败...")
+                })
+            },
+            get_course_category() {
+                this.$axios.get(`${this.$settings.Host}/course/coursecategory/`).then(response => {
+                    this.category_course = response.data
+                }).catch(error=>{
+                    this.$message.error("获取课程分类失败...")
                 })
             }
         },

@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from .models import College, Course, Teacher
+from .models import College, Course, Teacher, CourseCategory
 
 
 # 学院分类
@@ -29,3 +29,10 @@ class CourseModelSerializer(serializers.ModelSerializer):
             'brief', 'teacher', 'course_list',
             'is_host', 'course_img',
         )
+
+
+# 课程分类
+class CourseCategoryModelSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = CourseCategory
+        fields = ['name', 'college', 'system']
