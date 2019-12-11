@@ -112,6 +112,11 @@ class Course(BaseModel):
             "chapter": chapter_lesson.chapter,
             "name": chapter_lesson.name
         })
+        return data
+
+    @property
+    def level_text(self):
+        return self.level_choices[self.level][1]
 
 
 class Teacher(BaseModel):
@@ -166,14 +171,16 @@ class CourseLesson(BaseModel):
         (1, '练习'),
         (2, '视频')
     )
+    course = models.ForeignKey("Course", related_name="courseless_course", on_delete=models.CASCADE,
+                               verbose_name="专题课程")
     coursechapter = models.ForeignKey("CourseChapter", related_name="course_lesson", on_delete=models.CASCADE,
                                       verbose_name="课程章节")
     name = models.CharField(max_length=128, verbose_name="课时标题")
     lesson = models.IntegerField(default=1, verbose_name="第几课时")
     section_type = models.SmallIntegerField(default=2, choices=section_type_choices, verbose_name="课时种类")
-    section_link = models.CharField(max_length=255, blank=True, null=True, verbose_name="课时附件链接",
+    section_link = models.FileField(max_length=255, blank=True, null=True, verbose_name="课时附件链接",
                                     help_text="若是video,填vid,若是文档，填写link")
-    duration = models.CharField(verbose_name="视频时长", blank=True, null=True,max_length=32)
+    duration = models.CharField(verbose_name="视频时长", blank=True, null=True, max_length=32)
 
     class Meta:
         db_table = 'gl_course_lesson'
@@ -181,4 +188,14 @@ class CourseLesson(BaseModel):
         verbose_name_plural = verbose_name
 
     def __str__(self):
-        return "%s-%s" % (self.coursechapter,self.name)
+        return "%s-%s" % (self.coursechapter, self.name)
+
+    def coursechapter_lesson(self):
+        data = {
+            'chapter': self.coursechapter.chapter,
+            'name': self.coursechapter.name,
+            'summary': self.coursechapter.summary,
+        }
+        return data
+
+

@@ -1873,3 +1873,508 @@ INFO 2019-12-06 11:52:58,633 basehttp 154 "GET /static/rest_framework/fonts/glyp
 INFO 2019-12-06 11:53:52,823 basehttp 154 "GET /course/coursecategory/ HTTP/1.1" 200 42
 INFO 2019-12-06 11:53:55,589 basehttp 154 "GET /course/coursecategory/ HTTP/1.1" 200 42
 INFO 2019-12-06 11:53:55,631 basehttp 154 "GET /course/ HTTP/1.1" 200 1514
+INFO 2019-12-10 10:31:08,934 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-10 10:31:20,722 basehttp 154 "GET /course/college/ HTTP/1.1" 200 72
+INFO 2019-12-10 10:31:20,725 basehttp 154 "GET /banner/ HTTP/1.1" 200 365
+INFO 2019-12-10 10:31:20,727 basehttp 154 "GET /course/?college=1 HTTP/1.1" 200 912
+INFO 2019-12-10 10:31:20,859 basehttp 154 "GET /course/ HTTP/1.1" 200 1514
+INFO 2019-12-10 10:31:21,062 basehttp 154 "GET /media/banner/fj_2_BR86YRJ.jpg HTTP/1.1" 200 158358
+INFO 2019-12-10 10:31:21,063 basehttp 154 "GET /media/banner/fj_1_1N66BNM.jpg HTTP/1.1" 200 181525
+INFO 2019-12-10 10:31:21,065 basehttp 154 "GET /media/banner/fj_3_7MeCL4A.jpg HTTP/1.1" 200 263466
+INFO 2019-12-10 10:31:21,068 basehttp 154 "GET /media/banner/fj_4_kBXWahc.jpg HTTP/1.1" 200 461839
+INFO 2019-12-10 10:31:21,530 basehttp 154 "GET /media/course/%E4%BD%99%E4%BD%99.JPG HTTP/1.1" 200 3932160
+INFO 2019-12-10 10:31:21,541 basehttp 154 "GET /media/course/cq.JPG HTTP/1.1" 200 4554752
+INFO 2019-12-10 10:31:21,558 basehttp 154 "GET /media/course/jiji.JPG HTTP/1.1" 200 5079040
+INFO 2019-12-10 10:33:15,707 basehttp 154 "GET /banner/ HTTP/1.1" 200 365
+INFO 2019-12-10 10:33:15,724 basehttp 154 "GET /course/college/ HTTP/1.1" 200 72
+INFO 2019-12-10 10:33:15,770 basehttp 154 "GET /course/ HTTP/1.1" 200 1514
+INFO 2019-12-10 10:33:15,773 basehttp 154 "GET /course/?college=1 HTTP/1.1" 200 912
+INFO 2019-12-10 10:33:19,598 basehttp 154 "GET /course/?college=1 HTTP/1.1" 200 912
+INFO 2019-12-10 10:33:20,478 basehttp 154 "GET /course/?college=2 HTTP/1.1" 200 603
+INFO 2019-12-10 10:33:20,501 basehttp 154 "GET /media/course/5d2e8fd2386bd.png HTTP/1.1" 200 14469
+INFO 2019-12-10 10:33:20,547 basehttp 154 "GET /media/course/%E5%BC%BA%E5%BC%BA.JPG HTTP/1.1" 200 4292608
+INFO 2019-12-10 10:33:21,232 basehttp 154 "GET /course/?college=1 HTTP/1.1" 200 912
+INFO 2019-12-10 10:33:21,851 basehttp 154 "GET /course/?college=2 HTTP/1.1" 200 603
+INFO 2019-12-10 10:33:22,484 basehttp 154 "GET /course/?college=1 HTTP/1.1" 200 912
+INFO 2019-12-10 10:33:23,143 basehttp 154 "GET /course/?college=2 HTTP/1.1" 200 603
+INFO 2019-12-10 10:33:23,627 basehttp 154 "GET /course/?college=1 HTTP/1.1" 200 912
+INFO 2019-12-10 10:33:39,957 basehttp 154 "GET /course/coursecategory/ HTTP/1.1" 200 42
+INFO 2019-12-10 10:33:39,984 basehttp 154 "GET /course/ HTTP/1.1" 200 1514
+INFO 2019-12-10 10:34:04,743 basehttp 154 "GET /course/coursecategory/ HTTP/1.1" 200 42
+INFO 2019-12-10 10:34:04,767 basehttp 154 "GET /course/ HTTP/1.1" 200 1514
+INFO 2019-12-10 10:34:17,672 basehttp 154 "GET /course/coursecategory/ HTTP/1.1" 200 42
+INFO 2019-12-10 10:34:17,686 basehttp 154 "GET /course/ HTTP/1.1" 200 1514
+INFO 2019-12-10 10:34:22,214 basehttp 154 "GET /course/coursecategory/ HTTP/1.1" 200 42
+INFO 2019-12-10 10:34:22,229 basehttp 154 "GET /course/ HTTP/1.1" 200 1514
+INFO 2019-12-10 10:34:31,142 basehttp 154 "GET /course/coursecategory/ HTTP/1.1" 200 42
+INFO 2019-12-10 10:34:31,162 basehttp 154 "GET /course/ HTTP/1.1" 200 1514
+INFO 2019-12-10 10:34:37,256 basehttp 154 "GET /course/coursecategory/ HTTP/1.1" 200 42
+INFO 2019-12-10 10:34:37,277 basehttp 154 "GET /course/ HTTP/1.1" 200 1514
+INFO 2019-12-10 10:35:05,164 basehttp 154 "GET /course/1 HTTP/1.1" 301 0
+WARNING 2019-12-10 10:35:05,173 log 228 Unauthorized: /course/1/
+WARNING 2019-12-10 10:35:05,174 basehttp 154 "GET /course/1/ HTTP/1.1" 401 38
+INFO 2019-12-10 10:35:14,812 basehttp 154 "GET /course/1 HTTP/1.1" 301 0
+INFO 2019-12-10 10:35:14,836 basehttp 154 "GET /course/1/ HTTP/1.1" 200 319
+INFO 2019-12-10 10:38:06,192 autoreload 217 /Users/liangpingbo/Desktop/线上课堂/线上课程api/线上课程api/settings/dev.py changed, reloading.
+INFO 2019-12-10 10:38:08,220 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-10 10:40:27,933 basehttp 154 "GET /xadmin/user/user/? HTTP/1.1" 200 4364
+INFO 2019-12-10 10:40:28,013 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 4361
+INFO 2019-12-10 10:40:31,447 basehttp 154 "POST /xadmin/user/user/? HTTP/1.1" 302 0
+INFO 2019-12-10 10:40:31,595 basehttp 154 "GET /xadmin/user/user/ HTTP/1.1" 200 38613
+INFO 2019-12-10 10:40:31,653 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-10 10:40:34,604 basehttp 154 "GET /xadmin/course/course/ HTTP/1.1" 200 42511
+INFO 2019-12-10 10:40:34,642 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-10 10:40:37,965 basehttp 154 "GET /xadmin/course/course/5/update/ HTTP/1.1" 200 30943
+INFO 2019-12-10 10:40:38,098 basehttp 154 "GET /media/course/%E5%BC%BA%E5%BC%BA.JPG HTTP/1.1" 200 4292608
+INFO 2019-12-10 10:40:38,109 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-10 10:41:28,527 basehttp 154 "POST /xadmin/course/course/5/update/ HTTP/1.1" 302 0
+INFO 2019-12-10 10:41:28,672 basehttp 154 "GET /xadmin/course/course/? HTTP/1.1" 200 42749
+INFO 2019-12-10 10:41:28,754 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-10 10:43:37,733 basehttp 154 "GET /xadmin/course/course/? HTTP/1.1" 200 42511
+INFO 2019-12-10 10:43:37,781 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-10 10:43:37,993 autoreload 217 /Users/liangpingbo/Desktop/线上课堂/线上课程api/线上课程api/apps/course/adminx.py changed, reloading.
+INFO 2019-12-10 10:43:39,855 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-10 10:43:52,133 basehttp 154 "GET /xadmin/course/course/? HTTP/1.1" 200 42967
+INFO 2019-12-10 10:43:52,195 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+ERROR 2019-12-10 10:43:53,983 log 228 Internal Server Error: /xadmin/course/courselesson/
+Traceback (most recent call last):
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/db/backends/mysql/base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table 'online_course.gl_course_lesson' doesn't exist")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/xadmin/sites.py", line 300, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/xadmin/sites.py", line 208, in inner
+    return view(request, *args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/xadmin/views/base.py", line 282, in view
+    return handler(request, *args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/utils/decorators.py", line 45, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/xadmin/views/base.py", line 80, in method
+    return filter_chain(filters, len(filters) - 1, _inner_method, *args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/xadmin/views/base.py", line 49, in filter_chain
+    return func()
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/xadmin/views/base.py", line 74, in _inner_method
+    return func(self, *args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/xadmin/views/list.py", line 401, in get
+    response = self.get_result_list()
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/xadmin/views/base.py", line 80, in method
+    return filter_chain(filters, len(filters) - 1, _inner_method, *args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/xadmin/views/base.py", line 49, in filter_chain
+    return func()
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/xadmin/views/base.py", line 74, in _inner_method
+    return func(self, *args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/xadmin/views/list.py", line 200, in get_result_list
+    return self.make_result_list()
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/xadmin/views/list.py", line 177, in make_result_list
+    self.result_count = self.paginator.count
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/utils/functional.py", line 80, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/core/paginator.py", line 91, in count
+    return c()
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/db/models/query.py", line 392, in count
+    return self.query.get_count(using=self.db)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/db/models/sql/query.py", line 504, in get_count
+    number = obj.get_aggregation(using, ['__count'])['__count']
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/db/models/sql/query.py", line 489, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1100, in execute_sql
+    cursor.execute(sql, params)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/db/backends/utils.py", line 99, in execute
+    return super().execute(sql, params)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/db/backends/utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/db/utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/db/backends/mysql/base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.ProgrammingError: (1146, "Table 'online_course.gl_course_lesson' doesn't exist")
+ERROR 2019-12-10 10:43:53,988 basehttp 154 "GET /xadmin/course/courselesson/ HTTP/1.1" 500 259301
+INFO 2019-12-10 10:44:47,617 basehttp 154 "GET /xadmin/course/courselesson/ HTTP/1.1" 200 29176
+INFO 2019-12-10 10:44:47,774 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-10 10:44:49,612 basehttp 154 "GET /xadmin/course/coursechapter/ HTTP/1.1" 200 29120
+INFO 2019-12-10 10:44:49,651 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-10 10:44:50,208 basehttp 154 "GET /xadmin/course/courselesson/ HTTP/1.1" 200 29176
+INFO 2019-12-10 10:44:50,256 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-10 10:44:52,021 basehttp 154 "GET /xadmin/course/courselesson/add/ HTTP/1.1" 200 24779
+INFO 2019-12-10 10:44:52,100 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-10 10:44:57,042 basehttp 154 "GET /xadmin/course/coursechapter/ HTTP/1.1" 200 29120
+INFO 2019-12-10 10:44:57,092 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-10 10:44:58,412 basehttp 154 "GET /xadmin/course/coursechapter/add/ HTTP/1.1" 200 24059
+INFO 2019-12-10 10:44:58,456 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-10 10:45:24,142 basehttp 154 "POST /xadmin/course/coursechapter/add/ HTTP/1.1" 302 0
+INFO 2019-12-10 10:45:24,246 basehttp 154 "GET /xadmin/course/coursechapter/ HTTP/1.1" 200 33903
+INFO 2019-12-10 10:45:24,332 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-10 10:45:25,483 basehttp 154 "GET /xadmin/course/courselesson/ HTTP/1.1" 200 29176
+INFO 2019-12-10 10:45:25,518 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-10 10:45:26,719 basehttp 154 "GET /xadmin/course/courselesson/add/ HTTP/1.1" 200 24848
+INFO 2019-12-10 10:45:26,801 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-10 10:46:22,138 autoreload 217 /Users/liangpingbo/Desktop/线上课堂/线上课程api/线上课程api/apps/course/models.py changed, reloading.
+INFO 2019-12-10 10:46:23,689 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-10 10:46:31,005 basehttp 154 "GET /xadmin/course/courselesson/add/ HTTP/1.1" 200 24803
+INFO 2019-12-10 10:46:31,059 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-10 10:46:58,360 basehttp 154 "POST /xadmin/course/courselesson/add/ HTTP/1.1" 302 0
+INFO 2019-12-10 10:46:58,489 basehttp 154 "GET /xadmin/course/courselesson/ HTTP/1.1" 200 31356
+INFO 2019-12-10 10:46:58,554 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-10 10:49:39,957 basehttp 154 "GET /course/coursecategory HTTP/1.1" 301 0
+INFO 2019-12-10 10:49:39,983 basehttp 154 "GET /course/coursecategory/ HTTP/1.1" 200 42
+INFO 2019-12-10 10:49:44,885 basehttp 154 "GET /course/1 HTTP/1.1" 301 0
+INFO 2019-12-10 10:49:44,928 basehttp 154 "GET /course/1/ HTTP/1.1" 200 319
+INFO 2019-12-10 10:51:47,059 autoreload 217 /Users/liangpingbo/Desktop/线上课堂/线上课程api/线上课程api/apps/course/urls.py changed, reloading.
+INFO 2019-12-10 10:51:50,131 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-10 10:54:52,814 autoreload 217 /Users/liangpingbo/Desktop/线上课堂/线上课程api/线上课程api/apps/course/views.py changed, reloading.
+INFO 2019-12-10 10:54:55,086 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-10 10:55:03,195 basehttp 154 "GET /course/detail HTTP/1.1" 301 0
+INFO 2019-12-10 10:55:03,255 basehttp 154 "GET /course/detail/ HTTP/1.1" 200 152
+INFO 2019-12-10 10:55:31,416 basehttp 154 "GET /xadmin/course/courselesson/add/ HTTP/1.1" 200 24803
+INFO 2019-12-10 10:55:31,520 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-10 10:55:34,327 basehttp 154 "GET /xadmin/course/coursechapter/ HTTP/1.1" 200 33564
+INFO 2019-12-10 10:55:34,372 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-10 10:55:35,513 basehttp 154 "GET /xadmin/course/coursechapter/add/ HTTP/1.1" 200 24059
+INFO 2019-12-10 10:55:35,574 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-10 10:55:48,557 basehttp 154 "POST /xadmin/course/coursechapter/add/ HTTP/1.1" 302 0
+INFO 2019-12-10 10:55:48,653 basehttp 154 "GET /xadmin/course/coursechapter/ HTTP/1.1" 200 35120
+INFO 2019-12-10 10:55:48,725 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-10 10:55:49,535 basehttp 154 "GET /xadmin/course/courselesson/ HTTP/1.1" 200 31002
+INFO 2019-12-10 10:55:49,581 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-10 10:55:50,593 basehttp 154 "GET /xadmin/course/courselesson/add/ HTTP/1.1" 200 24865
+INFO 2019-12-10 10:55:50,627 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-10 10:56:10,288 basehttp 154 "POST /xadmin/course/courselesson/add/ HTTP/1.1" 302 0
+INFO 2019-12-10 10:56:10,396 basehttp 154 "GET /xadmin/course/courselesson/ HTTP/1.1" 200 31753
+INFO 2019-12-10 10:56:10,491 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-10 10:56:14,638 basehttp 154 "GET /course/detail HTTP/1.1" 301 0
+INFO 2019-12-10 10:56:14,655 basehttp 154 "GET /course/detail/ HTTP/1.1" 200 258
+INFO 2019-12-10 10:56:23,587 basehttp 154 "GET /xadmin/course/coursechapter/ HTTP/1.1" 200 34788
+INFO 2019-12-10 10:56:23,624 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-10 10:56:24,616 basehttp 154 "GET /xadmin/course/teacher/ HTTP/1.1" 200 33518
+INFO 2019-12-10 10:56:24,655 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-10 10:56:27,353 basehttp 154 "GET /xadmin/course/coursecategory/ HTTP/1.1" 200 33277
+INFO 2019-12-10 10:56:27,390 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-10 10:56:28,346 basehttp 154 "GET /xadmin/course/course/ HTTP/1.1" 200 42967
+INFO 2019-12-10 10:56:28,390 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-10 10:56:31,549 basehttp 154 "GET /xadmin/course/course/5/update/ HTTP/1.1" 200 31662
+INFO 2019-12-10 10:56:31,635 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-10 10:57:34,626 autoreload 217 /Users/liangpingbo/Desktop/线上课堂/线上课程api/线上课程api/apps/course/models.py changed, reloading.
+INFO 2019-12-10 10:57:36,453 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-10 10:59:36,135 autoreload 217 /Users/liangpingbo/Desktop/线上课堂/线上课程api/线上课程api/apps/course/models.py changed, reloading.
+INFO 2019-12-10 10:59:37,718 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-10 11:05:12,674 basehttp 154 "GET /xadmin/course/course/5/update/ HTTP/1.1" 200 31662
+INFO 2019-12-10 11:05:12,751 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-10 11:05:17,045 basehttp 154 "GET /xadmin/course/courselesson/ HTTP/1.1" 200 29300
+INFO 2019-12-10 11:05:17,092 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-10 11:05:18,068 basehttp 154 "GET /xadmin/course/coursechapter/ HTTP/1.1" 200 34788
+INFO 2019-12-10 11:05:18,111 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-10 11:05:19,240 basehttp 154 "GET /xadmin/course/teacher/ HTTP/1.1" 200 33518
+INFO 2019-12-10 11:05:19,281 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-10 11:05:21,025 basehttp 154 "GET /xadmin/course/courselesson/ HTTP/1.1" 200 29300
+INFO 2019-12-10 11:05:21,084 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-10 11:05:21,702 basehttp 154 "GET /xadmin/course/coursechapter/ HTTP/1.1" 200 34788
+INFO 2019-12-10 11:05:21,736 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-10 11:05:22,538 basehttp 154 "GET /xadmin/course/courselesson/ HTTP/1.1" 200 29300
+INFO 2019-12-10 11:05:22,590 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-10 11:05:24,041 basehttp 154 "GET /xadmin/course/courselesson/add/ HTTP/1.1" 200 25734
+INFO 2019-12-10 11:05:24,109 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-10 11:05:50,222 basehttp 154 "POST /xadmin/course/courselesson/add/ HTTP/1.1" 302 0
+INFO 2019-12-10 11:05:50,356 basehttp 154 "GET /xadmin/course/courselesson/ HTTP/1.1" 200 31480
+INFO 2019-12-10 11:05:50,438 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-10 11:05:53,022 basehttp 154 "GET /xadmin/course/courselesson/add/ HTTP/1.1" 200 25734
+INFO 2019-12-10 11:05:53,078 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-10 11:06:12,494 basehttp 154 "POST /xadmin/course/courselesson/add/ HTTP/1.1" 302 0
+INFO 2019-12-10 11:06:12,615 basehttp 154 "GET /xadmin/course/courselesson/ HTTP/1.1" 200 31877
+INFO 2019-12-10 11:06:12,679 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-10 11:06:29,280 autoreload 217 /Users/liangpingbo/Desktop/线上课堂/线上课程api/线上课程api/apps/course/serializers.py changed, reloading.
+INFO 2019-12-10 11:06:31,553 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-10 11:06:34,170 basehttp 154 "GET /course/detail HTTP/1.1" 301 0
+INFO 2019-12-10 11:06:34,229 basehttp 154 "GET /course/detail/ HTTP/1.1" 200 336
+INFO 2019-12-10 11:07:10,009 basehttp 154 "GET /course/detail?course=1 HTTP/1.1" 301 0
+INFO 2019-12-10 11:07:10,039 basehttp 154 "GET /course/detail/?course=1 HTTP/1.1" 200 171
+INFO 2019-12-10 11:52:48,077 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-10 11:52:50,872 basehttp 154 "GET /course/college/ HTTP/1.1" 200 72
+INFO 2019-12-10 11:52:50,873 basehttp 154 "GET /course/?college=1 HTTP/1.1" 200 912
+INFO 2019-12-10 11:52:50,874 basehttp 154 "GET /course/ HTTP/1.1" 200 1514
+INFO 2019-12-10 11:52:50,881 basehttp 154 "GET /banner/ HTTP/1.1" 200 365
+INFO 2019-12-10 11:53:12,563 basehttp 154 "GET /course/coursecategory/ HTTP/1.1" 200 42
+INFO 2019-12-10 11:53:12,592 basehttp 154 "GET /course/ HTTP/1.1" 200 1514
+INFO 2019-12-10 11:53:18,410 basehttp 154 "GET /course/coursecategory/ HTTP/1.1" 200 42
+INFO 2019-12-10 11:53:18,427 basehttp 154 "GET /course/ HTTP/1.1" 200 1514
+INFO 2019-12-10 11:54:18,153 basehttp 154 "GET /course/coursecategory/ HTTP/1.1" 200 42
+INFO 2019-12-10 11:54:18,199 basehttp 154 "GET /course/ HTTP/1.1" 200 1514
+INFO 2019-12-10 22:07:40,388 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-10 22:08:46,727 basehttp 154 "GET /banner/ HTTP/1.1" 200 365
+INFO 2019-12-10 22:08:46,728 basehttp 154 "GET /course/college/ HTTP/1.1" 200 72
+INFO 2019-12-10 22:08:46,744 basehttp 154 "GET /course/?college=1 HTTP/1.1" 200 912
+INFO 2019-12-10 22:08:46,763 basehttp 154 "GET /course/ HTTP/1.1" 200 1514
+INFO 2019-12-10 22:08:47,369 basehttp 154 "GET /media/banner/fj_1_1N66BNM.jpg HTTP/1.1" 200 181525
+INFO 2019-12-10 22:08:47,371 basehttp 154 "GET /media/banner/fj_2_BR86YRJ.jpg HTTP/1.1" 200 158358
+INFO 2019-12-10 22:08:47,376 basehttp 154 "GET /media/banner/fj_3_7MeCL4A.jpg HTTP/1.1" 200 263466
+INFO 2019-12-10 22:08:47,380 basehttp 154 "GET /media/banner/fj_4_kBXWahc.jpg HTTP/1.1" 200 461839
+INFO 2019-12-10 22:08:47,794 basehttp 154 "GET /media/course/%E4%BD%99%E4%BD%99.JPG HTTP/1.1" 200 3932160
+INFO 2019-12-10 22:08:47,802 basehttp 154 "GET /media/course/cq.JPG HTTP/1.1" 200 4554752
+INFO 2019-12-10 22:08:47,813 basehttp 154 "GET /media/course/jiji.JPG HTTP/1.1" 200 5079040
+INFO 2019-12-10 22:09:42,188 basehttp 154 "GET /media/course/%E5%BC%BA%E5%BC%BA.JPG HTTP/1.1" 200 4292608
+INFO 2019-12-10 22:10:21,504 basehttp 154 "GET /course/college/ HTTP/1.1" 200 72
+INFO 2019-12-10 22:10:21,529 basehttp 154 "GET /banner/ HTTP/1.1" 200 365
+INFO 2019-12-10 22:10:21,576 basehttp 154 "GET /course/?college=1 HTTP/1.1" 200 912
+INFO 2019-12-10 22:10:21,590 basehttp 154 "GET /course/ HTTP/1.1" 200 1514
+WARNING 2019-12-10 22:11:05,160 log 228 Unauthorized: /course/
+WARNING 2019-12-10 22:11:05,162 basehttp 154 "POST /course/ HTTP/1.1" 401 38
+WARNING 2019-12-10 22:11:10,283 log 228 Unauthorized: /course/
+WARNING 2019-12-10 22:11:10,284 basehttp 154 "GET /course/ HTTP/1.1" 401 38
+INFO 2019-12-10 22:11:18,311 basehttp 154 "GET /course/ HTTP/1.1" 200 1514
+INFO 2019-12-10 22:12:03,857 basehttp 154 "GET /course/coursecategory/ HTTP/1.1" 200 42
+INFO 2019-12-10 22:12:03,878 basehttp 154 "GET /course/ HTTP/1.1" 200 1514
+INFO 2019-12-10 22:13:17,600 basehttp 154 "GET /course/college/ HTTP/1.1" 200 72
+INFO 2019-12-10 22:13:17,602 basehttp 154 "GET /banner/ HTTP/1.1" 200 365
+INFO 2019-12-10 22:13:17,624 basehttp 154 "GET /course/?college=1 HTTP/1.1" 200 912
+INFO 2019-12-10 22:13:17,699 basehttp 154 "GET /course/ HTTP/1.1" 200 1514
+INFO 2019-12-10 22:37:15,555 autoreload 217 /Users/liangpingbo/Desktop/线上课堂/线上课程api/线上课程api/settings/dev.py changed, reloading.
+INFO 2019-12-10 22:37:18,467 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-10 22:37:21,611 basehttp 154 "GET /course/detail HTTP/1.1" 301 0
+INFO 2019-12-10 22:37:21,678 basehttp 154 "GET /course/detail/ HTTP/1.1" 200 336
+INFO 2019-12-10 22:54:56,263 basehttp 154 "GET /course/detail HTTP/1.1" 301 0
+INFO 2019-12-10 22:54:56,335 basehttp 154 "GET /course/detail/ HTTP/1.1" 200 336
+INFO 2019-12-10 22:57:20,407 basehttp 154 "GET /course/detail?course=1 HTTP/1.1" 301 0
+INFO 2019-12-10 22:57:20,429 basehttp 154 "GET /course/detail/?course=1 HTTP/1.1" 200 171
+INFO 2019-12-10 22:57:55,471 basehttp 154 "GET /course/detail?course=1 HTTP/1.1" 301 0
+INFO 2019-12-10 22:57:55,537 basehttp 154 "GET /course/detail/?course=1 HTTP/1.1" 200 171
+INFO 2019-12-10 23:00:41,688 basehttp 154 "GET /course/detail/?course=1 HTTP/1.1" 200 171
+INFO 2019-12-10 23:04:35,737 autoreload 217 /Users/liangpingbo/Desktop/线上课堂/线上课程api/线上课程api/apps/course/models.py changed, reloading.
+INFO 2019-12-10 23:04:37,743 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-10 23:04:45,717 basehttp 154 "GET /course/detail/?course=1 HTTP/1.1" 200 226
+INFO 2019-12-10 23:05:32,422 autoreload 217 /Users/liangpingbo/Desktop/线上课堂/线上课程api/线上课程api/apps/course/models.py changed, reloading.
+INFO 2019-12-10 23:05:34,454 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-10 23:06:03,516 basehttp 154 "GET /course/detail?course=1 HTTP/1.1" 301 0
+INFO 2019-12-10 23:06:03,651 basehttp 154 "GET /course/detail/?course=1 HTTP/1.1" 200 226
+INFO 2019-12-10 23:06:49,805 basehttp 154 "GET /course/detail/?course=1 HTTP/1.1" 200 226
+INFO 2019-12-10 23:07:14,431 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 19008
+INFO 2019-12-10 23:07:14,535 basehttp 154 "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 200 8376
+INFO 2019-12-10 23:07:14,536 basehttp 154 "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 200 21658
+INFO 2019-12-10 23:07:14,547 basehttp 154 "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 304 0
+INFO 2019-12-10 23:07:14,552 basehttp 154 "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 304 0
+INFO 2019-12-10 23:07:14,556 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 200 8195
+INFO 2019-12-10 23:07:14,564 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-10 23:07:14,568 basehttp 154 "GET /static/xadmin/css/xadmin.page.dashboard.css HTTP/1.1" 304 0
+INFO 2019-12-10 23:07:14,569 basehttp 154 "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 304 0
+INFO 2019-12-10 23:07:14,571 basehttp 154 "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 200 240196
+INFO 2019-12-10 23:07:14,572 basehttp 154 "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 200 126432
+INFO 2019-12-10 23:07:14,588 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 200 42543
+INFO 2019-12-10 23:07:14,589 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 200 15069
+INFO 2019-12-10 23:07:14,594 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 304 0
+INFO 2019-12-10 23:07:14,594 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.effect.js HTTP/1.1" 200 31918
+INFO 2019-12-10 23:07:14,595 basehttp 154 "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 304 0
+INFO 2019-12-10 23:07:14,599 basehttp 154 "GET /static/xadmin/js/xadmin.page.dashboard.js HTTP/1.1" 304 0
+INFO 2019-12-10 23:07:14,604 basehttp 154 "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 200 58327
+INFO 2019-12-10 23:07:14,617 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.1" 304 0
+INFO 2019-12-10 23:07:14,618 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.themes.js HTTP/1.1" 304 0
+INFO 2019-12-10 23:07:14,620 basehttp 154 "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 304 0
+INFO 2019-12-10 23:07:14,833 basehttp 154 "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 200 44432
+WARNING 2019-12-10 23:07:14,937 log 228 Not Found: /favicon.ico
+WARNING 2019-12-10 23:07:14,938 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2578
+INFO 2019-12-10 23:07:18,044 basehttp 154 "GET /xadmin/course/courselesson/ HTTP/1.1" 200 31535
+INFO 2019-12-10 23:07:18,084 basehttp 154 "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 304 0
+INFO 2019-12-10 23:07:18,097 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 304 0
+INFO 2019-12-10 23:07:18,105 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.1" 304 0
+INFO 2019-12-10 23:07:18,101 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 304 0
+INFO 2019-12-10 23:07:18,103 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 304 0
+INFO 2019-12-10 23:07:18,111 basehttp 154 "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 304 0
+INFO 2019-12-10 23:07:18,122 basehttp 154 "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 304 0
+INFO 2019-12-10 23:07:18,136 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-10 23:07:20,131 basehttp 154 "GET /xadmin/course/courselesson/add/ HTTP/1.1" 200 25734
+INFO 2019-12-10 23:07:20,196 basehttp 154 "GET /static/xadmin/vendor/select2/select2.css HTTP/1.1" 200 19226
+INFO 2019-12-10 23:07:20,205 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.bootstrap3.css HTTP/1.1" 200 10602
+INFO 2019-12-10 23:07:20,210 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.css HTTP/1.1" 200 8425
+INFO 2019-12-10 23:07:20,219 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.quick-form.js HTTP/1.1" 200 7546
+INFO 2019-12-10 23:07:20,221 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 304 0
+INFO 2019-12-10 23:07:20,223 basehttp 154 "GET /static/xadmin/js/xadmin.widget.select.js HTTP/1.1" 304 0
+INFO 2019-12-10 23:07:20,228 basehttp 154 "GET /static/xadmin/vendor/select2/select2.js HTTP/1.1" 200 104906
+INFO 2019-12-10 23:07:20,235 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.js HTTP/1.1" 200 98602
+INFO 2019-12-10 23:07:20,242 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-10 23:07:28,397 basehttp 154 "GET /xadmin/course/course/ HTTP/1.1" 200 44547
+INFO 2019-12-10 23:07:28,496 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-10 23:07:31,056 basehttp 154 "GET /xadmin/course/course/1/update/ HTTP/1.1" 200 31415
+INFO 2019-12-10 23:07:31,121 basehttp 154 "GET /static/xadmin/vendor/bootstrap-image-gallery/css/bootstrap-image-gallery.css HTTP/1.1" 304 0
+INFO 2019-12-10 23:07:31,128 basehttp 154 "GET /static/xadmin/vendor/load-image/load-image.js HTTP/1.1" 200 8309
+INFO 2019-12-10 23:07:31,153 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-10 23:07:31,169 basehttp 154 "GET /static/xadmin/vendor/bootstrap-image-gallery/js/bootstrap-image-gallery.js HTTP/1.1" 200 15611
+INFO 2019-12-10 23:07:34,740 basehttp 154 "POST /xadmin/course/course/1/update/ HTTP/1.1" 302 0
+INFO 2019-12-10 23:07:34,883 basehttp 154 "GET /xadmin/course/course/? HTTP/1.1" 200 44779
+INFO 2019-12-10 23:07:34,941 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-10 23:07:36,467 basehttp 154 "GET /xadmin/course/courselesson/ HTTP/1.1" 200 31529
+INFO 2019-12-10 23:07:36,503 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-10 23:07:38,327 basehttp 154 "GET /xadmin/course/courselesson/add/ HTTP/1.1" 200 25722
+INFO 2019-12-10 23:07:38,392 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-10 23:07:43,925 basehttp 154 "GET /xadmin/course/coursechapter/add/ HTTP/1.1" 200 4747
+INFO 2019-12-10 23:08:06,924 basehttp 154 "POST /xadmin/course/courselesson/add/ HTTP/1.1" 302 0
+INFO 2019-12-10 23:08:07,073 basehttp 154 "GET /xadmin/course/courselesson/ HTTP/1.1" 200 32286
+INFO 2019-12-10 23:08:07,140 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-10 23:08:15,646 basehttp 154 "GET /course/detail?course=1 HTTP/1.1" 301 0
+INFO 2019-12-10 23:08:15,676 basehttp 154 "GET /course/detail/?course=1 HTTP/1.1" 200 400
+INFO 2019-12-10 23:11:09,772 autoreload 217 /Users/liangpingbo/Desktop/线上课堂/线上课程api/线上课程api/apps/course/serializers.py changed, reloading.
+INFO 2019-12-10 23:11:11,988 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-10 23:11:16,694 basehttp 154 "GET /course/detail?course=1 HTTP/1.1" 301 0
+INFO 2019-12-10 23:11:16,806 basehttp 154 "GET /course/detail/?course=1 HTTP/1.1" 200 1024
+INFO 2019-12-10 23:11:43,619 basehttp 154 "GET /course/detail/?course=1 HTTP/1.1" 200 1024
+INFO 2019-12-10 23:12:05,566 basehttp 154 "GET /course/detail/?course=1 HTTP/1.1" 200 1024
+INFO 2019-12-10 23:13:21,965 basehttp 154 "GET /course/detail/?course=1 HTTP/1.1" 200 1024
+INFO 2019-12-10 23:14:06,394 basehttp 154 "GET /xadmin/course/courselesson/4/update/ HTTP/1.1" 200 26361
+INFO 2019-12-10 23:14:06,526 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-10 23:14:56,189 autoreload 217 /Users/liangpingbo/Desktop/线上课堂/线上课程api/线上课程api/apps/course/serializers.py changed, reloading.
+INFO 2019-12-10 23:14:58,208 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-10 23:16:01,765 basehttp 154 "GET /course/detail?course=1 HTTP/1.1" 301 0
+INFO 2019-12-10 23:16:01,811 basehttp 154 "GET /course/detail/?course=1 HTTP/1.1" 200 400
+INFO 2019-12-10 23:17:18,112 basehttp 154 "GET /course/1 HTTP/1.1" 301 0
+INFO 2019-12-10 23:17:18,139 basehttp 154 "GET /course/1/ HTTP/1.1" 200 313
+INFO 2019-12-10 23:20:45,124 basehttp 154 "GET /course/1 HTTP/1.1" 301 0
+INFO 2019-12-10 23:20:45,481 basehttp 154 "GET /course/1/ HTTP/1.1" 200 313
+INFO 2019-12-10 23:20:45,498 basehttp 154 "GET /course/detail/?course=1 HTTP/1.1" 200 400
+INFO 2019-12-10 23:21:03,674 basehttp 154 "GET /course/detail/?course=1 HTTP/1.1" 200 400
+INFO 2019-12-10 23:21:03,730 basehttp 154 "GET /course/1/ HTTP/1.1" 200 313
+INFO 2019-12-10 23:22:24,246 basehttp 154 "GET /course/1/ HTTP/1.1" 200 313
+INFO 2019-12-10 23:22:24,248 basehttp 154 "GET /course/detail/?course=1 HTTP/1.1" 200 400
+INFO 2019-12-10 23:22:24,709 basehttp 154 "GET /course/1 HTTP/1.1" 301 0
+INFO 2019-12-10 23:22:24,773 basehttp 154 "GET /course/1/ HTTP/1.1" 200 313
+INFO 2019-12-10 23:22:33,631 basehttp 154 "GET /course/detail/ HTTP/1.1" 200 621
+INFO 2019-12-10 23:23:49,384 autoreload 217 /Users/liangpingbo/Desktop/线上课堂/线上课程api/线上课程api/apps/course/models.py changed, reloading.
+INFO 2019-12-10 23:23:51,759 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-10 23:23:53,850 basehttp 154 "GET /course/1 HTTP/1.1" 301 0
+INFO 2019-12-10 23:23:53,907 basehttp 154 "GET /course/1/ HTTP/1.1" 200 313
+INFO 2019-12-10 23:24:40,641 basehttp 154 "GET /course/1/ HTTP/1.1" 200 313
+INFO 2019-12-10 23:24:40,647 basehttp 154 "GET /course/detail/?course=1 HTTP/1.1" 200 400
+INFO 2019-12-10 23:25:14,808 basehttp 154 "GET /course/detail/?course=1 HTTP/1.1" 200 400
+INFO 2019-12-10 23:25:14,809 basehttp 154 "GET /course/1/ HTTP/1.1" 200 313
+INFO 2019-12-10 23:25:31,805 basehttp 154 "GET /course/detail/?course=1 HTTP/1.1" 200 400
+INFO 2019-12-10 23:25:31,823 basehttp 154 "GET /course/1/ HTTP/1.1" 200 313
+INFO 2019-12-10 23:26:37,626 autoreload 217 /Users/liangpingbo/Desktop/线上课堂/线上课程api/线上课程api/apps/course/serializers.py changed, reloading.
+INFO 2019-12-10 23:26:39,587 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-10 23:26:42,672 basehttp 154 "GET /course/1 HTTP/1.1" 301 0
+INFO 2019-12-10 23:26:42,726 basehttp 154 "GET /course/1/ HTTP/1.1" 200 323
+INFO 2019-12-10 23:28:51,849 autoreload 217 /Users/liangpingbo/Desktop/线上课堂/线上课程api/线上课程api/apps/course/serializers.py changed, reloading.
+INFO 2019-12-10 23:28:53,703 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-10 23:29:00,092 basehttp 154 "GET /course/1/ HTTP/1.1" 200 335
+INFO 2019-12-10 23:29:00,231 basehttp 154 "GET /course/detail/?course=1 HTTP/1.1" 200 400
+INFO 2019-12-10 23:29:01,114 basehttp 154 "GET /course/1 HTTP/1.1" 301 0
+INFO 2019-12-10 23:29:01,142 basehttp 154 "GET /course/1/ HTTP/1.1" 200 335
+INFO 2019-12-10 23:29:38,973 basehttp 154 "GET /course/detail/?course=1 HTTP/1.1" 200 400
+INFO 2019-12-10 23:29:38,979 basehttp 154 "GET /course/1/ HTTP/1.1" 200 335
+INFO 2019-12-10 23:30:22,793 autoreload 217 /Users/liangpingbo/Desktop/线上课堂/线上课程api/线上课程api/apps/course/serializers.py changed, reloading.
+INFO 2019-12-10 23:30:24,564 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-10 23:30:27,340 basehttp 154 "GET /course/1 HTTP/1.1" 301 0
+INFO 2019-12-10 23:30:27,390 basehttp 154 "GET /course/1/ HTTP/1.1" 200 363
+INFO 2019-12-10 23:30:41,428 basehttp 154 "GET /xadmin/course/course/ HTTP/1.1" 200 44541
+INFO 2019-12-10 23:30:41,519 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-10 23:30:43,794 basehttp 154 "GET /xadmin/course/course/1/update/ HTTP/1.1" 200 31391
+INFO 2019-12-10 23:30:43,908 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-10 23:30:59,692 basehttp 154 "POST /xadmin/course/course/1/update/ HTTP/1.1" 302 0
+INFO 2019-12-10 23:30:59,820 basehttp 154 "GET /xadmin/course/course/? HTTP/1.1" 200 44779
+INFO 2019-12-10 23:30:59,891 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-10 23:31:02,320 basehttp 154 "GET /xadmin/course/course/1/update/ HTTP/1.1" 200 31396
+INFO 2019-12-10 23:31:02,406 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-10 23:31:06,234 basehttp 154 "GET /course/1 HTTP/1.1" 301 0
+INFO 2019-12-10 23:31:06,256 basehttp 154 "GET /course/1/ HTTP/1.1" 200 368
+INFO 2019-12-10 23:31:49,018 basehttp 154 "GET /course/1/ HTTP/1.1" 200 368
+INFO 2019-12-10 23:31:49,022 basehttp 154 "GET /course/detail/?course=1 HTTP/1.1" 200 400
+INFO 2019-12-10 23:32:21,970 basehttp 154 "GET /course/detail/1 HTTP/1.1" 301 0
+INFO 2019-12-10 23:32:21,989 basehttp 154 "GET /course/detail/1/ HTTP/1.1" 200 368
+INFO 2019-12-10 23:32:30,495 basehttp 154 "GET /course/detail/ HTTP/1.1" 200 621
+INFO 2019-12-10 23:33:36,424 basehttp 154 "GET /course/1/ HTTP/1.1" 200 368
+INFO 2019-12-10 23:33:36,427 basehttp 154 "GET /course/detail/?course=1 HTTP/1.1" 200 400
+INFO 2019-12-10 23:34:05,849 basehttp 154 "GET /course/detail?course=1 HTTP/1.1" 301 0
+INFO 2019-12-10 23:34:05,872 basehttp 154 "GET /course/detail/?course=1 HTTP/1.1" 200 400
+INFO 2019-12-10 23:34:29,513 basehttp 154 "GET /course/1 HTTP/1.1" 301 0
+INFO 2019-12-10 23:34:29,584 basehttp 154 "GET /course/1/ HTTP/1.1" 200 368
+INFO 2019-12-10 23:35:53,886 basehttp 154 "GET /course/1/ HTTP/1.1" 200 368
+INFO 2019-12-10 23:35:53,887 basehttp 154 "GET /course/detail/?course=1 HTTP/1.1" 200 400
+INFO 2019-12-10 23:36:15,267 basehttp 154 "GET /course/detail?course=1 HTTP/1.1" 301 0
+INFO 2019-12-10 23:36:15,287 basehttp 154 "GET /course/detail/?course=1 HTTP/1.1" 200 400
+INFO 2019-12-10 23:36:43,872 basehttp 154 "GET /course/detail/?course=1 HTTP/1.1" 200 400
+INFO 2019-12-10 23:36:43,887 basehttp 154 "GET /course/1/ HTTP/1.1" 200 368
+INFO 2019-12-11 10:10:21,243 autoreload 597 Watching for file changes with StatReloader
+INFO 2019-12-11 10:10:47,422 basehttp 154 "GET /course/college/ HTTP/1.1" 200 72
+INFO 2019-12-11 10:10:47,424 basehttp 154 "GET /course/?college=1 HTTP/1.1" 200 1061
+INFO 2019-12-11 10:10:47,426 basehttp 154 "GET /course/ HTTP/1.1" 200 1763
+INFO 2019-12-11 10:10:47,428 basehttp 154 "GET /banner/ HTTP/1.1" 200 365
+INFO 2019-12-11 10:10:48,248 basehttp 154 "GET /media/course/%E4%BD%99%E4%BD%99.JPG HTTP/1.1" 200 3932160
+INFO 2019-12-11 10:10:48,258 basehttp 154 "GET /media/course/cq.JPG HTTP/1.1" 200 4554752
+INFO 2019-12-11 10:10:48,270 basehttp 154 "GET /media/course/jiji.JPG HTTP/1.1" 200 5079040
+INFO 2019-12-11 10:10:58,945 basehttp 154 "GET /course/coursecategory/ HTTP/1.1" 200 42
+INFO 2019-12-11 10:10:58,978 basehttp 154 "GET /course/ HTTP/1.1" 200 1763
+INFO 2019-12-11 10:10:59,169 basehttp 154 "GET /media/course/5d2e8fd2386bd.png HTTP/1.1" 304 0
+INFO 2019-12-11 10:10:59,424 basehttp 154 "GET /media/course/%E5%BC%BA%E5%BC%BA.JPG HTTP/1.1" 200 4292608
+INFO 2019-12-11 10:11:17,921 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 19008
+INFO 2019-12-11 10:11:17,979 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-11 10:11:18,214 basehttp 154 "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 200 240196
+INFO 2019-12-11 10:11:18,227 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 19008
+INFO 2019-12-11 10:11:21,387 basehttp 154 "GET /xadmin/course/course/ HTTP/1.1" 200 44541
+INFO 2019-12-11 10:11:21,446 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-11 10:11:24,169 basehttp 154 "GET /xadmin/course/course/add/ HTTP/1.1" 200 30914
+INFO 2019-12-11 10:11:24,239 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-11 10:12:18,310 basehttp 154 "POST /xadmin/course/course/add/ HTTP/1.1" 302 0
+INFO 2019-12-11 10:12:18,471 basehttp 154 "GET /xadmin/course/course/ HTTP/1.1" 200 46791
+INFO 2019-12-11 10:12:18,571 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-11 10:12:21,404 basehttp 154 "GET /xadmin/course/course/6/update/ HTTP/1.1" 200 31385
+INFO 2019-12-11 10:12:21,457 basehttp 154 "GET /media/course/course_demo.png HTTP/1.1" 200 151563
+INFO 2019-12-11 10:12:21,501 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-11 10:12:25,953 basehttp 154 "POST /xadmin/course/course/6/update/ HTTP/1.1" 302 0
+INFO 2019-12-11 10:12:26,116 basehttp 154 "GET /xadmin/course/course/? HTTP/1.1" 200 46726
+INFO 2019-12-11 10:12:26,162 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2019-12-11 10:12:29,905 basehttp 154 "GET /course/coursecategory/ HTTP/1.1" 200 42
+INFO 2019-12-11 10:12:30,211 basehttp 154 "GET /course/ HTTP/1.1" 200 2112
+INFO 2019-12-11 10:12:30,468 basehttp 154 "GET /media/course/course_demo.png HTTP/1.1" 304 0
+INFO 2019-12-11 10:14:12,609 basehttp 154 "GET /course/coursecategory/ HTTP/1.1" 200 42
+INFO 2019-12-11 10:14:12,637 basehttp 154 "GET /course/ HTTP/1.1" 200 2112
+INFO 2019-12-11 10:14:51,908 basehttp 154 "GET /course/coursecategory/ HTTP/1.1" 200 42
+INFO 2019-12-11 10:14:51,985 basehttp 154 "GET /course/ HTTP/1.1" 200 2112
+INFO 2019-12-11 10:14:52,042 basehttp 154 "GET /media/course/course_demo.png HTTP/1.1" 304 0

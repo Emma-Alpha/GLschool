@@ -14,8 +14,8 @@
           </video-player>
         </div>
         <div class="wrap-right">
-          <h3 class="course-name">Linux系统基础5周入门精讲</h3>
-          <p class="data">23475人在学&nbsp;&nbsp;&nbsp;&nbsp;课程总时长：148课时/180小时&nbsp;&nbsp;&nbsp;&nbsp;难度：初级</p>
+          <h3 class="course-name">{{course_name}}</h3>
+          <p class="data">{{course_list.students}}人在学&nbsp;&nbsp;&nbsp;&nbsp;课程总时长：{{course_lesson_list.length}}课时/{{course_list.lessons}}小时&nbsp;&nbsp;&nbsp;&nbsp;难度：{{course_list.level_text}}</p>
           <div class="buy">
             <div class="add-cart el-icon-reading">加入学习计划</div>
           </div>
@@ -45,8 +45,8 @@
               <p class="chapter">课程章节</p>
               <p class="chapter-length">共11章 147个课时</p>
             </div>
-            <div class="chapter-item">
-              <p class="chapter-title"><img src="/static/image/1.svg" alt="">第1章·Linux硬件基础</p>
+            <div class="chapter-item" v-for="item in course_lesson_list">
+              <p class="chapter-title"><img src="/static/image/1.svg" alt="">{{item.coursechapter_lesson.name}}</p>
               <ul class="lesson-list">
                 <li class="lesson-item">
                   <p class="name"><span class="index">1-1</span> 课程介绍-学习流程<span class="free">免费</span></p>
@@ -57,21 +57,6 @@
                   <p class="name"><span class="index">1-2</span> 服务器硬件-详解<span class="free">免费</span></p>
                   <p class="time">07:30 <img src="/static/image/chapter-player.svg"></p>
                   <button class="try">立即试学</button>
-                </li>
-              </ul>
-            </div>
-            <div class="chapter-item">
-              <p class="chapter-title"><img src="/static/image/1.svg" alt="">第2章·Linux发展过程</p>
-              <ul class="lesson-list">
-                <li class="lesson-item">
-                  <p class="name"><span class="index">2-1</span> 操作系统组成-Linux发展过程</p>
-                  <p class="time">07:30 <img src="/static/image/chapter-player.svg"></p>
-                  <button class="try">立即购买</button>
-                </li>
-                <li class="lesson-item">
-                  <p class="name"><span class="index">2-2</span> 自由软件-GNU-GPL核心讲解</p>
-                  <p class="time">07:30 <img src="/static/image/chapter-player.svg"></p>
-                  <button class="try">立即购买</button>
                 </li>
               </ul>
             </div>
@@ -114,6 +99,9 @@
             return {
                 course_id: 0,
                 tabIndex: 2, // 当前选项卡显示的下标
+                course_name: '',  // 课程名称
+                course_list: [],
+                course_lesson_list: [],
                 playerOptions: {
                     playbackRates: [0.7, 1.0, 1.5, 2.0], //播放速度
                     autoplay: false, //如果true,浏览器准备好时开始回放。
@@ -125,10 +113,10 @@
                     fluid: true, // 当true时，Video.js player将拥有流体大小。换句话说，它将按比例缩放以适应其容器。
                     sources: [
                         {
-                            type:"video/mp4",
-                            src:"/static/video/05cacb4e02f9d9e.mp4"
+                            type: "video/mp4",
+                            src: "/static/video/05cacb4e02f9d9e.mp4"
                         }
-                        ],
+                    ],
                     poster: "/static/image/banner1.svg", //你的封面地址
                     width: document.documentElement.clientWidth,
                     notSupportedMessage: '此视频暂无法播放，请稍后再试', //允许覆盖Video.js无法播放媒体源时显示的默认信息。
@@ -144,15 +132,32 @@
         created() {
             // 课程ID
             this.get_course_id();
+            this.get_course_detail();
+            this.get_course_name();
         },
         methods: {
-            onPlayerPlay(){
+            onPlayerPlay() {
 
             },
-            onPlayerPause(){
+            onPlayerPause() {
 
             },
 
+            // 获取专题课程的详情
+            get_course_detail() {
+                this.$axios.get(`${this.$settings.Host}/course/detail`, {
+                    params: {
+                        course: this.course_id
+                    }
+                }).then(response => {
+                    this.course_lesson_list = response.data;
+                    console.log(this.course_lesson_list.length)
+                }).catch(error => {
+                    this.$message("对不起，网络错误！！！无法获取信息")
+                })
+            },
+
+            // 获取专题课程的ID
             get_course_id() {
                 let course_id = this.$route.params.id;
                 if (course_id > 0) {
@@ -168,6 +173,15 @@
                 }
                 return course_id;
             },
+            get_course_name() {
+                this.$axios.get(`${this.$settings.Host}/course/` + this.course_id).then(response => {
+                    this.course_list = response.data;
+                    this.course_name = response.data.name
+                }).catch(error => {
+                    this.$message("网络错误！")
+                })
+            }
+
         },
         components: {
             Header,

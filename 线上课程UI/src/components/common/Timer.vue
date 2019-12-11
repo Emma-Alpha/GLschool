@@ -18,7 +18,7 @@
               <li v-for="(item,key) in course_list" role="presentation" :key="key"
                   @mouseover=show_image(key) style="margin-left: 15px;background: #F0FFFF" v-if="item.is_host"
                   :class="key===1?'yangshi':''"><a
-                href.pervent="#">{{item.name}}</a>
+                :href="'course/detail/'+item.id">{{item.name}}</a>
               </li>
             </ul>
           </div>

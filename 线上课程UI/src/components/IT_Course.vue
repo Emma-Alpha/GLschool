@@ -35,7 +35,7 @@
           </div>
           <div class="course-info">
             <h3>
-              <router-link to="/course/detail/1">{{course.name}}</router-link>
+              <router-link :to="`/course/detail/`+course.id">{{course.name}}</router-link>
               <span><img src="/static/image/avatar1.svg" alt="">{{course.students}}</span></h3>
             <p class="teather-info">{{course.teacher.name}} <span>共154课时/更新完成</span></p>
             <ul class="lesson-list">
@@ -53,6 +53,15 @@
           </div>
         </div>
       </div>
+      <el-pagination
+        background
+        @current-change="handleCurrentChange"
+        @size-change="handleSizeChange"
+        :page-sizes="[2,5,10,20]"
+        :page-size="size"
+        layout="prev, pager, next, jumper, sizes"
+        :total="course_count">
+      </el-pagination>
     </div>
     <Footer></Footer>
   </div>

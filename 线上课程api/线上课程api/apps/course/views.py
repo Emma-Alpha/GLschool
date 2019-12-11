@@ -2,8 +2,9 @@ from django.shortcuts import render
 from rest_framework.views import APIView
 from rest_framework.generics import ListAPIView, RetrieveAPIView
 from rest_framework.response import Response
-from .serializers import CollegeModelSerializer, CourseModelSerializer, CourseCategoryModelSerializer
-from .models import College, Course, CourseCategory
+from .serializers import CollegeModelSerializer, CourseModelSerializer, CourseCategoryModelSerializer, \
+    CourseLessonModelSerializer
+from .models import College, Course, CourseCategory, CourseLesson
 from django_filters.rest_framework import DjangoFilterBackend
 
 
@@ -36,3 +37,11 @@ class CourseCategoryAPIView(ListAPIView):
     serializer_class = CourseCategoryModelSerializer
     filter_backends = [DjangoFilterBackend, ]
     filter_fields = ('college',)
+
+
+class CourseLessonAPIView(ListAPIView):
+    """课程详情"""
+    queryset = CourseLesson.objects.filter(is_show=True, is_deleted=False)
+    serializer_class = CourseLessonModelSerializer
+    filter_backends = [DjangoFilterBackend, ]
+    filter_fields = ('course',)

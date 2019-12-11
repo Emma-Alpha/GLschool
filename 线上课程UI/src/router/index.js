@@ -45,7 +45,7 @@ export default new Router({
     },
     {
       name : "IT_Course",
-      path : "/course:id",
+      path : "/course/:id",
       component : IT_Course
     },
     {
