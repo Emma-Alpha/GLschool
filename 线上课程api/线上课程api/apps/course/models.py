@@ -163,6 +163,20 @@ class CourseChapter(BaseModel):
     def __str__(self):
         return "%s:(第%s章)%s" % (self.course, self.chapter, self.name)
 
+    @property
+    def courselesson(self):
+        lessons = self.course_lesson.filter(is_show=True, is_deleted=False)
+        data = []
+        for lesson in lessons:
+            data.append({
+                "id": lesson.id,
+                "name": lesson.name,
+                "lesson": lesson.lesson,
+                "section_type": lesson.section_type,
+                "duration": lesson.duration,
+            })
+        return data
+
 
 class CourseLesson(BaseModel):
     """课程课时"""
@@ -197,5 +211,3 @@ class CourseLesson(BaseModel):
             'summary': self.coursechapter.summary,
         }
         return data
-
-

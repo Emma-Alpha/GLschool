@@ -4,11 +4,8 @@
     <list default="true" id="094ff10e-59ba-4b58-b30c-867f368accef" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../线上课程UI/src/components/Detail.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../线上课程UI/src/components/Detail.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../线上课程UI/src/components/IT_Course.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../线上课程UI/src/components/IT_Course.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../线上课程UI/src/components/common/Timer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../线上课程UI/src/components/common/Timer.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../线上课程UI/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../线上课程UI/src/router/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/线上课程.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/线上课程.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/线上课程api/apps/course/adminx.py" beforeDir="false" afterPath="$PROJECT_DIR$/线上课程api/apps/course/adminx.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/线上课程api/apps/course/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/线上课程api/apps/course/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/线上课程api/apps/course/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/线上课程api/apps/course/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/线上课程api/apps/course/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/线上课程api/apps/course/urls.py" afterDir="false" />
@@ -206,7 +203,9 @@
       <workItem from="1575598454882" duration="267000" />
       <workItem from="1575601162381" duration="2921000" />
       <workItem from="1575944920188" duration="2973000" />
-      <workItem from="1575949902830" duration="6230000" />
+      <workItem from="1575949902830" duration="12240000" />
+      <workItem from="1576066250073" duration="54000" />
+      <workItem from="1576202445605" duration="1110000" />
     </task>
     <servers />
   </component>
@@ -227,6 +226,6 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/api$manage.coverage" NAME="manage Coverage Results" MODIFIED="1576030217833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/api$manage.coverage" NAME="manage Coverage Results" MODIFIED="1576202936836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

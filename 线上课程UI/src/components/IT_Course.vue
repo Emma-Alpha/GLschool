@@ -21,7 +21,6 @@
             <li class="title">筛&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;选:</li>
             <li class="default this">默认</li>
             <li class="hot this">人气</li>
-            <li class="price this">价格</li>
           </ul>
           <p class="condition-result">共21个课程</p>
         </div>
@@ -77,8 +76,11 @@
             return {
                 category: 0,
                 course_list: [],
-                category_course : [],
-                token : '',
+                category_course: [],
+                token: '',
+                course_count: 0,
+                size: 5,
+                page: 1,
             }
         },
 
@@ -88,14 +90,28 @@
             this.get_course_category();
         },
 
+        watch:{
+            page(){
+                this.get_course()
+            }
+        },
+
         methods: {
-            check_token(){
-              this.token = this.$settings.check_user_login();
+            check_token() {
+                this.token = this.$settings.check_user_login();
             },
 
             get_course() {
-                this.$axios.get(`${this.$settings.Host}/course/`).then(response => {
-                    this.course_list = response.data
+                let filter = {
+                    page: this.page,
+                    size: this.size,
+                };
+                console.log(filter)
+                this.$axios.get(`${this.$settings.Host}/course/`,{
+                    params: filter
+                }).then(response => {
+                    this.course_list = response.data.results;
+                    this.course_count = response.data.count;
                 }).catch(error => {
                     this.$message.error("获取课程失败...")
                 })
@@ -103,12 +119,17 @@
             get_course_category() {
                 this.$axios.get(`${this.$settings.Host}/course/coursecategory/`).then(response => {
                     this.category_course = response.data
-                }).catch(error=>{
+                }).catch(error => {
                     this.$message.error("获取课程分类失败...")
                 })
-            }
+            },
+            handleCurrentChange(page) {
+                this.page = page
+            },
+            handleSizeChange(size) {
+                this.size = size
+            },
         },
-
         components: {
             Header,
             Footer,
