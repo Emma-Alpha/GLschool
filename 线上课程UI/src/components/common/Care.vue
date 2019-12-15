@@ -78,7 +78,7 @@
                 this.$axios.get(`${this.$settings.Host}/course/`,{
                     params:filter
                 }).then(response => {
-                    this.course_dict = response.data
+                    this.course_dict = response.data.results
                 }).catch(error => {
                     this.$alert("网络错误!", '广东理工学院')
                 })

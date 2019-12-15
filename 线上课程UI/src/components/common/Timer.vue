@@ -43,7 +43,7 @@
         methods: {
             host_image() {
                 this.$axios.get(`${this.$settings.Host}/course/`).then(response => {
-                    this.course_list = response.data
+                    this.course_list = response.data.results
                 }).catch(error => {
                     // this.$alert(error.response)
                     this.$message.error("网络错误！")

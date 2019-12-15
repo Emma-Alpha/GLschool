@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from .models import College, Course, Teacher, CourseCategory, CourseLesson
+from .models import College, Course, Teacher, CourseCategory, CourseLesson, CourseChapter
 
 
 # 学院分类
@@ -41,7 +41,17 @@ class CourseCategoryModelSerializer(serializers.ModelSerializer):
 
 # 课程详情
 class CourseLessonModelSerializer(serializers.ModelSerializer):
+    """课程详情页的序列化器"""
 
     class Meta:
         model = CourseLesson
-        fields = ['course', 'coursechapter_lesson', 'name', 'lesson', 'section_type', 'section_link', 'duration']
+        fields = ['name', 'lesson', 'section_type', 'section_link', 'duration']
+
+
+# 课程章节
+class CourseChapterModelSerializer(serializers.ModelSerializer):
+    """课程章节的序列化器"""
+
+    class Meta:
+        model = CourseChapter
+        fields = ['course','chapter', 'name', 'summary', 'pub_date', 'courselesson']

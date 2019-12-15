@@ -24,8 +24,7 @@
       <div class="course-tab">
         <ul class="tab-list">
           <li :class="tabIndex==1?'active':''" @click="tabIndex=1">详情介绍</li>
-          <li :class="tabIndex==2?'active':''" @click="tabIndex=2">课程章节 <span :class="tabIndex!=2?'free':''">(试学)</span>
-          </li>
+          <li :class="tabIndex==2?'active':''" @click="tabIndex=2">课程章节</li>
           <li :class="tabIndex==3?'active':''" @click="tabIndex=3">用户评论 (42)</li>
           <li :class="tabIndex==4?'active':''" @click="tabIndex=4">常见问题</li>
         </ul>
@@ -46,15 +45,11 @@
               <p class="chapter-length">共11章 147个课时</p>
             </div>
             <div class="chapter-item" v-for="item in course_lesson_list">
-              <p class="chapter-title"><img src="/static/image/1.svg" alt="">{{item.coursechapter_lesson.name}}</p>
+              <p class="chapter-title"><img src="/static/image/1.svg" alt="">{{item.name}}</p>
               <ul class="lesson-list">
-                <li class="lesson-item">
-                  <p class="name"><span class="index">1-1</span> 课程介绍-学习流程<span class="free">免费</span></p>
-                  <p class="time">07:30 <img src="/static/image/chapter-player.svg"></p>
-                  <button class="try">立即试学</button>
-                </li>
-                <li class="lesson-item">
-                  <p class="name"><span class="index">1-2</span> 服务器硬件-详解<span class="free">免费</span></p>
+                <li class="lesson-item" v-for="i in item.courselesson">
+                  <p class="name"><span class="index">{{item.chapter}}-{{i.lesson}}</span> {{i.name}}<span class="free">免费</span>
+                  </p>
                   <p class="time">07:30 <img src="/static/image/chapter-player.svg"></p>
                   <button class="try">立即试学</button>
                 </li>
@@ -62,7 +57,27 @@
             </div>
           </div>
           <div class="tab-item" v-if="tabIndex==3">
-            用户评论
+            <div>
+              <table>
+                <tr>
+                  <td>用户姓名: 你好！！！</td>
+                </tr>
+                <tr>
+                  <td>第一楼</td>
+                </tr>
+              </table>
+            </div>
+            <!--              输入评论-->
+            <div>
+              <el-form :model="ruleForm" ref="ruleForm" label-width="100px" class="demo-ruleForm">
+                <el-form-item label="用户评论" prop="desc">
+                  <el-input type="textarea" v-model="ruleForm.desc" style="width: 300px"></el-input>
+                </el-form-item>
+                <el-form-item>
+                  <el-button type="primary" @click="submitForm('ruleForm')">立即发布</el-button>
+                </el-form-item>
+              </el-form>
+            </div>
           </div>
           <div class="tab-item" v-if="tabIndex==4">
             常见问题
@@ -97,10 +112,22 @@
         name: "Detail",
         data() {
             return {
+                ruleForm: {
+                    name: '',
+                    region: '',
+                    date1: '',
+                    date2: '',
+                    delivery: false,
+                    type: [],
+                    resource: '',
+                    desc: ''
+                },
+
                 course_id: 0,
                 tabIndex: 2, // 当前选项卡显示的下标
                 course_name: '',  // 课程名称
                 course_list: [],
+                lesson: 1,
                 course_lesson_list: [],
                 playerOptions: {
                     playbackRates: [0.7, 1.0, 1.5, 2.0], //播放速度
@@ -134,6 +161,7 @@
             this.get_course_id();
             this.get_course_detail();
             this.get_course_name();
+            this.get_course_lesson();
         },
         methods: {
             onPlayerPlay() {
@@ -143,15 +171,28 @@
 
             },
 
-            // 获取专题课程的详情
-            get_course_detail() {
-                this.$axios.get(`${this.$settings.Host}/course/detail`, {
+            // 获取专题课程的章节
+            get_course_lesson() {
+                this.$axios.get(`${this.$settings.Host}/course/chapter`, {
                     params: {
                         course: this.course_id
                     }
                 }).then(response => {
                     this.course_lesson_list = response.data;
-                    console.log(this.course_lesson_list.length)
+                }).catch(error => {
+                    this.$message.error("网络错误!")
+                })
+            },
+
+            // 获取专题课程的详情
+            get_course_detail() {
+                this.$axios.get(`${this.$settings.Host}/course/detail`, {
+                    params: {
+                        course: this.course_id,
+                        lesson: this.lesson,
+                    }
+                }).then(response => {
+                    this.playerOptions.sources[0]['src'] = response.data[0].section_link;
                 }).catch(error => {
                     this.$message("对不起，网络错误！！！无法获取信息")
                 })

@@ -7,4 +7,5 @@ urlpatterns = [
     re_path(r'(?P<pk>\d+)/', views.Course_infoAPIView.as_view()),  # 单个课程详情信息
     path('coursecategory/', views.CourseCategoryAPIView.as_view()),  # 课程分类
     path('detail/', views.CourseLessonAPIView.as_view()),  # 课程详情信息
+    path('chapter/', views.CoursechaptersAPIView.as_view()),  # 课程章节信息
 ]
