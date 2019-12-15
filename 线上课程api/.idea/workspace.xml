@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="094ff10e-59ba-4b58-b30c-867f368accef" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../线上课程UI/src/components/Detail.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../线上课程UI/src/components/Detail.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../线上课程UI/src/components/IT_Course.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../线上课程UI/src/components/IT_Course.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/线上课程.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/线上课程.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/线上课程api/apps/course/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/线上课程api/apps/course/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/线上课程api/apps/course/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/线上课程api/apps/course/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/线上课程api/apps/course/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/线上课程api/apps/course/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/线上课程api/apps/course/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/线上课程api/apps/course/views.py" afterDir="false" />
-    </list>
+    <list default="true" id="094ff10e-59ba-4b58-b30c-867f368accef" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,6 +196,7 @@
       <workItem from="1575944920188" duration="2973000" />
       <workItem from="1575949902830" duration="12240000" />
       <workItem from="1576066250073" duration="54000" />
+      <workItem from="1576385272841" duration="227000" />
     </task>
     <servers />
   </component>
