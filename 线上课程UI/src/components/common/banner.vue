@@ -1,7 +1,7 @@
 <template>
   <div class="block">
     <el-carousel height="318px">
-      <el-carousel-item :key="key" v-for="image_url,key in banner_list">
+      <el-carousel-item :key="key" v-for="(image_url,key) in banner_list">
 <!--        <a v-if=item.is_http ><img :src=item.images alt=""></a>-->
         <a :href="image_url.link" v-if="image_url.is_http"><img :src=image_url.image alt=""></a>
         <router-link :to="image_url.link" v-else><img :src=image_url.image alt=""></router-link>

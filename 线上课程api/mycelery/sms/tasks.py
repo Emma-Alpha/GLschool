@@ -3,8 +3,6 @@ from mycelery.main import app
 from 线上课程api.libs.yuntongxun.sms import CCP
 from 线上课程api.settings import constants
 import logging
-from rest_framework.response import Response
-from rest_framework import status
 
 log = logging.getLogger("django")
 
@@ -12,6 +10,11 @@ log = logging.getLogger("django")
 def send_sms(mobile, sms_code):
     """发送短信"""
     ccp = CCP()
-    ret = ccp.send_template_sms(mobile, [sms_code, constants.SMS_EXPIRE_TIME // 60], constants.SMS_TEMPLATE_ID)
-    if ret == -1:
-        return "发送短信失败！"
+    try:
+        ret = ccp.send_template_sms(mobile, [sms_code, constants.SMS_EXPIRE_TIME // 60], constants.SMS_TEMPLATE_ID)
+        if ret == -1:
+            return "发送短信失败！"
+        print("手机号码:{}，发送短信成功".format(mobile))
+        return ret
+    except:
+        log.error("发送短信验证码失败！手机号码{mobile}".format(mobile=mobile))

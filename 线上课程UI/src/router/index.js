@@ -8,6 +8,11 @@ import Register from "../components/Register";
 import IT_Course from "../components/IT_Course";
 import Cart from "../components/Cart";
 import Detail from "../components/Detail";
+import PhoneSetPassword from "../components/PhoneSetPassword";
+import EmailFindPassword from "../components/EmailFindPassword";
+import EmailSetPassword from "../components/EmailSetPassword";
+import QQCallBack from "../components/QQCallBack";
+// import Head from "../components/common/Head";
 // 注册路由类
 Vue.use(Router);
 
@@ -58,5 +63,27 @@ export default new Router({
       path : "/course/detail/:id",
       component : Detail
     },
+    {
+      name : "PhoneSetPassword",
+      component : PhoneSetPassword,
+      path : "/user/phone/reset_password",
+    },
+    {
+      name : "EmailFindPassword",
+      component : EmailFindPassword,
+      path : "/user/email/find_password",
+    },
+    {
+      name : "EmailSetPassword",
+      component : EmailSetPassword,
+      path : "/reset_password",
+    },
+    {
+      name : "QQCallBack",
+      component : QQCallBack,
+      path : "/qq_callback",
+    },
+
+
   ]
 })

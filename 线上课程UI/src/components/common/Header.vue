@@ -1,7 +1,7 @@
 <template>
-  <div class="header">
-    <div class="content_box">
-      <div class="content">
+  <div class="header" style="overflow: auto">
+    <div class="content_box" style="overflow: auto; position: relative" >
+      <div class="content" style="position: absolute">
         <div class="logo full-left">
           <img src="/static/image/Gdlgxylogo.png" id="logo_img" alt="">
         </div>
@@ -22,7 +22,7 @@
               </el-dropdown-menu>
             </el-dropdown>
           </li>
-          <li><span><router-link to="/course">轻课</router-link></span></li>
+          <li><span><router-link to="/course/1">轻课</router-link></span></li>
           <li><span>学位课</span></li>
           <li><span>题库</span></li>
           <li><span>知识座谈会</span></li>
@@ -103,6 +103,9 @@
 
   .header {
     height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .content_box {
@@ -112,6 +115,9 @@
     z-index: 3;
     background-color: #fff;
     box-shadow: 0 0.5px 0.5px 0 #c9c9c9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .header .content {

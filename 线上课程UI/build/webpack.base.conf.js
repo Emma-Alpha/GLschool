@@ -4,10 +4,11 @@ const utils = require('./utils')
 const config = require('../config')
 const vueLoaderConfig = require('./vue-loader.conf')
 
-function resolve (dir) {
+function resolve(dir) {
   return path.join(__dirname, '..', dir)
 }
 
+var webpack = require('webpack');
 
 
 module.exports = {
@@ -31,6 +32,7 @@ module.exports = {
   },
   module: {
     rules: [
+
       {
         test: /\.vue$/,
         loader: 'vue-loader',
@@ -78,5 +80,12 @@ module.exports = {
     net: 'empty',
     tls: 'empty',
     child_process: 'empty'
-  }
+  },
+  plugins: [
+  new webpack.ProvidePlugin({
+    $: "jquery",
+    jQuery: "jquery",   //之前之所以报错是把这里的jQuery 写成了jquery
+  })
+]
 }
+

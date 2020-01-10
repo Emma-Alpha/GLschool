@@ -13,3 +13,6 @@ SMS_EXPIRE_TIME = 5 * 60
 
 # 短信模板号
 SMS_TEMPLATE_ID = 1
+
+# 邮件有效期
+DATA_SIGNATURE_EXPIRE = 2 * 60 * 60

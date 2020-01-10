@@ -14,4 +14,8 @@ export default {
 </script>
 
 <style>
+  #app{
+    position: relative;
+    overflow: auto;
+  }
 </style>

@@ -36,4 +36,5 @@ urlpatterns = [
     path('', include("home.urls")),
     path('user/', include("user.urls")),
     path('course/',include('course.urls')),
+    path('oauth/',include('oauth.urls')),
 ]

@@ -55,6 +55,7 @@ INSTALLED_APPS = [
     'home',
     'user',
     'course',
+    'oauth',
 ]
 
 MIDDLEWARE = [
@@ -73,6 +74,8 @@ MIDDLEWARE = [
 # CORS组的配置信息
 CORS_ORIGIN_WHITELIST = (
     'http://127.0.0.1:8080',
+    'http://www.moluo.net:8080',
+    'http://www.feedertv.com:8080',
 )
 CORS_ALLOW_CREDENTIALS = False  # 允许ajax跨域请求时携带cookie
 
@@ -324,3 +327,23 @@ SMS = {
     "_serverPort": "8883",
     "_softVersion": '2013-12-26',
 }
+
+# 客户端IP
+CLIENT_HOST = 'http://127.0.0.1:8080'
+
+# 使用163邮箱
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.163.com'
+EMAIL_PORT = 25
+# 发送邮件的邮箱
+EMAIL_HOST_USER = 'zxc15602365270@163.com'
+# 在邮箱中设置的客户端授权密码
+EMAIL_HOST_PASSWORD = 'Qaz13535896423'
+# 收件人看到的发件人
+EMAIL_FROM = '广东理工学院<zxc15602365270@163.com>'
+
+# QQ登录参数
+QQ_APP_ID = '101842319'
+QQ_APP_KEY = 'f59db93ecdbd42fd9d9899e1b5b3a5d5'
+QQ_REDIRECT_URL = 'http://www.feedertv.com:8080/qq_callback'
+QQ_STATE = "/"  # 用于保存登录成功后的跳转页面路径

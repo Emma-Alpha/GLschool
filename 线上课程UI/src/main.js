@@ -3,25 +3,33 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router/index'  // 注册路由路径
+// 导入gt极验证
+import '../static/js/tx.js'
+// 全局变量和全局方法
+import settings from "./settings";
+import axios from 'axios';  // 从node_modules目录中导入包
+import VideoPlayer from 'vue-video-player'
 
 // 设置全局样式
-import '../static/css/reset.css'
 
-import axios from 'axios';  // 从node_modules目录中导入包
+import '../static/css/reset.css'
+import '../static/css/tengxun.css'
+import '../static/css/iconfont.eot'
+import '../static/css/iconfont.css'
+import jQuery from 'jquery/dist/jquery'
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap/dist/js/bootstrap'
+
+
 // 允许ajax发送请求时附带cookie
 axios.defaults.withCredentials = false;
 
 Vue.prototype.$axios = axios;
 
-// 全局变量和全局方法
-import settings from "./settings";
+
 Vue.prototype.$settings = settings;
 
-// 导入gt极验证
-import '../static/js/tx.js'
 
-
-import VideoPlayer from 'vue-video-player'
 Vue.use(VideoPlayer);
 require('video.js/dist/video-js.css');
 require('vue-video-player/src/custom-theme.css');
@@ -39,6 +47,6 @@ Vue.config.productionTip = false;
 new Vue({
   el: '#app',
   router,  // 注册路由规则对象相当于router:router
-  components: { App },
+  components: {App},
   template: '<App/>'
 });

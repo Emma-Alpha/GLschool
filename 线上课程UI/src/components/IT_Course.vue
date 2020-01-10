@@ -7,13 +7,7 @@
         <ul class="cate-list">
           <li class="title">课程分类:</li>
           <li class="this">全部</li>
-          <li>Python</li>
-          <li>Linux运维</li>
-          <li>Python进阶</li>
-          <li>开发工具</li>
-          <li>Go语言</li>
-          <li>机器学习</li>
-          <li>技术生涯</li>
+          <li v-for="course in category_course">{{course.name}}</li>
         </ul>
 
         <div class="ordering">
@@ -22,7 +16,7 @@
             <li class="default this">默认</li>
             <li class="hot this">人气</li>
           </ul>
-          <p class="condition-result">共21个课程</p>
+          <p class="condition-result">共{{category_course.length}}个课程</p>
         </div>
 
       </div>
@@ -77,6 +71,7 @@
                 category: 0,
                 course_list: [],
                 category_course: [],
+                coursecategory:[],
                 token: '',
                 course_count: 0,
                 size: 5,
@@ -97,6 +92,7 @@
         },
 
         methods: {
+
             check_token() {
                 this.token = this.$settings.check_user_login();
             },
@@ -118,7 +114,7 @@
             },
             get_course_category() {
                 this.$axios.get(`${this.$settings.Host}/course/coursecategory/`).then(response => {
-                    this.category_course = response.data
+                    this.category_course = response.data;
                 }).catch(error => {
                     this.$message.error("获取课程分类失败...")
                 })

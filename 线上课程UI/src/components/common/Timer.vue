@@ -1,29 +1,31 @@
 <template>
 
-  <div>
+  <div style="overflow: auto" id="timer_body">
     <link rel="stylesheet" href="/static/bootstrap/bootstrap-3.3.7-dist的副本/css/bootstrap.css">
     <div>
-      <p style="text-align: center;font-size: 30px; padding: 20px 0">最新热门视频</p>
-    </div>
-    <div id="yangshi">
-      <el-card class="box-card" style="width: 900px;height: 350px" :body-style="{padding : '0px'}">
-        <div style="width: 450px;height:350px;display: inline-block;float: left">
-          <img style="width: 100%" :key="key" v-for="(img,key) in course_list" :src=img.course_img
-               v-if="image_index === key && img.is_host" >
-          <!--        </el-card>-->
-        </div>
-        <div style="width: 435px;display: inline-block;float: left">
-          <div class="row pre-scrollable">
-            <ul class="nav nav-pills  nav-stacked">
-              <li v-for="(item,key) in course_list" role="presentation" :key="key"
-                  @mouseover=show_image(key) style="margin-left: 15px;background: #F0FFFF" v-if="item.is_host"
-                  :class="key===1?'yangshi':''"><a
-                :href="'course/detail/'+item.id">{{item.name}}</a>
-              </li>
-            </ul>
+      <div>
+        <p style="text-align: center;font-size: 30px; padding: 20px 0">最新热门视频</p>
+      </div>
+      <div id="yangshi">
+        <el-card class="box-card" style="width: 900px;height: 350px" :body-style="{padding : '0px'}">
+          <div style="width: 450px;height:350px;display: inline-block;float: left">
+            <img style="width: 100%" :key="key" v-for="(img,key) in course_list" :src=img.course_img
+                 v-if="image_index === key && img.is_host">
+            <!--        </el-card>-->
           </div>
-        </div>
-      </el-card>
+          <div style="width: 435px;display: inline-block;float: left">
+            <div class="row pre-scrollable">
+              <ul class="nav nav-pills  nav-stacked">
+                <li v-for="(item,key) in course_list" role="presentation" :key="key"
+                    @mouseover=show_image(key) style="margin-left: 15px;background: #F0FFFF" v-if="item.is_host"
+                    :class="key===1?'yangshi':''"><a
+                  :href="'course/detail/'+item.id">{{item.name}}</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </el-card>
+      </div>
     </div>
   </div>
 </template>
@@ -57,7 +59,11 @@
 </script>
 
 <style scoped>
-
+  #timer_body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
   #yangshi {
     left: 20%;
