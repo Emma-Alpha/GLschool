@@ -56,6 +56,7 @@ INSTALLED_APPS = [
     'user',
     'course',
     'oauth',
+    'video',
 ]
 
 MIDDLEWARE = [

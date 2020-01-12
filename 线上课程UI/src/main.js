@@ -34,6 +34,8 @@ Vue.use(VideoPlayer);
 require('video.js/dist/video-js.css');
 require('vue-video-player/src/custom-theme.css');
 
+import VueWechatTitle from 'vue-wechat-title'
+Vue.use(VueWechatTitle)
 
 // elementUI 导入
 import ElementUI from 'element-ui';

@@ -63,8 +63,9 @@ from .models import CourseLesson
 
 
 class CourseLessonModelAdmin(object):
-    "课时"
+    """课时"""
     pass
 
 
 xadmin.site.register(CourseLesson, CourseLessonModelAdmin)
+

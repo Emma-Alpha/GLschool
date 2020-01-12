@@ -141,7 +141,7 @@ class QQInfoAPIView(APIView):
                 return Response('redis数据库连接失败', status=status.HTTP_500_INTERNAL_SERVER_ERROR)
 
             try:
-                user = User.objects.create(username=mobile, mobile=mobile, password=password)
+                user = User.objects.create_user(username=mobile, mobile=mobile, password=password)
             except:
                 return Response("创建用户失败", status=status.HTTP_400_BAD_REQUEST)
 

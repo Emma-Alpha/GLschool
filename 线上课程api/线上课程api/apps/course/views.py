@@ -57,3 +57,4 @@ class CoursechaptersAPIView(ListAPIView):
     serializer_class = CourseChapterModelSerializer
     filter_backends = [DjangoFilterBackend]
     filter_fields = ['course', ]
+

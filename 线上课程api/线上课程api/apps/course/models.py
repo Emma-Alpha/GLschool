@@ -1,5 +1,6 @@
 from django.db import models
 from 线上课程api.utils.models import BaseModel
+from user.models import User
 
 
 # Create your models here.
@@ -210,4 +211,7 @@ class CourseLesson(BaseModel):
             'name': self.coursechapter.name,
             'summary': self.coursechapter.summary,
         }
+
         return data
+
+

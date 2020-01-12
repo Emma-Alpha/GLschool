@@ -4,7 +4,8 @@
     <Head></Head>
     <!--    <banner></banner>-->
     <NewHead></NewHead>
-    <Timer></Timer>
+<!--    <Timer></Timer>-->
+    <Hostdoor></Hostdoor>
     <Care></Care>
     <Footer></Footer>
   </div>
@@ -19,6 +20,7 @@
     import Timer from "./common/Timer";
     import Footer from "./common/Footer";
     import Head from "./common/Head";
+    import Hostdoor from "./common/Hostdoor";
 
     export default {
         name: "Home",
@@ -28,8 +30,9 @@
             NewHead,
             banner,
             Care,
-            Timer,
-            Footer
+            // Timer,
+            Footer,
+            Hostdoor
         }
     }
 </script>
