@@ -5,15 +5,13 @@ import Home from "../components/Home";
 import Aliplayer from "../components/Aliplayer";
 import Login from "../components/Login";
 import Register from "../components/Register";
-import IT_Course from "../components/IT_Course";
-import Cart from "../components/Cart";
-import Detail from "../components/Detail";
 import PhoneSetPassword from "../components/PhoneSetPassword";
 import EmailFindPassword from "../components/EmailFindPassword";
 import EmailSetPassword from "../components/EmailSetPassword";
 import QQCallBack from "../components/QQCallBack";
 import Upload from "../components/Upload";
-// import Head from "../components/common/Head";
+import Detail from "../components/Detail";
+import CustomDetail from "../components/CustomDetail";
 // 注册路由类
 Vue.use(Router);
 
@@ -53,21 +51,6 @@ export default new Router({
       component : Register
     },
     {
-      name : "IT_Course",
-      path : "/course/:id",
-      component : IT_Course
-    },
-    {
-      name : "Cart",
-      path : "/cart",
-      component : Cart
-    },
-    {
-      name : "Detail",
-      path : "/course/detail/:id",
-      component : Detail
-    },
-    {
       name : "PhoneSetPassword",
       component : PhoneSetPassword,
       path : "/user/phone/reset_password",
@@ -91,7 +74,17 @@ export default new Router({
       name:"Upload",
       component: Upload,
       path: '/upload',
-    }
+    },
+    {
+      name:"Detail",
+      component: Detail,
+      path: '/video_detail/:id',
+    },
+    {
+      name:"CustomDetail",
+      component: CustomDetail,
+      path: '/user_video_detail/:id',
+    },
 
   ]
 })

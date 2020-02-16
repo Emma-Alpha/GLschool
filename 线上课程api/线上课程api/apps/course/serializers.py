@@ -28,7 +28,7 @@ class CourseModelSerializer(serializers.ModelSerializer):
             'name', 'college', 'students',
             'brief', 'teacher', 'course_list',
             'is_host', 'course_img', 'level_text',
-            'lessons', 'pub_lessons'
+            'lessons', 'pub_lessons', 'attachment_path',
         )
 
 
@@ -54,4 +54,28 @@ class CourseChapterModelSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = CourseChapter
-        fields = ['course','chapter', 'name', 'summary', 'pub_date', 'courselesson']
+        fields = ['course', 'chapter', 'name', 'summary', 'pub_date', 'courselesson']
+
+
+class CourseAllModelSerializer(serializers.ModelSerializer):
+    """某个学院中的所有课程信息"""
+    college = CollegeModelSerializer()
+    teacher = TeacherModelSerializer()
+
+    class Meta:
+        model = Course
+        fields = (
+            'id', 'is_show', 'is_deleted',
+            'name', 'college', 'students',
+            'brief', 'teacher', 'course_list',
+            'is_host', 'course_img', 'level_text',
+            'lessons', 'pub_lessons'
+        )
+
+
+class RankingListModelSerializer(serializers.ModelSerializer):
+    teacher = TeacherModelSerializer()
+
+    class Meta:
+        model = Course
+        fields = ('id', 'name', 'teacher', 'students')

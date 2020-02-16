@@ -46,9 +46,9 @@ class QQInfoAPIView(APIView):
         openid_info = oauth.GetOpenID(access_token=access_token)
         openid_dict = json.loads(openid_info)
         openid = openid_dict.get("openid")
-
+        print('openid', type(openid))
         user_info = oauth.GetUserInfo(access_token=access_token, openid=openid)
-
+        print(user_info)
         try:
             qq_user = OAuthUser.objects.get(openid=openid)
             user = qq_user.user
@@ -61,12 +61,13 @@ class QQInfoAPIView(APIView):
                 avatar = user.avatar.url
             except:
                 avatar = user_info.get("figureurl_qq_1")
+
             user_info = {
                 "token": token,
                 "id": user.id,
                 "username": user.username,
                 "avatar": avatar,
-                "nickname": user.nickname,
+                "nickname": user_info.get("nickname"),
             }
             return Response({"user_info": user_info, "status": 1})
         except:
@@ -104,7 +105,8 @@ class QQInfoAPIView(APIView):
 
             try:
                 checkuser = UsernameMobileAuthBackend()
-                user = checkuser.authenticate(username=username, password=password)
+                user = checkuser.authenticate(request, username=username, password=password)
+                print(user)
             except:
                 return Response("用户不存在！", status=status.HTTP_400_BAD_REQUEST)
 

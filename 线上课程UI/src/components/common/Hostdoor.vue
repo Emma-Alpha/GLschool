@@ -81,7 +81,7 @@
             <div :class="index===key?'list_item active':'list_item'" v-for="(host,key) in host_video">
 
 
-              <a href="javascript:;"
+              <a :href="`/user_video_detail/`+ host.id"
                  target="scene=%E9%A2%91%E9%81%93%E9%A1%B5&amp;pagename=%E7%B2%BE%E9%80%89%E9%A2%91%E9%81%93&amp;columnname=%E7%B2%BE%E9%80%89_%E7%83%AD%E7%82%B9%E7%9F%AD%E8%A7%86%E9%A2%91&amp;controlname=multi_feed_V&amp;cid=&amp;vid=s0871ve1xb7&amp;pid=&amp;datatype=1&amp;playertype=1&amp;controlidx=0&amp;columnidx=2&amp;plat_bucketid=9231007"
                  class="figure" tabindex="-1" _stat="multi_feed_V:img:undefined" data-float="s0871ve1xb7"
                  data-quickopen="true">
@@ -219,7 +219,7 @@
 
                     $("#title_tis").text(response.data[0].focus_content);
                     this.host_video = response.data;
-                    console.log("~~~~~~", response.data[0].file_url);
+                    console.log("~~~~~~", this.host_video);
                 }).catch(error => {
                     console.log(error.response)
                 })

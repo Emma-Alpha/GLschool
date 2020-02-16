@@ -2,8 +2,8 @@ from django.shortcuts import render
 from rest_framework.views import APIView
 from .models import HostShortVideo
 from rest_framework.response import Response
-from rest_framework.generics import ListAPIView
-from .serializers import HostShortVideoModelSerializer, UploadVideoModelSerializer
+from rest_framework.generics import ListAPIView, RetrieveAPIView
+from .serializers import HostShortVideoModelSerializer, UploadVideoModelSerializer, UserVideoInfoAllSerializer
 from rest_framework.generics import CreateAPIView
 from rest_framework.permissions import IsAuthenticated
 
@@ -39,3 +39,8 @@ class UploadVideoAPIView(CreateAPIView):
     queryset = HostShortVideo.objects.all()
     serializer_class = UploadVideoModelSerializer
     permission_classes = [IsAuthenticated]
+
+
+class GetVideoInfoAPIView(RetrieveAPIView):
+    queryset = HostShortVideo.objects.filter(is_show=True, is_deleted=False, video_stauts=1)
+    serializer_class = UserVideoInfoAllSerializer

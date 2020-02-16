@@ -89,9 +89,9 @@
         </div>
 
         <div :class="[open_id==0?'quick_item quick_user':'quick_item quick_user open']" id="mod_head_user" @mouseover="open_id=1" >
-          <router-link to="/user/login" class="quick_link _checklogin" id="mod_head_notice_trigger"
+          <router-link :to="token?'/upload':'/user/login'" class="quick_link _checklogin" id="mod_head_notice_trigger"
                        _stat="顶部导航区:头像" @mouseout="open_id=0">
-            <img class="quick_user_avatar" src="//puui.qpic.cn/vupload/0/common_avatar.png/0" data-type="avatar"
+            <img class="quick_user_avatar" :src="token? avatar:'//puui.qpic.cn/vupload/0/common_avatar.png/0'" data-type="avatar"
                  data-avatarsize="40">
             <span class="account_type" data-type="account_type_logo">
                     <i class="icon icon_qq __account_type_qq none"><svg class="svg_icon svg_icon_qq" viewBox="0 0 20 20"
@@ -109,7 +109,7 @@
                _stat="顶部导航区:头像浮层" @mouseover="open_id=1" @mouseout="open_id=0">
             <div class="pop_info_content quick_pop_user">
               <div class="quick_pop_user_hd">
-                <span class="account_type __accout_type_name">QQ账号:</span>
+                <span class="account_type __accout_type_name">账号:</span>
                 <a href="https://v.qq.com/biu/u/history/" _stat="顶部导航区:头像浮层:昵称" class="user_name _nickname">无奈之下</a>
                 <a href="https://film.qq.com/vip/my/" class="link_vip_icon" _stat="顶部导航区:头像浮层:vipicon">
                   <img src="https://puui.qpic.cn/vupload/0/20190822_0_grey_3x.png/0" alt="" class="icon_vip_pic"
@@ -165,10 +165,22 @@
                 search_word: '热门搜索',
                 choice_search: false,
                 open_id: 0,
+                token: '',
+                nickname: '',
+                avatar:''
             }
         },
+        created(){
+          this.token = this.$settings.check_user_login();
+          this.User_info()
+        },
         methods:{
-
+            User_info(){
+                if(this.token){
+                    this.nickname = localStorage.getItem('user_nickname') || sessionStorage.getItem('user_nickname')
+                    this.avatar = localStorage.getItem('avatar') || sessionStorage.getItem('avatar')
+                }
+            },
         }
     }
 </script>

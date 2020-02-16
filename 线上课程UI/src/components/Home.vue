@@ -1,23 +1,17 @@
 <template>
   <div>
-    <!--    <Header></Header>-->
     <Head></Head>
-    <!--    <banner></banner>-->
     <NewHead></NewHead>
-<!--    <Timer></Timer>-->
     <Hostdoor></Hostdoor>
-    <Care></Care>
+    <Ranking_List></Ranking_List>
     <Footer></Footer>
   </div>
 </template>
 
 
 <script>
-    import Care from "./common/Care";
-    import Header from "./common/Header";
+    import Ranking_List from "./common/Ranking_List";
     import NewHead from "./common/NewHead";
-    import banner from "./common/banner";
-    import Timer from "./common/Timer";
     import Footer from "./common/Footer";
     import Head from "./common/Head";
     import Hostdoor from "./common/Hostdoor";
@@ -25,12 +19,9 @@
     export default {
         name: "Home",
         components: {
-            // Header,
             Head,
             NewHead,
-            banner,
-            Care,
-            // Timer,
+            Ranking_List,
             Footer,
             Hostdoor
         }

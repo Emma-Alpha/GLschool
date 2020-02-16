@@ -9452,3 +9452,938 @@ INFO 2020-02-16 19:28:24,094 basehttp 154 "GET /course/?college=1 HTTP/1.1" 200 
 INFO 2020-02-16 19:28:24,703 basehttp 154 "GET /course/coursecategory/ HTTP/1.1" 200 178
 INFO 2020-02-16 19:29:32,623 basehttp 154 "GET /video/host/?fenlei=1 HTTP/1.1" 200 517
 INFO 2020-02-16 19:29:32,629 basehttp 154 "GET /course/coursecategory/ HTTP/1.1" 200 178
+INFO 2020-02-16 19:34:47,051 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-16 19:34:47,059 basehttp 154 "GET /video/host/?fenlei=1 HTTP/1.1" 200 517
+INFO 2020-02-16 19:34:47,201 basehttp 154 "GET /course/ HTTP/1.1" 200 3441
+INFO 2020-02-16 19:34:47,293 basehttp 154 "GET /course/?college=1 HTTP/1.1" 200 3441
+INFO 2020-02-16 19:34:48,020 basehttp 154 "GET /course/coursecategory/ HTTP/1.1" 200 178
+INFO 2020-02-16 19:36:07,736 basehttp 154 "GET /video/host/?fenlei=1 HTTP/1.1" 200 517
+INFO 2020-02-16 19:36:07,854 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-16 19:36:07,943 basehttp 154 "GET /course/?college=1 HTTP/1.1" 200 3441
+INFO 2020-02-16 19:36:08,090 basehttp 154 "GET /course/ HTTP/1.1" 200 3441
+INFO 2020-02-16 19:36:09,602 basehttp 154 "GET /course/coursecategory/ HTTP/1.1" 200 178
+INFO 2020-02-16 19:36:12,134 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-16 19:36:12,204 basehttp 154 "GET /course/?college=1 HTTP/1.1" 200 3441
+INFO 2020-02-16 19:47:54,076 basehttp 154 "GET /video/host/?fenlei=1 HTTP/1.1" 200 517
+INFO 2020-02-16 19:47:54,095 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-16 19:47:54,137 basehttp 154 "GET /course/ HTTP/1.1" 200 3441
+INFO 2020-02-16 19:47:54,166 basehttp 154 "GET /course/?college=1 HTTP/1.1" 200 3441
+INFO 2020-02-16 19:47:54,861 basehttp 154 "GET /course/coursecategory/ HTTP/1.1" 200 178
+INFO 2020-02-16 19:50:29,781 basehttp 154 "GET /video/host/?fenlei=1 HTTP/1.1" 200 517
+INFO 2020-02-16 19:50:29,797 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-16 19:50:29,943 basehttp 154 "GET /course/?college=1 HTTP/1.1" 200 3441
+INFO 2020-02-16 19:50:29,958 basehttp 154 "GET /course/ HTTP/1.1" 200 3441
+INFO 2020-02-16 19:50:30,245 basehttp 154 "GET /course/coursecategory/ HTTP/1.1" 200 178
+INFO 2020-02-16 19:51:00,231 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-16 19:51:01,073 basehttp 154 "GET /course/?college=1 HTTP/1.1" 200 3441
+INFO 2020-02-16 19:56:01,201 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-16 19:56:01,210 basehttp 154 "GET /video/host/?fenlei=1 HTTP/1.1" 200 517
+INFO 2020-02-16 19:56:01,290 basehttp 154 "GET /course/?college=1 HTTP/1.1" 200 3441
+INFO 2020-02-16 19:56:01,334 basehttp 154 "GET /course/ HTTP/1.1" 200 3441
+INFO 2020-02-16 19:56:01,572 basehttp 154 "GET /course/coursecategory/ HTTP/1.1" 200 178
+INFO 2020-02-16 19:57:00,493 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-16 19:57:00,563 basehttp 154 "GET /course/?college=1 HTTP/1.1" 200 3441
+INFO 2020-02-16 19:58:20,895 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-16 19:58:20,897 basehttp 154 "GET /video/host/?fenlei=1 HTTP/1.1" 200 517
+INFO 2020-02-16 19:58:20,983 basehttp 154 "GET /course/?college=1 HTTP/1.1" 200 3441
+INFO 2020-02-16 19:58:20,984 basehttp 154 "GET /course/ HTTP/1.1" 200 3441
+INFO 2020-02-16 19:58:21,361 basehttp 154 "GET /course/coursecategory/ HTTP/1.1" 200 178
+INFO 2020-02-16 19:59:04,810 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-16 19:59:04,823 basehttp 154 "GET /video/host/?fenlei=1 HTTP/1.1" 200 517
+INFO 2020-02-16 19:59:04,926 basehttp 154 "GET /course/ HTTP/1.1" 200 3441
+INFO 2020-02-16 19:59:05,084 basehttp 154 "GET /course/?college=1 HTTP/1.1" 200 3441
+INFO 2020-02-16 19:59:05,561 basehttp 154 "GET /course/coursecategory/ HTTP/1.1" 200 178
+INFO 2020-02-16 20:00:33,462 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-16 20:00:33,470 basehttp 154 "GET /video/host/?fenlei=1 HTTP/1.1" 200 517
+INFO 2020-02-16 20:00:33,609 basehttp 154 "GET /course/ HTTP/1.1" 200 3441
+INFO 2020-02-16 20:00:33,612 basehttp 154 "GET /course/?college=1 HTTP/1.1" 200 3441
+INFO 2020-02-16 20:00:33,987 basehttp 154 "GET /course/coursecategory/ HTTP/1.1" 200 178
+INFO 2020-02-16 20:01:13,049 basehttp 154 "GET /video/host/?fenlei=1 HTTP/1.1" 200 517
+INFO 2020-02-16 20:01:13,050 basehttp 154 "GET /course/ HTTP/1.1" 200 3441
+INFO 2020-02-16 20:01:13,050 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-16 20:01:13,130 basehttp 154 "GET /course/?college=1 HTTP/1.1" 200 3441
+INFO 2020-02-16 20:01:13,619 basehttp 154 "GET /course/coursecategory/ HTTP/1.1" 200 178
+INFO 2020-02-16 20:02:06,990 basehttp 154 "GET /video/host/?fenlei=1 HTTP/1.1" 200 517
+INFO 2020-02-16 20:02:07,003 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-16 20:02:07,051 basehttp 154 "GET /course/ HTTP/1.1" 200 3441
+INFO 2020-02-16 20:02:07,235 basehttp 154 "GET /course/?college=1 HTTP/1.1" 200 3441
+INFO 2020-02-16 20:02:07,619 basehttp 154 "GET /course/coursecategory/ HTTP/1.1" 200 178
+INFO 2020-02-16 20:03:49,774 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-16 20:03:49,880 basehttp 154 "GET /course/?college=1 HTTP/1.1" 200 3441
+INFO 2020-02-16 20:04:33,433 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-16 20:04:33,866 basehttp 154 "GET /course/?college=1 HTTP/1.1" 200 3441
+WARNING 2020-02-16 20:07:14,926 log 228 Not Found: /
+WARNING 2020-02-16 20:07:14,934 basehttp 154 "GET / HTTP/1.1" 404 2633
+WARNING 2020-02-16 20:07:16,024 log 228 Not Found: /favicon.ico
+WARNING 2020-02-16 20:07:16,028 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2684
+INFO 2020-02-16 20:07:23,191 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 20183
+INFO 2020-02-16 20:07:23,306 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 20183
+INFO 2020-02-16 20:07:23,424 basehttp 154 "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 200 21658
+INFO 2020-02-16 20:07:23,473 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 200 42543
+INFO 2020-02-16 20:07:23,479 basehttp 154 "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 200 58327
+INFO 2020-02-16 20:07:23,484 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-16 20:07:23,486 basehttp 154 "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 200 240196
+INFO 2020-02-16 20:07:23,491 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.effect.js HTTP/1.1" 200 31918
+INFO 2020-02-16 20:07:23,514 basehttp 154 "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 200 126432
+INFO 2020-02-16 20:07:23,627 basehttp 154 "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 200 44432
+INFO 2020-02-16 20:07:25,556 basehttp 154 "GET /xadmin/course/college/ HTTP/1.1" 200 32466
+INFO 2020-02-16 20:07:25,628 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-16 20:07:26,732 basehttp 154 "GET /xadmin/course/course/ HTTP/1.1" 200 53505
+INFO 2020-02-16 20:07:26,774 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-16 20:07:28,756 basehttp 154 "GET /xadmin/course/course/9/update/ HTTP/1.1" 200 32654
+INFO 2020-02-16 20:07:28,985 basehttp 154 "GET /static/xadmin/vendor/select2/select2.css HTTP/1.1" 200 19226
+INFO 2020-02-16 20:07:29,026 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.js HTTP/1.1" 200 98602
+INFO 2020-02-16 20:07:29,046 basehttp 154 "GET /static/xadmin/vendor/select2/select2.js HTTP/1.1" 200 104906
+INFO 2020-02-16 20:07:29,071 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-16 20:07:36,266 basehttp 154 "POST /xadmin/course/course/9/update/ HTTP/1.1" 302 0
+INFO 2020-02-16 20:07:36,630 basehttp 154 "GET /xadmin/course/course/? HTTP/1.1" 200 53737
+INFO 2020-02-16 20:07:36,709 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-16 20:07:42,843 basehttp 154 "GET /video/host/?fenlei=1 HTTP/1.1" 200 517
+INFO 2020-02-16 20:07:42,854 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-16 20:07:42,866 basehttp 154 "GET /course/ HTTP/1.1" 200 3459
+INFO 2020-02-16 20:07:42,884 basehttp 154 "GET /course/?college=1 HTTP/1.1" 200 3459
+INFO 2020-02-16 20:07:43,333 basehttp 154 "GET /course/coursecategory/ HTTP/1.1" 200 178
+INFO 2020-02-16 20:10:19,729 basehttp 154 "GET /video/host/?fenlei=1 HTTP/1.1" 200 517
+INFO 2020-02-16 20:10:19,739 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-16 20:10:19,953 basehttp 154 "GET /course/?college=1 HTTP/1.1" 200 3459
+INFO 2020-02-16 20:10:19,955 basehttp 154 "GET /course/ HTTP/1.1" 200 3459
+INFO 2020-02-16 20:10:20,862 basehttp 154 "GET /course/coursecategory/ HTTP/1.1" 200 178
+INFO 2020-02-16 20:11:51,062 basehttp 154 "GET /video/host/?fenlei=1 HTTP/1.1" 200 517
+INFO 2020-02-16 20:11:51,091 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-16 20:11:51,185 basehttp 154 "GET /course/ HTTP/1.1" 200 3459
+INFO 2020-02-16 20:11:51,193 basehttp 154 "GET /course/?college=1 HTTP/1.1" 200 3459
+INFO 2020-02-16 20:11:51,738 basehttp 154 "GET /course/coursecategory/ HTTP/1.1" 200 178
+INFO 2020-02-16 20:13:02,213 basehttp 154 "GET /video/host/?fenlei=1 HTTP/1.1" 200 517
+INFO 2020-02-16 20:13:02,247 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-16 20:13:02,276 basehttp 154 "GET /course/ HTTP/1.1" 200 3459
+INFO 2020-02-16 20:13:02,309 basehttp 154 "GET /course/?college=1 HTTP/1.1" 200 3459
+INFO 2020-02-16 20:13:02,877 basehttp 154 "GET /course/coursecategory/ HTTP/1.1" 200 178
+INFO 2020-02-16 20:14:52,392 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/course/paginations.py changed, reloading.
+INFO 2020-02-16 20:15:00,470 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-16 20:15:11,451 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-16 20:15:11,472 basehttp 154 "GET /video/host/?fenlei=1 HTTP/1.1" 200 517
+INFO 2020-02-16 20:15:11,543 basehttp 154 "GET /course/?college=1 HTTP/1.1" 200 2363
+INFO 2020-02-16 20:15:11,551 basehttp 154 "GET /course/ HTTP/1.1" 200 2353
+INFO 2020-02-16 20:15:12,034 basehttp 154 "GET /course/coursecategory/ HTTP/1.1" 200 178
+INFO 2020-02-16 20:19:13,992 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-16 20:19:23,741 basehttp 154 "GET /video/host/?fenlei=1 HTTP/1.1" 200 517
+INFO 2020-02-16 20:19:23,742 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-16 20:19:23,911 basehttp 154 "GET /course/ HTTP/1.1" 200 3523
+INFO 2020-02-16 20:19:23,914 basehttp 154 "GET /course/?college=1 HTTP/1.1" 200 3533
+INFO 2020-02-16 20:19:24,092 basehttp 154 "GET /course/coursecategory/ HTTP/1.1" 200 178
+INFO 2020-02-16 20:19:48,939 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/course/serializers.py changed, reloading.
+INFO 2020-02-16 20:19:52,924 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-16 20:21:03,043 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/course/views.py changed, reloading.
+INFO 2020-02-16 20:21:10,284 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-16 20:21:18,800 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/course/views.py changed, reloading.
+INFO 2020-02-16 20:21:21,072 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-16 20:21:26,977 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-16 20:21:27,037 basehttp 154 "GET /video/host/?fenlei=1 HTTP/1.1" 200 517
+INFO 2020-02-16 20:21:27,073 basehttp 154 "GET /course/?college=1 HTTP/1.1" 200 2363
+INFO 2020-02-16 20:21:27,164 basehttp 154 "GET /course/ HTTP/1.1" 200 2353
+INFO 2020-02-16 20:21:27,241 basehttp 154 "GET /course/coursecategory/ HTTP/1.1" 200 178
+INFO 2020-02-16 20:21:46,360 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/course/paginations.py changed, reloading.
+INFO 2020-02-16 20:21:52,071 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-16 20:21:59,992 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-16 20:22:00,020 basehttp 154 "GET /video/host/?fenlei=1 HTTP/1.1" 200 517
+INFO 2020-02-16 20:22:00,116 basehttp 154 "GET /course/?college=1 HTTP/1.1" 200 3459
+INFO 2020-02-16 20:22:00,148 basehttp 154 "GET /course/ HTTP/1.1" 200 3459
+INFO 2020-02-16 20:22:00,403 basehttp 154 "GET /course/coursecategory/ HTTP/1.1" 200 178
+INFO 2020-02-16 20:23:16,738 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/course/urls.py changed, reloading.
+INFO 2020-02-16 20:23:21,225 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-16 20:25:32,000 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/course/paginations.py changed, reloading.
+INFO 2020-02-16 20:25:34,576 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-16 20:29:55,988 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/course/serializers.py changed, reloading.
+INFO 2020-02-16 20:29:59,957 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-16 20:30:14,069 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/course/views.py changed, reloading.
+INFO 2020-02-16 20:30:15,997 autoreload 597 Watching for file changes with StatReloader
+WARNING 2020-02-16 20:31:39,808 log 228 Not Found: /course/course_all/
+WARNING 2020-02-16 20:31:39,808 basehttp 154 "GET /course/course_all/ HTTP/1.1" 404 3742
+INFO 2020-02-16 20:31:52,385 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/course/urls.py changed, reloading.
+INFO 2020-02-16 20:31:55,255 autoreload 597 Watching for file changes with StatReloader
+ERROR 2020-02-16 20:31:59,739 log 228 Internal Server Error: /course/course_all/
+Traceback (most recent call last):
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/generics.py", line 199, in get
+    return self.list(request, *args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/generics.py", line 66, in get_queryset
+    % self.__class__.__name__
+AssertionError: 'CourseAllAPIView' should either include a `queryset` attribute, or override the `get_queryset()` method.
+ERROR 2020-02-16 20:31:59,740 basehttp 154 "GET /course/course_all/ HTTP/1.1" 500 19610
+INFO 2020-02-16 20:32:56,755 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/course/views.py changed, reloading.
+INFO 2020-02-16 20:32:58,507 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-16 20:33:03,453 basehttp 154 "GET /course/course_all/ HTTP/1.1" 200 2364
+INFO 2020-02-16 20:33:21,885 basehttp 154 "GET /course/course_all/ HTTP/1.1" 200 12898
+INFO 2020-02-16 20:33:22,078 basehttp 154 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2020-02-16 20:33:22,078 basehttp 154 "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1131
+INFO 2020-02-16 20:33:22,079 basehttp 154 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+INFO 2020-02-16 20:33:22,079 basehttp 154 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+INFO 2020-02-16 20:33:22,090 basehttp 154 "GET /static/rest_framework/js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+INFO 2020-02-16 20:33:22,099 basehttp 154 "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2020-02-16 20:33:22,100 basehttp 154 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1719
+INFO 2020-02-16 20:33:22,102 basehttp 154 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2020-02-16 20:33:22,103 basehttp 154 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 37608
+INFO 2020-02-16 20:33:22,154 basehttp 154 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2020-02-16 20:33:22,229 basehttp 154 "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+INFO 2020-02-16 20:33:33,074 basehttp 154 "GET /course/course_all/?page=2 HTTP/1.1" 200 9668
+INFO 2020-02-16 20:35:17,477 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-16 20:35:17,525 basehttp 154 "GET /course/course_all/ HTTP/1.1" 200 2364
+INFO 2020-02-16 20:39:19,958 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-16 20:39:20,032 basehttp 154 "GET /course/course_all/ HTTP/1.1" 200 2364
+INFO 2020-02-16 20:39:24,488 basehttp 154 "GET /video/host/?fenlei=1 HTTP/1.1" 200 517
+INFO 2020-02-16 20:39:24,506 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-16 20:39:24,526 basehttp 154 "GET /course/ HTTP/1.1" 200 3459
+INFO 2020-02-16 20:39:24,535 basehttp 154 "GET /course/course_all/ HTTP/1.1" 200 2364
+INFO 2020-02-16 20:39:25,038 basehttp 154 "GET /course/coursecategory/ HTTP/1.1" 200 178
+INFO 2020-02-16 20:40:25,255 basehttp 154 "GET /video/host/?fenlei=1 HTTP/1.1" 200 517
+INFO 2020-02-16 20:40:25,258 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-16 20:40:25,293 basehttp 154 "GET /course/ HTTP/1.1" 200 3459
+INFO 2020-02-16 20:40:25,310 basehttp 154 "GET /course/course_all/ HTTP/1.1" 200 2364
+INFO 2020-02-16 20:40:25,975 basehttp 154 "GET /course/coursecategory/ HTTP/1.1" 200 178
+INFO 2020-02-16 20:44:19,897 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-16 20:44:19,902 basehttp 154 "GET /video/host/?fenlei=1 HTTP/1.1" 200 517
+INFO 2020-02-16 20:44:19,956 basehttp 154 "GET /course/course_all/ HTTP/1.1" 200 2364
+INFO 2020-02-16 20:44:20,136 basehttp 154 "GET /course/ HTTP/1.1" 200 3459
+INFO 2020-02-16 20:44:20,510 basehttp 154 "GET /course/coursecategory/ HTTP/1.1" 200 178
+INFO 2020-02-16 20:45:13,064 basehttp 154 "GET /course/course_all/ HTTP/1.1" 200 12898
+INFO 2020-02-16 20:45:15,776 basehttp 154 "GET /course/course_all/?page=2 HTTP/1.1" 200 9668
+INFO 2020-02-16 20:45:16,599 basehttp 154 "GET /course/course_all/ HTTP/1.1" 200 12898
+INFO 2020-02-16 20:47:51,531 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-16 20:47:51,568 basehttp 154 "GET /course/course_all/ HTTP/1.1" 200 2364
+INFO 2020-02-16 20:48:01,520 basehttp 154 "GET /video/host/?fenlei=1 HTTP/1.1" 200 517
+INFO 2020-02-16 20:48:01,549 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-16 20:48:01,591 basehttp 154 "GET /course/ HTTP/1.1" 200 3459
+INFO 2020-02-16 20:48:01,598 basehttp 154 "GET /course/course_all/ HTTP/1.1" 200 2364
+INFO 2020-02-16 20:48:01,951 basehttp 154 "GET /course/coursecategory/ HTTP/1.1" 200 178
+INFO 2020-02-16 20:51:34,232 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-16 20:51:34,280 basehttp 154 "GET /course/course_all/ HTTP/1.1" 200 2364
+INFO 2020-02-16 20:51:36,825 basehttp 154 "GET /course/course_all/?page=2 HTTP/1.1" 200 1229
+INFO 2020-02-16 20:52:13,945 basehttp 154 "GET /course/course_all/ HTTP/1.1" 200 2364
+INFO 2020-02-16 20:52:18,082 basehttp 154 "GET /course/course_all/?page=2 HTTP/1.1" 200 1229
+INFO 2020-02-16 20:52:18,834 basehttp 154 "GET /course/course_all/ HTTP/1.1" 200 2364
+INFO 2020-02-16 20:52:19,406 basehttp 154 "GET /course/course_all/?page=2 HTTP/1.1" 200 1229
+INFO 2020-02-16 20:52:19,976 basehttp 154 "GET /course/course_all/ HTTP/1.1" 200 2364
+INFO 2020-02-16 20:54:46,702 basehttp 154 "GET /course/course_all/?page=2 HTTP/1.1" 200 1229
+INFO 2020-02-16 20:54:47,231 basehttp 154 "GET /course/course_all/ HTTP/1.1" 200 2364
+INFO 2020-02-16 20:56:43,208 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-16 20:56:43,281 basehttp 154 "GET /course/course_all/ HTTP/1.1" 200 2364
+INFO 2020-02-16 20:56:45,738 basehttp 154 "GET /course/course_all/?page=2 HTTP/1.1" 200 1229
+INFO 2020-02-16 20:56:46,787 basehttp 154 "GET /course/course_all/ HTTP/1.1" 200 2364
+INFO 2020-02-16 20:56:47,515 basehttp 154 "GET /course/course_all/?page=2 HTTP/1.1" 200 1229
+INFO 2020-02-16 20:56:47,923 basehttp 154 "GET /course/course_all/ HTTP/1.1" 200 2364
+INFO 2020-02-16 20:56:48,543 basehttp 154 "GET /course/course_all/?page=2 HTTP/1.1" 200 1229
+INFO 2020-02-16 20:56:48,844 basehttp 154 "GET /course/course_all/ HTTP/1.1" 200 2364
+INFO 2020-02-16 20:58:29,815 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-16 20:58:29,852 basehttp 154 "GET /course/course_all/ HTTP/1.1" 200 2364
+INFO 2020-02-16 21:05:04,983 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/course/serializers.py changed, reloading.
+INFO 2020-02-16 21:05:11,110 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-16 21:08:00,715 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/course/views.py changed, reloading.
+INFO 2020-02-16 21:08:04,777 autoreload 597 Watching for file changes with StatReloader
+WARNING 2020-02-16 21:08:07,605 log 228 Not Found: /course/ranking_list/
+WARNING 2020-02-16 21:08:07,606 basehttp 154 "GET /course/ranking_list/ HTTP/1.1" 404 3915
+INFO 2020-02-16 21:08:16,700 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/course/urls.py changed, reloading.
+INFO 2020-02-16 21:08:21,572 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-16 21:08:24,404 basehttp 154 "GET /course/ranking_list/ HTTP/1.1" 200 923
+INFO 2020-02-16 21:08:41,117 basehttp 154 "GET /xadmin/course/course/7/update/ HTTP/1.1" 200 32654
+INFO 2020-02-16 21:08:41,294 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-16 21:08:45,787 basehttp 154 "POST /xadmin/course/course/7/update/ HTTP/1.1" 302 0
+INFO 2020-02-16 21:08:45,970 basehttp 154 "GET /xadmin/course/course/? HTTP/1.1" 200 53737
+INFO 2020-02-16 21:08:46,258 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-16 21:08:48,564 basehttp 154 "GET /course/ranking_list/ HTTP/1.1" 200 924
+INFO 2020-02-16 21:09:32,567 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/course/views.py changed, reloading.
+INFO 2020-02-16 21:09:40,559 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-16 21:09:49,068 basehttp 154 "GET /course/ranking_list/ HTTP/1.1" 200 924
+INFO 2020-02-16 21:10:04,143 basehttp 154 "GET /xadmin/course/course/6/update/ HTTP/1.1" 200 32666
+INFO 2020-02-16 21:10:04,308 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-16 21:10:07,574 basehttp 154 "POST /xadmin/course/course/6/update/ HTTP/1.1" 302 0
+INFO 2020-02-16 21:10:07,752 basehttp 154 "GET /xadmin/course/course/? HTTP/1.1" 200 53740
+INFO 2020-02-16 21:10:07,904 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-16 21:10:10,723 basehttp 154 "GET /course/ranking_list/ HTTP/1.1" 200 925
+INFO 2020-02-16 21:10:36,301 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/course/views.py changed, reloading.
+INFO 2020-02-16 21:10:39,053 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-16 21:11:30,477 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/course/views.py changed, reloading.
+INFO 2020-02-16 21:11:33,546 autoreload 597 Watching for file changes with StatReloader
+ERROR 2020-02-16 21:11:35,515 log 228 Internal Server Error: /course/ranking_list/
+Traceback (most recent call last):
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/generics.py", line 199, in get
+    return self.list(request, *args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/serializers.py", line 757, in data
+    ret = super().data
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/serializers.py", line 261, in data
+    self._data = self.to_representation(self.instance)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/serializers.py", line 675, in to_representation
+    self.child.to_representation(item) for item in iterable
+TypeError: 'Course' object is not iterable
+ERROR 2020-02-16 21:11:35,517 basehttp 154 "GET /course/ranking_list/ HTTP/1.1" 500 19791
+INFO 2020-02-16 21:11:57,900 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/course/views.py changed, reloading.
+INFO 2020-02-16 21:11:59,684 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-16 21:13:05,301 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/course/views.py changed, reloading.
+INFO 2020-02-16 21:13:07,469 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-16 21:16:15,727 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/course/views.py changed, reloading.
+INFO 2020-02-16 21:16:18,236 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-16 21:16:20,481 basehttp 154 "GET /course/ranking_list/ HTTP/1.1" 200 925
+INFO 2020-02-16 21:20:14,970 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/course/views.py changed, reloading.
+INFO 2020-02-16 21:20:18,563 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-16 21:20:47,358 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/course/views.py changed, reloading.
+INFO 2020-02-16 21:20:53,800 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-16 21:21:03,906 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-16 21:21:03,907 basehttp 154 "GET /course/course_all/ HTTP/1.1" 200 2366
+INFO 2020-02-16 21:21:03,915 basehttp 154 "GET /video/host/?fenlei=1 HTTP/1.1" 200 517
+INFO 2020-02-16 21:21:03,927 basehttp 154 "GET /course/ HTTP/1.1" 200 3461
+INFO 2020-02-16 21:21:04,157 basehttp 154 "GET /course/coursecategory/ HTTP/1.1" 200 178
+INFO 2020-02-16 21:21:33,726 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-16 21:21:33,749 basehttp 154 "GET /video/host/?fenlei=1 HTTP/1.1" 200 517
+INFO 2020-02-16 21:21:33,792 basehttp 154 "GET /course/course_all/ HTTP/1.1" 200 2366
+INFO 2020-02-16 21:21:33,849 basehttp 154 "GET /course/ HTTP/1.1" 200 3461
+INFO 2020-02-16 21:21:34,756 basehttp 154 "GET /course/coursecategory/ HTTP/1.1" 200 178
+INFO 2020-02-16 21:22:25,311 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-16 21:22:25,376 basehttp 154 "GET /course/course_all/ HTTP/1.1" 200 2366
+INFO 2020-02-16 21:22:29,795 basehttp 154 "GET /video/host/?fenlei=1 HTTP/1.1" 200 517
+INFO 2020-02-16 21:22:29,814 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-16 21:22:29,883 basehttp 154 "GET /course/course_all/ HTTP/1.1" 200 2366
+INFO 2020-02-16 21:22:29,890 basehttp 154 "GET /course/ HTTP/1.1" 200 3461
+INFO 2020-02-16 21:22:30,136 basehttp 154 "GET /course/coursecategory/ HTTP/1.1" 200 178
+INFO 2020-02-16 21:22:53,002 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-16 21:22:53,063 basehttp 154 "GET /course/course_all/ HTTP/1.1" 200 2366
+INFO 2020-02-16 21:22:56,174 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-16 21:22:56,253 basehttp 154 "GET /course/course_all/ HTTP/1.1" 200 2366
+INFO 2020-02-16 21:23:03,085 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-16 21:23:03,160 basehttp 154 "GET /course/course_all/ HTTP/1.1" 200 2366
+INFO 2020-02-16 21:23:09,513 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-16 21:23:09,543 basehttp 154 "GET /video/host/?fenlei=1 HTTP/1.1" 200 517
+INFO 2020-02-16 21:23:09,575 basehttp 154 "GET /course/course_all/ HTTP/1.1" 200 2366
+INFO 2020-02-16 21:23:09,651 basehttp 154 "GET /course/ HTTP/1.1" 200 3461
+INFO 2020-02-16 21:23:10,056 basehttp 154 "GET /course/coursecategory/ HTTP/1.1" 200 178
+INFO 2020-02-16 21:23:25,114 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-16 21:23:25,199 basehttp 154 "GET /course/ranking_list/ HTTP/1.1" 200 925
+INFO 2020-02-16 21:23:25,211 basehttp 154 "GET /course/course_all/ HTTP/1.1" 200 2366
+INFO 2020-02-16 21:23:29,152 basehttp 154 "GET /video/host/?fenlei=1 HTTP/1.1" 200 517
+INFO 2020-02-16 21:23:29,183 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-16 21:23:29,226 basehttp 154 "GET /course/course_all/ HTTP/1.1" 200 2366
+INFO 2020-02-16 21:23:29,227 basehttp 154 "GET /course/ HTTP/1.1" 200 3461
+INFO 2020-02-16 21:23:29,231 basehttp 154 "GET /course/ranking_list/ HTTP/1.1" 200 925
+INFO 2020-02-16 21:23:29,713 basehttp 154 "GET /course/coursecategory/ HTTP/1.1" 200 178
+INFO 2020-02-16 21:24:21,624 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-16 21:24:21,796 basehttp 154 "GET /course/ranking_list/ HTTP/1.1" 200 925
+INFO 2020-02-16 21:24:21,868 basehttp 154 "GET /course/course_all/ HTTP/1.1" 200 2366
+INFO 2020-02-16 21:25:57,856 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-16 21:25:57,941 basehttp 154 "GET /course/ranking_list/ HTTP/1.1" 200 925
+INFO 2020-02-16 21:25:57,944 basehttp 154 "GET /course/course_all/ HTTP/1.1" 200 2366
+INFO 2020-02-16 21:26:06,187 basehttp 154 "GET /video/host/?fenlei=1 HTTP/1.1" 200 517
+INFO 2020-02-16 21:26:06,189 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-16 21:26:06,253 basehttp 154 "GET /course/ranking_list/ HTTP/1.1" 200 925
+INFO 2020-02-16 21:26:06,259 basehttp 154 "GET /course/ HTTP/1.1" 200 3461
+INFO 2020-02-16 21:26:06,263 basehttp 154 "GET /course/course_all/ HTTP/1.1" 200 2366
+INFO 2020-02-16 21:26:06,615 basehttp 154 "GET /course/coursecategory/ HTTP/1.1" 200 178
+INFO 2020-02-16 21:27:11,529 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-16 21:27:11,529 basehttp 154 "GET /video/host/?fenlei=1 HTTP/1.1" 200 517
+INFO 2020-02-16 21:27:11,578 basehttp 154 "GET /course/course_all/ HTTP/1.1" 200 2366
+INFO 2020-02-16 21:27:11,580 basehttp 154 "GET /course/ranking_list/ HTTP/1.1" 200 925
+INFO 2020-02-16 21:27:11,610 basehttp 154 "GET /course/ HTTP/1.1" 200 3461
+INFO 2020-02-16 21:27:11,975 basehttp 154 "GET /course/coursecategory/ HTTP/1.1" 200 178
+INFO 2020-02-16 21:27:47,029 basehttp 154 "GET /video/host/?fenlei=1 HTTP/1.1" 200 517
+INFO 2020-02-16 21:27:47,054 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-16 21:27:47,085 basehttp 154 "GET /course/course_all/ HTTP/1.1" 200 2366
+INFO 2020-02-16 21:27:47,087 basehttp 154 "GET /course/ranking_list/ HTTP/1.1" 200 925
+INFO 2020-02-16 21:27:47,089 basehttp 154 "GET /course/ HTTP/1.1" 200 3461
+INFO 2020-02-16 21:27:47,527 basehttp 154 "GET /course/coursecategory/ HTTP/1.1" 200 178
+INFO 2020-02-16 21:28:06,457 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-16 21:28:06,491 basehttp 154 "GET /video/host/?fenlei=1 HTTP/1.1" 200 517
+INFO 2020-02-16 21:28:06,545 basehttp 154 "GET /course/ranking_list/ HTTP/1.1" 200 925
+INFO 2020-02-16 21:28:06,546 basehttp 154 "GET /course/ HTTP/1.1" 200 3461
+INFO 2020-02-16 21:28:06,549 basehttp 154 "GET /course/course_all/ HTTP/1.1" 200 2366
+INFO 2020-02-16 21:28:07,021 basehttp 154 "GET /course/coursecategory/ HTTP/1.1" 200 178
+INFO 2020-02-16 21:28:54,756 basehttp 154 "GET /video/host/?fenlei=1 HTTP/1.1" 200 517
+INFO 2020-02-16 21:28:54,756 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-16 21:28:54,795 basehttp 154 "GET /course/ranking_list/ HTTP/1.1" 200 925
+INFO 2020-02-16 21:28:54,797 basehttp 154 "GET /course/ HTTP/1.1" 200 3461
+INFO 2020-02-16 21:28:54,802 basehttp 154 "GET /course/course_all/ HTTP/1.1" 200 2366
+INFO 2020-02-16 21:28:55,321 basehttp 154 "GET /course/coursecategory/ HTTP/1.1" 200 178
+INFO 2020-02-16 21:34:13,954 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-16 21:34:13,980 basehttp 154 "GET /video/host/?fenlei=1 HTTP/1.1" 200 517
+INFO 2020-02-16 21:34:14,070 basehttp 154 "GET /course/ HTTP/1.1" 200 3461
+INFO 2020-02-16 21:34:14,118 basehttp 154 "GET /course/course_all/ HTTP/1.1" 200 2366
+INFO 2020-02-16 21:34:14,121 basehttp 154 "GET /course/ranking_list/ HTTP/1.1" 200 925
+INFO 2020-02-16 21:34:14,701 basehttp 154 "GET /course/coursecategory/ HTTP/1.1" 200 178
+INFO 2020-02-16 21:35:39,547 basehttp 154 "GET /video/host/?fenlei=1 HTTP/1.1" 200 517
+INFO 2020-02-16 21:35:39,586 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-16 21:35:39,661 basehttp 154 "GET /course/ranking_list/ HTTP/1.1" 200 925
+INFO 2020-02-16 21:35:39,670 basehttp 154 "GET /course/course_all/ HTTP/1.1" 200 2366
+INFO 2020-02-16 21:35:39,672 basehttp 154 "GET /course/ HTTP/1.1" 200 3461
+INFO 2020-02-16 21:35:40,009 basehttp 154 "GET /course/coursecategory/ HTTP/1.1" 200 178
+INFO 2020-02-16 21:35:59,069 basehttp 154 "GET /video/host/?fenlei=1 HTTP/1.1" 200 517
+INFO 2020-02-16 21:35:59,080 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-16 21:35:59,218 basehttp 154 "GET /course/ranking_list/ HTTP/1.1" 200 925
+INFO 2020-02-16 21:35:59,232 basehttp 154 "GET /course/course_all/ HTTP/1.1" 200 2366
+INFO 2020-02-16 21:35:59,276 basehttp 154 "GET /course/ HTTP/1.1" 200 3461
+INFO 2020-02-16 21:35:59,644 basehttp 154 "GET /course/coursecategory/ HTTP/1.1" 200 178
+INFO 2020-02-16 21:37:03,120 basehttp 154 "GET /video/host/?fenlei=1 HTTP/1.1" 200 517
+INFO 2020-02-16 21:37:03,134 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-16 21:37:03,183 basehttp 154 "GET /course/ HTTP/1.1" 200 3461
+INFO 2020-02-16 21:37:03,187 basehttp 154 "GET /course/ranking_list/ HTTP/1.1" 200 925
+INFO 2020-02-16 21:37:03,189 basehttp 154 "GET /course/course_all/ HTTP/1.1" 200 2366
+INFO 2020-02-16 21:37:03,587 basehttp 154 "GET /course/coursecategory/ HTTP/1.1" 200 178
+INFO 2020-02-16 21:37:56,317 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/video/serializers.py changed, reloading.
+INFO 2020-02-16 21:37:59,581 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-16 21:38:06,919 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/video/serializers.py changed, reloading.
+INFO 2020-02-16 21:38:09,027 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-16 21:38:13,271 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/video/serializers.py changed, reloading.
+INFO 2020-02-16 21:38:17,713 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-16 21:38:27,006 basehttp 154 "GET /course/ranking_list/ HTTP/1.1" 200 925
+INFO 2020-02-16 21:38:27,006 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-16 21:38:27,036 basehttp 154 "GET /video/host/?fenlei=1 HTTP/1.1" 200 531
+INFO 2020-02-16 21:38:27,170 basehttp 154 "GET /course/course_all/ HTTP/1.1" 200 2366
+INFO 2020-02-16 21:38:27,230 basehttp 154 "GET /course/ HTTP/1.1" 200 3461
+INFO 2020-02-16 21:38:27,598 basehttp 154 "GET /course/coursecategory/ HTTP/1.1" 200 178
+INFO 2020-02-16 22:20:07,780 basehttp 154 "GET /course/1/ HTTP/1.1" 200 381
+INFO 2020-02-16 22:20:52,477 basehttp 154 "GET /xadmin/course/course/9/update/ HTTP/1.1" 200 32672
+INFO 2020-02-16 22:20:52,661 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-16 22:21:04,693 basehttp 154 "GET /xadmin/course/course/? HTTP/1.1" 200 53505
+INFO 2020-02-16 22:21:08,367 basehttp 154 "GET /xadmin/course/course/1/update/ HTTP/1.1" 200 32686
+INFO 2020-02-16 22:21:08,495 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-16 22:23:59,887 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/course/serializers.py changed, reloading.
+INFO 2020-02-16 22:24:05,663 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-16 22:24:12,091 basehttp 154 "GET /course/1/ HTTP/1.1" 200 404
+WARNING 2020-02-16 22:25:39,922 log 228 Not Found: /course/undefined
+WARNING 2020-02-16 22:25:39,923 basehttp 154 "GET /course/undefined HTTP/1.1" 404 3904
+INFO 2020-02-16 22:28:23,082 basehttp 154 "GET /course/1 HTTP/1.1" 301 0
+INFO 2020-02-16 22:28:23,110 basehttp 154 "GET /course/1/ HTTP/1.1" 200 404
+INFO 2020-02-16 22:28:35,117 basehttp 154 "GET /course/1/ HTTP/1.1" 200 404
+INFO 2020-02-16 22:32:57,001 basehttp 154 "GET /course/1/ HTTP/1.1" 200 404
+INFO 2020-02-16 22:38:19,168 basehttp 154 "GET /course/1/ HTTP/1.1" 200 404
+INFO 2020-02-16 22:39:11,345 basehttp 154 "GET /course/1/ HTTP/1.1" 200 404
+INFO 2020-02-16 22:39:32,398 basehttp 154 "GET /course/1/ HTTP/1.1" 200 404
+INFO 2020-02-16 22:40:19,598 basehttp 154 "GET /course/1/ HTTP/1.1" 200 404
+INFO 2020-02-16 22:40:39,933 basehttp 154 "GET /course/1/ HTTP/1.1" 200 404
+INFO 2020-02-16 22:41:04,837 basehttp 154 "POST /xadmin/course/course/1/update/ HTTP/1.1" 302 0
+INFO 2020-02-16 22:41:05,023 basehttp 154 "GET /xadmin/course/course/? HTTP/1.1" 200 53744
+INFO 2020-02-16 22:41:05,107 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-16 22:41:14,145 basehttp 154 "GET /course/1/ HTTP/1.1" 200 480
+INFO 2020-02-16 23:12:28,596 basehttp 154 "GET /course/1/ HTTP/1.1" 200 480
+INFO 2020-02-16 23:30:21,117 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-16 23:30:21,130 basehttp 154 "GET /video/host/?fenlei=1 HTTP/1.1" 200 531
+INFO 2020-02-16 23:30:21,185 basehttp 154 "GET /course/ranking_list/ HTTP/1.1" 200 925
+INFO 2020-02-16 23:30:21,192 basehttp 154 "GET /course/course_all/ HTTP/1.1" 200 2366
+INFO 2020-02-16 23:30:21,213 basehttp 154 "GET /course/ HTTP/1.1" 200 3744
+INFO 2020-02-16 23:30:21,945 basehttp 154 "GET /course/coursecategory/ HTTP/1.1" 200 178
+INFO 2020-02-16 23:30:34,203 basehttp 154 "GET /course/1/ HTTP/1.1" 200 480
+INFO 2020-02-16 23:33:31,925 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-16 23:33:31,947 basehttp 154 "GET /video/host/?fenlei=1 HTTP/1.1" 200 531
+INFO 2020-02-16 23:33:31,986 basehttp 154 "GET /course/ranking_list/ HTTP/1.1" 200 925
+INFO 2020-02-16 23:33:31,989 basehttp 154 "GET /course/course_all/ HTTP/1.1" 200 2366
+INFO 2020-02-16 23:33:31,992 basehttp 154 "GET /course/ HTTP/1.1" 200 3744
+INFO 2020-02-16 23:33:32,742 basehttp 154 "GET /course/coursecategory/ HTTP/1.1" 200 178
+INFO 2020-02-16 23:36:08,756 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-16 23:36:08,770 basehttp 154 "GET /video/host/?fenlei=1 HTTP/1.1" 200 531
+INFO 2020-02-16 23:36:08,861 basehttp 154 "GET /course/course_all/ HTTP/1.1" 200 2366
+INFO 2020-02-16 23:36:08,869 basehttp 154 "GET /course/ranking_list/ HTTP/1.1" 200 925
+INFO 2020-02-16 23:36:08,945 basehttp 154 "GET /course/ HTTP/1.1" 200 3744
+INFO 2020-02-16 23:36:09,221 basehttp 154 "GET /course/coursecategory/ HTTP/1.1" 200 178
+INFO 2020-02-16 23:38:03,124 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-16 23:38:03,169 basehttp 154 "GET /video/host/?fenlei=1 HTTP/1.1" 200 531
+INFO 2020-02-16 23:38:03,198 basehttp 154 "GET /course/ranking_list/ HTTP/1.1" 200 925
+INFO 2020-02-16 23:38:03,210 basehttp 154 "GET /course/course_all/ HTTP/1.1" 200 2366
+INFO 2020-02-16 23:38:03,214 basehttp 154 "GET /course/ HTTP/1.1" 200 3744
+INFO 2020-02-16 23:38:03,644 basehttp 154 "GET /course/coursecategory/ HTTP/1.1" 200 178
+INFO 2020-02-16 23:38:13,391 basehttp 154 "GET /course/1/ HTTP/1.1" 200 480
+INFO 2020-02-16 23:41:09,304 basehttp 154 "GET /video/host/?fenlei=1 HTTP/1.1" 200 531
+INFO 2020-02-16 23:41:09,341 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-16 23:41:09,387 basehttp 154 "GET /course/course_all/ HTTP/1.1" 200 2366
+INFO 2020-02-16 23:41:09,388 basehttp 154 "GET /course/ranking_list/ HTTP/1.1" 200 925
+INFO 2020-02-16 23:41:09,408 basehttp 154 "GET /course/ HTTP/1.1" 200 3744
+INFO 2020-02-16 23:41:09,935 basehttp 154 "GET /course/coursecategory/ HTTP/1.1" 200 178
+INFO 2020-02-16 23:41:21,780 basehttp 154 "GET /course/course_all/?page=2 HTTP/1.1" 200 1229
+INFO 2020-02-16 23:41:26,849 basehttp 154 "GET /course/1/ HTTP/1.1" 200 480
+INFO 2020-02-16 23:42:06,117 basehttp 154 "GET /course/3 HTTP/1.1" 301 0
+INFO 2020-02-16 23:42:06,302 basehttp 154 "GET /course/3/ HTTP/1.1" 200 405
+INFO 2020-02-16 23:42:13,397 basehttp 154 "GET /course/1/ HTTP/1.1" 200 480
+INFO 2020-02-16 23:45:23,255 basehttp 154 "GET /xadmin/video/hostshortvideo/ HTTP/1.1" 200 35679
+INFO 2020-02-16 23:45:23,319 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-16 23:45:25,281 basehttp 154 "GET /xadmin/video/hostshortvideo/3/update/ HTTP/1.1" 200 29777
+INFO 2020-02-16 23:45:25,360 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-16 23:45:36,612 basehttp 154 "GET /xadmin/course/coursechapter/ HTTP/1.1" 200 30295
+INFO 2020-02-16 23:45:36,666 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-16 23:45:39,059 basehttp 154 "GET /xadmin/course/courselesson/ HTTP/1.1" 200 30475
+INFO 2020-02-16 23:45:39,108 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-16 23:45:40,926 basehttp 154 "GET /xadmin/course/teacher/ HTTP/1.1" 200 35830
+INFO 2020-02-16 23:45:40,967 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-16 23:45:43,454 basehttp 154 "GET /xadmin/course/coursecategory/ HTTP/1.1" 200 39436
+INFO 2020-02-16 23:45:43,494 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-16 23:45:46,635 basehttp 154 "GET /xadmin/course/courselesson/ HTTP/1.1" 200 30475
+INFO 2020-02-16 23:45:46,692 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-16 23:45:48,525 basehttp 154 "GET /xadmin/course/coursechapter/ HTTP/1.1" 200 30295
+INFO 2020-02-16 23:45:48,574 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-16 23:45:49,856 basehttp 154 "GET /xadmin/course/teacher/ HTTP/1.1" 200 35830
+INFO 2020-02-16 23:45:49,947 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-16 23:45:51,444 basehttp 154 "GET /xadmin/course/course/ HTTP/1.1" 200 53505
+INFO 2020-02-16 23:45:51,502 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-16 23:46:07,507 basehttp 154 "GET /xadmin/course/course/9/update/ HTTP/1.1" 200 32672
+INFO 2020-02-16 23:46:07,587 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-16 23:46:33,467 basehttp 154 "GET /xadmin/course/system/ HTTP/1.1" 200 34712
+INFO 2020-02-16 23:46:33,531 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-16 23:46:35,465 basehttp 154 "GET /xadmin/course/college/ HTTP/1.1" 200 32466
+INFO 2020-02-16 23:46:35,499 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-16 23:46:38,826 basehttp 154 "GET /xadmin/video/hostshortvideo/ HTTP/1.1" 200 35679
+INFO 2020-02-16 23:46:38,870 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-16 23:46:40,618 basehttp 154 "GET /xadmin/video/hostshortvideo/3/update/ HTTP/1.1" 200 29777
+INFO 2020-02-16 23:46:40,680 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-16 23:52:10,621 basehttp 154 "GET /xadmin/home/banner/ HTTP/1.1" 200 35245
+INFO 2020-02-16 23:52:10,681 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-16 23:52:19,867 basehttp 154 "GET /xadmin/home/banner/3/update/ HTTP/1.1" 200 26320
+INFO 2020-02-16 23:52:19,933 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-16 23:52:22,878 basehttp 154 "GET /xadmin/home/banner/ HTTP/1.1" 200 35245
+INFO 2020-02-16 23:52:41,699 basehttp 154 "GET /xadmin/course/teacher/ HTTP/1.1" 200 35830
+INFO 2020-02-16 23:52:41,757 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-16 23:52:44,212 basehttp 154 "GET /xadmin/course/coursechapter/ HTTP/1.1" 200 30295
+INFO 2020-02-16 23:52:44,258 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-16 23:52:45,706 basehttp 154 "GET /xadmin/course/courselesson/ HTTP/1.1" 200 30475
+INFO 2020-02-16 23:52:45,739 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-16 23:52:46,694 basehttp 154 "GET /xadmin/course/course/ HTTP/1.1" 200 53505
+INFO 2020-02-16 23:52:46,740 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-16 23:55:25,355 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-16 23:55:29,748 basehttp 154 "GET /xadmin/course/course/ HTTP/1.1" 200 53505
+INFO 2020-02-16 23:55:29,820 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-16 23:55:33,285 basehttp 154 "GET /xadmin/course/course/ HTTP/1.1" 200 53505
+INFO 2020-02-16 23:55:33,329 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-16 23:55:36,099 basehttp 154 "GET /xadmin/video/hostshortvideo/ HTTP/1.1" 200 35679
+INFO 2020-02-16 23:55:36,149 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-16 23:55:46,900 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-16 23:55:50,563 basehttp 154 "GET /xadmin/video/hostshortvideo/ HTTP/1.1" 200 35679
+INFO 2020-02-16 23:55:50,629 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-16 23:56:27,353 basehttp 154 "GET /xadmin/video/hostshortvideo/ HTTP/1.1" 200 35679
+INFO 2020-02-16 23:56:27,396 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-16 23:57:12,128 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-16 23:57:16,206 basehttp 154 "GET /xadmin/video/hostshortvideo/ HTTP/1.1" 200 35679
+INFO 2020-02-16 23:57:16,256 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-16 23:57:18,958 basehttp 154 "GET /xadmin/video/hostshortvideo/ HTTP/1.1" 200 35679
+INFO 2020-02-16 23:57:18,994 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-16 23:58:04,983 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-16 23:58:08,722 basehttp 154 "GET /xadmin/video/hostshortvideo/ HTTP/1.1" 200 35679
+INFO 2020-02-16 23:58:08,800 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-16 23:58:10,483 basehttp 154 "GET /xadmin/video/hostshortvideo/ HTTP/1.1" 200 35679
+INFO 2020-02-16 23:58:10,533 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-16 23:58:11,251 basehttp 154 "GET /xadmin/video/hostshortvideo/ HTTP/1.1" 200 35679
+INFO 2020-02-16 23:58:11,298 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+WARNING 2020-02-16 23:58:19,806 log 228 Not Found: /
+WARNING 2020-02-16 23:58:19,808 basehttp 154 "GET / HTTP/1.1" 404 2633
+INFO 2020-02-16 23:58:22,622 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 20183
+INFO 2020-02-16 23:58:22,697 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-16 23:58:23,175 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 20183
+INFO 2020-02-16 23:58:25,986 basehttp 154 "GET /xadmin/video/hostshortvideo/ HTTP/1.1" 200 35679
+INFO 2020-02-16 23:58:26,050 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-16 23:59:12,599 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/video/__init__.py changed, reloading.
+INFO 2020-02-16 23:59:16,407 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-16 23:59:19,743 basehttp 154 "GET /xadmin/video/hostshortvideo/ HTTP/1.1" 200 35695
+INFO 2020-02-16 23:59:19,826 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-16 23:59:24,281 basehttp 154 "GET /xadmin/video/hostshortvideo/ HTTP/1.1" 200 35695
+INFO 2020-02-16 23:59:24,321 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 00:02:50,939 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-17 00:02:50,984 basehttp 154 "GET /course/ranking_list/ HTTP/1.1" 200 925
+INFO 2020-02-17 00:02:51,006 basehttp 154 "GET /video/host/?fenlei=1 HTTP/1.1" 200 531
+INFO 2020-02-17 00:02:51,075 basehttp 154 "GET /course/course_all/ HTTP/1.1" 200 2366
+INFO 2020-02-17 00:02:51,122 basehttp 154 "GET /course/ HTTP/1.1" 200 3744
+INFO 2020-02-17 00:02:51,689 basehttp 154 "GET /course/coursecategory/ HTTP/1.1" 200 178
+INFO 2020-02-17 00:02:51,689 basehttp 154 "GET /course/1/ HTTP/1.1" 200 480
+INFO 2020-02-17 00:06:59,306 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/video/views.py changed, reloading.
+INFO 2020-02-17 00:07:01,693 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-17 00:08:28,285 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/video/urls.py changed, reloading.
+INFO 2020-02-17 00:08:30,909 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-17 00:08:34,120 basehttp 154 "GET /video/1/ HTTP/1.1" 200 261
+INFO 2020-02-17 00:09:50,806 basehttp 154 "GET /video/host/?fenlei=1 HTTP/1.1" 200 531
+INFO 2020-02-17 00:09:50,885 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-17 00:09:51,015 basehttp 154 "GET /course/ HTTP/1.1" 200 3744
+INFO 2020-02-17 00:09:51,023 basehttp 154 "GET /course/course_all/ HTTP/1.1" 200 2366
+INFO 2020-02-17 00:09:51,042 basehttp 154 "GET /course/ranking_list/ HTTP/1.1" 200 925
+INFO 2020-02-17 00:09:51,688 basehttp 154 "GET /course/coursecategory/ HTTP/1.1" 200 178
+INFO 2020-02-17 00:10:51,364 basehttp 154 "GET /video/3 HTTP/1.1" 301 0
+INFO 2020-02-17 00:10:54,433 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-17 00:10:54,522 basehttp 154 "GET /video/host/?fenlei=1 HTTP/1.1" 200 531
+INFO 2020-02-17 00:10:54,547 basehttp 154 "GET /course/ranking_list/ HTTP/1.1" 200 925
+INFO 2020-02-17 00:10:54,558 basehttp 154 "GET /course/course_all/ HTTP/1.1" 200 2366
+INFO 2020-02-17 00:10:54,562 basehttp 154 "GET /course/ HTTP/1.1" 200 3744
+INFO 2020-02-17 00:10:54,993 basehttp 154 "GET /course/1/ HTTP/1.1" 200 480
+INFO 2020-02-17 00:10:55,010 basehttp 154 "GET /course/coursecategory/ HTTP/1.1" 200 178
+INFO 2020-02-17 00:10:55,078 basehttp 154 "GET /video/3/ HTTP/1.1" 200 267
+INFO 2020-02-17 00:11:33,753 basehttp 154 "GET /video/1 HTTP/1.1" 301 0
+INFO 2020-02-17 00:11:34,107 basehttp 154 "GET /video/1/ HTTP/1.1" 200 261
+INFO 2020-02-17 00:12:47,980 basehttp 154 "GET /video/1/ HTTP/1.1" 200 261
+INFO 2020-02-17 00:12:50,468 basehttp 154 "GET /course/1/ HTTP/1.1" 200 480
+INFO 2020-02-17 00:15:34,214 basehttp 154 "GET /course/1/ HTTP/1.1" 200 480
+INFO 2020-02-17 00:16:16,130 basehttp 154 "GET /course/1/ HTTP/1.1" 200 480
+INFO 2020-02-17 00:17:45,579 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/video/serializers.py changed, reloading.
+INFO 2020-02-17 00:17:48,648 autoreload 597 Watching for file changes with StatReloader
+ERROR 2020-02-17 00:17:52,667 log 228 Internal Server Error: /video/1/
+Traceback (most recent call last):
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/generics.py", line 208, in get
+    return self.retrieve(request, *args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/mixins.py", line 56, in retrieve
+    return Response(serializer.data)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/serializers.py", line 559, in data
+    ret = super().data
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/serializers.py", line 261, in data
+    self._data = self.to_representation(self.instance)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/serializers.py", line 511, in to_representation
+    for field in fields:
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/serializers.py", line 372, in _readable_fields
+    for field in self.fields.values():
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/utils/functional.py", line 80, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/serializers.py", line 360, in fields
+    for key, value in self.get_fields().items():
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/serializers.py", line 1047, in get_fields
+    source, info, model, depth
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/serializers.py", line 1192, in build_field
+    return self.build_unknown_field(field_name, model_class)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/serializers.py", line 1309, in build_unknown_field
+    (field_name, model_class.__name__)
+django.core.exceptions.ImproperlyConfigured: Field name `__all__` is not valid for model `HostShortVideo`.
+ERROR 2020-02-17 00:17:52,674 basehttp 154 "GET /video/1/ HTTP/1.1" 500 20808
+INFO 2020-02-17 00:18:18,113 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/video/serializers.py changed, reloading.
+INFO 2020-02-17 00:18:19,383 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-17 00:18:26,236 basehttp 154 "GET /video/1/ HTTP/1.1" 200 455
+INFO 2020-02-17 00:20:12,127 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/video/models.py changed, reloading.
+INFO 2020-02-17 00:20:13,796 autoreload 597 Watching for file changes with StatReloader
+ERROR 2020-02-17 00:20:19,080 log 228 Internal Server Error: /video/1/
+Traceback (most recent call last):
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/generics.py", line 208, in get
+    return self.retrieve(request, *args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/mixins.py", line 56, in retrieve
+    return Response(serializer.data)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/serializers.py", line 559, in data
+    ret = super().data
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/serializers.py", line 261, in data
+    self._data = self.to_representation(self.instance)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/serializers.py", line 511, in to_representation
+    for field in fields:
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/serializers.py", line 372, in _readable_fields
+    for field in self.fields.values():
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/utils/functional.py", line 80, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/serializers.py", line 360, in fields
+    for key, value in self.get_fields().items():
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/serializers.py", line 1047, in get_fields
+    source, info, model, depth
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/serializers.py", line 1192, in build_field
+    return self.build_unknown_field(field_name, model_class)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/serializers.py", line 1309, in build_unknown_field
+    (field_name, model_class.__name__)
+django.core.exceptions.ImproperlyConfigured: Field name `__all__` is not valid for model `HostShortVideo`.
+ERROR 2020-02-17 00:20:19,106 basehttp 154 "GET /video/1/ HTTP/1.1" 500 20808
+INFO 2020-02-17 00:20:43,723 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/video/serializers.py changed, reloading.
+INFO 2020-02-17 00:20:45,497 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-17 00:20:49,913 basehttp 154 "GET /video/1/ HTTP/1.1" 200 279
+INFO 2020-02-17 00:21:55,957 basehttp 154 "GET /video/1/ HTTP/1.1" 200 279
+INFO 2020-02-17 00:22:01,379 basehttp 154 "GET /video/1/ HTTP/1.1" 200 279
+INFO 2020-02-17 00:22:19,197 basehttp 154 "GET /video/3/ HTTP/1.1" 200 285
+INFO 2020-02-17 00:27:36,937 basehttp 154 "GET /oauth/QQ_login/ HTTP/1.1" 200 154
+INFO 2020-02-17 00:27:47,442 basehttp 154 "GET /oauth/QQ_info/?code=B5BD07FC325964C055049CF1D1CEB110 HTTP/1.1" 200 516
+INFO 2020-02-17 00:28:05,610 basehttp 154 "GET /user/verify/ HTTP/1.1" 200 12
+INFO 2020-02-17 00:28:11,076 basehttp 154 "OPTIONS /user/verify/ HTTP/1.1" 200 0
+INFO 2020-02-17 00:28:11,225 basehttp 154 "POST /user/verify/ HTTP/1.1" 200 15
+INFO 2020-02-17 00:28:11,237 basehttp 154 "OPTIONS /oauth/QQ_info/ HTTP/1.1" 200 0
+WARNING 2020-02-17 00:28:11,246 log 228 Bad Request: /oauth/QQ_info/
+WARNING 2020-02-17 00:28:11,247 basehttp 154 "POST /oauth/QQ_info/ HTTP/1.1" 400 20
+INFO 2020-02-17 00:28:21,371 basehttp 154 "GET /user/verify/ HTTP/1.1" 200 12
+INFO 2020-02-17 00:28:25,103 basehttp 154 "POST /user/verify/ HTTP/1.1" 200 15
+WARNING 2020-02-17 00:28:25,112 log 228 Bad Request: /oauth/QQ_info/
+WARNING 2020-02-17 00:28:25,113 basehttp 154 "POST /oauth/QQ_info/ HTTP/1.1" 400 20
+INFO 2020-02-17 00:28:35,232 basehttp 154 "GET /user/verify/ HTTP/1.1" 200 12
+INFO 2020-02-17 00:28:39,517 basehttp 154 "POST /user/verify/ HTTP/1.1" 200 15
+WARNING 2020-02-17 00:28:39,525 log 228 Bad Request: /oauth/QQ_info/
+WARNING 2020-02-17 00:28:39,525 basehttp 154 "POST /oauth/QQ_info/ HTTP/1.1" 400 20
+INFO 2020-02-17 00:30:23,474 basehttp 154 "GET /user/verify/ HTTP/1.1" 200 12
+INFO 2020-02-17 00:31:39,247 basehttp 154 "GET /user/verify/ HTTP/1.1" 200 12
+INFO 2020-02-17 00:31:43,281 basehttp 154 "POST /user/verify/ HTTP/1.1" 200 15
+WARNING 2020-02-17 00:31:43,291 log 228 Bad Request: /oauth/QQ_info/
+WARNING 2020-02-17 00:31:43,292 basehttp 154 "POST /oauth/QQ_info/ HTTP/1.1" 400 20
+INFO 2020-02-17 00:35:54,826 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/oauth/views.py changed, reloading.
+INFO 2020-02-17 00:35:56,877 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-17 00:36:23,104 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/user/utils.py changed, reloading.
+INFO 2020-02-17 00:39:58,352 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-17 00:40:28,078 basehttp 154 "GET /course/ranking_list/ HTTP/1.1" 200 925
+INFO 2020-02-17 00:40:28,079 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-17 00:40:28,114 basehttp 154 "GET /video/host/?fenlei=1 HTTP/1.1" 200 531
+INFO 2020-02-17 00:40:28,175 basehttp 154 "GET /course/course_all/ HTTP/1.1" 200 2366
+INFO 2020-02-17 00:40:28,199 basehttp 154 "GET /course/ HTTP/1.1" 200 3744
+INFO 2020-02-17 00:40:28,452 basehttp 154 "GET /course/coursecategory/ HTTP/1.1" 200 178
+INFO 2020-02-17 00:40:36,431 basehttp 154 "GET /oauth/QQ_login/ HTTP/1.1" 200 154
+INFO 2020-02-17 00:40:43,515 basehttp 154 "GET /oauth/QQ_info/?code=0733BF9F18F2E135007813654D08EE7C HTTP/1.1" 200 516
+INFO 2020-02-17 00:40:50,906 basehttp 154 "GET /user/verify/ HTTP/1.1" 200 12
+INFO 2020-02-17 00:40:54,653 basehttp 154 "OPTIONS /user/verify/ HTTP/1.1" 200 0
+INFO 2020-02-17 00:40:54,768 basehttp 154 "POST /user/verify/ HTTP/1.1" 200 15
+INFO 2020-02-17 00:40:54,775 basehttp 154 "OPTIONS /oauth/QQ_info/ HTTP/1.1" 200 0
+WARNING 2020-02-17 00:40:54,782 log 228 Bad Request: /oauth/QQ_info/
+WARNING 2020-02-17 00:40:54,782 basehttp 154 "POST /oauth/QQ_info/ HTTP/1.1" 400 23
+INFO 2020-02-17 00:41:55,849 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/user/utils.py changed, reloading.
+INFO 2020-02-17 00:41:57,598 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-17 00:42:01,438 basehttp 154 "GET /user/verify/ HTTP/1.1" 200 12
+INFO 2020-02-17 00:42:05,646 basehttp 154 "POST /user/verify/ HTTP/1.1" 200 15
+WARNING 2020-02-17 00:42:05,738 log 228 Bad Request: /oauth/QQ_info/
+WARNING 2020-02-17 00:42:05,738 basehttp 154 "POST /oauth/QQ_info/ HTTP/1.1" 400 20
+INFO 2020-02-17 00:42:14,757 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/user/utils.py changed, reloading.
+INFO 2020-02-17 00:42:18,107 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-17 00:42:27,763 basehttp 154 "GET /oauth/QQ_login/ HTTP/1.1" 200 154
+INFO 2020-02-17 00:42:35,931 basehttp 154 "GET /oauth/QQ_info/?code=2CBE590F5C108DF3452884CFB529DF20 HTTP/1.1" 200 516
+INFO 2020-02-17 00:42:43,675 basehttp 154 "GET /user/verify/ HTTP/1.1" 200 12
+INFO 2020-02-17 00:42:47,649 basehttp 154 "POST /user/verify/ HTTP/1.1" 200 15
+WARNING 2020-02-17 00:42:47,663 log 228 Bad Request: /oauth/QQ_info/
+WARNING 2020-02-17 00:42:47,664 basehttp 154 "POST /oauth/QQ_info/ HTTP/1.1" 400 23
+INFO 2020-02-17 00:43:34,477 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/oauth/views.py changed, reloading.
+INFO 2020-02-17 00:43:36,802 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-17 00:43:39,379 basehttp 154 "GET /user/verify/ HTTP/1.1" 200 12
+INFO 2020-02-17 00:43:43,502 basehttp 154 "POST /user/verify/ HTTP/1.1" 200 15
+WARNING 2020-02-17 00:43:43,515 log 228 Bad Request: /oauth/QQ_info/
+WARNING 2020-02-17 00:43:43,515 basehttp 154 "POST /oauth/QQ_info/ HTTP/1.1" 400 23
+INFO 2020-02-17 00:44:37,017 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/user/utils.py changed, reloading.
+INFO 2020-02-17 00:44:38,194 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-17 00:49:54,668 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/oauth/views.py changed, reloading.
+INFO 2020-02-17 00:49:56,326 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-17 00:49:58,836 basehttp 154 "GET /user/verify/ HTTP/1.1" 200 12
+INFO 2020-02-17 00:50:03,071 basehttp 154 "POST /user/verify/ HTTP/1.1" 200 15
+WARNING 2020-02-17 00:50:03,084 log 228 Bad Request: /oauth/QQ_info/
+WARNING 2020-02-17 00:50:03,084 basehttp 154 "POST /oauth/QQ_info/ HTTP/1.1" 400 23
+INFO 2020-02-17 00:50:15,532 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/oauth/views.py changed, reloading.
+INFO 2020-02-17 00:50:16,949 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-17 00:50:21,261 basehttp 154 "GET /user/verify/ HTTP/1.1" 200 12
+INFO 2020-02-17 00:50:25,508 basehttp 154 "POST /user/verify/ HTTP/1.1" 200 15
+INFO 2020-02-17 00:50:25,680 basehttp 154 "POST /oauth/QQ_info/ HTTP/1.1" 200 375
+INFO 2020-02-17 00:50:26,036 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-17 00:50:26,104 basehttp 154 "GET /video/host/?fenlei=1 HTTP/1.1" 200 531
+INFO 2020-02-17 00:50:26,159 basehttp 154 "GET /course/course_all/ HTTP/1.1" 200 2366
+INFO 2020-02-17 00:50:26,171 basehttp 154 "GET /course/coursecategory/ HTTP/1.1" 200 178
+INFO 2020-02-17 00:50:26,181 basehttp 154 "GET /course/ranking_list/ HTTP/1.1" 200 925
+INFO 2020-02-17 00:50:26,211 basehttp 154 "GET /course/ HTTP/1.1" 200 3744
+INFO 2020-02-17 00:50:35,436 basehttp 154 "GET /oauth/QQ_login/ HTTP/1.1" 200 154
+INFO 2020-02-17 00:50:43,248 basehttp 154 "GET /oauth/QQ_info/?code=0FCABCF007A54E5C63CB9F4BA938B196 HTTP/1.1" 200 516
+INFO 2020-02-17 00:54:14,787 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-17 00:54:14,798 basehttp 154 "GET /video/host/?fenlei=1 HTTP/1.1" 200 531
+INFO 2020-02-17 00:54:14,828 basehttp 154 "GET /course/ranking_list/ HTTP/1.1" 200 925
+INFO 2020-02-17 00:54:14,837 basehttp 154 "GET /course/ HTTP/1.1" 200 3744
+INFO 2020-02-17 00:54:14,840 basehttp 154 "GET /course/course_all/ HTTP/1.1" 200 2366
+INFO 2020-02-17 00:54:15,532 basehttp 154 "GET /course/coursecategory/ HTTP/1.1" 200 178
+INFO 2020-02-17 00:54:20,571 basehttp 154 "GET /oauth/QQ_login/ HTTP/1.1" 200 154
+INFO 2020-02-17 00:54:28,839 basehttp 154 "GET /oauth/QQ_info/?code=4C8D357EA2FA7B3F95A7E71945BAD063 HTTP/1.1" 200 516
+INFO 2020-02-17 00:55:09,446 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/oauth/views.py changed, reloading.
+INFO 2020-02-17 00:55:11,034 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-17 00:55:50,112 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-17 00:58:00,814 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-17 00:58:13,396 basehttp 154 "GET /oauth/QQ_info/?code=60C4C6135A5EBE879D5B935ED3CB4635 HTTP/1.1" 200 516
+INFO 2020-02-17 00:59:27,852 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/oauth/views.py changed, reloading.
+INFO 2020-02-17 00:59:29,034 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-17 00:59:49,060 basehttp 154 "GET /oauth/QQ_info/?code=B3ECA1792935C7ACF7D5A9E33BC48900 HTTP/1.1" 200 516
+INFO 2020-02-17 01:01:41,957 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-17 01:04:29,542 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/oauth/views.py changed, reloading.
+INFO 2020-02-17 01:04:31,985 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-17 01:04:56,548 autoreload 597 Watching for file changes with StatReloader
+ERROR 2020-02-17 01:05:11,920 log 228 Internal Server Error: /oauth/QQ_info/
+Traceback (most recent call last):
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/oauth/views.py", line 52, in get
+    qq_user = OAuthUser.objects.get(openid=openid)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/db/models/query.py", line 412, in get
+    (self.model._meta.object_name, num)
+oauth.models.OAuthUser.MultipleObjectsReturned: get() returned more than one OAuthUser -- it returned 2!
+ERROR 2020-02-17 01:05:11,933 basehttp 154 "GET /oauth/QQ_info/?code=085018915656E3FFAD8CFF151909F8CE HTTP/1.1" 500 20124
+INFO 2020-02-17 01:05:58,169 basehttp 154 "GET /oauth/QQ_info/?code=884F960D70DBD843B37ED246044748A3 HTTP/1.1" 200 516
+INFO 2020-02-17 01:06:52,178 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-17 01:09:31,724 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-17 01:11:40,876 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/oauth/views.py changed, reloading.
+INFO 2020-02-17 01:11:43,478 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-17 01:11:56,076 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-17 01:12:02,726 basehttp 154 "GET /oauth/QQ_info/?code=CF3E80E388226860CB8B7A85C8E886CC HTTP/1.1" 200 516
+INFO 2020-02-17 01:13:11,950 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/oauth/views.py changed, reloading.
+INFO 2020-02-17 01:13:13,081 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-17 01:13:26,995 basehttp 154 "GET /oauth/QQ_info/?code=F6EE53D5D2D8CED00138CF505055B093 HTTP/1.1" 200 516
+INFO 2020-02-17 01:14:59,638 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/oauth/views.py changed, reloading.
+INFO 2020-02-17 01:15:00,967 autoreload 597 Watching for file changes with StatReloader
+ERROR 2020-02-17 01:15:03,371 log 228 Internal Server Error: /oauth/QQ_info/
+Traceback (most recent call last):
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/oauth/views.py", line 38, in get
+    access_token = many_info.get("access_token")[0]
+TypeError: 'NoneType' object is not subscriptable
+ERROR 2020-02-17 01:15:03,388 basehttp 154 "GET /oauth/QQ_info/?code=F6EE53D5D2D8CED00138CF505055B093 HTTP/1.1" 500 19718
+INFO 2020-02-17 01:15:14,626 basehttp 154 "GET /oauth/QQ_info/?code=0DADE88277D0E41002EFC39BE0F7D21C HTTP/1.1" 200 516
+INFO 2020-02-17 01:16:09,808 autoreload 597 Watching for file changes with StatReloader
+WARNING 2020-02-17 01:17:44,475 log 228 Not Found: /
+WARNING 2020-02-17 01:17:44,477 basehttp 154 "GET / HTTP/1.1" 404 2633
+WARNING 2020-02-17 01:17:44,804 log 228 Not Found: /favicon.ico
+WARNING 2020-02-17 01:17:44,805 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2684
+INFO 2020-02-17 01:17:48,103 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 20199
+INFO 2020-02-17 01:17:48,229 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 01:17:48,288 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 20199
+INFO 2020-02-17 01:17:56,343 basehttp 154 "GET /xadmin/user/user/ HTTP/1.1" 200 46408
+INFO 2020-02-17 01:17:56,436 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 01:18:01,113 basehttp 154 "GET /xadmin/user/user/2/update/ HTTP/1.1" 200 38792
+INFO 2020-02-17 01:18:01,164 basehttp 154 "GET /static/xadmin/vendor/bootstrap-datepicker/css/datepicker.css HTTP/1.1" 200 10225
+INFO 2020-02-17 01:18:01,196 basehttp 154 "GET /static/xadmin/vendor/bootstrap-clockpicker/bootstrap-clockpicker.css HTTP/1.1" 200 3729
+INFO 2020-02-17 01:18:01,198 basehttp 154 "GET /static/xadmin/vendor/bootstrap-clockpicker/bootstrap-clockpicker.js HTTP/1.1" 200 21112
+INFO 2020-02-17 01:18:01,200 basehttp 154 "GET /static/xadmin/css/xadmin.widget.select-transfer.css HTTP/1.1" 200 2317
+INFO 2020-02-17 01:18:01,205 basehttp 154 "GET /static/xadmin/js/xadmin.widget.select-transfer.js HTTP/1.1" 200 8214
+INFO 2020-02-17 01:18:01,215 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 01:18:01,219 basehttp 154 "GET /static/xadmin/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js HTTP/1.1" 200 32656
+INFO 2020-02-17 01:18:09,993 basehttp 154 "GET /xadmin/user/user/ HTTP/1.1" 200 46408
+INFO 2020-02-17 01:19:12,764 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/oauth/views.py changed, reloading.
+INFO 2020-02-17 01:19:17,296 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-17 01:19:22,013 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-17 01:19:30,863 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-17 01:19:30,867 basehttp 154 "GET /course/ranking_list/ HTTP/1.1" 200 925
+INFO 2020-02-17 01:19:30,901 basehttp 154 "GET /video/host/?fenlei=1 HTTP/1.1" 200 531
+INFO 2020-02-17 01:19:30,947 basehttp 154 "GET /course/course_all/ HTTP/1.1" 200 2366
+INFO 2020-02-17 01:19:30,947 basehttp 154 "GET /course/coursecategory/ HTTP/1.1" 200 178
+INFO 2020-02-17 01:19:30,980 basehttp 154 "GET /course/ HTTP/1.1" 200 3744
+INFO 2020-02-17 01:19:35,015 basehttp 154 "GET /oauth/QQ_login/ HTTP/1.1" 200 154
+INFO 2020-02-17 01:19:43,849 basehttp 154 "GET /oauth/QQ_info/?code=097789FE5F4D036C4FD012828B6E0AA8 HTTP/1.1" 200 375
+INFO 2020-02-17 01:19:44,220 basehttp 154 "GET /video/host/?fenlei=1 HTTP/1.1" 200 531
+INFO 2020-02-17 01:19:44,221 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-17 01:19:44,274 basehttp 154 "GET /course/ranking_list/ HTTP/1.1" 200 925
+INFO 2020-02-17 01:19:44,293 basehttp 154 "GET /course/course_all/ HTTP/1.1" 200 2366
+INFO 2020-02-17 01:19:44,303 basehttp 154 "GET /course/ HTTP/1.1" 200 3744
+INFO 2020-02-17 01:19:44,369 basehttp 154 "GET /course/coursecategory/ HTTP/1.1" 200 178
+INFO 2020-02-17 01:19:50,682 basehttp 154 "GET /video/host/?fenlei=1 HTTP/1.1" 200 531
+INFO 2020-02-17 01:19:50,722 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-17 01:19:50,916 basehttp 154 "GET /course/course_all/ HTTP/1.1" 200 2366
+INFO 2020-02-17 01:19:50,919 basehttp 154 "GET /course/ HTTP/1.1" 200 3744
+INFO 2020-02-17 01:19:50,926 basehttp 154 "GET /course/ranking_list/ HTTP/1.1" 200 925
+INFO 2020-02-17 01:19:51,300 basehttp 154 "GET /course/coursecategory/ HTTP/1.1" 200 178
+INFO 2020-02-17 01:23:38,123 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-17 01:23:38,159 basehttp 154 "GET /video/host/?fenlei=1 HTTP/1.1" 200 531
+INFO 2020-02-17 01:23:38,328 basehttp 154 "GET /course/ranking_list/ HTTP/1.1" 200 925
+INFO 2020-02-17 01:23:38,343 basehttp 154 "GET /course/course_all/ HTTP/1.1" 200 2366
+INFO 2020-02-17 01:23:38,348 basehttp 154 "GET /course/ HTTP/1.1" 200 3744
+INFO 2020-02-17 01:23:38,519 basehttp 154 "GET /course/coursecategory/ HTTP/1.1" 200 178
+INFO 2020-02-17 01:24:35,770 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-17 01:24:35,817 basehttp 154 "GET /video/host/?fenlei=1 HTTP/1.1" 200 531
+INFO 2020-02-17 01:24:35,877 basehttp 154 "GET /course/ranking_list/ HTTP/1.1" 200 925
+INFO 2020-02-17 01:24:35,879 basehttp 154 "GET /course/course_all/ HTTP/1.1" 200 2366
+INFO 2020-02-17 01:24:35,880 basehttp 154 "GET /course/ HTTP/1.1" 200 3744
+INFO 2020-02-17 01:24:36,294 basehttp 154 "GET /course/coursecategory/ HTTP/1.1" 200 178
+INFO 2020-02-17 01:25:01,624 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-17 01:25:01,631 basehttp 154 "GET /video/host/?fenlei=1 HTTP/1.1" 200 531
+INFO 2020-02-17 01:25:01,659 basehttp 154 "GET /course/ranking_list/ HTTP/1.1" 200 925
+INFO 2020-02-17 01:25:01,677 basehttp 154 "GET /course/course_all/ HTTP/1.1" 200 2366
+INFO 2020-02-17 01:25:01,741 basehttp 154 "GET /course/ HTTP/1.1" 200 3744
+INFO 2020-02-17 01:25:02,128 basehttp 154 "GET /course/coursecategory/ HTTP/1.1" 200 178
+INFO 2020-02-17 01:28:36,209 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-17 01:28:36,243 basehttp 154 "GET /video/host/?fenlei=1 HTTP/1.1" 200 531
+INFO 2020-02-17 01:28:36,299 basehttp 154 "GET /course/ranking_list/ HTTP/1.1" 200 925
+INFO 2020-02-17 01:28:36,323 basehttp 154 "GET /course/course_all/ HTTP/1.1" 200 2366
+INFO 2020-02-17 01:28:36,345 basehttp 154 "GET /course/ HTTP/1.1" 200 3744
+INFO 2020-02-17 01:28:36,801 basehttp 154 "GET /course/coursecategory/ HTTP/1.1" 200 178
+INFO 2020-02-17 01:28:45,780 basehttp 154 "GET /video/host/?fenlei=1 HTTP/1.1" 200 531
+INFO 2020-02-17 01:28:45,786 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-17 01:28:45,820 basehttp 154 "GET /course/coursecategory/ HTTP/1.1" 200 178
+INFO 2020-02-17 01:28:45,897 basehttp 154 "GET /course/ranking_list/ HTTP/1.1" 200 925
+INFO 2020-02-17 01:28:45,904 basehttp 154 "GET /course/course_all/ HTTP/1.1" 200 2366
+INFO 2020-02-17 01:28:45,927 basehttp 154 "GET /course/ HTTP/1.1" 200 3744

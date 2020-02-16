@@ -147,6 +147,7 @@
             <div class="video_base _base" r-notemplate="true">
               <h1 class="video_title _video_title">
 
+
                 {{info.name}}
 
 
@@ -187,17 +188,13 @@
                 <div class="video_tags _video_tags">
 
 
-                  <a _stat="intro:tag" href="javascript:;" target="_blank"
-                     class="tag_item">{{info.course_list}}</a>
+                  <a _stat="intro:tag" href="//v.qq.com/x/list/movie?offset=0&amp;area=100024" target="_blank"
+                     class="tag_item">用户自定义</a>
 
 
-                  <a _stat="intro:tag" href="javascript:;" target="_blank"
-                     class="tag_item">{{info.college.name}}</a>
+                  <a _stat="intro:tag" href="//v.qq.com/x/list/movie?offset=0&amp;year=100040" target="_blank"
+                     class="tag_item">{{info.course}}</a>
 
-
-                  <a _stat="intro:tag"
-                     href="javascript:;"
-                     target="_blank" class="tag_item">{{info.level_text}}</a>
 
                 </div>
               </div>
@@ -280,7 +277,7 @@
 
     export default {
 
-        name: "Detail",
+        name: "CustomDetail",
         components: {
             Head,
             Footer,
@@ -326,9 +323,9 @@
             },
 
             get_video_info(){
-                this.$axios.get(`${this.$settings.Host}/course/${this.$route.params.id}`).then(response=>{
-                    this.info = response.data
-                    this.playerOptions.sources[0].src = response.data.attachment_path
+                this.$axios.get(`${this.$settings.Host}/video/${this.$route.params.id}`).then(response=>{
+                    this.info = response.data;
+                    this.playerOptions.sources[0].src = response.data.file_url
                 }).catch(error=>{
                     this.$alert("网络错误!", '广东理工学院')
                 })

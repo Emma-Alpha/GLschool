@@ -26,3 +26,6 @@ class HostShortVideo(BaseModel):
         db_table = "gl_HostShortVideo"
         verbose_name_plural = verbose_name = "热点短视频"
 
+    @property
+    def course(self):
+        return self.course_video.name

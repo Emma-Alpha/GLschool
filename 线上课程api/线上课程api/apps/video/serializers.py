@@ -7,7 +7,7 @@ class HostShortVideoModelSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = HostShortVideo
-        fields = ("video_time", "video_img", "name", "file_url", "focus_content")
+        fields = ('id', "video_time", "video_img", "name", "file_url", "focus_content")
 
 
 class UploadVideoModelSerializer(serializers.ModelSerializer):
@@ -15,7 +15,7 @@ class UploadVideoModelSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = HostShortVideo
-        fields = ["file_url","name"]
+        fields = ["file_url", "name"]
 
     def create(self, validate_data):
         """保存数据"""
@@ -29,3 +29,9 @@ class UploadVideoModelSerializer(serializers.ModelSerializer):
         # instance.course_video = str(instance.file_url).split('/')[0]
         instance.save()
         return instance
+
+
+class UserVideoInfoAllSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = HostShortVideo
+        fields = ('id', "video_time", "video_img", "name", "file_url", "focus_content", 'course')

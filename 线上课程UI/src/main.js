@@ -16,6 +16,7 @@ import '../static/css/reset.css'
 import '../static/css/tengxun.css'
 import '../static/css/iconfont.eot'
 import '../static/css/iconfont.css'
+
 import jQuery from 'jquery/dist/jquery'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap/dist/js/bootstrap'
