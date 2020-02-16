@@ -348,3 +348,10 @@ QQ_APP_ID = '101842319'
 QQ_APP_KEY = 'f59db93ecdbd42fd9d9899e1b5b3a5d5'
 QQ_REDIRECT_URL = 'http://www.feedertv.com:8080/qq_callback'
 QQ_STATE = "/"  # 用于保存登录成功后的跳转页面路径
+
+# django文件存储
+DEFAULT_FILE_STORAGE = '线上课程api.utils.fastdfs.fdfs_storage.FastDFSStorage'
+
+# FastDFS
+FDFS_URL = 'http://106.14.202.117:8888/'  # 访问图片的路径域名 ip地址修改为自己机器的ip地址
+FDFS_CLIENT_CONF = os.path.join(BASE_DIR, 'utils/fastdfs/client.conf')

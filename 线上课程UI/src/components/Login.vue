@@ -222,7 +222,7 @@
 
             get_verify() {
                 // 首先从后端获取appId
-                console.log(this.$settings.Host)
+                console.log(this.$settings.Host);
                 this.$axios.get(`${this.$settings.Host}/user/verify/`).then(
                     response => {
                         // 拿到了appId,构建验证码对象
@@ -250,12 +250,14 @@
 
             check_verify(ticket, randstr) {
                 // 将ticket,randstr发送到后端进行验证
+                console.log("发送ajax成功~~~~");
                 this.$axios.post(`${this.$settings.Host}/user/verify/`, {
                     'ticket': ticket,
                     'randstr': randstr
                 }).then(response => {
                     if (response.status === 200) {
                         // 校验成功, 进行登录,这里调用之前写好的登录方法
+                        console.log("校验成功~~")
                         this.submitForm('ruleForm')
                     } else {
                         this.$message.error("校验失败!")
@@ -308,6 +310,7 @@
                                 localStorage.setItem('user_id', response.data.id);
                                 localStorage.setItem('user_name', response.data.username);
                             } else {
+                                console.log('不保存密码！~~~ ',response.data);
                                 localStorage.removeItem('user_token');
                                 localStorage.removeItem('user_id');
                                 localStorage.removeItem('user_name');

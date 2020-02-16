@@ -25,7 +25,7 @@ def get_user_by_account(account):
 
 
 class UsernameMobileAuthBackend(ModelBackend):
-    def authenticate(self, username=None, password=None, **kwargs):
+    def authenticate(self, request, username=None, password=None, **kwargs):
         # 获取用户
         user = get_user_by_account(username)
 

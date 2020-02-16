@@ -28,7 +28,7 @@ from xadmin.plugins import xversion
 xversion.register_models()
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    # path('admin/', admin.site.urls),
     path(r'xadmin/', xadmin.site.urls),
 
     re_path(r'media/(?P<path>.*)', serve, {"document_root": settings.MEDIA_ROOT}),

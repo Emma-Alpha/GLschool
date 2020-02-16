@@ -12,6 +12,7 @@ import PhoneSetPassword from "../components/PhoneSetPassword";
 import EmailFindPassword from "../components/EmailFindPassword";
 import EmailSetPassword from "../components/EmailSetPassword";
 import QQCallBack from "../components/QQCallBack";
+import Upload from "../components/Upload";
 // import Head from "../components/common/Head";
 // 注册路由类
 Vue.use(Router);
@@ -38,7 +39,7 @@ export default new Router({
     },
     {
       name : 'Aliplayer',
-      path : '/aliplayer/:d',
+      path : '/aliplayer',
       component : Aliplayer,
     },
     {
@@ -86,7 +87,11 @@ export default new Router({
       component : QQCallBack,
       path : "/qq_callback",
     },
-
+    {
+      name:"Upload",
+      component: Upload,
+      path: '/upload',
+    }
 
   ]
 })

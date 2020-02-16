@@ -12,8 +12,9 @@
         <form id="searchForm" action="javascript:" method="get" target="_blank" class="search_form cf">
           <label class="search_label" for="keywords">搜索关键词</label>
           <div class="search_keywords">
-            <input type="text" name="q" id="keywords" class="search_input" placeholder="瑜伽初级教程" autocomplete="off"
-                   _stat="顶部导航区_搜索框" value="初级教程">
+            <input type="text" name="q" id="keywords" class="search_input" autocomplete="off"
+                   _stat="顶部导航区_搜索框" :value="choice_search?'':search_word" @click.prevent="choice_search=true"
+                   @blur="choice_search=false">
           </div>
           <input type="hidden" name="stag">
           <input type="hidden" name="smartbox_ab">
@@ -59,7 +60,7 @@
 
         <!-- 上传 -->
         <div class="quick_item quick_upload __lite_hide__">
-          <a href="javascript:;" class="quick_link" _stat="顶部导航区:上传" title="上传">
+          <a href="/upload" class="quick_link" _stat="顶部导航区:上传" title="上传">
 
             <svg class="svg_quick_icon svg_icon_upload" viewBox="0 0 26 26" width="26" height="26">
               <path d="M12 3h2v11c0 .6-.4 1-1 1s-1-.4-1-1V3z" fill="currentColor"></path>
@@ -87,9 +88,9 @@
           </a>
         </div>
 
-        <div class="quick_item quick_user" id="mod_head_user">
-          <a href="javascript:;" class="quick_link _checklogin" id="mod_head_notice_trigger"
-             target="_blank" _stat="顶部导航区:头像">
+        <div :class="[open_id==0?'quick_item quick_user':'quick_item quick_user open']" id="mod_head_user" @mouseover="open_id=1" >
+          <router-link to="/user/login" class="quick_link _checklogin" id="mod_head_notice_trigger"
+                       _stat="顶部导航区:头像" @mouseout="open_id=0">
             <img class="quick_user_avatar" src="//puui.qpic.cn/vupload/0/common_avatar.png/0" data-type="avatar"
                  data-avatarsize="40">
             <span class="account_type" data-type="account_type_logo">
@@ -103,7 +104,50 @@
             <img src="//puui.qpic.cn/vupload/0/common_blank.png/0" alt="" class="icon_vip_pic none" data-type="viplogo"
                  width="15">
             <i class="triangle_up"><i class="triangle_inner"></i></i>
-          </a>
+          </router-link>
+          <div class="mod_quick_pop mod_pop_user"  id="mod_head_notice_pop"
+               _stat="顶部导航区:头像浮层" @mouseover="open_id=1" @mouseout="open_id=0">
+            <div class="pop_info_content quick_pop_user">
+              <div class="quick_pop_user_hd">
+                <span class="account_type __accout_type_name">QQ账号:</span>
+                <a href="https://v.qq.com/biu/u/history/" _stat="顶部导航区:头像浮层:昵称" class="user_name _nickname">无奈之下</a>
+                <a href="https://film.qq.com/vip/my/" class="link_vip_icon" _stat="顶部导航区:头像浮层:vipicon">
+                  <img src="https://puui.qpic.cn/vupload/0/20190822_0_grey_3x.png/0" alt="" class="icon_vip_pic"
+                       data-type="viplogo" width="24">
+                </a>
+                <a href="javascript:;" class="link_change" data-type="switchlogin" _stat="顶部导航区:头像浮层:切换账号" title="切换账号">切换</a>
+                <a href="javascript:;" class="link_quit" data-type="logout" _stat="顶部导航区:头像浮层:退出" title="退出">退出</a>
+                <div class="quick_vip_meta" id="quick_user_vip" data-version="3"><span class="vip_now">你的微信<span
+                  class="name" title="Jacksonville 😏">Jacksonville 😏</span>是会员</span> <span class="vip_next">	                            <a
+                  href="javascript:;" class="btn_em btn_vip_change">切换为微信</a>	                            <a
+                  href="javascript:;" class="link_vip __open_vip">为QQ号开通</a>	                            </span></div>
+              </div>
+              <div class="quick_pop_user_bd">
+                <div class="quick_features cf">
+                  <a class="feature_item" href="http://v.qq.com/u/comment/" target="_blank"
+                     _hot="顶部导航区:头像浮层:user_message" _stat="顶部导航区:头像浮层:user_message">
+                    <i class="icon_feature icon_feature_comment"></i>
+                    <span class="icon_text" id="nav_user_message">评论消息</span>
+                  </a>
+                  <a class="feature_item" href="https://v.qq.com/biu/u/history/" target="_blank"
+                     _hot="顶部导航区:头像浮层:user_history" _stat="顶部导航区:头像浮层:user_history">
+                    <i class="icon_feature icon_feature_cloud"></i>
+                    <span class="icon_text">云同步观看记录</span>
+                  </a>
+                  <a class="feature_item" href="https://v.qq.com/u/wallet/vbshop.html#tab=lottery" target="_blank"
+                     _hot="顶部导航区:头像浮层:user_lottery" _stat="顶部导航区:头像浮层:user_lottery">
+                    <i class="icon_feature icon_feature_lottery"></i>
+                    <span class="icon_text">免费抽奖</span>
+                  </a>
+                  <a class="feature_item _download_pc" href="javascript:;" _hot="顶部导航区:头像浮层:download"
+                     _stat="顶部导航区:头像浮层:download">
+                    <i class="icon_feature icon_feature_client"></i>
+                    <span class="icon_text">用客户端看抢VIP</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <!-- 快捷入口 结束 -->
@@ -115,7 +159,17 @@
 
 <script>
     export default {
-        name: "Head"
+        name: "Head",
+        data() {
+            return {
+                search_word: '热门搜索',
+                choice_search: false,
+                open_id: 0,
+            }
+        },
+        methods:{
+
+        }
     }
 </script>
 

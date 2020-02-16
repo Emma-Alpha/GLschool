@@ -40,8 +40,16 @@ Vue.use(VueWechatTitle)
 // elementUI 导入
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
+
+import VueVideoPlayer from 'vue-aliplayer';
+Vue.use(VueVideoPlayer);
+
 // 调用插件
 Vue.use(ElementUI);
+
+import VueAliplayerV2 from 'vue-aliplayer-v2';
+
+Vue.use(VueAliplayerV2);
 
 Vue.config.productionTip = false;
 
