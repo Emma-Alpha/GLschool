@@ -1,0 +1,30 @@
+INFO 2020-02-17 23:07:46,343 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-17 23:10:18,494 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-17 23:10:29,820 basehttp 154 "GET /video/search/?title=%E6%B3%A1%E6%B2%AB HTTP/1.1" 200 5624
+WARNING 2020-02-17 23:10:29,951 log 228 Not Found: /favicon.ico
+WARNING 2020-02-17 23:10:29,955 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2681
+INFO 2020-02-17 23:10:37,418 basehttp 154 "GET /video/search/?text=%E6%B3%A1%E6%B2%AB HTTP/1.1" 200 5415
+INFO 2020-02-17 23:11:13,609 basehttp 154 "GET /video/search/?text=%E6%B3%A1%E6%B2%AB HTTP/1.1" 200 5415
+INFO 2020-02-17 23:12:49,152 basehttp 154 "GET /video/search/?text=%E6%B3%A1%E6%B2%AB HTTP/1.1" 200 5415
+INFO 2020-02-17 23:12:50,013 basehttp 154 "GET /video/search/?text=%E6%B3%A1%E6%B2%AB HTTP/1.1" 200 5415
+INFO 2020-02-17 23:12:50,201 basehttp 154 "GET /video/search/?text=%E6%B3%A1%E6%B2%AB HTTP/1.1" 200 5415
+INFO 2020-02-17 23:12:50,397 basehttp 154 "GET /video/search/?text=%E6%B3%A1%E6%B2%AB HTTP/1.1" 200 5415
+INFO 2020-02-17 23:12:50,558 basehttp 154 "GET /video/search/?text=%E6%B3%A1%E6%B2%AB HTTP/1.1" 200 5415
+INFO 2020-02-17 23:12:50,710 basehttp 154 "GET /video/search/?text=%E6%B3%A1%E6%B2%AB HTTP/1.1" 200 5415
+INFO 2020-02-17 23:12:50,871 basehttp 154 "GET /video/search/?text=%E6%B3%A1%E6%B2%AB HTTP/1.1" 200 5415
+INFO 2020-02-17 23:13:52,737 autoreload 217 /Users/liangpingbo/Desktop/project/class_ol/class_ol_api/class_ol_api/settings/dev.py changed, reloading.
+INFO 2020-02-17 23:13:54,716 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-17 23:14:42,241 basehttp 154 "GET /video/video_type/ HTTP/1.1" 200 121
+INFO 2020-02-17 23:14:42,245 basehttp 154 "GET /video/type/?fenlei=2 HTTP/1.1" 200 318
+INFO 2020-02-17 23:14:42,247 basehttp 154 "GET /video/type/?fenlei=1 HTTP/1.1" 200 843
+INFO 2020-02-17 23:14:42,245 basehttp 154 "GET /video/num/?fenlei=1 HTTP/1.1" 200 841
+INFO 2020-02-17 23:14:42,251 basehttp 154 "GET /video/image/ HTTP/1.1" 200 1128
+INFO 2020-02-17 23:14:42,248 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 793
+INFO 2020-02-17 23:14:42,272 basehttp 154 "GET /video/num/?fenlei=2 HTTP/1.1" 200 283
+INFO 2020-02-17 23:14:52,554 basehttp 154 "GET /video/info/?fenlei=4 HTTP/1.1" 200 2
+INFO 2020-02-17 23:20:21,173 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 793
+INFO 2020-02-17 23:50:16,275 basehttp 154 "GET /video/search/?text=%E6%B3%A1%E6%B2%AB HTTP/1.1" 200 5415
+INFO 2020-02-17 23:50:16,809 basehttp 154 "GET /video/search/?text=%E6%B3%A1%E6%B2%AB HTTP/1.1" 200 5415
+INFO 2020-02-17 23:50:17,213 basehttp 154 "GET /video/search/?text=%E6%B3%A1%E6%B2%AB HTTP/1.1" 200 5415
+INFO 2020-02-17 23:50:17,342 basehttp 154 "GET /video/search/?text=%E6%B3%A1%E6%B2%AB HTTP/1.1" 200 5415
+INFO 2020-02-17 23:50:17,500 basehttp 154 "GET /video/search/?text=%E6%B3%A1%E6%B2%AB HTTP/1.1" 200 5415
