@@ -44,15 +44,15 @@
                             </span>
 
       <a v-for="fuc in results"
-         href="#"
+         :href="`/video_detail/`+fuc.video.id"
          target="_blank"
          class="nav_link"
          data-bgcolor="#81a1c8"
-         :data-bgimage="fuc.course_img"
+         :data-bgimage="fuc.video.video_img"
          data-navcolor="undefined"
-         @mouseover="find_focus_img(fuc.course_img, fuc.id)"
-      ><span class="text text2" :title="fuc.name"><span class="title_text">{{fuc.name}}</span
-      >{{fuc.teacher.name}}</span></a>
+         @mouseover="find_focus_img(fuc.video.video_img, fuc.id, fuc.video.id)"
+      ><span class="text text2" :title="fuc.video.name"><span class="title_text">{{fuc.video.name}}</span
+      >{{fuc.video.focus_content}}</span></a>
 
 
     </div>
@@ -68,6 +68,7 @@
                 withe: false,
                 stop_show: false,
                 time: 1,
+                focus_id:'', //热门图片对应的视频id
                 results: [],
             }
         },
@@ -106,21 +107,24 @@
             //     }, 3000)
             // },
 
-            find_focus_img(img_url, num) {
+            find_focus_img(img_url, num, video_id) {
                 this.stop_show = true;
                 this.withe = true;
                 var url = document.getElementById('focus_img');
                 url.style.backgroundImage = 'url(' + img_url + ')';
+                url.href = `/video_detail/`+ video_id
             },
             get_banner() {
 
                 //轮播风景图
                 // es6提供了一种允许换行的字符串，叫文档字符串，可以允许在字段中换行并输出js变量
-                this.$axios.get(`${this.$settings.Host}/course/`).then(response => {
-                    this.results = response.data.results;
+                this.$axios.get(`${this.$settings.Host}/video/image/`).then(response => {
+                    this.results = response.data;
                     // this.focus_img_title_url = response.data.
-                    console.log(response.data.results);
-                    this.focus_img_url = response.data.results[response.data.results.length - 1].course_img;
+                    console.log("~~~~",response.data);
+                    // this.focus_img_url = response.data.results[response.data.results.length - 1].course_img;
+                    this.focus_id = response.data[response.data.length - 1].video.id
+                    this.focus_img_url = response.data[response.data.length - 1].video.video_img;
                     var url = document.getElementById('focus_img');
                     url.style.backgroundImage = 'url(' + this.focus_img_url + ')';
                 }).catch(error => {

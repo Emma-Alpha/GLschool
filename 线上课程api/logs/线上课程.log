@@ -10387,3 +10387,1400 @@ INFO 2020-02-17 01:28:45,820 basehttp 154 "GET /course/coursecategory/ HTTP/1.1"
 INFO 2020-02-17 01:28:45,897 basehttp 154 "GET /course/ranking_list/ HTTP/1.1" 200 925
 INFO 2020-02-17 01:28:45,904 basehttp 154 "GET /course/course_all/ HTTP/1.1" 200 2366
 INFO 2020-02-17 01:28:45,927 basehttp 154 "GET /course/ HTTP/1.1" 200 3744
+INFO 2020-02-17 11:29:56,430 autoreload 597 Watching for file changes with StatReloader
+WARNING 2020-02-17 11:30:00,316 log 228 Not Found: /
+WARNING 2020-02-17 11:30:00,444 basehttp 154 "GET / HTTP/1.1" 404 2633
+WARNING 2020-02-17 11:30:01,353 log 228 Not Found: /favicon.ico
+WARNING 2020-02-17 11:30:01,356 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2684
+INFO 2020-02-17 11:30:05,750 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 20199
+INFO 2020-02-17 11:30:05,876 basehttp 154 "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 200 240196
+INFO 2020-02-17 11:30:05,893 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 11:30:05,941 basehttp 154 "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 200 126432
+INFO 2020-02-17 11:30:06,133 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 20199
+INFO 2020-02-17 11:30:11,217 basehttp 154 "GET /xadmin/course/courselesson/ HTTP/1.1" 200 30491
+INFO 2020-02-17 11:30:11,301 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 11:30:11,890 basehttp 154 "GET /xadmin/course/course/ HTTP/1.1" 200 53521
+INFO 2020-02-17 11:30:12,339 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 11:30:13,037 basehttp 154 "GET /xadmin/course/coursechapter/ HTTP/1.1" 200 30311
+INFO 2020-02-17 11:30:13,210 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 11:30:14,321 basehttp 154 "GET /xadmin/course/teacher/ HTTP/1.1" 200 35846
+INFO 2020-02-17 11:30:14,394 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 11:30:15,385 basehttp 154 "GET /xadmin/course/course/ HTTP/1.1" 200 53521
+INFO 2020-02-17 11:30:15,452 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 11:30:20,657 basehttp 154 "GET /xadmin/course/course/9/update/ HTTP/1.1" 200 32688
+INFO 2020-02-17 11:30:20,740 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.js HTTP/1.1" 200 98602
+INFO 2020-02-17 11:30:20,760 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 11:30:20,819 basehttp 154 "GET /static/xadmin/vendor/select2/select2.js HTTP/1.1" 200 104906
+INFO 2020-02-17 11:31:01,377 basehttp 154 "GET /xadmin/course/college/ HTTP/1.1" 200 32482
+INFO 2020-02-17 11:31:01,430 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 11:31:02,457 basehttp 154 "GET /xadmin/course/system/ HTTP/1.1" 200 34728
+INFO 2020-02-17 11:31:02,498 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 11:31:03,258 basehttp 154 "GET /xadmin/course/coursecategory/ HTTP/1.1" 200 39452
+INFO 2020-02-17 11:31:03,310 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 11:31:04,160 basehttp 154 "GET /xadmin/course/course/ HTTP/1.1" 200 53521
+INFO 2020-02-17 11:31:04,212 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 11:31:05,099 basehttp 154 "GET /xadmin/course/teacher/ HTTP/1.1" 200 35846
+INFO 2020-02-17 11:31:05,147 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 11:31:06,073 basehttp 154 "GET /xadmin/course/course/ HTTP/1.1" 200 53521
+INFO 2020-02-17 11:31:06,151 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 11:31:10,272 basehttp 154 "GET /xadmin/course/teacher/ HTTP/1.1" 200 35846
+INFO 2020-02-17 11:31:10,318 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 11:31:11,134 basehttp 154 "GET /xadmin/course/coursechapter/ HTTP/1.1" 200 30311
+INFO 2020-02-17 11:31:11,189 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 11:31:11,932 basehttp 154 "GET /xadmin/course/courselesson/ HTTP/1.1" 200 30491
+INFO 2020-02-17 11:31:11,999 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 11:31:12,667 basehttp 154 "GET /xadmin/course/coursechapter/ HTTP/1.1" 200 30311
+INFO 2020-02-17 11:31:12,893 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 11:31:13,352 basehttp 154 "GET /xadmin/course/teacher/ HTTP/1.1" 200 35846
+INFO 2020-02-17 11:31:13,396 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 11:31:13,909 basehttp 154 "GET /xadmin/course/course/ HTTP/1.1" 200 53521
+INFO 2020-02-17 11:31:13,974 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 11:31:15,159 basehttp 154 "GET /xadmin/course/coursecategory/ HTTP/1.1" 200 39452
+INFO 2020-02-17 11:31:15,882 basehttp 154 "GET /xadmin/course/system/ HTTP/1.1" 200 34728
+INFO 2020-02-17 11:31:15,906 basehttp 154 "GET /xadmin/course/college/ HTTP/1.1" 200 32482
+INFO 2020-02-17 11:31:16,130 basehttp 154 "GET /xadmin/course/system/ HTTP/1.1" 200 34728
+INFO 2020-02-17 11:31:16,437 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 11:31:17,244 basehttp 154 "GET /xadmin/course/course/ HTTP/1.1" 200 53521
+INFO 2020-02-17 11:31:17,298 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 11:44:09,795 basehttp 154 "GET /xadmin/user/user/ HTTP/1.1" 200 46408
+INFO 2020-02-17 11:44:10,180 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 11:44:13,544 basehttp 154 "GET /xadmin/user/user/1/update/ HTTP/1.1" 200 39119
+INFO 2020-02-17 11:44:13,695 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 11:44:20,329 basehttp 154 "GET /xadmin/user/user/ HTTP/1.1" 200 46408
+INFO 2020-02-17 11:44:22,954 basehttp 154 "GET /xadmin/home/banner/ HTTP/1.1" 200 35261
+INFO 2020-02-17 11:44:23,045 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 11:44:28,499 basehttp 154 "GET /xadmin/xadmin/log/ HTTP/1.1" 200 99112
+INFO 2020-02-17 11:44:28,619 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 11:44:41,661 basehttp 154 "GET /xadmin/auth/group/ HTTP/1.1" 200 29405
+INFO 2020-02-17 11:44:41,735 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 11:44:54,369 basehttp 154 "GET /xadmin/auth/permission/ HTTP/1.1" 200 95722
+INFO 2020-02-17 11:44:54,890 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 11:45:01,197 basehttp 154 "GET /xadmin/reversion/revision/ HTTP/1.1" 200 34839
+INFO 2020-02-17 11:45:01,277 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 11:47:33,626 basehttp 154 "GET /xadmin/video/hostshortvideo/ HTTP/1.1" 200 35695
+INFO 2020-02-17 11:47:33,776 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 11:47:35,574 basehttp 154 "GET /xadmin/video/hostshortvideo/3/update/ HTTP/1.1" 200 29793
+INFO 2020-02-17 11:47:35,918 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 11:47:44,707 basehttp 154 "GET /xadmin/video/hostshortvideo/ HTTP/1.1" 200 35695
+INFO 2020-02-17 11:47:44,877 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 11:47:46,452 basehttp 154 "GET /xadmin/video/hostshortvideo/1/update/ HTTP/1.1" 200 29787
+INFO 2020-02-17 11:47:46,935 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 11:54:33,855 basehttp 154 "GET /xadmin/video/hostshortvideo/ HTTP/1.1" 200 35695
+INFO 2020-02-17 11:54:33,905 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 11:54:46,287 basehttp 154 "GET /xadmin/video/hostshortvideo/3/update/ HTTP/1.1" 200 29793
+INFO 2020-02-17 11:54:46,616 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 12:01:13,049 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/video/apps.py changed, reloading.
+INFO 2020-02-17 12:01:22,482 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-17 12:01:46,355 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/video/models.py changed, reloading.
+INFO 2020-02-17 12:01:52,944 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-17 12:02:09,293 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/video/models.py changed, reloading.
+INFO 2020-02-17 12:02:17,676 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-17 12:02:22,118 basehttp 154 "GET /xadmin/course/coursecategory/ HTTP/1.1" 200 39443
+INFO 2020-02-17 12:02:22,660 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 12:02:25,592 basehttp 154 "GET /xadmin/course/coursecategory/4/update/ HTTP/1.1" 200 25349
+INFO 2020-02-17 12:02:25,683 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 12:02:48,194 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/video/models.py changed, reloading.
+INFO 2020-02-17 12:02:52,362 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-17 12:03:23,283 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/video/models.py changed, reloading.
+INFO 2020-02-17 12:03:30,551 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-17 12:07:40,578 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/video/models.py changed, reloading.
+INFO 2020-02-17 12:07:44,788 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-17 12:11:11,941 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/video/models.py changed, reloading.
+INFO 2020-02-17 12:11:18,221 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-17 12:24:42,937 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/video/models.py changed, reloading.
+INFO 2020-02-17 12:24:46,597 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-17 12:30:59,571 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/video/models.py changed, reloading.
+INFO 2020-02-17 12:31:02,589 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-17 12:42:33,712 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/video/models.py changed, reloading.
+INFO 2020-02-17 12:42:36,642 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-17 12:43:57,534 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/video/models.py changed, reloading.
+INFO 2020-02-17 12:43:59,586 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-17 12:44:46,091 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/video/models.py changed, reloading.
+INFO 2020-02-17 12:44:47,480 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-17 12:51:37,051 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/video/models.py changed, reloading.
+INFO 2020-02-17 12:51:38,749 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-17 12:59:30,614 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/video/adminx.py changed, reloading.
+INFO 2020-02-17 12:59:32,279 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-17 12:59:45,840 basehttp 154 "GET /xadmin/course/coursecategory/4/update/ HTTP/1.1" 200 27125
+INFO 2020-02-17 12:59:45,923 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 12:59:48,829 basehttp 154 "GET /xadmin/video/video/ HTTP/1.1" 200 32620
+INFO 2020-02-17 12:59:48,958 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 12:59:50,352 basehttp 154 "GET /xadmin/video/videotype/ HTTP/1.1" 200 31479
+INFO 2020-02-17 12:59:50,391 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 12:59:51,341 basehttp 154 "GET /xadmin/video/shortvideo/ HTTP/1.1" 200 31699
+INFO 2020-02-17 12:59:51,371 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 12:59:52,148 basehttp 154 "GET /xadmin/video/videotype/ HTTP/1.1" 200 31479
+INFO 2020-02-17 12:59:52,189 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 12:59:54,620 basehttp 154 "GET /xadmin/video/videotype/add/ HTTP/1.1" 200 24699
+INFO 2020-02-17 12:59:54,654 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 12:59:59,290 basehttp 154 "POST /xadmin/video/videotype/add/ HTTP/1.1" 302 0
+INFO 2020-02-17 12:59:59,376 basehttp 154 "GET /xadmin/video/videotype/ HTTP/1.1" 200 34775
+INFO 2020-02-17 12:59:59,423 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 13:00:00,856 basehttp 154 "GET /xadmin/video/videotype/add/ HTTP/1.1" 200 24699
+INFO 2020-02-17 13:00:00,910 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 13:00:05,404 basehttp 154 "GET /xadmin/video/video/ HTTP/1.1" 200 32620
+INFO 2020-02-17 13:00:05,451 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 13:00:06,365 basehttp 154 "GET /xadmin/video/videotype/ HTTP/1.1" 200 34462
+INFO 2020-02-17 13:00:06,396 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 13:00:08,824 basehttp 154 "GET /xadmin/video/hostshortvideo/ HTTP/1.1" 200 37462
+INFO 2020-02-17 13:00:08,858 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 13:00:09,507 basehttp 154 "GET /xadmin/video/video/ HTTP/1.1" 200 32620
+INFO 2020-02-17 13:00:09,551 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 13:00:11,008 basehttp 154 "GET /xadmin/video/video/add/ HTTP/1.1" 200 30564
+INFO 2020-02-17 13:00:11,074 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 13:00:39,846 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/video/adminx.py changed, reloading.
+INFO 2020-02-17 13:00:42,129 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-17 13:00:45,258 basehttp 154 "GET /xadmin/video/video/add/ HTTP/1.1" 200 30564
+INFO 2020-02-17 13:00:45,311 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 13:00:51,867 basehttp 154 "GET /xadmin/video/video/add/ HTTP/1.1" 200 30564
+INFO 2020-02-17 13:00:51,914 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 13:01:24,075 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/video/adminx.py changed, reloading.
+INFO 2020-02-17 13:01:26,877 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-17 13:01:57,092 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/video/models.py changed, reloading.
+INFO 2020-02-17 13:01:59,564 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-17 13:02:04,327 basehttp 154 "GET /xadmin/video/video/add/ HTTP/1.1" 200 30550
+INFO 2020-02-17 13:02:04,383 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 13:02:41,120 basehttp 154 "GET /xadmin/video/homevideo/ HTTP/1.1" 200 31641
+INFO 2020-02-17 13:02:41,169 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 13:02:42,383 basehttp 154 "GET /xadmin/video/homevideo/add/ HTTP/1.1" 200 26061
+INFO 2020-02-17 13:02:42,422 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 13:03:11,467 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/video/models.py changed, reloading.
+INFO 2020-02-17 13:03:14,759 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-17 13:03:16,672 basehttp 154 "GET /xadmin/video/video/ HTTP/1.1" 200 32620
+INFO 2020-02-17 13:03:16,793 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 13:03:18,546 basehttp 154 "GET /xadmin/video/hostshortvideo/ HTTP/1.1" 200 37462
+INFO 2020-02-17 13:03:18,643 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 13:03:19,142 basehttp 154 "GET /xadmin/video/video/ HTTP/1.1" 200 32620
+INFO 2020-02-17 13:03:19,179 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 13:03:21,404 basehttp 154 "GET /xadmin/video/video/add/ HTTP/1.1" 200 30550
+INFO 2020-02-17 13:03:21,484 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 13:04:54,984 basehttp 154 "POST /xadmin/video/video/add/ HTTP/1.1" 302 0
+INFO 2020-02-17 13:04:55,091 basehttp 154 "GET /xadmin/video/video/ HTTP/1.1" 200 37972
+INFO 2020-02-17 13:04:55,162 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 13:05:00,481 basehttp 154 "GET /xadmin/video/homevideo/ HTTP/1.1" 200 31641
+INFO 2020-02-17 13:05:00,519 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 13:05:01,687 basehttp 154 "GET /xadmin/video/homevideo/add/ HTTP/1.1" 200 26104
+INFO 2020-02-17 13:05:01,746 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 13:05:05,773 basehttp 154 "POST /xadmin/video/homevideo/add/ HTTP/1.1" 302 0
+INFO 2020-02-17 13:05:05,855 basehttp 154 "GET /xadmin/video/homevideo/ HTTP/1.1" 200 35345
+INFO 2020-02-17 13:05:05,903 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 13:07:37,541 basehttp 154 "GET /xadmin/video/shortvideo/ HTTP/1.1" 200 31699
+INFO 2020-02-17 13:07:37,596 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 13:07:37,669 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/video/views.py changed, reloading.
+INFO 2020-02-17 13:07:41,115 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-17 13:07:48,286 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-17 13:07:52,570 basehttp 154 "GET /xadmin/video/shortvideo/add/ HTTP/1.1" 200 26144
+INFO 2020-02-17 13:07:52,752 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 13:07:58,398 basehttp 154 "POST /xadmin/video/shortvideo/add/ HTTP/1.1" 302 0
+INFO 2020-02-17 13:07:58,505 basehttp 154 "GET /xadmin/video/shortvideo/ HTTP/1.1" 200 35425
+INFO 2020-02-17 13:07:58,595 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 13:08:51,926 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/video/views.py changed, reloading.
+INFO 2020-02-17 13:08:54,721 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-17 13:08:59,518 basehttp 154 "GET /xadmin/video/video/ HTTP/1.1" 200 37668
+INFO 2020-02-17 13:08:59,670 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 13:09:03,178 basehttp 154 "GET /xadmin/video/video/1/update/ HTTP/1.1" 200 31323
+INFO 2020-02-17 13:09:03,238 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 13:12:48,491 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/video/views.py changed, reloading.
+INFO 2020-02-17 13:12:51,818 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-17 13:13:35,154 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/video/urls.py changed, reloading.
+INFO 2020-02-17 13:13:38,739 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-17 13:14:00,701 basehttp 154 "GET /video/image/ HTTP/1.1" 200 181
+INFO 2020-02-17 13:17:22,701 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/video/serializers.py changed, reloading.
+INFO 2020-02-17 13:17:24,891 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-17 13:17:28,554 basehttp 154 "GET /video/image/ HTTP/1.1" 200 20
+INFO 2020-02-17 13:17:54,097 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/video/serializers.py changed, reloading.
+INFO 2020-02-17 13:17:55,827 autoreload 597 Watching for file changes with StatReloader
+ERROR 2020-02-17 13:17:59,184 log 228 Internal Server Error: /video/image/
+Traceback (most recent call last):
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/fields.py", line 443, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/fields.py", line 93, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'HomeVideo' object has no attribute 'video_show'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/generics.py", line 199, in get
+    return self.list(request, *args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/serializers.py", line 757, in data
+    ret = super().data
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/serializers.py", line 261, in data
+    self._data = self.to_representation(self.instance)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/serializers.py", line 675, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/serializers.py", line 675, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/serializers.py", line 513, in to_representation
+    attribute = field.get_attribute(instance)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/fields.py", line 476, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `video_show` on serializer `ShowHomeImageModelSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `HomeVideo` instance.
+Original exception text was: 'HomeVideo' object has no attribute 'video_show'.
+ERROR 2020-02-17 13:17:59,189 basehttp 154 "GET /video/image/ HTTP/1.1" 500 21570
+INFO 2020-02-17 13:18:32,114 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/video/serializers.py changed, reloading.
+INFO 2020-02-17 13:18:34,953 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-17 13:18:38,247 basehttp 154 "GET /video/image/ HTTP/1.1" 200 291
+INFO 2020-02-17 13:21:05,296 basehttp 154 "GET /video/host/?fenlei=1 HTTP/1.1" 200 531
+INFO 2020-02-17 13:21:05,301 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-17 13:21:05,507 basehttp 154 "GET /course/ HTTP/1.1" 200 3744
+INFO 2020-02-17 13:21:05,519 basehttp 154 "GET /course/ranking_list/ HTTP/1.1" 200 925
+INFO 2020-02-17 13:21:05,527 basehttp 154 "GET /course/course_all/ HTTP/1.1" 200 2366
+INFO 2020-02-17 13:21:05,893 basehttp 154 "GET /course/coursecategory/ HTTP/1.1" 200 178
+INFO 2020-02-17 13:23:22,325 basehttp 154 "GET /video/image/ HTTP/1.1" 200 291
+INFO 2020-02-17 13:23:22,339 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-17 13:23:22,340 basehttp 154 "GET /video/host/?fenlei=1 HTTP/1.1" 200 531
+INFO 2020-02-17 13:23:22,348 basehttp 154 "GET /course/ranking_list/ HTTP/1.1" 200 925
+INFO 2020-02-17 13:23:22,350 basehttp 154 "GET /course/course_all/ HTTP/1.1" 200 2366
+INFO 2020-02-17 13:23:22,779 basehttp 154 "GET /course/coursecategory/ HTTP/1.1" 200 178
+INFO 2020-02-17 13:23:51,314 basehttp 154 "GET /video/image/ HTTP/1.1" 200 291
+INFO 2020-02-17 13:24:08,739 basehttp 154 "GET /video/image/ HTTP/1.1" 200 291
+INFO 2020-02-17 13:24:12,577 basehttp 154 "GET /video/image/ HTTP/1.1" 200 291
+INFO 2020-02-17 13:24:12,597 basehttp 154 "GET /video/host/?fenlei=1 HTTP/1.1" 200 531
+INFO 2020-02-17 13:24:12,621 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-17 13:24:12,662 basehttp 154 "GET /course/ranking_list/ HTTP/1.1" 200 925
+INFO 2020-02-17 13:24:12,665 basehttp 154 "GET /course/course_all/ HTTP/1.1" 200 2366
+INFO 2020-02-17 13:24:13,123 basehttp 154 "GET /course/coursecategory/ HTTP/1.1" 200 178
+INFO 2020-02-17 13:26:00,032 basehttp 154 "POST /xadmin/video/video/1/update/ HTTP/1.1" 302 0
+INFO 2020-02-17 13:26:00,180 basehttp 154 "GET /xadmin/video/video/? HTTP/1.1" 200 37909
+INFO 2020-02-17 13:26:00,259 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 13:26:04,470 basehttp 154 "GET /video/image/ HTTP/1.1" 200 291
+INFO 2020-02-17 13:26:04,510 basehttp 154 "GET /video/host/?fenlei=1 HTTP/1.1" 200 531
+INFO 2020-02-17 13:26:04,520 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-17 13:26:04,552 basehttp 154 "GET /course/ranking_list/ HTTP/1.1" 200 925
+INFO 2020-02-17 13:26:04,557 basehttp 154 "GET /course/course_all/ HTTP/1.1" 200 2366
+INFO 2020-02-17 13:26:05,175 basehttp 154 "GET /course/coursecategory/ HTTP/1.1" 200 178
+INFO 2020-02-17 13:27:13,032 basehttp 154 "GET /video/image/ HTTP/1.1" 200 291
+INFO 2020-02-17 13:28:25,829 basehttp 154 "GET /video/host/?fenlei=1 HTTP/1.1" 200 531
+INFO 2020-02-17 13:28:25,836 basehttp 154 "GET /video/image/ HTTP/1.1" 200 291
+INFO 2020-02-17 13:28:25,836 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-17 13:28:25,867 basehttp 154 "GET /course/ranking_list/ HTTP/1.1" 200 925
+INFO 2020-02-17 13:28:25,871 basehttp 154 "GET /course/course_all/ HTTP/1.1" 200 2366
+INFO 2020-02-17 13:28:26,261 basehttp 154 "GET /course/coursecategory/ HTTP/1.1" 200 178
+INFO 2020-02-17 13:30:18,695 basehttp 154 "GET /video/image/ HTTP/1.1" 200 291
+INFO 2020-02-17 13:30:18,709 basehttp 154 "GET /video/host/?fenlei=1 HTTP/1.1" 200 531
+INFO 2020-02-17 13:30:18,728 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-17 13:30:18,780 basehttp 154 "GET /course/course_all/ HTTP/1.1" 200 2366
+INFO 2020-02-17 13:30:18,786 basehttp 154 "GET /course/ranking_list/ HTTP/1.1" 200 925
+INFO 2020-02-17 13:30:19,032 basehttp 154 "GET /course/coursecategory/ HTTP/1.1" 200 178
+INFO 2020-02-17 13:30:26,215 basehttp 154 "GET /video/host/?fenlei=1 HTTP/1.1" 200 531
+INFO 2020-02-17 13:30:26,218 basehttp 154 "GET /video/image/ HTTP/1.1" 200 291
+INFO 2020-02-17 13:30:26,226 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-17 13:30:26,284 basehttp 154 "GET /course/course_all/ HTTP/1.1" 200 2366
+INFO 2020-02-17 13:30:26,303 basehttp 154 "GET /course/ranking_list/ HTTP/1.1" 200 925
+INFO 2020-02-17 13:30:26,965 basehttp 154 "GET /course/coursecategory/ HTTP/1.1" 200 178
+INFO 2020-02-17 13:31:43,082 basehttp 154 "GET /course/1/ HTTP/1.1" 200 480
+INFO 2020-02-17 13:34:26,182 basehttp 154 "GET /video/image/ HTTP/1.1" 200 291
+INFO 2020-02-17 13:34:31,225 basehttp 154 "GET /video/image/ HTTP/1.1" 200 291
+INFO 2020-02-17 13:34:31,243 basehttp 154 "GET /video/host/?fenlei=1 HTTP/1.1" 200 531
+INFO 2020-02-17 13:34:31,267 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-17 13:34:31,279 basehttp 154 "GET /course/ranking_list/ HTTP/1.1" 200 925
+INFO 2020-02-17 13:34:31,282 basehttp 154 "GET /course/course_all/ HTTP/1.1" 200 2366
+INFO 2020-02-17 13:34:31,719 basehttp 154 "GET /course/coursecategory/ HTTP/1.1" 200 178
+INFO 2020-02-17 13:35:20,134 basehttp 154 "GET /course/1/ HTTP/1.1" 200 480
+INFO 2020-02-17 13:35:49,082 basehttp 154 "GET /xadmin/video/video/add/ HTTP/1.1" 200 30550
+INFO 2020-02-17 13:35:49,163 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 13:41:27,200 basehttp 154 "POST /xadmin/video/video/add/ HTTP/1.1" 302 0
+INFO 2020-02-17 13:41:27,310 basehttp 154 "GET /xadmin/video/video/ HTTP/1.1" 200 39740
+INFO 2020-02-17 13:41:27,357 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 13:41:34,195 basehttp 154 "GET /video/image/ HTTP/1.1" 200 291
+INFO 2020-02-17 13:41:34,239 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-17 13:41:34,253 basehttp 154 "GET /video/host/?fenlei=1 HTTP/1.1" 200 531
+INFO 2020-02-17 13:41:34,288 basehttp 154 "GET /course/course_all/ HTTP/1.1" 200 2366
+INFO 2020-02-17 13:41:34,297 basehttp 154 "GET /course/ranking_list/ HTTP/1.1" 200 925
+INFO 2020-02-17 13:41:34,737 basehttp 154 "GET /course/coursecategory/ HTTP/1.1" 200 178
+INFO 2020-02-17 13:41:41,710 basehttp 154 "GET /xadmin/video/homevideo/ HTTP/1.1" 200 35032
+INFO 2020-02-17 13:41:41,742 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 13:41:43,017 basehttp 154 "GET /xadmin/video/homevideo/add/ HTTP/1.1" 200 26141
+INFO 2020-02-17 13:41:43,079 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 13:41:46,352 basehttp 154 "POST /xadmin/video/homevideo/add/ HTTP/1.1" 302 0
+INFO 2020-02-17 13:41:46,460 basehttp 154 "GET /xadmin/video/homevideo/ HTTP/1.1" 200 36185
+INFO 2020-02-17 13:41:46,523 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 13:41:50,782 basehttp 154 "GET /video/image/ HTTP/1.1" 200 575
+INFO 2020-02-17 13:41:50,810 basehttp 154 "GET /video/host/?fenlei=1 HTTP/1.1" 200 531
+INFO 2020-02-17 13:41:50,812 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-17 13:41:50,846 basehttp 154 "GET /course/ranking_list/ HTTP/1.1" 200 925
+INFO 2020-02-17 13:41:50,857 basehttp 154 "GET /course/course_all/ HTTP/1.1" 200 2366
+INFO 2020-02-17 13:41:51,257 basehttp 154 "GET /course/coursecategory/ HTTP/1.1" 200 178
+INFO 2020-02-17 13:42:05,402 basehttp 154 "GET /video/image/ HTTP/1.1" 200 575
+INFO 2020-02-17 13:42:05,420 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-17 13:42:05,422 basehttp 154 "GET /video/host/?fenlei=1 HTTP/1.1" 200 531
+INFO 2020-02-17 13:42:05,485 basehttp 154 "GET /course/ranking_list/ HTTP/1.1" 200 925
+INFO 2020-02-17 13:42:05,488 basehttp 154 "GET /course/course_all/ HTTP/1.1" 200 2366
+INFO 2020-02-17 13:42:05,876 basehttp 154 "GET /course/coursecategory/ HTTP/1.1" 200 178
+INFO 2020-02-17 13:44:15,691 basehttp 154 "GET /video/image/ HTTP/1.1" 200 575
+INFO 2020-02-17 13:44:20,251 basehttp 154 "GET /video/image/ HTTP/1.1" 200 575
+INFO 2020-02-17 13:44:20,306 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-17 13:44:20,308 basehttp 154 "GET /video/host/?fenlei=1 HTTP/1.1" 200 531
+INFO 2020-02-17 13:44:20,331 basehttp 154 "GET /course/ranking_list/ HTTP/1.1" 200 925
+INFO 2020-02-17 13:44:20,346 basehttp 154 "GET /course/course_all/ HTTP/1.1" 200 2366
+INFO 2020-02-17 13:44:20,732 basehttp 154 "GET /course/coursecategory/ HTTP/1.1" 200 178
+INFO 2020-02-17 13:45:12,248 basehttp 154 "GET /video/image/ HTTP/1.1" 200 575
+INFO 2020-02-17 13:45:16,056 basehttp 154 "GET /video/image/ HTTP/1.1" 200 575
+INFO 2020-02-17 13:45:16,089 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-17 13:45:16,090 basehttp 154 "GET /video/host/?fenlei=1 HTTP/1.1" 200 531
+INFO 2020-02-17 13:45:16,147 basehttp 154 "GET /course/ranking_list/ HTTP/1.1" 200 925
+INFO 2020-02-17 13:45:16,149 basehttp 154 "GET /course/course_all/ HTTP/1.1" 200 2366
+INFO 2020-02-17 13:45:16,689 basehttp 154 "GET /course/coursecategory/ HTTP/1.1" 200 178
+INFO 2020-02-17 13:47:03,618 basehttp 154 "GET /video/image/ HTTP/1.1" 200 575
+INFO 2020-02-17 13:47:07,990 basehttp 154 "GET /video/host/?fenlei=1 HTTP/1.1" 200 531
+INFO 2020-02-17 13:47:07,991 basehttp 154 "GET /video/image/ HTTP/1.1" 200 575
+INFO 2020-02-17 13:47:08,009 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-17 13:47:08,043 basehttp 154 "GET /course/ranking_list/ HTTP/1.1" 200 925
+INFO 2020-02-17 13:47:08,043 basehttp 154 "GET /course/course_all/ HTTP/1.1" 200 2366
+INFO 2020-02-17 13:47:08,411 basehttp 154 "GET /course/coursecategory/ HTTP/1.1" 200 178
+INFO 2020-02-17 14:06:19,060 basehttp 154 "GET /xadmin/video/video/ HTTP/1.1" 200 39442
+INFO 2020-02-17 14:06:19,344 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 14:06:20,976 basehttp 154 "GET /xadmin/video/video/add/ HTTP/1.1" 200 30550
+INFO 2020-02-17 14:06:21,045 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 14:09:43,727 basehttp 154 "GET /xadmin/video/video/add/ HTTP/1.1" 200 30550
+INFO 2020-02-17 14:09:43,949 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+ERROR 2020-02-17 14:11:02,527 log 228 Internal Server Error: /xadmin/video/video/add/
+Traceback (most recent call last):
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/fdfs_client/connection.py", line 205, in tcp_send_data
+    conn._sock.sendall(bytes_stream)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/xadmin/sites.py", line 300, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/xadmin/sites.py", line 208, in inner
+    return view(request, *args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/xadmin/views/base.py", line 282, in view
+    return handler(request, *args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/utils/decorators.py", line 45, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/contextlib.py", line 52, in inner
+    return func(*args, **kwds)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/xadmin/views/base.py", line 80, in method
+    return filter_chain(filters, len(filters) - 1, _inner_method, *args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/xadmin/views/base.py", line 49, in filter_chain
+    return func()
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/xadmin/views/base.py", line 74, in _inner_method
+    return func(self, *args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/xadmin/views/edit.py", line 292, in post
+    self.save_models()
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/xadmin/views/base.py", line 80, in method
+    return filter_chain(filters, len(filters) - 1, _inner_method, *args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/xadmin/views/base.py", line 49, in filter_chain
+    return func()
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/xadmin/views/base.py", line 74, in _inner_method
+    return func(self, *args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/xadmin/views/edit.py", line 267, in save_models
+    self.new_obj.save()
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/db/models/base.py", line 741, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/db/models/base.py", line 779, in save_base
+    force_update, using, update_fields,
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/db/models/base.py", line 870, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/db/models/base.py", line 908, in _do_insert
+    using=using, raw=raw)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/db/models/query.py", line 1186, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1334, in execute_sql
+    for sql, params in self.as_sql():
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1278, in as_sql
+    for obj in self.query.objs
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1278, in <listcomp>
+    for obj in self.query.objs
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1277, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1228, in pre_save_val
+    return field.pre_save(obj, add=True)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/db/models/fields/files.py", line 288, in pre_save
+    file.save(file.name, file.file, save=False)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/db/models/fields/files.py", line 87, in save
+    self.name = self.storage.save(name, content, max_length=self.field.max_length)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/core/files/storage.py", line 52, in save
+    return self._save(name, content)
+  File "/Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/utils/fastdfs/fdfs_storage.py", line 36, in _save
+    ret = client.upload_by_buffer(content.read())
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/fdfs_client/client.py", line 127, in upload_by_buffer
+    file_ext_name, meta_dict)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/fdfs_client/storage_client.py", line 277, in storage_upload_by_buffer
+    None, file_ext_name)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/fdfs_client/storage_client.py", line 212, in _storage_do_upload_file
+    tcp_send_data(store_conn, file_buffer)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/fdfs_client/connection.py", line 208, in tcp_send_data
+    % e.args)
+fdfs_client.exceptions.ConnectionError: [-] Error: while writting to socket: (timed out)
+ERROR 2020-02-17 14:11:02,546 basehttp 154 "POST /xadmin/video/video/add/ HTTP/1.1" 500 258530
+INFO 2020-02-17 14:11:58,449 basehttp 154 "GET /xadmin/video/video/add/ HTTP/1.1" 200 30550
+INFO 2020-02-17 14:11:58,602 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 14:12:04,353 basehttp 154 "GET /xadmin/video/video/ HTTP/1.1" 200 39442
+INFO 2020-02-17 14:12:04,529 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 14:12:09,228 basehttp 154 "GET /xadmin/video/video/add/ HTTP/1.1" 200 30550
+INFO 2020-02-17 14:12:09,511 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 14:13:29,999 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/video/serializers.py changed, reloading.
+INFO 2020-02-17 14:13:35,787 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-17 14:16:16,513 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/video/serializers.py changed, reloading.
+INFO 2020-02-17 14:16:19,930 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-17 14:16:28,791 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 21966
+INFO 2020-02-17 14:16:28,956 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 14:16:33,355 basehttp 154 "GET /xadmin/video/videotype/ HTTP/1.1" 200 34462
+INFO 2020-02-17 14:16:33,431 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 14:16:34,796 basehttp 154 "GET /xadmin/video/homevideo/ HTTP/1.1" 200 35872
+INFO 2020-02-17 14:16:34,837 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 14:16:36,490 basehttp 154 "GET /xadmin/video/homevideo/2/update/ HTTP/1.1" 200 26439
+INFO 2020-02-17 14:16:36,565 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 14:16:45,311 basehttp 154 "GET /xadmin/video/video/ HTTP/1.1" 200 39442
+INFO 2020-02-17 14:16:45,389 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 14:16:48,030 basehttp 154 "GET /xadmin/video/video/add/ HTTP/1.1" 200 30550
+INFO 2020-02-17 14:16:48,085 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 14:17:46,194 basehttp 154 "POST /xadmin/video/video/add/ HTTP/1.1" 302 0
+INFO 2020-02-17 14:17:46,308 basehttp 154 "GET /xadmin/video/video/ HTTP/1.1" 200 41528
+INFO 2020-02-17 14:17:46,351 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 14:18:27,443 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/video/serializers.py changed, reloading.
+INFO 2020-02-17 14:18:31,537 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-17 14:18:33,309 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-17 14:18:33,310 basehttp 154 "GET /course/ranking_list/ HTTP/1.1" 200 925
+INFO 2020-02-17 14:18:33,408 basehttp 154 "GET /video/host/?fenlei=1 HTTP/1.1" 200 531
+INFO 2020-02-17 14:18:33,438 basehttp 154 "GET /video/image/ HTTP/1.1" 200 575
+INFO 2020-02-17 14:18:33,443 basehttp 154 "GET /course/course_all/ HTTP/1.1" 200 2366
+INFO 2020-02-17 14:18:34,054 basehttp 154 "GET /course/coursecategory/ HTTP/1.1" 200 178
+INFO 2020-02-17 14:18:43,868 basehttp 154 "GET /video/image/ HTTP/1.1" 200 575
+INFO 2020-02-17 14:18:43,925 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-17 14:18:43,945 basehttp 154 "GET /video/host/?fenlei=1 HTTP/1.1" 200 531
+INFO 2020-02-17 14:18:44,009 basehttp 154 "GET /course/ranking_list/ HTTP/1.1" 200 925
+INFO 2020-02-17 14:18:44,015 basehttp 154 "GET /course/course_all/ HTTP/1.1" 200 2366
+INFO 2020-02-17 14:18:44,976 basehttp 154 "GET /course/coursecategory/ HTTP/1.1" 200 178
+INFO 2020-02-17 14:18:47,213 basehttp 154 "GET /xadmin/video/homevideo/ HTTP/1.1" 200 35872
+INFO 2020-02-17 14:18:47,293 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 14:18:48,896 basehttp 154 "GET /xadmin/video/homevideo/add/ HTTP/1.1" 200 26178
+INFO 2020-02-17 14:18:49,008 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 14:18:51,061 basehttp 154 "POST /xadmin/video/homevideo/add/ HTTP/1.1" 302 0
+INFO 2020-02-17 14:18:51,393 basehttp 154 "GET /xadmin/video/homevideo/3/update/ HTTP/1.1" 200 26816
+INFO 2020-02-17 14:18:51,449 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 14:18:54,499 basehttp 154 "GET /xadmin/video/shortvideo/ HTTP/1.1" 200 35107
+INFO 2020-02-17 14:18:54,552 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 14:18:56,359 basehttp 154 "GET /xadmin/video/homevideo/ HTTP/1.1" 200 36711
+INFO 2020-02-17 14:18:56,409 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 14:18:58,882 basehttp 154 "GET /xadmin/video/homevideo/3/update/ HTTP/1.1" 200 26468
+INFO 2020-02-17 14:18:58,947 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 14:19:02,023 basehttp 154 "GET /xadmin/video/shortvideo/ HTTP/1.1" 200 35107
+INFO 2020-02-17 14:19:02,070 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 14:19:03,048 basehttp 154 "GET /xadmin/video/homevideo/ HTTP/1.1" 200 36711
+INFO 2020-02-17 14:19:03,091 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 14:19:04,989 basehttp 154 "GET /xadmin/video/homevideo/2/update/ HTTP/1.1" 200 26476
+INFO 2020-02-17 14:19:05,056 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 14:19:06,382 basehttp 154 "GET /xadmin/video/shortvideo/ HTTP/1.1" 200 35107
+INFO 2020-02-17 14:19:06,460 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 14:19:07,919 basehttp 154 "GET /xadmin/video/homevideo/ HTTP/1.1" 200 36711
+INFO 2020-02-17 14:19:08,042 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 14:19:08,771 basehttp 154 "GET /xadmin/video/homevideo/3/update/ HTTP/1.1" 200 26468
+INFO 2020-02-17 14:19:08,814 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 14:19:12,430 basehttp 154 "POST /xadmin/video/homevideo/3/update/ HTTP/1.1" 302 0
+INFO 2020-02-17 14:19:12,544 basehttp 154 "GET /xadmin/video/homevideo/? HTTP/1.1" 200 36958
+INFO 2020-02-17 14:19:12,603 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 14:19:18,243 basehttp 154 "GET /video/image/ HTTP/1.1" 200 853
+INFO 2020-02-17 14:19:18,248 basehttp 154 "GET /video/host/?fenlei=1 HTTP/1.1" 200 531
+INFO 2020-02-17 14:19:18,260 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-17 14:19:18,300 basehttp 154 "GET /course/ranking_list/ HTTP/1.1" 200 925
+INFO 2020-02-17 14:19:18,303 basehttp 154 "GET /course/course_all/ HTTP/1.1" 200 2366
+INFO 2020-02-17 14:19:18,782 basehttp 154 "GET /course/coursecategory/ HTTP/1.1" 200 178
+INFO 2020-02-17 14:20:54,572 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/video/urls.py changed, reloading.
+INFO 2020-02-17 14:21:02,683 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-17 14:21:20,436 basehttp 154 "GET /video/host/?fenlei=1 HTTP/1.1" 200 531
+INFO 2020-02-17 14:21:20,454 basehttp 154 "GET /video/image/ HTTP/1.1" 200 853
+INFO 2020-02-17 14:21:20,461 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-17 14:21:20,474 basehttp 154 "GET /course/course_all/ HTTP/1.1" 200 2366
+INFO 2020-02-17 14:21:20,484 basehttp 154 "GET /course/ranking_list/ HTTP/1.1" 200 925
+INFO 2020-02-17 14:21:20,681 basehttp 154 "GET /course/coursecategory/ HTTP/1.1" 200 178
+INFO 2020-02-17 14:21:23,682 basehttp 154 "GET /video/image/ HTTP/1.1" 200 853
+INFO 2020-02-17 14:21:23,687 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-17 14:21:23,705 basehttp 154 "GET /video/host/?fenlei=1 HTTP/1.1" 200 531
+INFO 2020-02-17 14:21:23,736 basehttp 154 "GET /course/ranking_list/ HTTP/1.1" 200 925
+INFO 2020-02-17 14:21:23,746 basehttp 154 "GET /course/course_all/ HTTP/1.1" 200 2366
+INFO 2020-02-17 14:21:24,218 basehttp 154 "GET /course/coursecategory/ HTTP/1.1" 200 178
+WARNING 2020-02-17 14:21:34,022 log 228 Not Found: /video/short/2
+WARNING 2020-02-17 14:21:34,022 basehttp 154 "GET /video/short/2 HTTP/1.1" 404 3241
+WARNING 2020-02-17 14:22:10,601 log 228 Not Found: /video/short/1/
+WARNING 2020-02-17 14:22:10,606 basehttp 154 "GET /video/short/1/ HTTP/1.1" 404 3244
+WARNING 2020-02-17 14:22:51,940 log 228 Not Found: /video/short/1/
+WARNING 2020-02-17 14:22:51,942 basehttp 154 "GET /video/short/1/ HTTP/1.1" 404 3244
+INFO 2020-02-17 14:23:00,240 autoreload 597 Watching for file changes with StatReloader
+WARNING 2020-02-17 14:23:03,443 log 228 Not Found: /video/short/1/
+WARNING 2020-02-17 14:23:03,446 basehttp 154 "GET /video/short/1/ HTTP/1.1" 404 3244
+INFO 2020-02-17 14:23:20,522 autoreload 597 Watching for file changes with StatReloader
+WARNING 2020-02-17 14:23:24,596 log 228 Not Found: /video/short/1/
+WARNING 2020-02-17 14:23:24,597 basehttp 154 "GET /video/short/1/ HTTP/1.1" 404 3243
+INFO 2020-02-17 14:23:32,098 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/video/urls.py changed, reloading.
+INFO 2020-02-17 14:23:34,512 autoreload 597 Watching for file changes with StatReloader
+WARNING 2020-02-17 14:23:37,797 log 228 Not Found: /video/short/1/
+WARNING 2020-02-17 14:23:37,804 basehttp 154 "GET /video/short/1/ HTTP/1.1" 404 3242
+WARNING 2020-02-17 14:23:39,153 log 228 Not Found: /video/short/1/
+WARNING 2020-02-17 14:23:39,153 basehttp 154 "GET /video/short/1/ HTTP/1.1" 404 3242
+INFO 2020-02-17 14:23:49,073 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/video/urls.py changed, reloading.
+INFO 2020-02-17 14:23:51,625 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-17 14:23:54,981 basehttp 154 "GET /video/1/ HTTP/1.1" 200 279
+INFO 2020-02-17 14:26:14,110 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/video/models.py changed, reloading.
+INFO 2020-02-17 14:26:16,029 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-17 14:26:30,937 basehttp 154 "GET /video/1/ HTTP/1.1" 200 279
+INFO 2020-02-17 14:27:00,354 basehttp 154 "GET /video/2 HTTP/1.1" 301 0
+WARNING 2020-02-17 14:27:00,672 log 228 Not Found: /video/2/
+WARNING 2020-02-17 14:27:00,673 basehttp 154 "GET /video/2/ HTTP/1.1" 404 25
+WARNING 2020-02-17 14:27:22,052 log 228 Not Found: /video/2/
+WARNING 2020-02-17 14:27:22,054 basehttp 154 "GET /video/2/ HTTP/1.1" 404 25
+INFO 2020-02-17 14:27:27,601 basehttp 154 "GET /video/1/ HTTP/1.1" 200 279
+INFO 2020-02-17 14:27:42,882 basehttp 154 "GET /xadmin/video/videotype/ HTTP/1.1" 200 34462
+INFO 2020-02-17 14:27:42,933 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 14:27:43,639 basehttp 154 "GET /xadmin/video/video/ HTTP/1.1" 200 41529
+INFO 2020-02-17 14:27:43,676 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 14:27:45,581 basehttp 154 "GET /xadmin/video/videotype/ HTTP/1.1" 200 34462
+INFO 2020-02-17 14:27:45,630 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 14:27:46,446 basehttp 154 "GET /xadmin/video/video/ HTTP/1.1" 200 41529
+INFO 2020-02-17 14:27:46,494 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 14:28:12,341 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/video/views.py changed, reloading.
+INFO 2020-02-17 14:28:15,703 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-17 14:28:46,844 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-17 14:28:51,440 basehttp 154 "GET /video/1/ HTTP/1.1" 200 272
+INFO 2020-02-17 14:29:02,850 basehttp 154 "GET /video/2/ HTTP/1.1" 200 266
+INFO 2020-02-17 14:30:18,478 basehttp 154 "GET /video/2/ HTTP/1.1" 200 266
+INFO 2020-02-17 15:07:07,761 basehttp 154 "GET /xadmin/video/video/add/ HTTP/1.1" 200 31266
+INFO 2020-02-17 15:07:07,930 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+ERROR 2020-02-17 15:12:15,244 log 228 Internal Server Error: /xadmin/video/video/add/
+Traceback (most recent call last):
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/fdfs_client/connection.py", line 205, in tcp_send_data
+    conn._sock.sendall(bytes_stream)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/xadmin/sites.py", line 300, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/xadmin/sites.py", line 208, in inner
+    return view(request, *args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/xadmin/views/base.py", line 282, in view
+    return handler(request, *args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/utils/decorators.py", line 45, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/contextlib.py", line 52, in inner
+    return func(*args, **kwds)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/xadmin/views/base.py", line 80, in method
+    return filter_chain(filters, len(filters) - 1, _inner_method, *args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/xadmin/views/base.py", line 49, in filter_chain
+    return func()
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/xadmin/views/base.py", line 74, in _inner_method
+    return func(self, *args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/xadmin/views/edit.py", line 292, in post
+    self.save_models()
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/xadmin/views/base.py", line 80, in method
+    return filter_chain(filters, len(filters) - 1, _inner_method, *args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/xadmin/views/base.py", line 49, in filter_chain
+    return func()
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/xadmin/views/base.py", line 74, in _inner_method
+    return func(self, *args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/xadmin/views/edit.py", line 267, in save_models
+    self.new_obj.save()
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/db/models/base.py", line 741, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/db/models/base.py", line 779, in save_base
+    force_update, using, update_fields,
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/db/models/base.py", line 870, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/db/models/base.py", line 908, in _do_insert
+    using=using, raw=raw)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/db/models/query.py", line 1186, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1334, in execute_sql
+    for sql, params in self.as_sql():
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1278, in as_sql
+    for obj in self.query.objs
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1278, in <listcomp>
+    for obj in self.query.objs
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1277, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1228, in pre_save_val
+    return field.pre_save(obj, add=True)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/db/models/fields/files.py", line 288, in pre_save
+    file.save(file.name, file.file, save=False)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/db/models/fields/files.py", line 87, in save
+    self.name = self.storage.save(name, content, max_length=self.field.max_length)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/core/files/storage.py", line 52, in save
+    return self._save(name, content)
+  File "/Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/utils/fastdfs/fdfs_storage.py", line 36, in _save
+    ret = client.upload_by_buffer(content.read())
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/fdfs_client/client.py", line 127, in upload_by_buffer
+    file_ext_name, meta_dict)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/fdfs_client/storage_client.py", line 277, in storage_upload_by_buffer
+    None, file_ext_name)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/fdfs_client/storage_client.py", line 212, in _storage_do_upload_file
+    tcp_send_data(store_conn, file_buffer)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/fdfs_client/connection.py", line 208, in tcp_send_data
+    % e.args)
+fdfs_client.exceptions.ConnectionError: [-] Error: while writting to socket: (timed out)
+ERROR 2020-02-17 15:12:15,372 basehttp 154 "POST /xadmin/video/video/add/ HTTP/1.1" 500 259695
+INFO 2020-02-17 16:07:16,442 basehttp 154 "GET /xadmin/video/video/add/ HTTP/1.1" 200 31266
+INFO 2020-02-17 16:07:16,669 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 16:07:19,136 basehttp 154 "GET /xadmin/video/videotype/ HTTP/1.1" 200 34462
+INFO 2020-02-17 16:07:19,200 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 16:07:19,779 basehttp 154 "GET /xadmin/video/video/ HTTP/1.1" 200 41529
+INFO 2020-02-17 16:07:19,818 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 16:07:21,048 basehttp 154 "GET /xadmin/video/video/add/ HTTP/1.1" 200 31266
+INFO 2020-02-17 16:07:21,127 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+ERROR 2020-02-17 16:12:14,420 log 228 Internal Server Error: /xadmin/video/video/add/
+Traceback (most recent call last):
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/fdfs_client/connection.py", line 205, in tcp_send_data
+    conn._sock.sendall(bytes_stream)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/xadmin/sites.py", line 300, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/xadmin/sites.py", line 208, in inner
+    return view(request, *args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/xadmin/views/base.py", line 282, in view
+    return handler(request, *args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/utils/decorators.py", line 45, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/contextlib.py", line 52, in inner
+    return func(*args, **kwds)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/xadmin/views/base.py", line 80, in method
+    return filter_chain(filters, len(filters) - 1, _inner_method, *args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/xadmin/views/base.py", line 49, in filter_chain
+    return func()
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/xadmin/views/base.py", line 74, in _inner_method
+    return func(self, *args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/xadmin/views/edit.py", line 292, in post
+    self.save_models()
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/xadmin/views/base.py", line 80, in method
+    return filter_chain(filters, len(filters) - 1, _inner_method, *args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/xadmin/views/base.py", line 49, in filter_chain
+    return func()
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/xadmin/views/base.py", line 74, in _inner_method
+    return func(self, *args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/xadmin/views/edit.py", line 267, in save_models
+    self.new_obj.save()
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/db/models/base.py", line 741, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/db/models/base.py", line 779, in save_base
+    force_update, using, update_fields,
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/db/models/base.py", line 870, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/db/models/base.py", line 908, in _do_insert
+    using=using, raw=raw)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/db/models/query.py", line 1186, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1334, in execute_sql
+    for sql, params in self.as_sql():
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1278, in as_sql
+    for obj in self.query.objs
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1278, in <listcomp>
+    for obj in self.query.objs
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1277, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1228, in pre_save_val
+    return field.pre_save(obj, add=True)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/db/models/fields/files.py", line 288, in pre_save
+    file.save(file.name, file.file, save=False)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/db/models/fields/files.py", line 87, in save
+    self.name = self.storage.save(name, content, max_length=self.field.max_length)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/core/files/storage.py", line 52, in save
+    return self._save(name, content)
+  File "/Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/utils/fastdfs/fdfs_storage.py", line 36, in _save
+    ret = client.upload_by_buffer(content.read())
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/fdfs_client/client.py", line 127, in upload_by_buffer
+    file_ext_name, meta_dict)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/fdfs_client/storage_client.py", line 277, in storage_upload_by_buffer
+    None, file_ext_name)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/fdfs_client/storage_client.py", line 212, in _storage_do_upload_file
+    tcp_send_data(store_conn, file_buffer)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/fdfs_client/connection.py", line 208, in tcp_send_data
+    % e.args)
+fdfs_client.exceptions.ConnectionError: [-] Error: while writting to socket: (timed out)
+ERROR 2020-02-17 16:12:14,462 basehttp 154 "POST /xadmin/video/video/add/ HTTP/1.1" 500 259824
+INFO 2020-02-17 16:15:57,694 autoreload 217 /Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/fdfs_client/connection.py changed, reloading.
+INFO 2020-02-17 16:16:01,026 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-17 16:16:10,665 basehttp 154 "GET /xadmin/video/video/add/ HTTP/1.1" 200 31266
+INFO 2020-02-17 16:16:10,825 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+ERROR 2020-02-17 16:20:26,976 log 228 Internal Server Error: /xadmin/video/video/add/
+Traceback (most recent call last):
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/fdfs_client/connection.py", line 205, in tcp_send_data
+    conn._sock.sendall(bytes_stream)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/xadmin/sites.py", line 300, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/xadmin/sites.py", line 208, in inner
+    return view(request, *args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/xadmin/views/base.py", line 282, in view
+    return handler(request, *args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/utils/decorators.py", line 45, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/contextlib.py", line 52, in inner
+    return func(*args, **kwds)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/xadmin/views/base.py", line 80, in method
+    return filter_chain(filters, len(filters) - 1, _inner_method, *args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/xadmin/views/base.py", line 49, in filter_chain
+    return func()
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/xadmin/views/base.py", line 74, in _inner_method
+    return func(self, *args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/xadmin/views/edit.py", line 292, in post
+    self.save_models()
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/xadmin/views/base.py", line 80, in method
+    return filter_chain(filters, len(filters) - 1, _inner_method, *args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/xadmin/views/base.py", line 49, in filter_chain
+    return func()
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/xadmin/views/base.py", line 74, in _inner_method
+    return func(self, *args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/xadmin/views/edit.py", line 267, in save_models
+    self.new_obj.save()
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/db/models/base.py", line 741, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/db/models/base.py", line 779, in save_base
+    force_update, using, update_fields,
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/db/models/base.py", line 870, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/db/models/base.py", line 908, in _do_insert
+    using=using, raw=raw)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/db/models/query.py", line 1186, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1334, in execute_sql
+    for sql, params in self.as_sql():
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1278, in as_sql
+    for obj in self.query.objs
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1278, in <listcomp>
+    for obj in self.query.objs
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1277, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1228, in pre_save_val
+    return field.pre_save(obj, add=True)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/db/models/fields/files.py", line 288, in pre_save
+    file.save(file.name, file.file, save=False)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/db/models/fields/files.py", line 87, in save
+    self.name = self.storage.save(name, content, max_length=self.field.max_length)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/core/files/storage.py", line 52, in save
+    return self._save(name, content)
+  File "/Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/utils/fastdfs/fdfs_storage.py", line 36, in _save
+    ret = client.upload_by_buffer(content.read())
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/fdfs_client/client.py", line 127, in upload_by_buffer
+    file_ext_name, meta_dict)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/fdfs_client/storage_client.py", line 277, in storage_upload_by_buffer
+    None, file_ext_name)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/fdfs_client/storage_client.py", line 212, in _storage_do_upload_file
+    tcp_send_data(store_conn, file_buffer)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/fdfs_client/connection.py", line 209, in tcp_send_data
+    % e.args)
+fdfs_client.exceptions.ConnectionError: [-] Error: while writting to socket: (timed out)
+ERROR 2020-02-17 16:20:26,991 basehttp 154 "POST /xadmin/video/video/add/ HTTP/1.1" 500 259918
+INFO 2020-02-17 16:20:45,780 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-17 16:20:54,100 basehttp 154 "GET /xadmin/video/video/add/ HTTP/1.1" 200 31266
+INFO 2020-02-17 16:20:54,233 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 16:22:42,320 autoreload 217 /Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/fdfs_client/connection.py changed, reloading.
+INFO 2020-02-17 16:22:45,931 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-17 16:23:13,599 basehttp 154 "GET /xadmin/video/video/add/ HTTP/1.1" 200 31266
+INFO 2020-02-17 16:23:13,823 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+ERROR 2020-02-17 16:27:31,558 log 228 Internal Server Error: /xadmin/video/video/add/
+Traceback (most recent call last):
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/fdfs_client/connection.py", line 205, in tcp_send_data
+    conn._sock.sendall(bytes_stream)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/xadmin/sites.py", line 300, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/xadmin/sites.py", line 208, in inner
+    return view(request, *args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/xadmin/views/base.py", line 282, in view
+    return handler(request, *args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/utils/decorators.py", line 45, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/contextlib.py", line 52, in inner
+    return func(*args, **kwds)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/xadmin/views/base.py", line 80, in method
+    return filter_chain(filters, len(filters) - 1, _inner_method, *args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/xadmin/views/base.py", line 49, in filter_chain
+    return func()
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/xadmin/views/base.py", line 74, in _inner_method
+    return func(self, *args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/xadmin/views/edit.py", line 292, in post
+    self.save_models()
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/xadmin/views/base.py", line 80, in method
+    return filter_chain(filters, len(filters) - 1, _inner_method, *args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/xadmin/views/base.py", line 49, in filter_chain
+    return func()
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/xadmin/views/base.py", line 74, in _inner_method
+    return func(self, *args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/xadmin/views/edit.py", line 267, in save_models
+    self.new_obj.save()
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/db/models/base.py", line 741, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/db/models/base.py", line 779, in save_base
+    force_update, using, update_fields,
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/db/models/base.py", line 870, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/db/models/base.py", line 908, in _do_insert
+    using=using, raw=raw)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/db/models/query.py", line 1186, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1334, in execute_sql
+    for sql, params in self.as_sql():
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1278, in as_sql
+    for obj in self.query.objs
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1278, in <listcomp>
+    for obj in self.query.objs
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1277, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1228, in pre_save_val
+    return field.pre_save(obj, add=True)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/db/models/fields/files.py", line 288, in pre_save
+    file.save(file.name, file.file, save=False)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/db/models/fields/files.py", line 87, in save
+    self.name = self.storage.save(name, content, max_length=self.field.max_length)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/core/files/storage.py", line 52, in save
+    return self._save(name, content)
+  File "/Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/utils/fastdfs/fdfs_storage.py", line 36, in _save
+    ret = client.upload_by_buffer(content.read())
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/fdfs_client/client.py", line 127, in upload_by_buffer
+    file_ext_name, meta_dict)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/fdfs_client/storage_client.py", line 277, in storage_upload_by_buffer
+    None, file_ext_name)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/fdfs_client/storage_client.py", line 212, in _storage_do_upload_file
+    tcp_send_data(store_conn, file_buffer)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/fdfs_client/connection.py", line 208, in tcp_send_data
+    % e.args)
+fdfs_client.exceptions.ConnectionError: [-] Error: while writting to socket: (timed out)
+ERROR 2020-02-17 16:27:31,580 basehttp 154 "POST /xadmin/video/video/add/ HTTP/1.1" 500 259900
+INFO 2020-02-17 16:28:09,333 basehttp 154 "GET /xadmin/video/video/add/ HTTP/1.1" 200 31266
+INFO 2020-02-17 16:28:09,502 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 16:28:48,410 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-17 16:28:54,378 basehttp 154 "GET /xadmin/video/video/add/ HTTP/1.1" 200 31266
+INFO 2020-02-17 16:28:54,538 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 16:30:00,473 basehttp 154 "POST /xadmin/video/video/add/ HTTP/1.1" 302 0
+INFO 2020-02-17 16:30:00,595 basehttp 154 "GET /xadmin/video/video/ HTTP/1.1" 200 43609
+INFO 2020-02-17 16:30:00,692 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 16:30:29,815 basehttp 154 "GET /xadmin/video/homevideo/ HTTP/1.1" 200 36712
+INFO 2020-02-17 16:30:29,862 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 16:30:31,693 basehttp 154 "GET /xadmin/video/homevideo/add/ HTTP/1.1" 200 26212
+INFO 2020-02-17 16:30:31,839 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 16:30:35,238 basehttp 154 "POST /xadmin/video/homevideo/add/ HTTP/1.1" 302 0
+INFO 2020-02-17 16:30:35,348 basehttp 154 "GET /xadmin/video/homevideo/ HTTP/1.1" 200 37859
+INFO 2020-02-17 16:30:35,399 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 16:30:42,286 basehttp 154 "GET /video/image/ HTTP/1.1" 200 1128
+INFO 2020-02-17 16:30:42,288 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-17 16:30:42,298 basehttp 154 "GET /video/host/?fenlei=1 HTTP/1.1" 200 531
+INFO 2020-02-17 16:30:42,320 basehttp 154 "GET /course/ranking_list/ HTTP/1.1" 200 925
+INFO 2020-02-17 16:30:42,324 basehttp 154 "GET /course/course_all/ HTTP/1.1" 200 2366
+INFO 2020-02-17 16:30:43,026 basehttp 154 "GET /course/coursecategory/ HTTP/1.1" 200 178
+INFO 2020-02-17 16:30:52,605 basehttp 154 "GET /xadmin/video/video/ HTTP/1.1" 200 43314
+INFO 2020-02-17 16:30:52,652 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 16:30:55,117 basehttp 154 "GET /xadmin/video/video/4/update/ HTTP/1.1" 200 31997
+INFO 2020-02-17 16:30:55,235 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 16:31:23,739 basehttp 154 "POST /xadmin/video/video/4/update/ HTTP/1.1" 302 0
+INFO 2020-02-17 16:31:23,871 basehttp 154 "GET /xadmin/video/video/? HTTP/1.1" 200 43546
+INFO 2020-02-17 16:31:23,933 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 16:31:34,213 basehttp 154 "GET /xadmin/video/hostshortvideo/ HTTP/1.1" 200 37462
+INFO 2020-02-17 16:31:34,260 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 16:31:35,130 basehttp 154 "GET /xadmin/video/video/ HTTP/1.1" 200 43314
+INFO 2020-02-17 16:31:35,175 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 16:31:39,143 basehttp 154 "GET /xadmin/video/videotype/ HTTP/1.1" 200 34462
+INFO 2020-02-17 16:31:39,184 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 16:31:39,989 basehttp 154 "GET /xadmin/video/shortvideo/ HTTP/1.1" 200 35107
+INFO 2020-02-17 16:31:40,031 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 16:31:40,784 basehttp 154 "GET /xadmin/video/homevideo/ HTTP/1.1" 200 37546
+INFO 2020-02-17 16:31:40,826 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 16:31:41,434 basehttp 154 "GET /xadmin/video/shortvideo/ HTTP/1.1" 200 35107
+INFO 2020-02-17 16:31:41,541 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 16:31:42,007 basehttp 154 "GET /xadmin/video/videotype/ HTTP/1.1" 200 34462
+INFO 2020-02-17 16:31:42,077 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 16:31:42,591 basehttp 154 "GET /xadmin/video/video/ HTTP/1.1" 200 43314
+INFO 2020-02-17 16:31:42,714 basehttp 154 "GET /xadmin/video/video/ HTTP/1.1" 200 43314
+INFO 2020-02-17 16:31:42,748 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 16:31:54,662 basehttp 154 "GET /xadmin/video/videotype/ HTTP/1.1" 200 34462
+INFO 2020-02-17 16:31:54,827 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 16:31:55,589 basehttp 154 "GET /xadmin/video/videotype/add/ HTTP/1.1" 200 24699
+INFO 2020-02-17 16:31:55,648 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 16:32:05,277 basehttp 154 "POST /xadmin/video/videotype/add/ HTTP/1.1" 302 0
+INFO 2020-02-17 16:32:05,533 basehttp 154 "GET /xadmin/video/videotype/add/ HTTP/1.1" 200 25055
+INFO 2020-02-17 16:32:05,731 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 16:32:11,688 basehttp 154 "POST /xadmin/video/videotype/add/ HTTP/1.1" 302 0
+INFO 2020-02-17 16:32:11,985 basehttp 154 "GET /xadmin/video/videotype/add/ HTTP/1.1" 200 25051
+INFO 2020-02-17 16:32:12,067 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 16:32:18,002 basehttp 154 "POST /xadmin/video/videotype/add/ HTTP/1.1" 302 0
+INFO 2020-02-17 16:32:18,126 basehttp 154 "GET /xadmin/video/videotype/ HTTP/1.1" 200 37669
+INFO 2020-02-17 16:32:18,192 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 16:32:19,312 basehttp 154 "GET /xadmin/video/videotype/3/update/ HTTP/1.1" 200 24970
+INFO 2020-02-17 16:32:19,357 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 16:32:22,137 basehttp 154 "POST /xadmin/video/videotype/3/update/ HTTP/1.1" 302 0
+INFO 2020-02-17 16:32:22,258 basehttp 154 "GET /xadmin/video/videotype/? HTTP/1.1" 200 37594
+INFO 2020-02-17 16:32:22,300 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 16:36:34,651 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/video/serializers.py changed, reloading.
+INFO 2020-02-17 16:36:38,297 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-17 16:36:44,737 basehttp 154 "GET /video/video_type/ HTTP/1.1" 200 121
+INFO 2020-02-17 16:37:59,552 basehttp 154 "GET /video/video_type/ HTTP/1.1" 200 121
+INFO 2020-02-17 16:37:59,620 basehttp 154 "GET /video/host/?fenlei=1 HTTP/1.1" 200 531
+INFO 2020-02-17 16:38:02,896 basehttp 154 "GET /video/video_type/ HTTP/1.1" 200 121
+INFO 2020-02-17 16:38:02,908 basehttp 154 "GET /video/image/ HTTP/1.1" 200 1128
+INFO 2020-02-17 16:38:02,923 basehttp 154 "GET /video/host/?fenlei=1 HTTP/1.1" 200 531
+INFO 2020-02-17 16:38:02,946 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-17 16:38:02,980 basehttp 154 "GET /course/ranking_list/ HTTP/1.1" 200 925
+INFO 2020-02-17 16:38:02,981 basehttp 154 "GET /course/course_all/ HTTP/1.1" 200 2366
+INFO 2020-02-17 16:54:51,462 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/video/urls.py changed, reloading.
+INFO 2020-02-17 16:54:58,791 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-17 17:01:46,374 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/video/views.py changed, reloading.
+INFO 2020-02-17 17:01:51,400 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-17 17:04:42,851 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-17 17:04:53,219 basehttp 154 "GET /video/video_type/ HTTP/1.1" 200 121
+INFO 2020-02-17 17:04:53,220 basehttp 154 "GET /course/ranking_list/ HTTP/1.1" 200 925
+INFO 2020-02-17 17:04:53,230 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-17 17:04:53,382 basehttp 154 "GET /course/course_all/ HTTP/1.1" 200 2366
+INFO 2020-02-17 17:04:53,442 basehttp 154 "GET /video/image/ HTTP/1.1" 200 1128
+ERROR 2020-02-17 17:04:53,680 log 228 Internal Server Error: /video/info/
+Traceback (most recent call last):
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/generics.py", line 199, in get
+    return self.list(request, *args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+  File "/Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/video/views.py", line 67, in get_queryset
+    queryset = queryset.all()
+AttributeError: 'NoneType' object has no attribute 'all'
+ERROR 2020-02-17 17:04:53,684 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 500 20025
+INFO 2020-02-17 17:05:42,154 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/video/views.py changed, reloading.
+INFO 2020-02-17 17:05:44,309 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-17 17:05:49,519 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-17 17:05:49,519 basehttp 154 "GET /course/ranking_list/ HTTP/1.1" 200 925
+INFO 2020-02-17 17:05:49,522 basehttp 154 "GET /video/video_type/ HTTP/1.1" 200 121
+INFO 2020-02-17 17:05:49,639 basehttp 154 "GET /video/image/ HTTP/1.1" 200 1128
+INFO 2020-02-17 17:05:49,649 basehttp 154 "GET /course/course_all/ HTTP/1.1" 200 2366
+ERROR 2020-02-17 17:05:49,834 log 228 Internal Server Error: /video/info/
+Traceback (most recent call last):
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/generics.py", line 199, in get
+    return self.list(request, *args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/mixins.py", line 45, in list
+    serializer = self.get_serializer(queryset, many=True)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/generics.py", line 108, in get_serializer
+    serializer_class = self.get_serializer_class()
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/generics.py", line 125, in get_serializer_class
+    % self.__class__.__name__
+AssertionError: 'ShortVideoAPIView' should either include a `serializer_class` attribute, or override the `get_serializer_class()` method.
+ERROR 2020-02-17 17:05:49,835 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 500 20357
+INFO 2020-02-17 17:06:16,852 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/video/views.py changed, reloading.
+INFO 2020-02-17 17:06:19,417 autoreload 597 Watching for file changes with StatReloader
+ERROR 2020-02-17 17:06:27,557 log 228 Internal Server Error: /video/info/
+Traceback (most recent call last):
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/generics.py", line 199, in get
+    return self.list(request, *args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+  File "/Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/video/views.py", line 65, in get_queryset
+    print(self.request.GET('fenlei'))
+TypeError: 'QueryDict' object is not callable
+ERROR 2020-02-17 17:06:27,559 basehttp 154 "GET /video/info/ HTTP/1.1" 500 19729
+INFO 2020-02-17 17:06:51,034 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/video/views.py changed, reloading.
+INFO 2020-02-17 17:06:54,324 autoreload 597 Watching for file changes with StatReloader
+ERROR 2020-02-17 17:06:58,618 log 228 Internal Server Error: /video/info/
+Traceback (most recent call last):
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/utils/datastructures.py", line 78, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'fenlei'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/generics.py", line 199, in get
+    return self.list(request, *args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+  File "/Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/video/views.py", line 65, in get_queryset
+    print(self.request.GET['fenlei'])
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/utils/datastructures.py", line 80, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'fenlei'
+ERROR 2020-02-17 17:06:58,626 basehttp 154 "GET /video/info/ HTTP/1.1" 500 20106
+INFO 2020-02-17 17:07:10,220 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/video/views.py changed, reloading.
+INFO 2020-02-17 17:07:12,099 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-17 17:07:15,152 basehttp 154 "GET /video/info/ HTTP/1.1" 200 1060
+INFO 2020-02-17 17:07:24,340 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/video/views.py changed, reloading.
+INFO 2020-02-17 17:07:26,517 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-17 17:07:28,895 basehttp 154 "GET /video/info/ HTTP/1.1" 200 1060
+INFO 2020-02-17 17:07:44,540 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/video/views.py changed, reloading.
+INFO 2020-02-17 17:07:49,665 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-17 17:07:56,006 basehttp 154 "GET /video/video_type/ HTTP/1.1" 200 121
+INFO 2020-02-17 17:07:56,006 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-17 17:07:56,024 basehttp 154 "GET /video/image/ HTTP/1.1" 200 1128
+INFO 2020-02-17 17:07:56,025 basehttp 154 "GET /course/ranking_list/ HTTP/1.1" 200 925
+INFO 2020-02-17 17:07:56,026 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 1060
+INFO 2020-02-17 17:07:56,050 basehttp 154 "GET /course/course_all/ HTTP/1.1" 200 2366
+INFO 2020-02-17 17:10:18,284 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 1060
+INFO 2020-02-17 17:10:18,285 basehttp 154 "GET /video/video_type/ HTTP/1.1" 200 121
+INFO 2020-02-17 17:10:19,997 basehttp 154 "GET /video/info/?fenlei=2 HTTP/1.1" 200 1060
+INFO 2020-02-17 17:10:20,902 basehttp 154 "GET /video/info/?fenlei=3 HTTP/1.1" 200 1060
+INFO 2020-02-17 17:10:20,958 basehttp 154 "GET /video/info/?fenlei=4 HTTP/1.1" 200 1060
+INFO 2020-02-17 17:10:21,388 basehttp 154 "GET /video/info/?fenlei=3 HTTP/1.1" 200 1060
+INFO 2020-02-17 17:10:21,692 basehttp 154 "GET /video/info/?fenlei=2 HTTP/1.1" 200 1060
+INFO 2020-02-17 17:10:22,027 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 1060
+INFO 2020-02-17 17:10:22,422 basehttp 154 "GET /video/info/?fenlei=0 HTTP/1.1" 200 1060
+INFO 2020-02-17 17:10:23,082 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 1060
+INFO 2020-02-17 17:10:38,426 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 1060
+INFO 2020-02-17 17:10:38,427 basehttp 154 "GET /video/video_type/ HTTP/1.1" 200 121
+INFO 2020-02-17 17:10:55,014 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 1060
+INFO 2020-02-17 17:10:55,018 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-17 17:10:55,027 basehttp 154 "GET /video/video_type/ HTTP/1.1" 200 121
+INFO 2020-02-17 17:10:55,029 basehttp 154 "GET /video/image/ HTTP/1.1" 200 1128
+INFO 2020-02-17 17:10:55,061 basehttp 154 "GET /course/ranking_list/ HTTP/1.1" 200 925
+INFO 2020-02-17 17:10:55,067 basehttp 154 "GET /course/course_all/ HTTP/1.1" 200 2366
+INFO 2020-02-17 17:10:56,898 basehttp 154 "GET /video/info/?fenlei=2 HTTP/1.1" 200 1060
+INFO 2020-02-17 17:10:58,882 basehttp 154 "GET /video/info/?fenlei=3 HTTP/1.1" 200 1060
+INFO 2020-02-17 17:11:48,799 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/video/views.py changed, reloading.
+INFO 2020-02-17 17:11:50,751 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-17 17:11:57,417 basehttp 154 "GET /video/info/?fenlei=2 HTTP/1.1" 200 2
+INFO 2020-02-17 17:11:57,990 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 1060
+INFO 2020-02-17 17:11:58,371 basehttp 154 "GET /video/info/?fenlei=0 HTTP/1.1" 200 2
+INFO 2020-02-17 17:12:00,803 basehttp 154 "GET /video/video_type/ HTTP/1.1" 200 121
+INFO 2020-02-17 17:12:00,813 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-17 17:12:00,820 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 1060
+INFO 2020-02-17 17:12:00,851 basehttp 154 "GET /video/image/ HTTP/1.1" 200 1128
+INFO 2020-02-17 17:12:00,898 basehttp 154 "GET /course/ranking_list/ HTTP/1.1" 200 925
+INFO 2020-02-17 17:12:00,902 basehttp 154 "GET /course/course_all/ HTTP/1.1" 200 2366
+INFO 2020-02-17 17:12:05,112 basehttp 154 "GET /video/info/?fenlei=2 HTTP/1.1" 200 2
+INFO 2020-02-17 17:12:07,793 basehttp 154 "GET /video/info/?fenlei=3 HTTP/1.1" 200 2
+INFO 2020-02-17 17:12:09,110 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 1060
+INFO 2020-02-17 17:12:11,956 basehttp 154 "GET /video/info/?fenlei=2 HTTP/1.1" 200 2
+INFO 2020-02-17 17:12:13,098 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 1060
+INFO 2020-02-17 17:12:14,755 basehttp 154 "GET /video/info/?fenlei=2 HTTP/1.1" 200 2
+INFO 2020-02-17 17:12:15,446 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 1060
+INFO 2020-02-17 17:12:17,577 basehttp 154 "GET /video/info/?fenlei=2 HTTP/1.1" 200 2
+INFO 2020-02-17 17:13:25,967 basehttp 154 "GET /video/info/?fenlei=3 HTTP/1.1" 200 2
+INFO 2020-02-17 17:13:26,599 basehttp 154 "GET /video/info/?fenlei=4 HTTP/1.1" 200 2
+INFO 2020-02-17 17:13:27,097 basehttp 154 "GET /video/info/?fenlei=3 HTTP/1.1" 200 2
+INFO 2020-02-17 17:13:27,395 basehttp 154 "GET /video/info/?fenlei=2 HTTP/1.1" 200 2
+INFO 2020-02-17 17:13:27,518 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 1060
+INFO 2020-02-17 17:13:28,556 basehttp 154 "GET /video/info/?fenlei=0 HTTP/1.1" 200 2
+INFO 2020-02-17 17:13:29,005 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 1060
+INFO 2020-02-17 17:13:29,473 basehttp 154 "GET /video/info/?fenlei=2 HTTP/1.1" 200 2
+INFO 2020-02-17 17:13:30,077 basehttp 154 "GET /video/info/?fenlei=3 HTTP/1.1" 200 2
+INFO 2020-02-17 17:13:30,684 basehttp 154 "GET /video/info/?fenlei=2 HTTP/1.1" 200 2
+INFO 2020-02-17 17:13:30,780 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 1060
+INFO 2020-02-17 17:13:31,555 basehttp 154 "GET /video/info/?fenlei=2 HTTP/1.1" 200 2
+INFO 2020-02-17 17:13:38,976 basehttp 154 "GET /xadmin/video/videotype/add/ HTTP/1.1" 200 24699
+INFO 2020-02-17 17:13:39,099 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 17:13:40,920 basehttp 154 "GET /xadmin/video/shortvideo/ HTTP/1.1" 200 35107
+INFO 2020-02-17 17:13:40,976 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 17:13:41,790 basehttp 154 "GET /xadmin/video/videotype/ HTTP/1.1" 200 37366
+INFO 2020-02-17 17:13:41,829 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 17:13:42,518 basehttp 154 "GET /xadmin/video/video/ HTTP/1.1" 200 43314
+INFO 2020-02-17 17:13:42,568 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 17:13:43,626 basehttp 154 "GET /xadmin/video/video/add/ HTTP/1.1" 200 31368
+INFO 2020-02-17 17:13:43,712 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 17:13:49,131 basehttp 154 "GET /xadmin/video/videotype/ HTTP/1.1" 200 37366
+INFO 2020-02-17 17:13:49,186 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 17:13:51,489 basehttp 154 "GET /xadmin/video/video/ HTTP/1.1" 200 43314
+INFO 2020-02-17 17:13:51,596 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 17:13:52,527 basehttp 154 "GET /xadmin/video/video/2/update/ HTTP/1.1" 200 32117
+INFO 2020-02-17 17:13:52,658 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 17:14:22,451 basehttp 154 "POST /xadmin/video/video/2/update/ HTTP/1.1" 302 0
+INFO 2020-02-17 17:14:22,560 basehttp 154 "GET /xadmin/video/video/? HTTP/1.1" 200 43549
+INFO 2020-02-17 17:14:22,615 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 17:14:27,990 basehttp 154 "GET /xadmin/video/video/2/update/ HTTP/1.1" 200 32117
+INFO 2020-02-17 17:14:28,137 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 17:14:52,648 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 793
+INFO 2020-02-17 17:14:54,544 basehttp 154 "GET /video/info/?fenlei=2 HTTP/1.1" 200 268
+INFO 2020-02-17 17:15:05,154 basehttp 154 "GET /video/info/?fenlei=3 HTTP/1.1" 200 2
+INFO 2020-02-17 17:15:05,678 basehttp 154 "GET /video/info/?fenlei=4 HTTP/1.1" 200 2
+INFO 2020-02-17 17:15:06,191 basehttp 154 "GET /video/info/?fenlei=3 HTTP/1.1" 200 2
+INFO 2020-02-17 17:15:06,496 basehttp 154 "GET /video/info/?fenlei=2 HTTP/1.1" 200 268
+INFO 2020-02-17 17:15:08,308 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 793
+INFO 2020-02-17 17:15:09,437 basehttp 154 "GET /video/info/?fenlei=2 HTTP/1.1" 200 268
+INFO 2020-02-17 17:15:12,152 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 793
+INFO 2020-02-17 17:15:18,734 basehttp 154 "GET /video/info/?fenlei=2 HTTP/1.1" 200 268
+INFO 2020-02-17 17:15:54,538 basehttp 154 "GET /video/video_type/ HTTP/1.1" 200 121
+INFO 2020-02-17 17:15:54,558 basehttp 154 "GET /video/image/ HTTP/1.1" 200 1128
+INFO 2020-02-17 17:15:54,566 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-17 17:15:54,571 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 793
+INFO 2020-02-17 17:15:54,617 basehttp 154 "GET /course/ranking_list/ HTTP/1.1" 200 925
+INFO 2020-02-17 17:15:54,625 basehttp 154 "GET /course/course_all/ HTTP/1.1" 200 2366
+INFO 2020-02-17 17:15:56,359 basehttp 154 "GET /video/info/?fenlei=2 HTTP/1.1" 200 268
+INFO 2020-02-17 17:16:13,438 basehttp 154 "GET /video/2/ HTTP/1.1" 200 266
+INFO 2020-02-17 17:20:53,742 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/video/views.py changed, reloading.
+INFO 2020-02-17 17:20:57,797 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-17 17:24:27,096 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/video/views.py changed, reloading.
+INFO 2020-02-17 17:24:29,134 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-17 17:26:32,075 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/video/urls.py changed, reloading.
+INFO 2020-02-17 17:26:34,270 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-17 17:26:46,925 basehttp 154 "GET /video/type/?fenlei=1 HTTP/1.1" 200 843
+INFO 2020-02-17 17:28:50,622 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-17 17:28:50,623 basehttp 154 "GET /video/type/?fenlei=1 HTTP/1.1" 200 843
+INFO 2020-02-17 17:28:50,643 basehttp 154 "GET /course/ranking_list/ HTTP/1.1" 200 925
+INFO 2020-02-17 17:30:02,581 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-17 17:30:02,584 basehttp 154 "GET /video/video_type/ HTTP/1.1" 200 121
+INFO 2020-02-17 17:30:02,599 basehttp 154 "GET /video/type/?fenlei=1 HTTP/1.1" 200 843
+INFO 2020-02-17 17:30:02,605 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 793
+INFO 2020-02-17 17:30:02,616 basehttp 154 "GET /video/image/ HTTP/1.1" 200 1128
+INFO 2020-02-17 17:30:02,635 basehttp 154 "GET /course/ranking_list/ HTTP/1.1" 200 925
+INFO 2020-02-17 17:30:16,325 basehttp 154 "GET /video/image/ HTTP/1.1" 200 1128
+INFO 2020-02-17 17:30:16,330 basehttp 154 "GET /video/video_type/ HTTP/1.1" 200 121
+INFO 2020-02-17 17:30:16,350 basehttp 154 "GET /video/type/?fenlei=1 HTTP/1.1" 200 843
+INFO 2020-02-17 17:30:16,351 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 793
+INFO 2020-02-17 17:30:16,350 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-17 17:30:16,372 basehttp 154 "GET /course/ranking_list/ HTTP/1.1" 200 925
+INFO 2020-02-17 17:30:55,080 basehttp 154 "GET /video/image/ HTTP/1.1" 200 1128
+INFO 2020-02-17 17:30:55,096 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 793
+INFO 2020-02-17 17:30:55,100 basehttp 154 "GET /video/video_type/ HTTP/1.1" 200 121
+INFO 2020-02-17 17:30:55,107 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-17 17:30:55,107 basehttp 154 "GET /video/type/?fenlei=1 HTTP/1.1" 200 843
+INFO 2020-02-17 17:30:55,125 basehttp 154 "GET /course/ranking_list/ HTTP/1.1" 200 925
+INFO 2020-02-17 17:32:00,107 basehttp 154 "GET /video/image/ HTTP/1.1" 200 1128
+INFO 2020-02-17 17:32:00,110 basehttp 154 "GET /video/video_type/ HTTP/1.1" 200 121
+INFO 2020-02-17 17:32:00,118 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 793
+INFO 2020-02-17 17:32:00,120 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-17 17:32:00,136 basehttp 154 "GET /video/type/?fenlei=1 HTTP/1.1" 200 843
+INFO 2020-02-17 17:32:00,170 basehttp 154 "GET /course/ranking_list/ HTTP/1.1" 200 925
+INFO 2020-02-17 17:32:40,591 basehttp 154 "GET /video/video_type/ HTTP/1.1" 200 121
+INFO 2020-02-17 17:32:40,605 basehttp 154 "GET /course/college/ HTTP/1.1" 200 38
+INFO 2020-02-17 17:32:40,609 basehttp 154 "GET /video/image/ HTTP/1.1" 200 1128
+INFO 2020-02-17 17:32:40,630 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 793
+INFO 2020-02-17 17:32:40,636 basehttp 154 "GET /video/type/?fenlei=1 HTTP/1.1" 200 843
+INFO 2020-02-17 17:32:40,658 basehttp 154 "GET /course/ranking_list/ HTTP/1.1" 200 925
+INFO 2020-02-17 17:35:33,907 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/video/urls.py changed, reloading.
+INFO 2020-02-17 17:35:36,470 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-17 17:35:47,518 basehttp 154 "GET /xadmin/video/video/ HTTP/1.1" 200 43314
+INFO 2020-02-17 17:35:47,617 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 17:35:49,522 basehttp 154 "GET /xadmin/video/video/4/update/ HTTP/1.1" 200 32099
+INFO 2020-02-17 17:35:49,626 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 17:35:57,695 basehttp 154 "GET /xadmin/video/video/ HTTP/1.1" 200 43314
+INFO 2020-02-17 17:35:57,932 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 17:35:59,582 basehttp 154 "GET /xadmin/video/video/2/update/ HTTP/1.1" 200 32117
+INFO 2020-02-17 17:35:59,637 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 17:36:02,795 basehttp 154 "GET /xadmin/video/video/ HTTP/1.1" 200 43314
+INFO 2020-02-17 17:36:02,844 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 17:36:04,531 basehttp 154 "GET /xadmin/video/video/1/update/ HTTP/1.1" 200 32141
+INFO 2020-02-17 17:36:04,596 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 17:38:20,292 basehttp 154 "POST /xadmin/video/video/1/update/ HTTP/1.1" 302 0
+INFO 2020-02-17 17:38:20,439 basehttp 154 "GET /xadmin/video/video/? HTTP/1.1" 200 43555
+INFO 2020-02-17 17:38:20,505 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 17:38:23,063 basehttp 154 "GET /xadmin/video/video/4/update/ HTTP/1.1" 200 32099
+INFO 2020-02-17 17:38:23,111 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 17:40:19,238 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 793
+INFO 2020-02-17 17:40:19,238 basehttp 154 "GET /video/image/ HTTP/1.1" 200 1128
+INFO 2020-02-17 17:40:19,239 basehttp 154 "GET /video/video_type/ HTTP/1.1" 200 121
+INFO 2020-02-17 17:40:54,883 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 793
+INFO 2020-02-17 17:40:54,891 basehttp 154 "GET /video/video_type/ HTTP/1.1" 200 121
+INFO 2020-02-17 17:40:54,896 basehttp 154 "GET /video/image/ HTTP/1.1" 200 1128
+INFO 2020-02-17 17:40:55,970 basehttp 154 "GET /video/info/?fenlei=0 HTTP/1.1" 200 2
+INFO 2020-02-17 17:41:16,653 basehttp 154 "GET /video/type/?fenlei=1 HTTP/1.1" 200 843
+INFO 2020-02-17 17:41:16,800 basehttp 154 "GET /course/ranking_list/ HTTP/1.1" 200 925
+INFO 2020-02-17 17:41:43,975 basehttp 154 "GET /video/image/ HTTP/1.1" 200 1128
+INFO 2020-02-17 17:41:44,029 basehttp 154 "GET /video/num/ HTTP/1.1" 200 52
+INFO 2020-02-17 17:41:44,037 basehttp 154 "GET /video/video_type/ HTTP/1.1" 200 121
+INFO 2020-02-17 17:41:44,057 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 793
+INFO 2020-02-17 17:41:44,061 basehttp 154 "GET /video/type/?fenlei=1 HTTP/1.1" 200 843
+INFO 2020-02-17 17:42:11,536 basehttp 154 "GET /video/video_type/ HTTP/1.1" 200 121
+INFO 2020-02-17 17:42:11,547 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 793
+INFO 2020-02-17 17:42:11,551 basehttp 154 "GET /video/num/ HTTP/1.1" 200 52
+INFO 2020-02-17 17:42:11,553 basehttp 154 "GET /video/type/?fenlei=1 HTTP/1.1" 200 843
+INFO 2020-02-17 17:42:11,555 basehttp 154 "GET /video/image/ HTTP/1.1" 200 1128
+INFO 2020-02-17 17:42:38,493 basehttp 154 "GET /video/num/ HTTP/1.1" 200 52
+INFO 2020-02-17 17:42:58,776 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/video/views.py changed, reloading.
+INFO 2020-02-17 17:43:02,149 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-17 17:43:10,903 basehttp 154 "GET /video/num/?fenlei=1 HTTP/1.1" 200 793
+INFO 2020-02-17 17:43:25,934 basehttp 154 "GET /video/num/?fenlei=1 HTTP/1.1" 200 793
+INFO 2020-02-17 17:43:25,939 basehttp 154 "GET /video/type/?fenlei=1 HTTP/1.1" 200 843
+INFO 2020-02-17 17:43:36,604 basehttp 154 "GET /video/image/ HTTP/1.1" 200 1128
+INFO 2020-02-17 17:43:36,604 basehttp 154 "GET /video/video_type/ HTTP/1.1" 200 121
+INFO 2020-02-17 17:43:36,623 basehttp 154 "GET /video/num/?fenlei=1 HTTP/1.1" 200 793
+INFO 2020-02-17 17:43:36,624 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 793
+INFO 2020-02-17 17:43:36,628 basehttp 154 "GET /video/type/?fenlei=1 HTTP/1.1" 200 843
+INFO 2020-02-17 17:44:42,941 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/video/serializers.py changed, reloading.
+INFO 2020-02-17 17:44:45,558 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-17 17:44:48,656 basehttp 154 "GET /video/num/?fenlei=1 HTTP/1.1" 200 793
+INFO 2020-02-17 17:45:08,325 autoreload 217 /Users/liangpingbo/Desktop/project/线上课堂/线上课程api/线上课程api/apps/video/serializers.py changed, reloading.
+INFO 2020-02-17 17:45:10,579 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-17 17:45:13,287 basehttp 154 "GET /video/num/?fenlei=1 HTTP/1.1" 200 840
+INFO 2020-02-17 17:45:42,032 basehttp 154 "POST /xadmin/video/video/4/update/ HTTP/1.1" 302 0
+INFO 2020-02-17 17:45:42,198 basehttp 154 "GET /xadmin/video/video/? HTTP/1.1" 200 43546
+INFO 2020-02-17 17:45:42,280 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-17 17:45:45,192 basehttp 154 "GET /video/num/?fenlei=1 HTTP/1.1" 200 841
+INFO 2020-02-17 17:46:29,975 basehttp 154 "GET /video/video_type/ HTTP/1.1" 200 121
+INFO 2020-02-17 17:46:30,004 basehttp 154 "GET /video/image/ HTTP/1.1" 200 1128
+INFO 2020-02-17 17:46:30,017 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 793
+INFO 2020-02-17 17:46:30,026 basehttp 154 "GET /video/num/?fenlei=1 HTTP/1.1" 200 841
+INFO 2020-02-17 17:46:30,030 basehttp 154 "GET /video/type/?fenlei=1 HTTP/1.1" 200 843
+INFO 2020-02-17 17:47:30,124 basehttp 154 "GET /video/num/?fenlei=1 HTTP/1.1" 200 841
+INFO 2020-02-17 17:47:30,134 basehttp 154 "GET /video/type/?fenlei=1 HTTP/1.1" 200 843
+INFO 2020-02-17 17:47:34,861 basehttp 154 "GET /video/video_type/ HTTP/1.1" 200 121
+INFO 2020-02-17 17:47:34,885 basehttp 154 "GET /video/image/ HTTP/1.1" 200 1128
+INFO 2020-02-17 17:47:34,894 basehttp 154 "GET /video/num/?fenlei=1 HTTP/1.1" 200 841
+INFO 2020-02-17 17:47:34,898 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 793
+INFO 2020-02-17 17:47:34,900 basehttp 154 "GET /video/type/?fenlei=1 HTTP/1.1" 200 843
+INFO 2020-02-17 17:48:04,450 basehttp 154 "GET /video/num/?fenlei=1 HTTP/1.1" 200 841
+INFO 2020-02-17 17:48:04,454 basehttp 154 "GET /video/type/?fenlei=1 HTTP/1.1" 200 843
+INFO 2020-02-17 17:48:19,603 basehttp 154 "GET /video/info/?fenlei=2 HTTP/1.1" 200 268
+INFO 2020-02-17 17:50:52,248 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 793
+INFO 2020-02-17 17:50:52,302 basehttp 154 "GET /video/video_type/ HTTP/1.1" 200 121
+INFO 2020-02-17 17:50:52,437 basehttp 154 "GET /video/type/?fenlei=2 HTTP/1.1" 200 318
+INFO 2020-02-17 17:50:52,445 basehttp 154 "GET /video/num/?fenlei=1 HTTP/1.1" 200 841
+INFO 2020-02-17 17:50:52,458 basehttp 154 "GET /video/type/?fenlei=1 HTTP/1.1" 200 843
+INFO 2020-02-17 17:50:52,458 basehttp 154 "GET /video/image/ HTTP/1.1" 200 1128
+INFO 2020-02-17 17:50:52,487 basehttp 154 "GET /video/num/?fenlei=2 HTTP/1.1" 200 283
+INFO 2020-02-17 17:51:06,258 basehttp 154 "GET /video/video_type/ HTTP/1.1" 200 121
+INFO 2020-02-17 17:51:06,259 basehttp 154 "GET /video/image/ HTTP/1.1" 200 1128
+INFO 2020-02-17 17:51:06,262 basehttp 154 "GET /video/num/?fenlei=1 HTTP/1.1" 200 841
+INFO 2020-02-17 17:51:06,269 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 793
+INFO 2020-02-17 17:51:06,271 basehttp 154 "GET /video/type/?fenlei=1 HTTP/1.1" 200 843
+INFO 2020-02-17 17:51:06,274 basehttp 154 "GET /video/type/?fenlei=2 HTTP/1.1" 200 318
+INFO 2020-02-17 17:51:06,283 basehttp 154 "GET /video/num/?fenlei=2 HTTP/1.1" 200 283
+INFO 2020-02-17 17:51:14,806 basehttp 154 "GET /video/2/ HTTP/1.1" 200 266

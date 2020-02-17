@@ -12,7 +12,7 @@
             <a class="title_link " href="javascript:;" data-target="_blank"
                _stat="new_vs_hot_movie:通栏功能区:通栏标题"
                style="font-size: 30px;font-weight: 400;line-height:40px; color: #111">
-              Python
+              运维开发
             </a>
 
           </h2>
@@ -88,7 +88,7 @@
       </div>
       <div class="mod_column_side">
         <div class="mod_hd mod_column_hd">
-          <h2 class="mod_title">Python排行榜</h2>
+          <h2 class="mod_title">运维开发排行榜</h2>
           <div class="bg_rank_ball"></div>
 
         </div>
@@ -122,7 +122,7 @@
 
 <script>
     export default {
-        name: "Ranking_List",
+        name: "yunwei_Ranking_list",
         data() {
             return {
                 category: 0,
@@ -176,7 +176,7 @@
             get_course() {
                 this.$axios.get(`${this.$settings.Host}/video/type/`, {
                     params: {
-                        fenlei: 1
+                        fenlei: 2
                     }
                 }).then(response => {
                     this.course_dict = response.data;
@@ -189,7 +189,7 @@
             ranking_list() {
                 this.$axios.get(`${this.$settings.Host}/video/num/`, {
                     params: {
-                        fenlei: 1
+                        fenlei: 2
                     }
                 }).then(response => {
                     console.log(response.data)

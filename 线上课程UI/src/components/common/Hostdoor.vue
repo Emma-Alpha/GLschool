@@ -28,28 +28,28 @@
                 :data-type=i.name data-content="10" data-seq="1"
                 _stat="multi_feed_V:通栏功能区:通栏标题tab:吃鸡" wind-click="500"
                 @mouseover="tis=key"
-        >{{i.name}}
+        >{{i.type_name}}
         </button>
 
 
       </div>
 
 
-      <div class="mod_page_small">
-        <button class="btn_prev disabled" wind-click="100" _stat="multi_feed_V:通栏功能区:上一页" title="上一页">
-          <svg class="svg_icon svg_icon_prev" viewBox="0 0 6 10" width="6" height="10">
-            <path d="M1.4 4.7L5 1M1.3 5.3L5 9" fill="none" stroke="currentColor" stroke-width="1.4"
-                  stroke-linecap="round"></path>
-          </svg>
-        </button>
-        <span class="page_num" data-info="10 9" data-count="2" data-page="1">1/2</span>
-        <button class="btn_next" wind-click="100" _stat="multi_feed_V:通栏功能区:下一页" title="下一页">
-          <svg class="svg_icon svg_icon_next" viewBox="0 0 6 10" width="6" height="10">
-            <path d="M4.6 4.7L1 1M4.7 5.3L1 9" fill="none" stroke="currentColor" stroke-width="1.4"
-                  stroke-linecap="round"></path>
-          </svg>
-        </button>
-      </div>
+<!--      <div class="mod_page_small">-->
+<!--        <button class="btn_prev disabled" wind-click="100" _stat="multi_feed_V:通栏功能区:上一页" title="上一页">-->
+<!--          <svg class="svg_icon svg_icon_prev" viewBox="0 0 6 10" width="6" height="10">-->
+<!--            <path d="M1.4 4.7L5 1M1.3 5.3L5 9" fill="none" stroke="currentColor" stroke-width="1.4"-->
+<!--                  stroke-linecap="round"></path>-->
+<!--          </svg>-->
+<!--        </button>-->
+<!--        <span class="page_num" data-info="10 9" data-count="2" data-page="1">1/2</span>-->
+<!--        <button class="btn_next" wind-click="100" _stat="multi_feed_V:通栏功能区:下一页" title="下一页">-->
+<!--          <svg class="svg_icon svg_icon_next" viewBox="0 0 6 10" width="6" height="10">-->
+<!--            <path d="M4.6 4.7L1 1M4.7 5.3L1 9" fill="none" stroke="currentColor" stroke-width="1.4"-->
+<!--                  stroke-linecap="round"></path>-->
+<!--          </svg>-->
+<!--        </button>-->
+<!--      </div>-->
 
 
     </div>
@@ -184,6 +184,11 @@
                 }
             }
         },
+        watch:{
+            tis(){
+                this.get_video()
+            }
+        },
         created() {
             this.get_coursecategory();
             this.get_video();
@@ -203,14 +208,14 @@
             },
 
             get_coursecategory() {
-                this.$axios.get(`${this.$settings.Host}/course/coursecategory`, {}).then(response => {
+                this.$axios.get(`${this.$settings.Host}/video/video_type/`, {}).then(response => {
                     this.coursecategory_list = response.data
                 }).catch(error => {
                     console.log(error.response);
                 })
             },
             get_video() {
-                this.$axios.get(`${this.$settings.Host}/video/host/`, {
+                this.$axios.get(`${this.$settings.Host}/video/info/`, {
                     params: {
                         fenlei: this.tis + 1
                     }

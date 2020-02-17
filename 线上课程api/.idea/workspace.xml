@@ -2,33 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="094ff10e-59ba-4b58-b30c-867f368accef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../线上课程UI/src/components/common/Ranking_List.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../线上课程UI/src/components/Cart.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../线上课程UI/src/components/Detail.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../线上课程UI/src/components/Detail.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../线上课程UI/src/components/Detail.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../线上课程UI/src/components/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../线上课程UI/src/components/Home.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../线上课程UI/src/components/IT_Course.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../线上课程UI/src/components/common/Care.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../线上课程UI/src/components/common/CartItem.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../线上课程UI/src/components/common/Head.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../线上课程UI/src/components/common/Head.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../线上课程UI/src/components/common/Header.vue" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../线上课程UI/src/components/common/Hostdoor.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../线上课程UI/src/components/common/Hostdoor.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../线上课程UI/src/components/common/Timer.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../线上课程UI/src/components/common/banner.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../线上课程UI/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../线上课程UI/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../线上课程UI/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../线上课程UI/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../线上课程UI/src/components/common/NewHead.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../线上课程UI/src/components/common/NewHead.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../线上课程UI/src/components/common/Ranking_List.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../线上课程UI/src/components/common/Ranking_List.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/线上课程.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/线上课程.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/线上课程api/apps/course/paginations.py" beforeDir="false" afterPath="$PROJECT_DIR$/线上课程api/apps/course/paginations.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/线上课程api/apps/course/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/线上课程api/apps/course/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/线上课程api/apps/course/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/线上课程api/apps/course/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/线上课程api/apps/course/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/线上课程api/apps/course/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/线上课程api/apps/oauth/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/线上课程api/apps/oauth/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/线上课程api/apps/video/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/线上课程api/apps/video/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/线上课程api/apps/video/adminx.py" beforeDir="false" afterPath="$PROJECT_DIR$/线上课程api/apps/video/adminx.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/线上课程api/apps/video/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/线上课程api/apps/video/apps.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/线上课程api/apps/video/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/线上课程api/apps/video/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/线上课程api/apps/video/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/线上课程api/apps/video/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/线上课程api/apps/video/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/线上课程api/apps/video/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/线上课程api/apps/video/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/线上课程api/apps/video/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/线上课程api/settings/dev.py" beforeDir="false" afterPath="$PROJECT_DIR$/线上课程api/settings/dev.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/线上课程api/utils/fastdfs/client.conf" beforeDir="false" afterPath="$PROJECT_DIR$/线上课程api/utils/fastdfs/client.conf" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -256,7 +244,8 @@
       <workItem from="1581750384097" duration="3165000" />
       <workItem from="1581820358018" duration="1668000" />
       <workItem from="1581838010965" duration="11127000" />
-      <workItem from="1581871187771" duration="2844000" />
+      <workItem from="1581871187771" duration="2979000" />
+      <workItem from="1581908120751" duration="12827000" />
     </task>
     <servers />
   </component>
@@ -277,6 +266,6 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/api$manage.coverage" NAME="manage Coverage Results" MODIFIED="1581873558837" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/api$manage.coverage" NAME="manage Coverage Results" MODIFIED="1581930271727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

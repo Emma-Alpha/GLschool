@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from .models import HostShortVideo
+from .models import HostShortVideo, ShortVideo, HomeVideo, Video, VideoType
 
 
 class HostShortVideoModelSerializer(serializers.ModelSerializer):
@@ -35,3 +35,34 @@ class UserVideoInfoAllSerializer(serializers.ModelSerializer):
     class Meta:
         model = HostShortVideo
         fields = ('id', "video_time", "video_img", "name", "file_url", "focus_content", 'course')
+
+
+class VideoModelSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Video
+        fields = ('id', "video_time", "video_img", "name", "file_url", "focus_content")
+
+
+class ShowHomeImageModelSerializer(serializers.ModelSerializer):
+    video = VideoModelSerializer()
+    """首页风景轮播展示"""
+
+    class Meta:
+        model = HomeVideo
+        fields = ('id', 'video')
+
+
+class VideoTypeModelSerializer(serializers.ModelSerializer):
+    """课程分类"""
+
+    class Meta:
+        model = VideoType
+        fields = ('id', 'type_name')
+
+
+class NumVideoModelSerializer(serializers.ModelSerializer):
+    """排行榜"""
+
+    class Meta:
+        model = Video
+        fields = ('id', "video_time", "video_img", "name", "file_url", "focus_content", "video_play")

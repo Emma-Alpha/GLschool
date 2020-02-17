@@ -50,6 +50,7 @@ INSTALLED_APPS = [
     'xadmin',
     'crispy_forms',
     'reversion',
+    'haystack',
 
     # 子应用
     'home',
@@ -355,3 +356,19 @@ DEFAULT_FILE_STORAGE = '线上课程api.utils.fastdfs.fdfs_storage.FastDFSStorag
 # FastDFS
 FDFS_URL = 'http://106.14.202.117:8888/'  # 访问图片的路径域名 ip地址修改为自己机器的ip地址
 FDFS_CLIENT_CONF = os.path.join(BASE_DIR, 'utils/fastdfs/client.conf')
+
+
+# Haystack
+HAYSTACK_CONNECTIONS = {
+    'default': {
+        'ENGINE': 'haystack.backends.elasticsearch_backend.ElasticsearchSearchEngine',
+        # elasticsearch运行的服务器ip地址，端口号默认为9200
+        'URL': 'http://106.14.202.117:9200/',
+        # elasticsearch建立的索引库的名称，一般使用项目名作为索引库
+        'INDEX_NAME': 'GL_VideoOl',
+    },
+}
+
+# 设置在Django运行时，如果有数据产生变化(添加、修改、删除)，
+# haystack会自动让Elasticsearch实时生成新数据的索引
+HAYSTACK_SIGNAL_PROCESSOR = 'haystack.signals.RealtimeSignalProcessor'

@@ -188,11 +188,11 @@
 
 
                   <a _stat="intro:tag" href="javascript:;" target="_blank"
-                     class="tag_item">{{info.course_list}}</a>
+                     class="tag_item">{{}}</a>
 
 
                   <a _stat="intro:tag" href="javascript:;" target="_blank"
-                     class="tag_item">{{info.college.name}}</a>
+                     class="tag_item">{{}}</a>
 
 
                   <a _stat="intro:tag"
@@ -326,9 +326,10 @@
             },
 
             get_video_info(){
-                this.$axios.get(`${this.$settings.Host}/course/${this.$route.params.id}`).then(response=>{
-                    this.info = response.data
-                    this.playerOptions.sources[0].src = response.data.attachment_path
+                this.$axios.get(`${this.$settings.Host}/video/${this.$route.params.id}`).then(response=>{
+                    this.info = response.data;
+                    console.log("zzzzzzzzzzz",response.data);
+                    this.playerOptions.sources[0].src = response.data.file_url
                 }).catch(error=>{
                     this.$alert("网络错误!", '广东理工学院')
                 })
