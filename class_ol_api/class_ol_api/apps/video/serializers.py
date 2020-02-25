@@ -27,7 +27,7 @@ class UploadVideoModelSerializer(serializers.ModelSerializer):
         link = validate_data.get("file_url")
         name = validate_data.get("name")
         print("**********:", name)
-        instance = HostShortVideo.objects.create(file_url=link, user_video_id=user.id, name=name)
+        instance = Video.objects.create(file_url=link, user_video_id=user.id, name=name, video_time=0, video_type_id=5)
         # instance.course_video = str(instance.file_url).split('/')[0]
         instance.save()
         return instance
@@ -75,4 +75,4 @@ class VideoIndexSerializer(HaystackSerializer):
 
     class Meta:
         index_classes = [VideoIndex]
-        fields = ('text', 'id', 'title', 'focus_content')
+        fields = ('text', 'id', 'title', 'focus_content', 'video_img')

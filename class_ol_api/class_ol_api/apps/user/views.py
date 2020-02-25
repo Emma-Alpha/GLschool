@@ -16,6 +16,7 @@ from rest_framework.generics import CreateAPIView
 from .models import User
 from .serializers import UserModelSerializer
 from mycelery.sms.tasks import send_sms
+from mycelery.email.tasks import send_email
 from rest_framework_jwt.settings import api_settings
 from itsdangerous import TimedJSONWebSignatureSerializer as TJSS
 
@@ -128,7 +129,7 @@ class SMSAPIView(APIView):
 
         # 4. 调用短信sdk,发送短信
         # 调用任务函数，发布任务
-        # send_sms.delay(mobile, sms_code)
+        send_sms.delay(mobile, sms_code)
 
         # 5. 响应发送短信的结果
         return Response({"message": "发送短信成功！"})
@@ -218,8 +219,8 @@ class SendEmailAPIView(APIView):
         url = settings.CLIENT_HOST + "/reset_password?access_token=" + access_token
 
         # 使用django提供的email发送邮件
-        # send_mail(subject='找回密码', message='', from_email=settings.EMAIL_FROM, recipient_list=['1733452028@qq.com'],
-        #           html_message='<a href="%s" target="_blank">重置密码</a>' % url)
+
+        send_email(from_email=settings.EMAIL_FROM, recipient_list=[email], url=url)
         print(11111111111)
         send_email.delay(from_email=settings.EMAIL_FROM, recipient_list=["{}".format(email)], url=url)
 

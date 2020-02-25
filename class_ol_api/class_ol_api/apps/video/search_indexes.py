@@ -8,6 +8,7 @@ class VideoIndex(indexes.SearchIndex, indexes.Indexable):
     id = indexes.IntegerField(model_attr='id')
     title = indexes.CharField(model_attr='name')
     focus_content = indexes.CharField(model_attr='focus_content')
+    video_img = indexes.CharField(model_attr='video_img')
 
     def get_model(self):
         """返回建立索引的模型类"""

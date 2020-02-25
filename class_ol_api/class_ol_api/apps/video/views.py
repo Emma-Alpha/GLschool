@@ -38,7 +38,7 @@ class HostShortVideoAPIView(ListAPIView):
 
 
 class UploadVideoAPIView(CreateAPIView):
-    queryset = HostShortVideo.objects.all()
+    queryset = Video.objects.all()
     serializer_class = UploadVideoModelSerializer
     permission_classes = [IsAuthenticated]
 

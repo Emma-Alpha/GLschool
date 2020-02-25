@@ -2,7 +2,7 @@
 import os
 from celery import Celery
 # 创建celery实例对象
-app = Celery("class_ol")
+app = Celery("class_ol_api")
 
 # 把celery和django进行组合，识别和加载django的配置文件
 import os

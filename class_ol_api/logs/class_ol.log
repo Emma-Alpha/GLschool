@@ -28,3 +28,1214 @@ INFO 2020-02-17 23:50:16,809 basehttp 154 "GET /video/search/?text=%E6%B3%A1%E6%
 INFO 2020-02-17 23:50:17,213 basehttp 154 "GET /video/search/?text=%E6%B3%A1%E6%B2%AB HTTP/1.1" 200 5415
 INFO 2020-02-17 23:50:17,342 basehttp 154 "GET /video/search/?text=%E6%B3%A1%E6%B2%AB HTTP/1.1" 200 5415
 INFO 2020-02-17 23:50:17,500 basehttp 154 "GET /video/search/?text=%E6%B3%A1%E6%B2%AB HTTP/1.1" 200 5415
+INFO 2020-02-18 00:02:45,415 basehttp 154 "GET /video/video_type/ HTTP/1.1" 200 121
+INFO 2020-02-18 00:02:45,423 basehttp 154 "GET /video/image/ HTTP/1.1" 200 1128
+INFO 2020-02-18 00:02:45,442 basehttp 154 "GET /video/num/?fenlei=1 HTTP/1.1" 200 841
+INFO 2020-02-18 00:02:45,451 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 793
+INFO 2020-02-18 00:02:45,455 basehttp 154 "GET /video/type/?fenlei=1 HTTP/1.1" 200 843
+INFO 2020-02-18 00:02:45,463 basehttp 154 "GET /video/type/?fenlei=2 HTTP/1.1" 200 318
+INFO 2020-02-18 00:02:45,466 basehttp 154 "GET /video/num/?fenlei=2 HTTP/1.1" 200 283
+INFO 2020-02-18 00:02:54,929 basehttp 154 "GET /video/3/ HTTP/1.1" 200 260
+INFO 2020-02-18 00:26:27,738 autoreload 217 /Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/elasticsearch/serializer.py changed, reloading.
+INFO 2020-02-18 00:26:29,874 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-18 00:26:57,585 basehttp 154 "GET /video/search/?text=%E6%B3%A1%E6%B2%AB HTTP/1.1" 200 5415
+INFO 2020-02-18 00:27:03,510 basehttp 154 "GET /video/search/?title=%E6%B3%A1%E6%B2%AB HTTP/1.1" 200 5624
+INFO 2020-02-18 00:27:57,027 autoreload 597 Watching for file changes with StatReloader
+WARNING 2020-02-18 00:27:59,737 log 228 Not Found: /
+WARNING 2020-02-18 00:27:59,738 basehttp 154 "GET / HTTP/1.1" 404 2630
+INFO 2020-02-18 00:28:04,076 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 21966
+INFO 2020-02-18 00:28:04,151 basehttp 154 "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 200 126432
+INFO 2020-02-18 00:28:04,171 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 200 42543
+INFO 2020-02-18 00:28:04,180 basehttp 154 "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 200 58327
+INFO 2020-02-18 00:28:04,181 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-18 00:28:04,187 basehttp 154 "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 200 240196
+INFO 2020-02-18 00:28:04,219 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 21966
+INFO 2020-02-18 00:28:04,470 basehttp 154 "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 200 44432
+INFO 2020-02-18 00:28:09,982 basehttp 154 "GET /xadmin/video/hostshortvideo/ HTTP/1.1" 200 37462
+INFO 2020-02-18 00:28:10,042 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-18 00:28:46,349 basehttp 154 "GET /xadmin/video/hostshortvideo/ HTTP/1.1" 200 37462
+INFO 2020-02-18 00:28:46,396 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-18 00:28:46,761 basehttp 154 "GET /xadmin/video/hostshortvideo/ HTTP/1.1" 200 37462
+INFO 2020-02-18 00:28:46,777 autoreload 217 /Users/liangpingbo/Desktop/project/class_ol/class_ol_api/class_ol_api/apps/course/apps.py changed, reloading.
+INFO 2020-02-18 00:28:48,645 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-18 00:29:15,262 autoreload 217 /Users/liangpingbo/Desktop/project/class_ol/class_ol_api/class_ol_api/apps/course/apps.py changed, reloading.
+INFO 2020-02-18 00:29:16,812 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-18 00:29:19,869 basehttp 154 "GET /xadmin/video/hostshortvideo/ HTTP/1.1" 200 37462
+INFO 2020-02-18 00:29:19,901 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-18 00:29:20,105 autoreload 217 /Users/liangpingbo/Desktop/project/class_ol/class_ol_api/class_ol_api/apps/course/__init__.py changed, reloading.
+INFO 2020-02-18 00:29:21,482 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-18 00:29:37,956 autoreload 217 /Users/liangpingbo/Desktop/project/class_ol/class_ol_api/class_ol_api/apps/course/adminx.py changed, reloading.
+INFO 2020-02-18 00:29:39,831 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-18 00:29:41,907 basehttp 154 "GET /xadmin/video/hostshortvideo/ HTTP/1.1" 200 33616
+INFO 2020-02-18 00:29:41,959 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-18 01:13:29,702 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-18 01:14:17,306 basehttp 154 "GET /video/video_type/ HTTP/1.1" 200 121
+INFO 2020-02-18 01:14:17,327 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 793
+INFO 2020-02-18 01:14:17,333 basehttp 154 "GET /video/num/?fenlei=1 HTTP/1.1" 200 841
+INFO 2020-02-18 01:14:17,336 basehttp 154 "GET /video/type/?fenlei=1 HTTP/1.1" 200 843
+INFO 2020-02-18 01:14:17,340 basehttp 154 "GET /video/type/?fenlei=2 HTTP/1.1" 200 318
+INFO 2020-02-18 01:14:17,342 basehttp 154 "GET /video/image/ HTTP/1.1" 200 1128
+INFO 2020-02-18 01:14:17,358 basehttp 154 "GET /video/num/?fenlei=2 HTTP/1.1" 200 283
+WARNING 2020-02-18 01:18:15,317 log 228 Not Found: /
+WARNING 2020-02-18 01:18:15,320 basehttp 154 "GET / HTTP/1.1" 404 2630
+INFO 2020-02-18 01:18:18,760 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 18120
+INFO 2020-02-18 01:18:18,815 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-18 01:18:19,075 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 18120
+INFO 2020-02-18 01:18:28,967 basehttp 154 "GET /xadmin/video/video/ HTTP/1.1" 200 39468
+INFO 2020-02-18 01:18:29,023 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-18 01:18:45,744 basehttp 154 "GET /xadmin/video/video/4/update/ HTTP/1.1" 200 28254
+INFO 2020-02-18 01:18:45,793 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-18 01:18:45,863 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.js HTTP/1.1" 200 98602
+INFO 2020-02-18 01:18:45,871 basehttp 154 "GET /static/xadmin/vendor/select2/select2.js HTTP/1.1" 200 104906
+INFO 2020-02-18 03:04:59,750 basehttp 154 "GET /video/image/ HTTP/1.1" 200 1128
+INFO 2020-02-18 03:04:59,769 basehttp 154 "GET /video/video_type/ HTTP/1.1" 200 121
+INFO 2020-02-18 03:04:59,770 basehttp 154 "GET /video/type/?fenlei=1 HTTP/1.1" 200 843
+INFO 2020-02-18 03:04:59,775 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 793
+INFO 2020-02-18 03:04:59,784 basehttp 154 "GET /video/type/?fenlei=2 HTTP/1.1" 200 318
+INFO 2020-02-18 03:04:59,785 basehttp 154 "GET /video/num/?fenlei=1 HTTP/1.1" 200 841
+INFO 2020-02-18 03:04:59,796 basehttp 154 "GET /video/num/?fenlei=2 HTTP/1.1" 200 283
+INFO 2020-02-18 03:05:16,992 basehttp 154 "OPTIONS /video/upload/ HTTP/1.1" 200 0
+WARNING 2020-02-18 03:05:17,000 log 228 Unauthorized: /video/upload/
+WARNING 2020-02-18 03:05:17,041 basehttp 154 "POST /video/upload/ HTTP/1.1" 401 35
+WARNING 2020-02-18 03:06:08,476 log 228 Unauthorized: /video/upload/
+WARNING 2020-02-18 03:06:08,508 basehttp 154 "POST /video/upload/ HTTP/1.1" 401 35
+INFO 2020-02-18 03:12:30,592 basehttp 154 "GET /oauth/QQ_login/ HTTP/1.1" 200 154
+INFO 2020-02-18 03:12:39,587 basehttp 154 "GET /oauth/QQ_info/?code=E5FE7BBC0DB724B5E1E1FBABDC9CAF94 HTTP/1.1" 200 375
+INFO 2020-02-18 03:12:40,009 basehttp 154 "GET /video/video_type/ HTTP/1.1" 200 121
+INFO 2020-02-18 03:12:40,012 basehttp 154 "GET /video/image/ HTTP/1.1" 200 1128
+INFO 2020-02-18 03:12:40,014 basehttp 154 "GET /video/num/?fenlei=1 HTTP/1.1" 200 841
+INFO 2020-02-18 03:12:40,022 basehttp 154 "GET /video/type/?fenlei=1 HTTP/1.1" 200 843
+INFO 2020-02-18 03:12:40,022 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 793
+INFO 2020-02-18 03:12:40,026 basehttp 154 "GET /video/type/?fenlei=2 HTTP/1.1" 200 318
+INFO 2020-02-18 03:12:40,031 basehttp 154 "GET /video/num/?fenlei=2 HTTP/1.1" 200 283
+INFO 2020-02-18 03:12:55,209 basehttp 154 "POST /video/upload/ HTTP/1.1" 201 117
+INFO 2020-02-18 03:16:38,618 autoreload 597 Watching for file changes with StatReloader
+ERROR 2020-02-18 03:17:02,147 exceptions 27 [<video.views.UploadVideoAPIView object at 0x1144700b8>] (1048, "Column 'video_type_id' cannot be null")
+ERROR 2020-02-18 03:17:02,168 log 228 Insufficient Storage: /video/upload/
+ERROR 2020-02-18 03:17:02,169 basehttp 154 "POST /video/upload/ HTTP/1.1" 507 35
+INFO 2020-02-18 03:17:40,404 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 18120
+INFO 2020-02-18 03:17:40,564 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-18 03:17:40,602 basehttp 154 "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 200 240196
+INFO 2020-02-18 03:17:43,808 basehttp 154 "GET /xadmin/video/homevideo/ HTTP/1.1" 200 33700
+INFO 2020-02-18 03:17:43,866 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-18 03:17:45,265 basehttp 154 "GET /xadmin/video/videotype/ HTTP/1.1" 200 33520
+INFO 2020-02-18 03:17:45,300 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-18 03:17:46,994 basehttp 154 "GET /xadmin/video/videotype/add/ HTTP/1.1" 200 20853
+INFO 2020-02-18 03:17:47,034 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-18 03:18:00,340 basehttp 154 "POST /xadmin/video/videotype/add/ HTTP/1.1" 302 0
+INFO 2020-02-18 03:18:00,462 basehttp 154 "GET /xadmin/video/videotype/ HTTP/1.1" 200 34805
+INFO 2020-02-18 03:18:00,543 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-18 03:18:17,187 autoreload 217 /Users/liangpingbo/Desktop/project/class_ol/class_ol_api/class_ol_api/apps/video/serializers.py changed, reloading.
+INFO 2020-02-18 03:18:19,340 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-18 03:18:35,328 basehttp 154 "POST /video/upload/ HTTP/1.1" 201 117
+INFO 2020-02-18 03:19:18,427 basehttp 154 "GET /xadmin/video/video/ HTTP/1.1" 200 41264
+INFO 2020-02-18 03:19:18,478 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-18 03:19:20,231 basehttp 154 "GET /xadmin/video/video/5/update/ HTTP/1.1" 200 28038
+INFO 2020-02-18 03:19:20,308 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-18 03:19:32,674 basehttp 154 "GET /video/video_type/ HTTP/1.1" 200 121
+INFO 2020-02-18 03:19:32,686 basehttp 154 "GET /video/image/ HTTP/1.1" 200 1128
+INFO 2020-02-18 03:19:32,701 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 793
+INFO 2020-02-18 03:19:32,715 basehttp 154 "GET /video/num/?fenlei=1 HTTP/1.1" 200 841
+INFO 2020-02-18 03:19:32,718 basehttp 154 "GET /video/type/?fenlei=2 HTTP/1.1" 200 318
+INFO 2020-02-18 03:19:32,720 basehttp 154 "GET /video/type/?fenlei=1 HTTP/1.1" 200 843
+INFO 2020-02-18 03:19:32,722 basehttp 154 "GET /video/num/?fenlei=2 HTTP/1.1" 200 283
+INFO 2020-02-18 20:43:36,000 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-18 20:44:26,419 basehttp 154 "GET /video/search/?title=%E6%B3%A1%E6%B2%AB HTTP/1.1" 200 5624
+INFO 2020-02-18 20:44:26,750 basehttp 154 "GET /static/rest_framework/js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+INFO 2020-02-18 20:44:26,755 basehttp 154 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2020-02-18 20:44:26,756 basehttp 154 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 37608
+WARNING 2020-02-18 20:44:27,234 log 228 Not Found: /favicon.ico
+WARNING 2020-02-18 20:44:27,235 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2681
+INFO 2020-02-18 21:10:22,689 basehttp 154 "GET /video/video_type/ HTTP/1.1" 200 121
+INFO 2020-02-18 21:10:22,739 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 793
+INFO 2020-02-18 21:10:22,745 basehttp 154 "GET /video/num/?fenlei=1 HTTP/1.1" 200 841
+INFO 2020-02-18 21:10:22,746 basehttp 154 "GET /video/type/?fenlei=1 HTTP/1.1" 200 843
+INFO 2020-02-18 21:10:22,750 basehttp 154 "GET /video/type/?fenlei=2 HTTP/1.1" 200 318
+INFO 2020-02-18 21:10:22,766 basehttp 154 "GET /video/num/?fenlei=2 HTTP/1.1" 200 283
+INFO 2020-02-18 21:10:22,771 basehttp 154 "GET /video/image/ HTTP/1.1" 200 1128
+INFO 2020-02-18 21:16:45,449 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-18 21:21:05,399 basehttp 154 "GET /video/video_type/ HTTP/1.1" 200 121
+INFO 2020-02-18 21:21:05,400 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 793
+INFO 2020-02-18 21:21:05,413 basehttp 154 "GET /video/num/?fenlei=1 HTTP/1.1" 200 841
+INFO 2020-02-18 21:21:05,413 basehttp 154 "GET /video/type/?fenlei=1 HTTP/1.1" 200 843
+INFO 2020-02-18 21:21:05,414 basehttp 154 "GET /video/type/?fenlei=2 HTTP/1.1" 200 318
+INFO 2020-02-18 21:21:05,425 basehttp 154 "GET /video/image/ HTTP/1.1" 200 1128
+INFO 2020-02-18 21:21:05,444 basehttp 154 "GET /video/num/?fenlei=2 HTTP/1.1" 200 283
+INFO 2020-02-18 21:29:36,657 basehttp 154 "GET /video/video_type/ HTTP/1.1" 200 121
+INFO 2020-02-18 21:29:36,661 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 793
+INFO 2020-02-18 21:29:36,666 basehttp 154 "GET /video/num/?fenlei=1 HTTP/1.1" 200 841
+INFO 2020-02-18 21:29:36,670 basehttp 154 "GET /video/image/ HTTP/1.1" 200 1128
+INFO 2020-02-18 21:29:36,677 basehttp 154 "GET /video/type/?fenlei=2 HTTP/1.1" 200 318
+INFO 2020-02-18 21:29:36,678 basehttp 154 "GET /video/type/?fenlei=1 HTTP/1.1" 200 843
+INFO 2020-02-18 21:29:36,692 basehttp 154 "GET /video/num/?fenlei=2 HTTP/1.1" 200 283
+INFO 2020-02-18 21:31:48,049 basehttp 154 "GET /video/1/ HTTP/1.1" 200 272
+INFO 2020-02-18 21:53:13,916 basehttp 154 "GET /video/video_type/ HTTP/1.1" 200 121
+INFO 2020-02-18 21:53:13,948 basehttp 154 "GET /video/image/ HTTP/1.1" 200 1128
+INFO 2020-02-18 21:53:13,996 basehttp 154 "GET /video/num/?fenlei=1 HTTP/1.1" 200 841
+INFO 2020-02-18 21:53:14,008 basehttp 154 "GET /video/type/?fenlei=2 HTTP/1.1" 200 318
+INFO 2020-02-18 21:53:14,017 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 793
+INFO 2020-02-18 21:53:14,034 basehttp 154 "GET /video/type/?fenlei=1 HTTP/1.1" 200 843
+INFO 2020-02-18 21:53:14,040 basehttp 154 "GET /video/num/?fenlei=2 HTTP/1.1" 200 283
+INFO 2020-02-18 21:53:17,148 basehttp 154 "GET /video/info/?fenlei=0 HTTP/1.1" 200 2
+INFO 2020-02-18 21:55:17,710 basehttp 154 "GET /video/image/ HTTP/1.1" 200 1128
+INFO 2020-02-18 21:55:17,711 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 793
+INFO 2020-02-18 21:55:17,711 basehttp 154 "GET /video/video_type/ HTTP/1.1" 200 121
+INFO 2020-02-18 21:55:17,712 basehttp 154 "GET /video/num/?fenlei=1 HTTP/1.1" 200 841
+INFO 2020-02-18 21:55:17,720 basehttp 154 "GET /video/type/?fenlei=2 HTTP/1.1" 200 318
+INFO 2020-02-18 21:55:17,720 basehttp 154 "GET /video/type/?fenlei=1 HTTP/1.1" 200 843
+INFO 2020-02-18 21:55:17,730 basehttp 154 "GET /video/num/?fenlei=2 HTTP/1.1" 200 283
+INFO 2020-02-18 21:56:30,335 basehttp 154 "GET /video/video_type/ HTTP/1.1" 200 121
+INFO 2020-02-18 21:56:30,340 basehttp 154 "GET /video/type/?fenlei=2 HTTP/1.1" 200 318
+INFO 2020-02-18 21:56:30,344 basehttp 154 "GET /video/image/ HTTP/1.1" 200 1128
+INFO 2020-02-18 21:56:30,349 basehttp 154 "GET /video/num/?fenlei=1 HTTP/1.1" 200 841
+INFO 2020-02-18 21:56:30,349 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 793
+INFO 2020-02-18 21:56:30,350 basehttp 154 "GET /video/type/?fenlei=1 HTTP/1.1" 200 843
+INFO 2020-02-18 21:56:30,358 basehttp 154 "GET /video/num/?fenlei=2 HTTP/1.1" 200 283
+INFO 2020-02-18 21:57:20,955 basehttp 154 "GET /video/image/ HTTP/1.1" 200 1128
+INFO 2020-02-18 21:57:20,956 basehttp 154 "GET /video/video_type/ HTTP/1.1" 200 121
+INFO 2020-02-18 21:57:20,959 basehttp 154 "GET /video/type/?fenlei=1 HTTP/1.1" 200 843
+INFO 2020-02-18 21:57:20,961 basehttp 154 "GET /video/num/?fenlei=1 HTTP/1.1" 200 841
+INFO 2020-02-18 21:57:20,966 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 793
+INFO 2020-02-18 21:57:20,969 basehttp 154 "GET /video/type/?fenlei=2 HTTP/1.1" 200 318
+INFO 2020-02-18 21:57:20,975 basehttp 154 "GET /video/num/?fenlei=2 HTTP/1.1" 200 283
+INFO 2020-02-18 21:57:43,524 basehttp 154 "GET /video/num/?fenlei=1 HTTP/1.1" 200 841
+INFO 2020-02-18 21:57:43,530 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 793
+INFO 2020-02-18 21:57:43,538 basehttp 154 "GET /video/image/ HTTP/1.1" 200 1128
+INFO 2020-02-18 21:57:43,543 basehttp 154 "GET /video/video_type/ HTTP/1.1" 200 121
+INFO 2020-02-18 21:57:43,544 basehttp 154 "GET /video/type/?fenlei=2 HTTP/1.1" 200 318
+INFO 2020-02-18 21:57:43,550 basehttp 154 "GET /video/type/?fenlei=1 HTTP/1.1" 200 843
+INFO 2020-02-18 21:57:43,552 basehttp 154 "GET /video/num/?fenlei=2 HTTP/1.1" 200 283
+INFO 2020-02-18 21:58:20,493 basehttp 154 "GET /video/video_type/ HTTP/1.1" 200 121
+INFO 2020-02-18 21:58:20,510 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 793
+INFO 2020-02-18 21:58:20,531 basehttp 154 "GET /video/image/ HTTP/1.1" 200 1128
+INFO 2020-02-18 21:58:20,536 basehttp 154 "GET /video/num/?fenlei=1 HTTP/1.1" 200 841
+INFO 2020-02-18 21:58:20,539 basehttp 154 "GET /video/type/?fenlei=1 HTTP/1.1" 200 843
+INFO 2020-02-18 21:58:20,545 basehttp 154 "GET /video/type/?fenlei=2 HTTP/1.1" 200 318
+INFO 2020-02-18 21:58:20,555 basehttp 154 "GET /video/num/?fenlei=2 HTTP/1.1" 200 283
+INFO 2020-02-18 21:59:19,490 basehttp 154 "GET /video/image/ HTTP/1.1" 200 1128
+INFO 2020-02-18 21:59:19,508 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 793
+INFO 2020-02-18 21:59:19,508 basehttp 154 "GET /video/video_type/ HTTP/1.1" 200 121
+INFO 2020-02-18 21:59:19,509 basehttp 154 "GET /video/type/?fenlei=2 HTTP/1.1" 200 318
+INFO 2020-02-18 21:59:19,517 basehttp 154 "GET /video/num/?fenlei=1 HTTP/1.1" 200 841
+INFO 2020-02-18 21:59:19,518 basehttp 154 "GET /video/type/?fenlei=1 HTTP/1.1" 200 843
+INFO 2020-02-18 21:59:19,521 basehttp 154 "GET /video/num/?fenlei=2 HTTP/1.1" 200 283
+INFO 2020-02-18 21:59:47,970 basehttp 154 "GET /video/video_type/ HTTP/1.1" 200 121
+INFO 2020-02-18 21:59:47,978 basehttp 154 "GET /video/type/?fenlei=2 HTTP/1.1" 200 318
+INFO 2020-02-18 21:59:47,979 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 793
+INFO 2020-02-18 21:59:47,979 basehttp 154 "GET /video/num/?fenlei=1 HTTP/1.1" 200 841
+INFO 2020-02-18 21:59:47,983 basehttp 154 "GET /video/type/?fenlei=1 HTTP/1.1" 200 843
+INFO 2020-02-18 21:59:47,991 basehttp 154 "GET /video/num/?fenlei=2 HTTP/1.1" 200 283
+INFO 2020-02-18 21:59:47,999 basehttp 154 "GET /video/image/ HTTP/1.1" 200 1128
+INFO 2020-02-18 22:00:29,347 basehttp 154 "GET /video/video_type/ HTTP/1.1" 200 121
+INFO 2020-02-18 22:00:29,362 basehttp 154 "GET /video/image/ HTTP/1.1" 200 1128
+INFO 2020-02-18 22:00:29,367 basehttp 154 "GET /video/type/?fenlei=1 HTTP/1.1" 200 843
+INFO 2020-02-18 22:00:29,369 basehttp 154 "GET /video/num/?fenlei=1 HTTP/1.1" 200 841
+INFO 2020-02-18 22:00:29,370 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 793
+INFO 2020-02-18 22:00:29,377 basehttp 154 "GET /video/type/?fenlei=2 HTTP/1.1" 200 318
+INFO 2020-02-18 22:00:29,380 basehttp 154 "GET /video/num/?fenlei=2 HTTP/1.1" 200 283
+INFO 2020-02-18 22:03:38,743 basehttp 154 "GET /video/video_type/ HTTP/1.1" 200 121
+INFO 2020-02-18 22:03:38,748 basehttp 154 "GET /video/num/?fenlei=1 HTTP/1.1" 200 841
+INFO 2020-02-18 22:03:38,751 basehttp 154 "GET /video/image/ HTTP/1.1" 200 1128
+INFO 2020-02-18 22:03:38,751 basehttp 154 "GET /video/type/?fenlei=1 HTTP/1.1" 200 843
+INFO 2020-02-18 22:03:38,757 basehttp 154 "GET /video/type/?fenlei=2 HTTP/1.1" 200 318
+INFO 2020-02-18 22:03:38,769 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 793
+INFO 2020-02-18 22:03:38,789 basehttp 154 "GET /video/num/?fenlei=2 HTTP/1.1" 200 283
+INFO 2020-02-18 22:04:18,371 basehttp 154 "GET /video/video_type/ HTTP/1.1" 200 121
+INFO 2020-02-18 22:04:18,381 basehttp 154 "GET /video/image/ HTTP/1.1" 200 1128
+INFO 2020-02-18 22:04:18,385 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 793
+INFO 2020-02-18 22:04:18,386 basehttp 154 "GET /video/num/?fenlei=1 HTTP/1.1" 200 841
+INFO 2020-02-18 22:04:18,388 basehttp 154 "GET /video/type/?fenlei=2 HTTP/1.1" 200 318
+INFO 2020-02-18 22:04:18,390 basehttp 154 "GET /video/type/?fenlei=1 HTTP/1.1" 200 843
+INFO 2020-02-18 22:04:18,412 basehttp 154 "GET /video/num/?fenlei=2 HTTP/1.1" 200 283
+INFO 2020-02-18 22:07:20,380 basehttp 154 "GET /video/search/?title=asdfas HTTP/1.1" 200 2
+INFO 2020-02-18 22:08:42,106 basehttp 154 "GET /video/search/?title=%E6%B3%A1%E6%B2%AB HTTP/1.1" 200 85
+INFO 2020-02-18 22:08:45,918 basehttp 154 "GET /video/search/?title=%E6%B3%A1%E6%B2%AB HTTP/1.1" 200 85
+INFO 2020-02-18 22:08:58,635 basehttp 154 "GET /video/search/?title=undefined HTTP/1.1" 200 2
+INFO 2020-02-18 22:09:03,851 basehttp 154 "GET /video/image/ HTTP/1.1" 200 1128
+INFO 2020-02-18 22:09:03,853 basehttp 154 "GET /video/video_type/ HTTP/1.1" 200 121
+INFO 2020-02-18 22:09:03,854 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 793
+INFO 2020-02-18 22:09:03,859 basehttp 154 "GET /video/type/?fenlei=1 HTTP/1.1" 200 843
+INFO 2020-02-18 22:09:03,865 basehttp 154 "GET /video/num/?fenlei=1 HTTP/1.1" 200 841
+INFO 2020-02-18 22:09:03,865 basehttp 154 "GET /video/type/?fenlei=2 HTTP/1.1" 200 318
+INFO 2020-02-18 22:09:03,874 basehttp 154 "GET /video/num/?fenlei=2 HTTP/1.1" 200 283
+INFO 2020-02-18 22:09:09,983 basehttp 154 "GET /video/search/?title=%E6%B3%A1%E6%B2%AB HTTP/1.1" 200 85
+INFO 2020-02-18 22:11:29,665 autoreload 217 /Users/liangpingbo/Desktop/project/class_ol/class_ol_api/class_ol_api/apps/video/search_indexes.py changed, reloading.
+INFO 2020-02-18 22:11:32,705 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-18 22:12:31,946 basehttp 154 "GET /video/search/?title=%E6%B3%A1%E6%B2%AB HTTP/1.1" 200 5677
+WARNING 2020-02-18 22:12:32,095 log 228 Not Found: /favicon.ico
+WARNING 2020-02-18 22:12:32,096 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2681
+INFO 2020-02-18 22:13:34,143 autoreload 217 /Users/liangpingbo/Desktop/project/class_ol/class_ol_api/class_ol_api/apps/video/serializers.py changed, reloading.
+INFO 2020-02-18 22:13:36,861 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-18 22:13:38,939 basehttp 154 "GET /video/search/?title=%E6%B3%A1%E6%B2%AB HTTP/1.1" 200 5773
+INFO 2020-02-18 22:15:07,248 basehttp 154 "GET /video/search/?title=%E6%B3%A1%E6%B2%AB HTTP/1.1" 200 204
+INFO 2020-02-18 22:15:24,613 basehttp 154 "GET /video/search/?title=%E6%B3%A1%E6%B2%AB HTTP/1.1" 200 204
+INFO 2020-02-18 22:16:24,949 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 18120
+INFO 2020-02-18 22:16:24,998 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 200 42543
+INFO 2020-02-18 22:16:25,000 basehttp 154 "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 200 240196
+INFO 2020-02-18 22:16:25,001 basehttp 154 "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 200 58327
+INFO 2020-02-18 22:16:25,005 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.effect.js HTTP/1.1" 200 31918
+INFO 2020-02-18 22:16:25,026 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-18 22:16:25,034 basehttp 154 "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 200 126432
+INFO 2020-02-18 22:16:25,270 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 18120
+INFO 2020-02-18 22:16:25,451 basehttp 154 "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 200 44432
+INFO 2020-02-18 22:16:27,784 basehttp 154 "GET /xadmin/video/video/ HTTP/1.1" 200 41264
+INFO 2020-02-18 22:16:27,877 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-18 22:16:29,749 basehttp 154 "GET /xadmin/video/video/4/update/ HTTP/1.1" 200 28297
+INFO 2020-02-18 22:16:29,815 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.js HTTP/1.1" 200 98602
+INFO 2020-02-18 22:16:29,841 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-18 22:16:29,863 basehttp 154 "GET /static/xadmin/vendor/select2/select2.js HTTP/1.1" 200 104906
+INFO 2020-02-18 22:18:08,797 basehttp 154 "GET /video/search/?title=%E6%B3%A1%E6%B2%AB HTTP/1.1" 200 204
+INFO 2020-02-18 22:19:55,821 basehttp 154 "GET /video/video_type/ HTTP/1.1" 200 121
+INFO 2020-02-18 22:19:55,908 basehttp 154 "GET /video/search/?title=%E6%B3%A1%E6%B2%AB HTTP/1.1" 200 204
+INFO 2020-02-18 22:20:26,068 basehttp 154 "GET /video/video_type/ HTTP/1.1" 200 121
+INFO 2020-02-18 22:20:26,172 basehttp 154 "GET /video/search/?title=%E6%B3%A1%E6%B2%AB HTTP/1.1" 200 204
+INFO 2020-02-18 22:20:49,486 basehttp 154 "GET /video/video_type/ HTTP/1.1" 200 121
+INFO 2020-02-18 22:20:49,571 basehttp 154 "GET /video/search/?title=%E6%B3%A1%E6%B2%AB HTTP/1.1" 200 204
+INFO 2020-02-18 22:20:54,851 basehttp 154 "GET /video/video_type/ HTTP/1.1" 200 121
+INFO 2020-02-18 22:20:54,927 basehttp 154 "GET /video/search/?title=%E6%B3%A1%E6%B2%AB HTTP/1.1" 200 204
+INFO 2020-02-18 22:21:11,394 basehttp 154 "GET /video/video_type/ HTTP/1.1" 200 121
+INFO 2020-02-18 22:21:11,482 basehttp 154 "GET /video/search/?title=%E6%B3%A1%E6%B2%AB HTTP/1.1" 200 204
+INFO 2020-02-18 22:21:15,856 basehttp 154 "GET /video/video_type/ HTTP/1.1" 200 121
+INFO 2020-02-18 22:21:15,932 basehttp 154 "GET /video/search/?title=%E6%B3%A1%E6%B2%AB HTTP/1.1" 200 204
+INFO 2020-02-18 23:53:59,790 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-18 23:54:24,855 basehttp 154 "GET /video/video_type/ HTTP/1.1" 200 121
+INFO 2020-02-18 23:54:24,862 basehttp 154 "GET /video/type/?fenlei=2 HTTP/1.1" 200 318
+INFO 2020-02-18 23:54:24,868 basehttp 154 "GET /video/num/?fenlei=1 HTTP/1.1" 200 841
+INFO 2020-02-18 23:54:24,895 basehttp 154 "GET /video/type/?fenlei=1 HTTP/1.1" 200 843
+INFO 2020-02-18 23:54:24,917 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 793
+INFO 2020-02-18 23:54:24,932 basehttp 154 "GET /video/image/ HTTP/1.1" 200 1128
+INFO 2020-02-18 23:54:24,990 basehttp 154 "GET /video/num/?fenlei=2 HTTP/1.1" 200 283
+INFO 2020-02-20 22:25:17,968 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-20 22:31:30,100 basehttp 154 "GET /user/verify/ HTTP/1.1" 200 12
+INFO 2020-02-20 22:35:29,523 basehttp 154 "GET /oauth/QQ_login/ HTTP/1.1" 200 154
+INFO 2020-02-20 22:37:23,127 basehttp 154 "GET /oauth/QQ_info/?code=0A512EAF4C868BB92290CAC56A44D9B5 HTTP/1.1" 200 375
+INFO 2020-02-20 22:37:23,421 basehttp 154 "GET /video/video_type/ HTTP/1.1" 200 121
+INFO 2020-02-20 22:37:23,486 basehttp 154 "GET /video/type/?fenlei=2 HTTP/1.1" 200 318
+INFO 2020-02-20 22:37:23,490 basehttp 154 "GET /video/num/?fenlei=1 HTTP/1.1" 200 841
+INFO 2020-02-20 22:37:23,497 basehttp 154 "GET /video/num/?fenlei=2 HTTP/1.1" 200 283
+INFO 2020-02-20 22:37:23,506 basehttp 154 "GET /video/type/?fenlei=1 HTTP/1.1" 200 843
+INFO 2020-02-20 22:37:23,511 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 793
+INFO 2020-02-20 22:37:23,515 basehttp 154 "GET /video/image/ HTTP/1.1" 200 1128
+INFO 2020-02-20 22:39:08,020 basehttp 154 "GET /video/3/ HTTP/1.1" 200 260
+INFO 2020-02-20 22:39:10,074 basehttp 154 "GET /video/info/?fenlei=0 HTTP/1.1" 200 2
+INFO 2020-02-20 22:39:10,127 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 793
+INFO 2020-02-20 22:39:10,190 basehttp 154 "GET /video/info/?fenlei=0 HTTP/1.1" 200 2
+INFO 2020-02-20 22:39:10,535 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 793
+INFO 2020-02-20 22:39:10,849 basehttp 154 "GET /video/info/?fenlei=2 HTTP/1.1" 200 268
+INFO 2020-02-20 22:42:11,958 basehttp 154 "GET /user/verify/ HTTP/1.1" 200 12
+INFO 2020-02-20 22:43:18,553 basehttp 154 "GET /oauth/QQ_login/ HTTP/1.1" 200 154
+INFO 2020-02-20 22:43:25,324 basehttp 154 "GET /oauth/QQ_info/?code=E2D30EE49FEC41A2C0225BF72528CAA2 HTTP/1.1" 200 375
+INFO 2020-02-20 22:43:25,526 basehttp 154 "GET /video/video_type/ HTTP/1.1" 200 121
+INFO 2020-02-20 22:43:25,596 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 793
+INFO 2020-02-20 22:43:25,603 basehttp 154 "GET /video/image/ HTTP/1.1" 200 1128
+INFO 2020-02-20 22:43:25,605 basehttp 154 "GET /video/type/?fenlei=1 HTTP/1.1" 200 843
+INFO 2020-02-20 22:43:25,607 basehttp 154 "GET /video/num/?fenlei=1 HTTP/1.1" 200 841
+INFO 2020-02-20 22:43:25,610 basehttp 154 "GET /video/num/?fenlei=2 HTTP/1.1" 200 283
+INFO 2020-02-20 22:43:25,613 basehttp 154 "GET /video/type/?fenlei=2 HTTP/1.1" 200 318
+INFO 2020-02-20 22:43:27,630 basehttp 154 "GET /video/info/?fenlei=4 HTTP/1.1" 200 2
+INFO 2020-02-20 22:43:27,738 basehttp 154 "GET /video/info/?fenlei=3 HTTP/1.1" 200 2
+INFO 2020-02-20 22:43:27,996 basehttp 154 "GET /video/info/?fenlei=2 HTTP/1.1" 200 268
+INFO 2020-02-20 22:44:24,093 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 793
+INFO 2020-02-20 22:44:27,509 basehttp 154 "GET /video/4 HTTP/1.1" 301 0
+INFO 2020-02-20 22:44:27,951 basehttp 154 "GET /video/4/ HTTP/1.1" 200 257
+WARNING 2020-02-20 22:48:59,048 log 228 Not Found: /
+WARNING 2020-02-20 22:48:59,049 basehttp 154 "GET / HTTP/1.1" 404 2630
+WARNING 2020-02-20 22:49:00,154 log 228 Not Found: /favicon.ico
+WARNING 2020-02-20 22:49:00,155 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2681
+INFO 2020-02-20 22:49:06,294 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 18120
+INFO 2020-02-20 22:49:06,489 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 18120
+INFO 2020-02-20 22:49:06,530 basehttp 154 "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 200 21658
+INFO 2020-02-20 22:49:06,563 basehttp 154 "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 200 126432
+INFO 2020-02-20 22:49:06,585 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 200 15069
+INFO 2020-02-20 22:49:06,587 basehttp 154 "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 200 58327
+INFO 2020-02-20 22:49:06,590 basehttp 154 "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 200 240196
+INFO 2020-02-20 22:49:06,591 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 200 42543
+INFO 2020-02-20 22:49:06,604 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.effect.js HTTP/1.1" 200 31918
+INFO 2020-02-20 22:49:06,617 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-20 22:49:07,266 basehttp 154 "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 200 44432
+INFO 2020-02-20 22:49:12,228 basehttp 154 "GET /xadmin/video/video/ HTTP/1.1" 200 41264
+INFO 2020-02-20 22:49:12,454 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-20 22:49:14,349 basehttp 154 "GET /xadmin/video/videotype/ HTTP/1.1" 200 34497
+INFO 2020-02-20 22:49:14,424 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-20 22:49:15,739 basehttp 154 "GET /xadmin/video/video/ HTTP/1.1" 200 41264
+INFO 2020-02-20 22:49:15,894 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-20 22:49:17,323 basehttp 154 "GET /xadmin/video/video/add/ HTTP/1.1" 200 27565
+INFO 2020-02-20 22:49:17,378 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.js HTTP/1.1" 200 98602
+INFO 2020-02-20 22:49:17,379 basehttp 154 "GET /static/xadmin/vendor/bootstrap-image-gallery/js/bootstrap-image-gallery.js HTTP/1.1" 200 15611
+INFO 2020-02-20 22:49:17,383 basehttp 154 "GET /static/xadmin/vendor/select2/select2.js HTTP/1.1" 200 104906
+INFO 2020-02-20 22:49:17,403 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-20 22:49:17,407 basehttp 154 "GET /static/xadmin/vendor/select2/select2.css HTTP/1.1" 200 19226
+INFO 2020-02-20 22:50:39,122 basehttp 154 "POST /xadmin/video/video/add/ HTTP/1.1" 302 0
+INFO 2020-02-20 22:50:39,262 basehttp 154 "GET /xadmin/video/video/ HTTP/1.1" 200 43352
+INFO 2020-02-20 22:50:39,320 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-20 22:50:50,679 basehttp 154 "GET /video/video_type/ HTTP/1.1" 200 121
+INFO 2020-02-20 22:50:50,878 basehttp 154 "GET /video/search/?title=%E6%B3%A1%E6%B2%AB HTTP/1.1" 200 429
+INFO 2020-02-20 22:57:26,226 basehttp 154 "OPTIONS /video/upload/ HTTP/1.1" 200 0
+INFO 2020-02-20 22:57:40,396 basehttp 154 "POST /video/upload/ HTTP/1.1" 201 112
+INFO 2020-02-20 22:59:09,486 basehttp 154 "GET /video/type/?fenlei=1 HTTP/1.1" 200 1114
+INFO 2020-02-20 22:59:09,513 basehttp 154 "GET /video/num/?fenlei=1 HTTP/1.1" 200 1127
+INFO 2020-02-20 22:59:09,545 basehttp 154 "GET /video/num/?fenlei=2 HTTP/1.1" 200 283
+INFO 2020-02-20 22:59:09,551 basehttp 154 "GET /video/type/?fenlei=2 HTTP/1.1" 200 318
+INFO 2020-02-20 22:59:09,556 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 1064
+INFO 2020-02-20 22:59:09,560 basehttp 154 "GET /video/video_type/ HTTP/1.1" 200 121
+INFO 2020-02-20 22:59:09,567 basehttp 154 "GET /video/image/ HTTP/1.1" 200 1128
+WARNING 2020-02-21 00:21:05,053 log 228 Not Found: /
+WARNING 2020-02-21 00:21:05,055 basehttp 154 "GET / HTTP/1.1" 404 2630
+WARNING 2020-02-21 00:21:15,910 log 228 Not Found: /users/login
+WARNING 2020-02-21 00:21:15,911 basehttp 154 "GET /users/login HTTP/1.1" 404 2681
+INFO 2020-02-21 00:21:21,614 basehttp 154 "GET /user/login HTTP/1.1" 301 0
+WARNING 2020-02-21 00:21:21,626 log 228 Method Not Allowed: /user/login/
+WARNING 2020-02-21 00:21:21,626 basehttp 154 "GET /user/login/ HTTP/1.1" 405 45
+ERROR 2020-02-21 00:21:26,883 log 228 Internal Server Error: /user/login
+Traceback (most recent call last):
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/middleware/common.py", line 53, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/middleware/common.py", line 93, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/user/login/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2020-02-21 00:21:26,886 basehttp 154 "POST /user/login HTTP/1.1" 500 69384
+WARNING 2020-02-21 00:21:49,325 log 228 Bad Request: /user/login/
+WARNING 2020-02-21 00:21:49,328 basehttp 154 "POST /user/login/ HTTP/1.1" 400 67
+INFO 2020-02-21 00:22:02,116 basehttp 154 "POST /user/login/ HTTP/1.1" 200 236
+INFO 2020-02-21 00:53:45,983 autoreload 597 Watching for file changes with StatReloader
+WARNING 2020-02-21 00:53:49,406 log 228 Not Found: /
+WARNING 2020-02-21 00:53:49,411 basehttp 154 "GET / HTTP/1.1" 404 2630
+INFO 2020-02-21 00:53:52,704 basehttp 154 "GET /xadmin/video/video/ HTTP/1.1" 200 44844
+INFO 2020-02-21 00:53:52,866 basehttp 154 "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 304 0
+INFO 2020-02-21 00:53:52,908 basehttp 154 "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 304 0
+INFO 2020-02-21 00:53:52,913 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 304 0
+INFO 2020-02-21 00:53:52,923 basehttp 154 "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 304 0
+INFO 2020-02-21 00:53:52,927 basehttp 154 "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 304 0
+INFO 2020-02-21 00:53:52,933 basehttp 154 "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 304 0
+INFO 2020-02-21 00:53:52,935 basehttp 154 "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 304 0
+INFO 2020-02-21 00:53:52,943 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 304 0
+INFO 2020-02-21 00:53:52,944 basehttp 154 "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 304 0
+INFO 2020-02-21 00:53:52,952 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 304 0
+INFO 2020-02-21 00:53:52,953 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 304 0
+INFO 2020-02-21 00:53:52,958 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 304 0
+INFO 2020-02-21 00:53:52,961 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.1" 304 0
+INFO 2020-02-21 00:53:52,964 basehttp 154 "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 304 0
+INFO 2020-02-21 00:53:52,968 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.themes.js HTTP/1.1" 304 0
+INFO 2020-02-21 00:53:52,973 basehttp 154 "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 304 0
+INFO 2020-02-21 00:53:53,016 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-21 00:53:57,511 basehttp 154 "POST /xadmin/settings/user HTTP/1.1" 200 0
+INFO 2020-02-21 00:54:03,612 basehttp 154 "POST /xadmin/settings/user HTTP/1.1" 200 0
+INFO 2020-02-21 00:57:37,825 autoreload 217 /Users/liangpingbo/Desktop/project/class_ol/class_ol_api/class_ol_api/apps/video/adminx.py changed, reloading.
+INFO 2020-02-21 00:57:40,989 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-21 00:57:43,749 basehttp 154 "GET /xadmin/video/video/ HTTP/1.1" 200 44376
+INFO 2020-02-21 00:57:43,798 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-21 00:57:50,282 basehttp 154 "POST /xadmin/settings/user HTTP/1.1" 200 0
+INFO 2020-02-21 00:57:50,304 basehttp 154 "GET /static/xadmin/css/themes/bootstrap-theme.css HTTP/1.1" 200 19791
+INFO 2020-02-21 00:57:53,599 basehttp 154 "POST /xadmin/settings/user HTTP/1.1" 200 0
+INFO 2020-02-21 00:57:59,809 basehttp 154 "POST /xadmin/settings/user HTTP/1.1" 200 0
+INFO 2020-02-21 00:58:04,056 basehttp 154 "POST /xadmin/settings/user HTTP/1.1" 200 0
+INFO 2020-02-21 00:58:08,136 basehttp 154 "POST /xadmin/settings/user HTTP/1.1" 200 0
+INFO 2020-02-21 00:58:12,105 basehttp 154 "POST /xadmin/settings/user HTTP/1.1" 200 0
+INFO 2020-02-21 00:58:19,700 basehttp 154 "GET /xadmin/video/videotype/ HTTP/1.1" 200 34032
+INFO 2020-02-21 00:58:19,755 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-21 00:58:22,988 basehttp 154 "GET /xadmin/video/video/ HTTP/1.1" 200 44379
+INFO 2020-02-21 00:58:23,050 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-21 00:58:24,088 basehttp 154 "GET /xadmin/video/videotype/ HTTP/1.1" 200 34032
+INFO 2020-02-21 00:58:24,254 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-21 00:58:26,429 basehttp 154 "POST /xadmin/settings/user HTTP/1.1" 200 0
+INFO 2020-02-21 00:58:29,851 basehttp 154 "POST /xadmin/settings/user HTTP/1.1" 200 0
+INFO 2020-02-21 00:58:34,275 basehttp 154 "POST /xadmin/settings/user HTTP/1.1" 200 0
+INFO 2020-02-21 00:58:38,648 basehttp 154 "POST /xadmin/settings/user HTTP/1.1" 200 0
+INFO 2020-02-21 00:58:42,582 basehttp 154 "POST /xadmin/settings/user HTTP/1.1" 200 0
+INFO 2020-02-21 00:58:46,448 basehttp 154 "GET /xadmin/video/video/ HTTP/1.1" 200 44377
+INFO 2020-02-21 00:58:46,496 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-21 00:58:47,681 basehttp 154 "GET /xadmin/video/videotype/ HTTP/1.1" 200 34030
+INFO 2020-02-21 00:58:47,722 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-21 00:58:48,776 basehttp 154 "GET /xadmin/video/videotype/ HTTP/1.1" 200 34030
+INFO 2020-02-21 00:58:48,846 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-21 00:58:49,937 basehttp 154 "GET /xadmin/video/video/ HTTP/1.1" 200 44377
+INFO 2020-02-21 00:58:49,988 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-21 00:58:52,823 basehttp 154 "POST /xadmin/settings/user HTTP/1.1" 200 0
+INFO 2020-02-21 00:59:04,718 basehttp 154 "POST /xadmin/settings/user HTTP/1.1" 200 0
+INFO 2020-02-21 00:59:10,713 basehttp 154 "GET /xadmin/user/user/ HTTP/1.1" 200 43794
+INFO 2020-02-21 00:59:10,788 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-21 00:59:13,370 basehttp 154 "GET /xadmin/reversion/revision/ HTTP/1.1" 200 32297
+INFO 2020-02-21 00:59:13,432 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.css HTTP/1.1" 304 0
+INFO 2020-02-21 00:59:13,435 basehttp 154 "GET /static/xadmin/vendor/bootstrap-datepicker/css/datepicker.css HTTP/1.1" 200 10225
+INFO 2020-02-21 00:59:13,440 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.bootstrap3.css HTTP/1.1" 304 0
+INFO 2020-02-21 00:59:13,441 basehttp 154 "GET /static/xadmin/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js HTTP/1.1" 200 32656
+INFO 2020-02-21 00:59:13,447 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 304 0
+INFO 2020-02-21 00:59:13,456 basehttp 154 "GET /static/xadmin/js/xadmin.widget.select.js HTTP/1.1" 304 0
+INFO 2020-02-21 00:59:13,457 basehttp 154 "GET /static/xadmin/js/xadmin.widget.datetime.js HTTP/1.1" 304 0
+INFO 2020-02-21 00:59:13,473 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-21 00:59:17,379 basehttp 154 "GET /xadmin/reversion/revision/ HTTP/1.1" 200 32297
+INFO 2020-02-21 00:59:17,432 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-21 00:59:20,648 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 17657
+INFO 2020-02-21 00:59:20,702 basehttp 154 "GET /static/xadmin/css/xadmin.page.dashboard.css HTTP/1.1" 304 0
+INFO 2020-02-21 00:59:20,714 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.1" 304 0
+INFO 2020-02-21 00:59:20,716 basehttp 154 "GET /static/xadmin/js/xadmin.page.dashboard.js HTTP/1.1" 304 0
+INFO 2020-02-21 00:59:20,726 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+ERROR 2020-02-21 00:59:23,408 log 228 Internal Server Error: /xadmin/xadmin/userwidget/add/
+Traceback (most recent call last):
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/core/handlers/base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/core/handlers/base.py", line 143, in _get_response
+    response = response.render()
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/template/response.py", line 106, in render
+    self.content = self.rendered_content
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/template/response.py", line 83, in rendered_content
+    content = template.render(context, self._request)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/crispy_forms/templatetags/crispy_forms_tags.py", line 199, in render
+    c = self.get_render(context).flatten()
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/crispy_forms/templatetags/crispy_forms_tags.py", line 118, in get_render
+    actual_form.form_html = helper.render_layout(actual_form, node_context, template_pack=self.template_pack)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/crispy_forms/helper.py", line 309, in render_layout
+    template_pack=template_pack
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/crispy_forms/layout.py", line 140, in render
+    return self.get_rendered_fields(form, form_style, context, template_pack, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/crispy_forms/layout.py", line 104, in get_rendered_fields
+    for field in self.fields
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/crispy_forms/layout.py", line 104, in <genexpr>
+    for field in self.fields
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/crispy_forms/utils.py", line 61, in render_field
+    form, form_style, context, template_pack=template_pack,
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/crispy_forms/layout.py", line 361, in render
+    fields = self.get_rendered_fields(form, form_style, context, template_pack, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/crispy_forms/layout.py", line 104, in get_rendered_fields
+    for field in self.fields
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/crispy_forms/layout.py", line 104, in <genexpr>
+    for field in self.fields
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/crispy_forms/utils.py", line 61, in render_field
+    form, form_style, context, template_pack=template_pack,
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/crispy_forms/layout.py", line 361, in render
+    fields = self.get_rendered_fields(form, form_style, context, template_pack, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/crispy_forms/layout.py", line 104, in get_rendered_fields
+    for field in self.fields
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/crispy_forms/layout.py", line 104, in <genexpr>
+    for field in self.fields
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/crispy_forms/utils.py", line 61, in render_field
+    form, form_style, context, template_pack=template_pack,
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/crispy_forms/layout.py", line 287, in render
+    fields = self.get_rendered_fields(form, form_style, context, template_pack, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/crispy_forms/layout.py", line 104, in get_rendered_fields
+    for field in self.fields
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/crispy_forms/layout.py", line 104, in <genexpr>
+    for field in self.fields
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/crispy_forms/utils.py", line 147, in render_field
+    html = template.render(context)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/template/defaulttags.py", line 309, in render
+    return nodelist.render(context)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/template/defaulttags.py", line 309, in render
+    return nodelist.render(context)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/template/defaulttags.py", line 309, in render
+    return nodelist.render(context)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/crispy_forms/templatetags/crispy_forms_field.py", line 156, in render
+    return str(field)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/utils/html.py", line 388, in <lambda>
+    klass.__str__ = lambda self: mark_safe(klass_str(self))
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/forms/boundfield.py", line 33, in __str__
+    return self.as_widget()
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/forms/boundfield.py", line 93, in as_widget
+    renderer=self.form.renderer,
+TypeError: render() got an unexpected keyword argument 'renderer'
+ERROR 2020-02-21 00:59:23,412 basehttp 154 "GET /xadmin/xadmin/userwidget/add/?user=4&page_id=home&_redirect=/xadmin/ HTTP/1.1" 500 695847
+INFO 2020-02-21 00:59:29,765 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 17657
+INFO 2020-02-21 01:02:38,507 autoreload 217 /Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/xadmin/views/dashboard.py changed, reloading.
+INFO 2020-02-21 01:02:41,570 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-21 01:02:48,840 autoreload 217 /Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/xadmin/views/dashboard.py changed, reloading.
+INFO 2020-02-21 01:02:51,354 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-21 01:02:59,029 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-21 01:03:04,691 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 17657
+INFO 2020-02-21 01:03:04,751 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-21 01:03:12,132 basehttp 154 "GET /xadmin/xadmin/userwidget/add/?user=4&page_id=home&_redirect=/xadmin/ HTTP/1.1" 200 21863
+INFO 2020-02-21 01:03:12,180 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-21 01:03:22,672 basehttp 154 "POST /xadmin/xadmin/userwidget/add/?user=4&page_id=home&_redirect=/xadmin/ HTTP/1.1" 200 19892
+INFO 2020-02-21 01:03:22,730 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-21 01:03:31,956 basehttp 154 "POST /xadmin/xadmin/userwidget/add/?user=4&page_id=home&_redirect=/xadmin/ HTTP/1.1" 302 0
+INFO 2020-02-21 01:03:32,082 basehttp 154 "GET /xadmin/xadmin/userwidget/ HTTP/1.1" 200 34347
+INFO 2020-02-21 01:03:32,140 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-21 01:03:36,267 basehttp 154 "GET /xadmin/xadmin/userwidget/1/update/ HTTP/1.1" 200 23047
+INFO 2020-02-21 01:03:36,313 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.quick-form.js HTTP/1.1" 304 0
+INFO 2020-02-21 01:03:36,313 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-21 01:03:53,162 basehttp 154 "GET /xadmin/xadmin/userwidget/1/delete/ HTTP/1.1" 200 18029
+INFO 2020-02-21 01:03:53,220 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-21 01:03:54,446 basehttp 154 "POST /xadmin/xadmin/userwidget/1/delete/ HTTP/1.1" 302 0
+INFO 2020-02-21 01:03:54,551 basehttp 154 "GET /xadmin/xadmin/userwidget/ HTTP/1.1" 200 30279
+INFO 2020-02-21 01:03:54,623 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-21 01:03:56,384 basehttp 154 "GET /xadmin/xadmin/userwidget/add/ HTTP/1.1" 200 22153
+INFO 2020-02-21 01:03:56,417 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-21 01:04:06,829 basehttp 154 "POST /xadmin/xadmin/userwidget/add/ HTTP/1.1" 200 20229
+INFO 2020-02-21 01:04:06,878 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-21 01:04:11,506 basehttp 154 "POST /xadmin/xadmin/userwidget/add/ HTTP/1.1" 302 0
+INFO 2020-02-21 01:04:11,625 basehttp 154 "GET /xadmin/xadmin/userwidget/ HTTP/1.1" 200 34352
+INFO 2020-02-21 01:04:11,712 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-21 01:04:14,039 basehttp 154 "GET /xadmin/xadmin/userwidget/2/update/ HTTP/1.1" 200 23081
+INFO 2020-02-21 01:04:14,088 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-21 01:04:47,265 basehttp 154 "GET /xadmin/xadmin/userwidget/2/delete/ HTTP/1.1" 200 18020
+INFO 2020-02-21 01:04:47,356 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-21 01:04:48,990 basehttp 154 "POST /xadmin/xadmin/userwidget/2/delete/ HTTP/1.1" 302 0
+INFO 2020-02-21 01:04:49,078 basehttp 154 "GET /xadmin/xadmin/userwidget/ HTTP/1.1" 200 30276
+INFO 2020-02-21 01:04:49,157 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-21 01:04:51,548 basehttp 154 "GET /xadmin/xadmin/userwidget/ HTTP/1.1" 200 30031
+INFO 2020-02-21 01:04:51,591 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+WARNING 2020-02-21 01:04:54,952 log 228 Not Found: /xadmin/xadmin/
+WARNING 2020-02-21 01:04:54,952 basehttp 154 "GET /xadmin/xadmin/ HTTP/1.1" 404 7544
+INFO 2020-02-21 01:04:59,186 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 17657
+INFO 2020-02-21 01:04:59,246 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-21 01:04:59,553 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 17657
+INFO 2020-02-21 01:50:58,260 basehttp 154 "GET /video/search/?title=%E6%B3%A1%E6%B2%AB HTTP/1.1" 200 6148
+INFO 2020-02-21 01:50:58,304 basehttp 154 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2020-02-21 01:50:58,306 basehttp 154 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 37608
+INFO 2020-02-21 01:50:58,307 basehttp 154 "GET /static/rest_framework/js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+INFO 2020-02-21 01:50:58,308 basehttp 154 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2020-02-21 01:51:05,547 basehttp 154 "GET /video/search/?text=%E6%B3%A1%E6%B2%AB HTTP/1.1" 200 5790
+INFO 2020-02-21 01:51:17,167 basehttp 154 "GET /video/search/?text=%E6%B3%A1 HTTP/1.1" 200 5745
+INFO 2020-02-22 09:36:06,276 autoreload 597 Watching for file changes with StatReloader
+WARNING 2020-02-22 09:37:10,215 log 228 Not Found: /
+WARNING 2020-02-22 09:37:10,216 basehttp 154 "GET / HTTP/1.1" 404 2630
+WARNING 2020-02-22 09:37:10,771 log 228 Not Found: /favicon.ico
+WARNING 2020-02-22 09:37:10,773 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2681
+INFO 2020-02-22 09:37:32,025 basehttp 154 "GET /video/search/?title=%E6%B3%A1%E6%B2%AB HTTP/1.1" 200 6115
+INFO 2020-02-22 09:55:24,498 basehttp 154 "GET /video/video_type/ HTTP/1.1" 200 121
+INFO 2020-02-22 09:55:24,584 basehttp 154 "GET /video/type/?fenlei=2 HTTP/1.1" 200 318
+INFO 2020-02-22 09:55:24,586 basehttp 154 "GET /video/num/?fenlei=1 HTTP/1.1" 200 1127
+INFO 2020-02-22 09:55:24,592 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 1064
+INFO 2020-02-22 09:55:24,597 basehttp 154 "GET /video/num/?fenlei=2 HTTP/1.1" 200 283
+INFO 2020-02-22 09:55:24,600 basehttp 154 "GET /video/type/?fenlei=1 HTTP/1.1" 200 1114
+INFO 2020-02-22 09:55:24,600 basehttp 154 "GET /video/image/ HTTP/1.1" 200 1128
+INFO 2020-02-22 09:59:38,277 basehttp 154 "GET /oauth/QQ_login/ HTTP/1.1" 200 154
+INFO 2020-02-22 09:59:47,680 basehttp 154 "GET /oauth/QQ_info/?code=00914DC57D2931F2B1F18CA15B5C5D1D HTTP/1.1" 200 375
+INFO 2020-02-22 09:59:48,152 basehttp 154 "GET /video/video_type/ HTTP/1.1" 200 121
+INFO 2020-02-22 09:59:48,153 basehttp 154 "GET /video/num/?fenlei=1 HTTP/1.1" 200 1127
+INFO 2020-02-22 09:59:48,154 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 1064
+INFO 2020-02-22 09:59:48,165 basehttp 154 "GET /video/type/?fenlei=1 HTTP/1.1" 200 1114
+INFO 2020-02-22 09:59:48,170 basehttp 154 "GET /video/type/?fenlei=2 HTTP/1.1" 200 318
+INFO 2020-02-22 09:59:48,179 basehttp 154 "GET /video/image/ HTTP/1.1" 200 1128
+INFO 2020-02-22 09:59:48,181 basehttp 154 "GET /video/num/?fenlei=2 HTTP/1.1" 200 283
+INFO 2020-02-22 09:59:54,942 basehttp 154 "GET /video/type/?fenlei=2 HTTP/1.1" 200 318
+INFO 2020-02-22 09:59:54,966 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 1064
+INFO 2020-02-22 09:59:54,967 basehttp 154 "GET /video/num/?fenlei=1 HTTP/1.1" 200 1127
+INFO 2020-02-22 09:59:54,968 basehttp 154 "GET /video/video_type/ HTTP/1.1" 200 121
+INFO 2020-02-22 09:59:54,968 basehttp 154 "GET /video/type/?fenlei=1 HTTP/1.1" 200 1114
+INFO 2020-02-22 09:59:54,988 basehttp 154 "GET /video/num/?fenlei=2 HTTP/1.1" 200 283
+INFO 2020-02-22 09:59:54,990 basehttp 154 "GET /video/image/ HTTP/1.1" 200 1128
+INFO 2020-02-22 09:59:59,210 basehttp 154 "GET /oauth/QQ_login/ HTTP/1.1" 200 154
+INFO 2020-02-22 17:49:28,903 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-22 17:50:07,807 basehttp 154 "GET /user/verify/ HTTP/1.1" 200 12
+INFO 2020-02-22 19:22:49,676 basehttp 154 "GET /video/video_type/ HTTP/1.1" 200 121
+INFO 2020-02-22 19:22:49,733 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 1064
+INFO 2020-02-22 19:22:49,738 basehttp 154 "GET /video/num/?fenlei=1 HTTP/1.1" 200 1127
+INFO 2020-02-22 19:22:49,740 basehttp 154 "GET /video/type/?fenlei=2 HTTP/1.1" 200 318
+INFO 2020-02-22 19:22:49,741 basehttp 154 "GET /video/num/?fenlei=2 HTTP/1.1" 200 283
+INFO 2020-02-22 19:22:49,742 basehttp 154 "GET /video/type/?fenlei=1 HTTP/1.1" 200 1114
+INFO 2020-02-22 19:22:49,746 basehttp 154 "GET /video/image/ HTTP/1.1" 200 1128
+INFO 2020-02-22 19:23:04,559 basehttp 154 "GET /video/image/ HTTP/1.1" 200 1128
+INFO 2020-02-22 19:23:04,575 basehttp 154 "GET /video/video_type/ HTTP/1.1" 200 121
+INFO 2020-02-22 19:23:04,575 basehttp 154 "GET /video/type/?fenlei=1 HTTP/1.1" 200 1114
+INFO 2020-02-22 19:23:04,576 basehttp 154 "GET /video/num/?fenlei=1 HTTP/1.1" 200 1127
+INFO 2020-02-22 19:23:04,577 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 1064
+INFO 2020-02-22 19:23:04,582 basehttp 154 "GET /video/type/?fenlei=2 HTTP/1.1" 200 318
+INFO 2020-02-22 19:23:04,588 basehttp 154 "GET /video/num/?fenlei=2 HTTP/1.1" 200 283
+INFO 2020-02-22 19:26:32,378 basehttp 154 "GET /video/info/?fenlei=4 HTTP/1.1" 200 2
+INFO 2020-02-22 19:26:32,594 basehttp 154 "GET /video/info/?fenlei=3 HTTP/1.1" 200 2
+WARNING 2020-02-22 19:54:17,323 log 228 Not Found: /
+WARNING 2020-02-22 19:54:17,329 basehttp 154 "GET / HTTP/1.1" 404 2630
+INFO 2020-02-22 19:54:23,572 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 4354
+INFO 2020-02-22 19:54:23,612 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 4354
+INFO 2020-02-22 19:54:23,638 basehttp 154 "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 200 21658
+INFO 2020-02-22 19:54:23,649 basehttp 154 "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 200 126432
+INFO 2020-02-22 19:54:23,666 basehttp 154 "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 200 240196
+INFO 2020-02-22 19:54:23,723 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.effect.js HTTP/1.1" 200 31918
+INFO 2020-02-22 19:54:23,725 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 4361
+INFO 2020-02-22 19:54:23,725 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 200 42543
+INFO 2020-02-22 19:54:23,727 basehttp 154 "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 200 58327
+INFO 2020-02-22 19:54:23,777 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 4361
+INFO 2020-02-22 19:54:23,969 basehttp 154 "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 200 44432
+INFO 2020-02-22 19:56:56,289 basehttp 154 "POST /xadmin/ HTTP/1.1" 200 4591
+INFO 2020-02-22 19:56:56,387 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 4361
+INFO 2020-02-22 19:57:00,869 basehttp 154 "POST /xadmin/ HTTP/1.1" 200 4591
+INFO 2020-02-22 19:57:00,927 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 4361
+INFO 2020-02-22 19:57:06,011 basehttp 154 "POST /xadmin/ HTTP/1.1" 200 4591
+INFO 2020-02-22 19:57:06,045 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 4361
+INFO 2020-02-22 19:57:08,618 basehttp 154 "GET /xadmin/xadmin/password_reset/ HTTP/1.1" 200 3443
+INFO 2020-02-22 19:57:08,662 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 4361
+INFO 2020-02-22 19:57:13,616 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 4354
+INFO 2020-02-22 19:57:13,773 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 4361
+INFO 2020-02-22 19:57:18,259 basehttp 154 "POST /xadmin/ HTTP/1.1" 302 0
+INFO 2020-02-22 19:57:19,269 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 17657
+INFO 2020-02-22 19:57:19,319 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-22 19:58:09,720 autoreload 217 /Users/liangpingbo/Desktop/project/class_ol/class_ol_api/class_ol_api/apps/oauth/views.py changed, reloading.
+INFO 2020-02-22 19:58:13,151 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-22 19:58:48,386 autoreload 217 /Users/liangpingbo/Desktop/project/class_ol/class_ol_api/class_ol_api/apps/oauth/views.py changed, reloading.
+INFO 2020-02-22 19:58:53,032 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-22 19:58:58,431 autoreload 217 /Users/liangpingbo/Desktop/project/class_ol/class_ol_api/class_ol_api/apps/oauth/views.py changed, reloading.
+INFO 2020-02-22 19:59:02,069 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-22 19:59:09,596 autoreload 217 /Users/liangpingbo/Desktop/project/class_ol/class_ol_api/class_ol_api/apps/oauth/views.py changed, reloading.
+INFO 2020-02-22 19:59:10,820 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-22 20:07:51,853 autoreload 217 /Users/liangpingbo/Desktop/project/class_ol/class_ol_api/class_ol_api/apps/oauth/views.py changed, reloading.
+INFO 2020-02-22 20:07:53,626 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-22 20:09:03,434 autoreload 217 /Users/liangpingbo/Desktop/project/class_ol/class_ol_api/class_ol_api/apps/oauth/views.py changed, reloading.
+INFO 2020-02-22 20:09:07,661 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-22 20:40:11,760 basehttp 154 "GET /video/video_type/ HTTP/1.1" 200 121
+INFO 2020-02-22 20:40:11,763 basehttp 154 "GET /video/type/?fenlei=1 HTTP/1.1" 200 1114
+INFO 2020-02-22 20:40:11,764 basehttp 154 "GET /video/num/?fenlei=1 HTTP/1.1" 200 1127
+INFO 2020-02-22 20:40:11,765 basehttp 154 "GET /video/type/?fenlei=2 HTTP/1.1" 200 318
+INFO 2020-02-22 20:40:11,776 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 1064
+INFO 2020-02-22 20:40:11,810 basehttp 154 "GET /video/image/ HTTP/1.1" 200 1128
+INFO 2020-02-22 20:40:11,832 basehttp 154 "GET /video/num/?fenlei=2 HTTP/1.1" 200 283
+INFO 2020-02-22 20:41:00,952 basehttp 154 "GET /video/num/?fenlei=1 HTTP/1.1" 200 1127
+INFO 2020-02-22 20:41:00,953 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 1064
+INFO 2020-02-22 20:41:00,961 basehttp 154 "GET /video/video_type/ HTTP/1.1" 200 121
+INFO 2020-02-22 20:41:00,972 basehttp 154 "GET /video/type/?fenlei=2 HTTP/1.1" 200 318
+INFO 2020-02-22 20:41:00,976 basehttp 154 "GET /video/type/?fenlei=1 HTTP/1.1" 200 1114
+INFO 2020-02-22 20:41:00,982 basehttp 154 "GET /video/image/ HTTP/1.1" 200 1128
+INFO 2020-02-22 20:41:00,991 basehttp 154 "GET /video/num/?fenlei=2 HTTP/1.1" 200 283
+INFO 2020-02-22 20:44:24,699 basehttp 154 "GET /video/video_type/ HTTP/1.1" 200 121
+INFO 2020-02-22 20:44:24,706 basehttp 154 "GET /video/image/ HTTP/1.1" 200 1128
+INFO 2020-02-22 20:44:24,738 basehttp 154 "GET /video/type/?fenlei=1 HTTP/1.1" 200 1114
+INFO 2020-02-22 20:44:24,764 basehttp 154 "GET /video/num/?fenlei=2 HTTP/1.1" 200 283
+INFO 2020-02-22 20:44:24,769 basehttp 154 "GET /video/num/?fenlei=1 HTTP/1.1" 200 1127
+INFO 2020-02-22 20:44:24,772 basehttp 154 "GET /video/type/?fenlei=2 HTTP/1.1" 200 318
+INFO 2020-02-22 20:44:24,784 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 1064
+INFO 2020-02-22 20:44:40,803 basehttp 154 "GET /video/image/ HTTP/1.1" 200 1128
+INFO 2020-02-22 20:44:40,804 basehttp 154 "GET /video/type/?fenlei=2 HTTP/1.1" 200 318
+INFO 2020-02-22 20:44:40,804 basehttp 154 "GET /video/video_type/ HTTP/1.1" 200 121
+INFO 2020-02-22 20:44:40,813 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 1064
+INFO 2020-02-22 20:44:40,817 basehttp 154 "GET /video/num/?fenlei=1 HTTP/1.1" 200 1127
+INFO 2020-02-22 20:44:40,817 basehttp 154 "GET /video/type/?fenlei=1 HTTP/1.1" 200 1114
+INFO 2020-02-22 20:44:40,828 basehttp 154 "GET /video/num/?fenlei=2 HTTP/1.1" 200 283
+INFO 2020-02-22 20:45:05,214 basehttp 154 "GET /video/video_type/ HTTP/1.1" 200 121
+INFO 2020-02-22 20:45:05,289 basehttp 154 "GET /video/image/ HTTP/1.1" 200 1128
+INFO 2020-02-22 20:45:05,292 basehttp 154 "GET /video/type/?fenlei=1 HTTP/1.1" 200 1114
+INFO 2020-02-22 20:45:05,295 basehttp 154 "GET /video/type/?fenlei=2 HTTP/1.1" 200 318
+INFO 2020-02-22 20:45:05,299 basehttp 154 "GET /video/num/?fenlei=2 HTTP/1.1" 200 283
+INFO 2020-02-22 20:45:05,302 basehttp 154 "GET /video/num/?fenlei=1 HTTP/1.1" 200 1127
+INFO 2020-02-22 20:45:05,303 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 1064
+INFO 2020-02-22 20:46:36,905 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 1064
+INFO 2020-02-22 20:46:36,912 basehttp 154 "GET /video/video_type/ HTTP/1.1" 200 121
+INFO 2020-02-22 20:46:36,912 basehttp 154 "GET /video/num/?fenlei=1 HTTP/1.1" 200 1127
+INFO 2020-02-22 20:46:36,913 basehttp 154 "GET /video/image/ HTTP/1.1" 200 1128
+INFO 2020-02-22 20:46:36,919 basehttp 154 "GET /video/type/?fenlei=1 HTTP/1.1" 200 1114
+INFO 2020-02-22 20:46:36,925 basehttp 154 "GET /video/type/?fenlei=2 HTTP/1.1" 200 318
+INFO 2020-02-22 20:46:36,932 basehttp 154 "GET /video/num/?fenlei=2 HTTP/1.1" 200 283
+INFO 2020-02-22 20:47:44,935 basehttp 154 "GET /user/mobile/15602365270/ HTTP/1.1" 200 16
+INFO 2020-02-22 20:47:54,465 basehttp 154 "GET /user/mobile/15602365270/ HTTP/1.1" 200 16
+INFO 2020-02-22 20:49:17,231 basehttp 154 "GET /user/mobile/15602365270/ HTTP/1.1" 200 15
+INFO 2020-02-22 20:50:56,638 basehttp 154 "GET /user/sms/15602365270 HTTP/1.1" 301 0
+INFO 2020-02-22 20:50:56,649 basehttp 154 "GET /user/sms/15602365270/ HTTP/1.1" 200 35
+INFO 2020-02-22 20:51:51,721 autoreload 217 /Users/liangpingbo/Desktop/project/class_ol/class_ol_api/mycelery/main.py changed, reloading.
+INFO 2020-02-22 20:51:53,436 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-22 20:52:09,647 basehttp 154 "GET /user/sms/15602365270/ HTTP/1.1" 200 35
+INFO 2020-02-22 20:53:51,080 autoreload 217 /Users/liangpingbo/Desktop/project/class_ol/class_ol_api/class_ol_api/apps/user/views.py changed, reloading.
+INFO 2020-02-22 20:53:55,440 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-22 20:54:05,960 basehttp 154 "GET /user/sms/15602365270/ HTTP/1.1" 200 35
+INFO 2020-02-22 20:56:00,023 basehttp 154 "GET /user/mobile/15602365270/ HTTP/1.1" 200 15
+INFO 2020-02-22 20:56:01,019 basehttp 154 "OPTIONS /user/ HTTP/1.1" 200 0
+WARNING 2020-02-22 20:56:01,196 log 228 Bad Request: /user/
+WARNING 2020-02-22 20:56:01,197 basehttp 154 "POST /user/ HTTP/1.1" 400 22
+INFO 2020-02-22 20:56:05,155 basehttp 154 "GET /user/mobile/15602365270/ HTTP/1.1" 200 15
+ERROR 2020-02-22 20:56:06,291 log 228 Internal Server Error: /user/
+Traceback (most recent call last):
+  File "/Users/liangpingbo/Desktop/project/class_ol/class_ol_api/class_ol_api/apps/user/serializers.py", line 39, in validate
+    User.objects.get(mobile=mobile)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/db/models/query.py", line 408, in get
+    self.model._meta.object_name
+user.models.User.DoesNotExist: User matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/generics.py", line 190, in post
+    return self.create(request, *args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/serializers.py", line 235, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/serializers.py", line 433, in run_validation
+    value = self.validate(value)
+  File "/Users/liangpingbo/Desktop/project/class_ol/class_ol_api/class_ol_api/apps/user/serializers.py", line 51, in validate
+    if real_sms_code.decode() != sms_code:
+AttributeError: 'NoneType' object has no attribute 'decode'
+ERROR 2020-02-22 20:56:06,297 basehttp 154 "POST /user/ HTTP/1.1" 500 21148
+INFO 2020-02-22 21:01:46,565 basehttp 154 "GET /user/sms/15602365270/ HTTP/1.1" 200 35
+INFO 2020-02-22 21:02:01,771 basehttp 154 "GET /user/mobile/15602365270/ HTTP/1.1" 200 15
+WARNING 2020-02-22 21:02:02,932 log 228 Bad Request: /user/
+WARNING 2020-02-22 21:02:02,932 basehttp 154 "POST /user/ HTTP/1.1" 400 22
+INFO 2020-02-22 21:03:47,644 autoreload 217 /Users/liangpingbo/Desktop/project/class_ol/class_ol_api/class_ol_api/apps/user/views.py changed, reloading.
+INFO 2020-02-22 21:03:51,470 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-22 21:03:55,063 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-22 21:04:57,619 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-22 21:05:30,591 basehttp 154 "GET /user/mobile/15602365270/ HTTP/1.1" 200 15
+INFO 2020-02-22 21:05:35,503 basehttp 154 "GET /user/mobile/15602365270/ HTTP/1.1" 200 15
+INFO 2020-02-22 21:05:35,544 basehttp 154 "GET /user/sms/15602365270/ HTTP/1.1" 200 35
+INFO 2020-02-22 21:05:45,609 basehttp 154 "GET /user/mobile/15602365270/ HTTP/1.1" 200 15
+INFO 2020-02-22 21:06:38,153 autoreload 217 /Users/liangpingbo/Desktop/project/class_ol/class_ol_api/class_ol_api/apps/user/serializers.py changed, reloading.
+INFO 2020-02-22 21:06:43,589 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-22 21:06:53,268 autoreload 597 Watching for file changes with StatReloader
+WARNING 2020-02-22 21:07:06,043 log 228 Not Found: /user/mobile/133452079283/
+WARNING 2020-02-22 21:07:06,043 basehttp 154 "GET /user/mobile/133452079283/ HTTP/1.1" 404 4155
+WARNING 2020-02-22 21:07:15,838 log 228 Not Found: /user/mobile/133452079283/
+WARNING 2020-02-22 21:07:15,840 basehttp 154 "GET /user/mobile/133452079283/ HTTP/1.1" 404 4155
+INFO 2020-02-22 21:07:22,594 basehttp 154 "GET /user/mobile/13345207928/ HTTP/1.1" 200 15
+INFO 2020-02-22 21:07:38,187 basehttp 154 "GET /user/sms/13345207928 HTTP/1.1" 301 0
+INFO 2020-02-22 21:07:38,195 basehttp 154 "GET /user/sms/13345207928/ HTTP/1.1" 200 35
+INFO 2020-02-22 21:07:46,757 basehttp 154 "GET /user/mobile/13345207928/ HTTP/1.1" 200 15
+INFO 2020-02-22 21:07:47,928 basehttp 154 "POST /user/ HTTP/1.1" 201 213
+INFO 2020-02-22 21:07:48,251 basehttp 154 "GET /video/video_type/ HTTP/1.1" 200 121
+INFO 2020-02-22 21:07:48,294 basehttp 154 "GET /video/type/?fenlei=2 HTTP/1.1" 200 318
+INFO 2020-02-22 21:07:48,295 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 1064
+INFO 2020-02-22 21:07:48,301 basehttp 154 "GET /video/type/?fenlei=1 HTTP/1.1" 200 1114
+INFO 2020-02-22 21:07:48,313 basehttp 154 "GET /video/num/?fenlei=1 HTTP/1.1" 200 1127
+INFO 2020-02-22 21:07:48,315 basehttp 154 "GET /video/num/?fenlei=2 HTTP/1.1" 200 283
+INFO 2020-02-22 21:07:48,318 basehttp 154 "GET /video/image/ HTTP/1.1" 200 1128
+INFO 2020-02-22 21:08:13,796 basehttp 154 "GET /video/video_type/ HTTP/1.1" 200 121
+INFO 2020-02-22 21:08:13,836 basehttp 154 "GET /video/type/?fenlei=1 HTTP/1.1" 200 1114
+INFO 2020-02-22 21:08:13,836 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 1064
+INFO 2020-02-22 21:08:13,839 basehttp 154 "GET /video/type/?fenlei=2 HTTP/1.1" 200 318
+INFO 2020-02-22 21:08:13,840 basehttp 154 "GET /video/num/?fenlei=1 HTTP/1.1" 200 1127
+INFO 2020-02-22 21:08:13,847 basehttp 154 "GET /video/image/ HTTP/1.1" 200 1128
+INFO 2020-02-22 21:08:13,850 basehttp 154 "GET /video/num/?fenlei=2 HTTP/1.1" 200 283
+INFO 2020-02-22 21:08:44,438 autoreload 217 /Users/liangpingbo/Desktop/project/class_ol/class_ol_api/class_ol_api/apps/user/serializers.py changed, reloading.
+INFO 2020-02-22 21:08:47,708 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-22 21:09:06,435 autoreload 217 /Users/liangpingbo/Desktop/project/class_ol/class_ol_api/class_ol_api/apps/user/views.py changed, reloading.
+INFO 2020-02-22 21:09:10,761 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-22 21:09:26,532 basehttp 154 "GET /user/mobile/15602365270/ HTTP/1.1" 200 15
+INFO 2020-02-22 21:09:32,419 basehttp 154 "GET /user/sms/15602365270/ HTTP/1.1" 200 35
+INFO 2020-02-22 21:10:12,511 basehttp 154 "GET /user/mobile/15602365270/ HTTP/1.1" 200 15
+INFO 2020-02-22 21:10:13,675 basehttp 154 "POST /user/ HTTP/1.1" 201 213
+INFO 2020-02-22 21:10:13,890 basehttp 154 "GET /video/video_type/ HTTP/1.1" 200 121
+INFO 2020-02-22 21:10:13,928 basehttp 154 "GET /video/type/?fenlei=2 HTTP/1.1" 200 318
+INFO 2020-02-22 21:10:13,930 basehttp 154 "GET /video/num/?fenlei=1 HTTP/1.1" 200 1127
+INFO 2020-02-22 21:10:13,935 basehttp 154 "GET /video/type/?fenlei=1 HTTP/1.1" 200 1114
+INFO 2020-02-22 21:10:13,953 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 1064
+INFO 2020-02-22 21:10:13,955 basehttp 154 "GET /video/image/ HTTP/1.1" 200 1128
+INFO 2020-02-22 21:10:13,957 basehttp 154 "GET /video/num/?fenlei=2 HTTP/1.1" 200 283
+INFO 2020-02-22 21:12:29,276 basehttp 154 "GET /video/video_type/ HTTP/1.1" 200 121
+INFO 2020-02-22 21:12:29,285 basehttp 154 "GET /video/num/?fenlei=1 HTTP/1.1" 200 1127
+INFO 2020-02-22 21:12:29,286 basehttp 154 "GET /video/type/?fenlei=2 HTTP/1.1" 200 318
+INFO 2020-02-22 21:12:29,289 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 1064
+INFO 2020-02-22 21:12:29,296 basehttp 154 "GET /video/type/?fenlei=1 HTTP/1.1" 200 1114
+INFO 2020-02-22 21:12:29,327 basehttp 154 "GET /video/image/ HTTP/1.1" 200 1128
+INFO 2020-02-22 21:12:29,329 basehttp 154 "GET /video/num/?fenlei=2 HTTP/1.1" 200 283
+INFO 2020-02-22 21:12:32,322 basehttp 154 "GET /video/image/ HTTP/1.1" 200 1128
+INFO 2020-02-22 21:12:32,327 basehttp 154 "GET /video/video_type/ HTTP/1.1" 200 121
+INFO 2020-02-22 21:12:32,328 basehttp 154 "GET /video/num/?fenlei=1 HTTP/1.1" 200 1127
+INFO 2020-02-22 21:12:32,336 basehttp 154 "GET /video/type/?fenlei=1 HTTP/1.1" 200 1114
+INFO 2020-02-22 21:12:32,344 basehttp 154 "GET /video/type/?fenlei=2 HTTP/1.1" 200 318
+INFO 2020-02-22 21:12:32,350 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 1064
+INFO 2020-02-22 21:12:32,361 basehttp 154 "GET /video/num/?fenlei=2 HTTP/1.1" 200 283
+INFO 2020-02-22 21:12:41,005 basehttp 154 "GET /user/mobile/15602365270/ HTTP/1.1" 200 15
+INFO 2020-02-22 21:12:46,534 basehttp 154 "GET /user/sms/15602365270/ HTTP/1.1" 200 35
+INFO 2020-02-22 21:13:24,645 basehttp 154 "GET /user/mobile/15602365270/ HTTP/1.1" 200 15
+INFO 2020-02-22 21:13:27,069 basehttp 154 "POST /user/ HTTP/1.1" 201 216
+INFO 2020-02-22 21:13:27,297 basehttp 154 "GET /video/num/?fenlei=1 HTTP/1.1" 200 1127
+INFO 2020-02-22 21:13:27,304 basehttp 154 "GET /video/type/?fenlei=1 HTTP/1.1" 200 1114
+INFO 2020-02-22 21:13:27,312 basehttp 154 "GET /video/video_type/ HTTP/1.1" 200 121
+INFO 2020-02-22 21:13:27,316 basehttp 154 "GET /video/type/?fenlei=2 HTTP/1.1" 200 318
+INFO 2020-02-22 21:13:27,318 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 1064
+INFO 2020-02-22 21:13:27,320 basehttp 154 "GET /video/image/ HTTP/1.1" 200 1128
+INFO 2020-02-22 21:13:27,327 basehttp 154 "GET /video/num/?fenlei=2 HTTP/1.1" 200 283
+INFO 2020-02-22 21:35:13,682 basehttp 154 "GET /video/info/?fenlei=2 HTTP/1.1" 200 268
+INFO 2020-02-22 21:35:19,168 basehttp 154 "GET /video/2/ HTTP/1.1" 200 266
+INFO 2020-02-22 21:35:22,566 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 1064
+INFO 2020-02-22 21:36:09,129 basehttp 154 "GET /video/image/ HTTP/1.1" 200 1128
+INFO 2020-02-22 21:36:09,172 basehttp 154 "GET /video/video_type/ HTTP/1.1" 200 121
+INFO 2020-02-22 21:36:09,176 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 1064
+INFO 2020-02-22 21:36:09,184 basehttp 154 "GET /video/type/?fenlei=2 HTTP/1.1" 200 318
+INFO 2020-02-22 21:36:09,187 basehttp 154 "GET /video/type/?fenlei=1 HTTP/1.1" 200 1114
+INFO 2020-02-22 21:36:09,189 basehttp 154 "GET /video/num/?fenlei=1 HTTP/1.1" 200 1127
+INFO 2020-02-22 21:36:09,233 basehttp 154 "GET /video/num/?fenlei=2 HTTP/1.1" 200 283
+INFO 2020-02-23 11:04:15,122 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-23 11:06:59,095 basehttp 154 "GET /video/video_type/ HTTP/1.1" 200 121
+INFO 2020-02-23 11:06:59,107 basehttp 154 "GET /video/type/?fenlei=2 HTTP/1.1" 200 318
+INFO 2020-02-23 11:06:59,109 basehttp 154 "GET /video/type/?fenlei=1 HTTP/1.1" 200 1114
+INFO 2020-02-23 11:06:59,113 basehttp 154 "GET /video/num/?fenlei=1 HTTP/1.1" 200 1127
+INFO 2020-02-23 11:06:59,120 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 1064
+INFO 2020-02-23 11:06:59,123 basehttp 154 "GET /video/image/ HTTP/1.1" 200 1128
+INFO 2020-02-23 11:06:59,196 basehttp 154 "GET /video/num/?fenlei=2 HTTP/1.1" 200 283
+INFO 2020-02-23 11:07:04,182 basehttp 154 "GET /video/info/?fenlei=3 HTTP/1.1" 200 2
+INFO 2020-02-23 11:07:04,551 basehttp 154 "GET /video/info/?fenlei=2 HTTP/1.1" 200 268
+INFO 2020-02-23 11:07:08,425 basehttp 154 "GET /video/2/ HTTP/1.1" 200 266
+INFO 2020-02-23 11:07:30,780 basehttp 154 "GET /video/video_type/ HTTP/1.1" 200 121
+INFO 2020-02-23 11:07:30,794 basehttp 154 "GET /video/num/?fenlei=1 HTTP/1.1" 200 1127
+INFO 2020-02-23 11:07:30,795 basehttp 154 "GET /video/type/?fenlei=1 HTTP/1.1" 200 1114
+INFO 2020-02-23 11:07:30,797 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 1064
+INFO 2020-02-23 11:07:30,800 basehttp 154 "GET /video/type/?fenlei=2 HTTP/1.1" 200 318
+INFO 2020-02-23 11:07:30,813 basehttp 154 "GET /video/num/?fenlei=2 HTTP/1.1" 200 283
+INFO 2020-02-23 11:07:30,860 basehttp 154 "GET /video/image/ HTTP/1.1" 200 1128
+INFO 2020-02-23 11:07:35,697 basehttp 154 "GET /video/info/?fenlei=4 HTTP/1.1" 200 2
+INFO 2020-02-23 11:07:35,950 basehttp 154 "GET /video/info/?fenlei=3 HTTP/1.1" 200 2
+INFO 2020-02-23 11:07:36,212 basehttp 154 "GET /video/info/?fenlei=2 HTTP/1.1" 200 268
+INFO 2020-02-23 11:07:41,059 basehttp 154 "GET /video/info/?fenlei=0 HTTP/1.1" 200 2
+INFO 2020-02-23 11:07:42,881 basehttp 154 "GET /video/info/?fenlei=4 HTTP/1.1" 200 2
+INFO 2020-02-23 11:07:43,212 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 1064
+INFO 2020-02-23 11:07:43,225 basehttp 154 "GET /video/info/?fenlei=3 HTTP/1.1" 200 2
+INFO 2020-02-23 11:07:59,770 basehttp 154 "GET /video/info/?fenlei=2 HTTP/1.1" 200 268
+INFO 2020-02-23 11:08:18,045 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 1064
+INFO 2020-02-23 11:08:31,398 basehttp 154 "GET /video/info/?fenlei=2 HTTP/1.1" 200 268
+INFO 2020-02-23 11:10:51,787 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 1064
+INFO 2020-02-23 11:11:09,882 basehttp 154 "GET /video/info/?fenlei=2 HTTP/1.1" 200 268
+INFO 2020-02-23 11:13:36,995 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 1064
+INFO 2020-02-23 11:13:39,875 basehttp 154 "GET /video/info/?fenlei=2 HTTP/1.1" 200 268
+INFO 2020-02-23 11:20:05,679 basehttp 154 "GET /oauth/QQ_login/ HTTP/1.1" 200 154
+INFO 2020-02-23 11:21:47,578 basehttp 154 "GET /oauth/QQ_login/ HTTP/1.1" 200 154
+INFO 2020-02-23 11:23:33,087 basehttp 154 "GET /oauth/QQ_info/?code=A11BA1E9E9DEB8F7622FF8F965EFD735 HTTP/1.1" 200 516
+INFO 2020-02-23 11:25:50,591 basehttp 154 "GET /user/verify/ HTTP/1.1" 200 12
+INFO 2020-02-23 11:25:55,280 basehttp 154 "OPTIONS /user/verify/ HTTP/1.1" 200 0
+INFO 2020-02-23 11:25:55,404 basehttp 154 "POST /user/verify/ HTTP/1.1" 200 15
+INFO 2020-02-23 11:25:55,412 basehttp 154 "OPTIONS /oauth/QQ_info/ HTTP/1.1" 200 0
+INFO 2020-02-23 11:25:55,654 basehttp 154 "POST /oauth/QQ_info/ HTTP/1.1" 200 375
+INFO 2020-02-23 11:25:55,870 basehttp 154 "GET /video/num/?fenlei=1 HTTP/1.1" 200 1127
+INFO 2020-02-23 11:25:55,875 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 1064
+INFO 2020-02-23 11:25:55,892 basehttp 154 "GET /video/type/?fenlei=1 HTTP/1.1" 200 1114
+INFO 2020-02-23 11:25:55,896 basehttp 154 "GET /video/video_type/ HTTP/1.1" 200 121
+INFO 2020-02-23 11:25:55,897 basehttp 154 "GET /video/type/?fenlei=2 HTTP/1.1" 200 318
+INFO 2020-02-23 11:25:55,909 basehttp 154 "GET /video/num/?fenlei=2 HTTP/1.1" 200 283
+INFO 2020-02-23 11:25:55,945 basehttp 154 "GET /video/image/ HTTP/1.1" 200 1128
+INFO 2020-02-23 11:27:51,763 basehttp 154 "GET /video/video_type/ HTTP/1.1" 200 121
+INFO 2020-02-23 11:27:51,765 basehttp 154 "GET /video/num/?fenlei=1 HTTP/1.1" 200 1127
+INFO 2020-02-23 11:27:51,776 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 1064
+INFO 2020-02-23 11:27:51,777 basehttp 154 "GET /video/image/ HTTP/1.1" 200 1128
+INFO 2020-02-23 11:27:51,789 basehttp 154 "GET /video/type/?fenlei=1 HTTP/1.1" 200 1114
+INFO 2020-02-23 11:27:51,789 basehttp 154 "GET /video/type/?fenlei=2 HTTP/1.1" 200 318
+INFO 2020-02-23 11:27:51,802 basehttp 154 "GET /video/num/?fenlei=2 HTTP/1.1" 200 283
+INFO 2020-02-23 11:30:36,376 basehttp 154 "GET /user/verify/ HTTP/1.1" 200 12
+INFO 2020-02-23 11:30:41,093 basehttp 154 "POST /user/verify/ HTTP/1.1" 200 15
+INFO 2020-02-23 11:30:41,250 basehttp 154 "GET /user/send_email/?email=1733452028@qq.com HTTP/1.1" 200 44
+INFO 2020-02-23 11:32:24,392 autoreload 217 /Users/liangpingbo/Desktop/project/class_ol/class_ol_api/class_ol_api/apps/user/views.py changed, reloading.
+INFO 2020-02-23 11:32:31,660 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-23 11:32:35,393 basehttp 154 "GET /user/verify/ HTTP/1.1" 200 12
+INFO 2020-02-23 11:32:39,914 basehttp 154 "POST /user/verify/ HTTP/1.1" 200 15
+ERROR 2020-02-23 11:32:39,986 log 228 Internal Server Error: /user/send_email/
+Traceback (most recent call last):
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/liangpingbo/Desktop/project/class_ol/class_ol_api/class_ol_api/apps/user/views.py", line 221, in get
+    send_mail(subject='找回密码', message='', from_email=settings.EMAIL_FROM, recipient_list=['1733452028@qq.com'],
+NameError: name 'send_mail' is not defined
+ERROR 2020-02-23 11:32:39,988 basehttp 154 "GET /user/send_email/?email=1733452028@qq.com HTTP/1.1" 500 19994
+INFO 2020-02-23 11:34:02,593 autoreload 217 /Users/liangpingbo/Desktop/project/class_ol/class_ol_api/class_ol_api/apps/user/views.py changed, reloading.
+INFO 2020-02-23 11:34:04,396 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-23 11:34:21,758 basehttp 154 "GET /user/verify/ HTTP/1.1" 200 12
+INFO 2020-02-23 11:34:26,879 basehttp 154 "POST /user/verify/ HTTP/1.1" 200 15
+ERROR 2020-02-23 11:34:26,961 log 228 Internal Server Error: /user/send_email/
+Traceback (most recent call last):
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/liangpingbo/Desktop/project/class_ol/class_ol_api/class_ol_api/apps/user/views.py", line 223, in get
+    html_message='<a href="%s" target="_blank">重置密码</a>' % url)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/celery/local.py", line 191, in __call__
+    return self._get_current_object()(*a, **kw)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/celery/app/task.py", line 394, in __call__
+    return self.run(*args, **kwargs)
+TypeError: send_email() got an unexpected keyword argument 'subject'
+ERROR 2020-02-23 11:34:26,962 basehttp 154 "GET /user/send_email/?email=1733452028@qq.com HTTP/1.1" 500 20306
+INFO 2020-02-23 11:34:53,794 basehttp 154 "OPTIONS /user/send_email/ HTTP/1.1" 200 0
+INFO 2020-02-23 11:34:53,803 basehttp 154 "PUT /user/send_email/ HTTP/1.1" 200 19
+INFO 2020-02-23 11:35:21,056 basehttp 154 "GET /user/verify/ HTTP/1.1" 200 12
+INFO 2020-02-23 11:35:24,924 basehttp 154 "POST /user/verify/ HTTP/1.1" 200 15
+ERROR 2020-02-23 11:35:24,953 log 228 Internal Server Error: /user/send_email/
+Traceback (most recent call last):
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/liangpingbo/Desktop/project/class_ol/class_ol_api/class_ol_api/apps/user/views.py", line 223, in get
+    html_message='<a href="%s" target="_blank">重置密码</a>' % url)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/celery/local.py", line 191, in __call__
+    return self._get_current_object()(*a, **kw)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/celery/app/task.py", line 394, in __call__
+    return self.run(*args, **kwargs)
+TypeError: send_email() got an unexpected keyword argument 'subject'
+ERROR 2020-02-23 11:35:24,955 basehttp 154 "GET /user/send_email/?email=1733452028@qq.com HTTP/1.1" 500 20306
+INFO 2020-02-23 11:36:30,946 autoreload 217 /Users/liangpingbo/Desktop/project/class_ol/class_ol_api/class_ol_api/apps/user/views.py changed, reloading.
+INFO 2020-02-23 11:36:34,450 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-23 11:38:29,989 autoreload 217 /Users/liangpingbo/Desktop/project/class_ol/class_ol_api/class_ol_api/apps/user/views.py changed, reloading.
+INFO 2020-02-23 11:38:34,238 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-02-23 11:38:42,912 basehttp 154 "GET /user/verify/ HTTP/1.1" 200 12
+INFO 2020-02-23 11:38:47,537 basehttp 154 "POST /user/verify/ HTTP/1.1" 200 15
+INFO 2020-02-23 11:38:48,268 basehttp 154 "GET /user/send_email/?email=1733452028@qq.com HTTP/1.1" 200 44
+INFO 2020-02-23 11:41:37,215 basehttp 154 "PUT /user/send_email/ HTTP/1.1" 200 19
+INFO 2020-02-23 11:42:00,331 basehttp 154 "POST /user/send_email/ HTTP/1.1" 200 30
+INFO 2020-02-23 11:42:00,702 basehttp 154 "GET /video/video_type/ HTTP/1.1" 200 121
+INFO 2020-02-23 11:42:00,751 basehttp 154 "GET /video/num/?fenlei=1 HTTP/1.1" 200 1127
+INFO 2020-02-23 11:42:00,757 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 1064
+INFO 2020-02-23 11:42:00,761 basehttp 154 "GET /video/type/?fenlei=2 HTTP/1.1" 200 318
+INFO 2020-02-23 11:42:00,763 basehttp 154 "GET /video/type/?fenlei=1 HTTP/1.1" 200 1114
+INFO 2020-02-23 11:42:00,787 basehttp 154 "GET /video/image/ HTTP/1.1" 200 1128
+INFO 2020-02-23 11:42:00,791 basehttp 154 "GET /video/num/?fenlei=2 HTTP/1.1" 200 283
+INFO 2020-02-23 11:42:57,486 basehttp 154 "PUT /user/send_email/ HTTP/1.1" 200 19
+INFO 2020-02-23 11:43:03,702 basehttp 154 "PUT /user/send_email/ HTTP/1.1" 200 19
+INFO 2020-02-23 11:43:29,584 basehttp 154 "GET /user/verify/ HTTP/1.1" 200 12
+INFO 2020-02-23 11:43:33,729 basehttp 154 "POST /user/verify/ HTTP/1.1" 200 15
+INFO 2020-02-23 11:43:34,170 basehttp 154 "GET /user/send_email/?email=1733452028@qq.com HTTP/1.1" 200 44
+INFO 2020-02-23 11:43:46,731 basehttp 154 "PUT /user/send_email/ HTTP/1.1" 200 19
+INFO 2020-02-23 11:43:54,653 basehttp 154 "POST /user/send_email/ HTTP/1.1" 200 30
+INFO 2020-02-23 11:43:55,050 basehttp 154 "GET /video/video_type/ HTTP/1.1" 200 121
+INFO 2020-02-23 11:43:55,061 basehttp 154 "GET /video/image/ HTTP/1.1" 200 1128
+INFO 2020-02-23 11:43:55,067 basehttp 154 "GET /video/type/?fenlei=1 HTTP/1.1" 200 1114
+INFO 2020-02-23 11:43:55,082 basehttp 154 "GET /video/type/?fenlei=2 HTTP/1.1" 200 318
+INFO 2020-02-23 11:43:55,112 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 1064
+INFO 2020-02-23 11:43:55,116 basehttp 154 "GET /video/num/?fenlei=1 HTTP/1.1" 200 1127
+INFO 2020-02-23 11:43:55,118 basehttp 154 "GET /video/num/?fenlei=2 HTTP/1.1" 200 283
+INFO 2020-02-23 11:47:27,806 basehttp 154 "GET /video/num/?fenlei=1 HTTP/1.1" 200 1127
+INFO 2020-02-23 11:47:27,813 basehttp 154 "GET /video/video_type/ HTTP/1.1" 200 121
+INFO 2020-02-23 11:47:27,840 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 1064
+INFO 2020-02-23 11:47:27,846 basehttp 154 "GET /video/image/ HTTP/1.1" 200 1128
+INFO 2020-02-23 11:47:27,847 basehttp 154 "GET /video/type/?fenlei=2 HTTP/1.1" 200 318
+INFO 2020-02-23 11:47:27,847 basehttp 154 "GET /video/type/?fenlei=1 HTTP/1.1" 200 1114
+INFO 2020-02-23 11:47:27,865 basehttp 154 "GET /video/num/?fenlei=2 HTTP/1.1" 200 283
+INFO 2020-02-23 11:47:56,129 basehttp 154 "GET /oauth/QQ_login/ HTTP/1.1" 200 154
+INFO 2020-02-23 11:48:04,470 basehttp 154 "GET /oauth/QQ_info/?code=172A00DC453480B7F6AD5C18C22382CE HTTP/1.1" 200 375
+INFO 2020-02-23 11:48:04,671 basehttp 154 "GET /video/video_type/ HTTP/1.1" 200 121
+INFO 2020-02-23 11:48:04,685 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 1064
+INFO 2020-02-23 11:48:04,688 basehttp 154 "GET /video/type/?fenlei=1 HTTP/1.1" 200 1114
+INFO 2020-02-23 11:48:04,690 basehttp 154 "GET /video/type/?fenlei=2 HTTP/1.1" 200 318
+INFO 2020-02-23 11:48:04,694 basehttp 154 "GET /video/num/?fenlei=1 HTTP/1.1" 200 1127
+INFO 2020-02-23 11:48:04,699 basehttp 154 "GET /video/image/ HTTP/1.1" 200 1128
+INFO 2020-02-23 11:48:04,700 basehttp 154 "GET /video/num/?fenlei=2 HTTP/1.1" 200 283
+INFO 2020-02-23 11:51:32,898 basehttp 154 "OPTIONS /video/upload/ HTTP/1.1" 200 0
+INFO 2020-02-23 11:51:34,280 basehttp 154 "POST /video/upload/ HTTP/1.1" 201 112
+WARNING 2020-02-23 11:53:35,011 log 228 Not Found: /
+WARNING 2020-02-23 11:53:35,017 basehttp 154 "GET / HTTP/1.1" 404 2630
+WARNING 2020-02-23 11:53:36,245 log 228 Not Found: /favicon.ico
+WARNING 2020-02-23 11:53:36,246 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2681
+INFO 2020-02-23 11:53:39,140 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 17657
+INFO 2020-02-23 11:53:39,192 basehttp 154 "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 200 240196
+INFO 2020-02-23 11:53:39,194 basehttp 154 "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 200 126432
+INFO 2020-02-23 11:53:39,213 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-23 11:53:39,685 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 17657
+INFO 2020-02-23 11:53:42,749 basehttp 154 "GET /xadmin/video/video/ HTTP/1.1" 200 46172
+INFO 2020-02-23 11:53:42,933 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-23 11:53:44,652 basehttp 154 "GET /xadmin/video/video/8/update/ HTTP/1.1" 200 27555
+INFO 2020-02-23 11:53:44,709 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.js HTTP/1.1" 200 98602
+INFO 2020-02-23 11:53:44,717 basehttp 154 "GET /static/xadmin/vendor/bootstrap-image-gallery/css/bootstrap-image-gallery.css HTTP/1.1" 304 0
+INFO 2020-02-23 11:53:44,719 basehttp 154 "GET /static/xadmin/vendor/select2/select2.css HTTP/1.1" 200 19226
+INFO 2020-02-23 11:53:44,732 basehttp 154 "GET /static/xadmin/vendor/load-image/load-image.js HTTP/1.1" 304 0
+INFO 2020-02-23 11:53:44,736 basehttp 154 "GET /static/xadmin/vendor/select2/select2.js HTTP/1.1" 200 104906
+INFO 2020-02-23 11:53:44,752 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-02-23 11:53:47,601 basehttp 154 "GET /xadmin/video/video/ HTTP/1.1" 200 46172
+INFO 2020-02-23 12:03:17,760 basehttp 154 "GET /video/video_type/ HTTP/1.1" 200 121
+INFO 2020-02-23 12:03:18,021 basehttp 154 "GET /video/search/?title=%E6%B3%A1%E6%B2%AB HTTP/1.1" 200 429
+INFO 2020-02-23 12:03:56,308 basehttp 154 "GET /video/num/?fenlei=1 HTTP/1.1" 200 1127
+INFO 2020-02-23 12:03:56,311 basehttp 154 "GET /video/video_type/ HTTP/1.1" 200 121
+INFO 2020-02-23 12:03:56,322 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 1064
+INFO 2020-02-23 12:03:56,337 basehttp 154 "GET /video/type/?fenlei=2 HTTP/1.1" 200 318
+INFO 2020-02-23 12:03:56,340 basehttp 154 "GET /video/type/?fenlei=1 HTTP/1.1" 200 1114
+INFO 2020-02-23 12:03:56,351 basehttp 154 "GET /video/image/ HTTP/1.1" 200 1128
+INFO 2020-02-23 12:03:56,365 basehttp 154 "GET /video/num/?fenlei=2 HTTP/1.1" 200 283
+ERROR 2020-02-23 12:03:56,973 log 228 Internal Server Error: /oauth/QQ_info/
+Traceback (most recent call last):
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/Users/liangpingbo/Envs/lpb/lib/python3.6/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/liangpingbo/Desktop/project/class_ol/class_ol_api/class_ol_api/apps/oauth/views.py", line 39, in get
+    access_token = many_info.get("access_token")[0]
+TypeError: 'NoneType' object is not subscriptable
+ERROR 2020-02-23 12:03:56,978 basehttp 154 "GET /oauth/QQ_info/?code=172A00DC453480B7F6AD5C18C22382CE HTTP/1.1" 500 20009
+INFO 2020-02-23 12:03:57,619 basehttp 154 "GET /video/video_type/ HTTP/1.1" 200 121
+INFO 2020-02-23 12:03:57,622 basehttp 154 "GET /video/num/?fenlei=1 HTTP/1.1" 200 1127
+INFO 2020-02-23 12:03:57,631 basehttp 154 "GET /video/type/?fenlei=2 HTTP/1.1" 200 318
+INFO 2020-02-23 12:03:57,634 basehttp 154 "GET /video/type/?fenlei=1 HTTP/1.1" 200 1114
+INFO 2020-02-23 12:03:57,638 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 1064
+INFO 2020-02-23 12:03:57,639 basehttp 154 "GET /video/image/ HTTP/1.1" 200 1128
+INFO 2020-02-23 12:03:57,660 basehttp 154 "GET /video/num/?fenlei=2 HTTP/1.1" 200 283
+INFO 2020-02-23 12:04:00,149 basehttp 154 "GET /video/info/?fenlei=4 HTTP/1.1" 200 2
+INFO 2020-02-23 12:04:11,197 basehttp 154 "GET /video/video_type/ HTTP/1.1" 200 121
+INFO 2020-02-23 12:04:11,240 basehttp 154 "GET /video/search/?title=%E5%B1%95%E7%A4%BA%E6%9D%91%E7%9A%84%E9%A3%8E%E8%B2%8C HTTP/1.1" 200 2
+INFO 2020-02-23 12:04:56,143 autoreload 597 Watching for file changes with StatReloader
+WARNING 2020-02-23 12:04:59,838 log 228 Not Found: /
+WARNING 2020-02-23 12:04:59,844 basehttp 154 "GET / HTTP/1.1" 404 2630
+INFO 2020-02-23 12:05:07,770 basehttp 154 "GET /video/video_type/ HTTP/1.1" 200 121
+INFO 2020-02-23 12:05:07,816 basehttp 154 "GET /video/num/?fenlei=1 HTTP/1.1" 200 1127
+INFO 2020-02-23 12:05:07,871 basehttp 154 "GET /video/num/?fenlei=2 HTTP/1.1" 200 283
+INFO 2020-02-23 12:05:07,885 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 1064
+INFO 2020-02-23 12:05:07,904 basehttp 154 "GET /video/type/?fenlei=2 HTTP/1.1" 200 318
+INFO 2020-02-23 12:05:07,904 basehttp 154 "GET /video/type/?fenlei=1 HTTP/1.1" 200 1114
+INFO 2020-02-23 12:05:07,938 basehttp 154 "GET /video/image/ HTTP/1.1" 200 1128
+INFO 2020-02-23 12:05:16,504 basehttp 154 "GET /video/video_type/ HTTP/1.1" 200 121
+INFO 2020-02-23 12:05:16,757 basehttp 154 "GET /video/search/?title=%E5%96%9C%E6%AC%A2%E4%BD%A0 HTTP/1.1" 200 207
+INFO 2020-02-23 12:06:10,905 basehttp 154 "GET /video/video_type/ HTTP/1.1" 200 121
+INFO 2020-02-23 12:06:10,911 basehttp 154 "GET /video/num/?fenlei=1 HTTP/1.1" 200 1127
+INFO 2020-02-23 12:06:10,920 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 1064
+INFO 2020-02-23 12:06:10,986 basehttp 154 "GET /video/type/?fenlei=2 HTTP/1.1" 200 318
+INFO 2020-02-23 12:06:10,994 basehttp 154 "GET /video/type/?fenlei=1 HTTP/1.1" 200 1114
+INFO 2020-02-23 12:06:10,996 basehttp 154 "GET /video/image/ HTTP/1.1" 200 1128
+INFO 2020-02-23 12:06:11,006 basehttp 154 "GET /video/num/?fenlei=2 HTTP/1.1" 200 283
+INFO 2020-02-23 12:06:18,484 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 1064
+INFO 2020-02-23 12:06:18,486 basehttp 154 "GET /video/type/?fenlei=1 HTTP/1.1" 200 1114
+INFO 2020-02-23 12:06:18,486 basehttp 154 "GET /video/video_type/ HTTP/1.1" 200 121
+INFO 2020-02-23 12:06:18,490 basehttp 154 "GET /video/type/?fenlei=2 HTTP/1.1" 200 318
+INFO 2020-02-23 12:06:18,493 basehttp 154 "GET /video/num/?fenlei=1 HTTP/1.1" 200 1127
+INFO 2020-02-23 12:06:18,494 basehttp 154 "GET /video/image/ HTTP/1.1" 200 1128
+INFO 2020-02-23 12:06:18,509 basehttp 154 "GET /video/num/?fenlei=2 HTTP/1.1" 200 283
+INFO 2020-02-23 12:16:34,686 basehttp 154 "GET /user/mobile/13456789034/ HTTP/1.1" 200 15
+INFO 2020-02-23 12:16:40,125 basehttp 154 "GET /user/sms/13456789034 HTTP/1.1" 301 0
+INFO 2020-02-23 12:16:40,239 basehttp 154 "GET /user/sms/13456789034/ HTTP/1.1" 200 35
+INFO 2020-02-23 12:17:01,621 basehttp 154 "GET /user/mobile/13456789034/ HTTP/1.1" 200 15
+INFO 2020-02-23 12:17:02,605 basehttp 154 "OPTIONS /user/ HTTP/1.1" 200 0
+INFO 2020-02-23 12:17:02,775 basehttp 154 "POST /user/ HTTP/1.1" 201 213
+INFO 2020-02-23 12:17:03,088 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 1064
+INFO 2020-02-23 12:17:03,092 basehttp 154 "GET /video/video_type/ HTTP/1.1" 200 121
+INFO 2020-02-23 12:17:03,107 basehttp 154 "GET /video/type/?fenlei=1 HTTP/1.1" 200 1114
+INFO 2020-02-23 12:17:03,113 basehttp 154 "GET /video/type/?fenlei=2 HTTP/1.1" 200 318
+INFO 2020-02-23 12:17:03,114 basehttp 154 "GET /video/num/?fenlei=1 HTTP/1.1" 200 1127
+INFO 2020-02-23 12:17:03,136 basehttp 154 "GET /video/num/?fenlei=2 HTTP/1.1" 200 283
+INFO 2020-02-23 12:17:03,152 basehttp 154 "GET /video/image/ HTTP/1.1" 200 1128
+INFO 2020-02-23 12:17:39,867 basehttp 154 "GET /video/video_type/ HTTP/1.1" 200 121
+INFO 2020-02-23 12:17:39,880 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 1064
+INFO 2020-02-23 12:17:39,886 basehttp 154 "GET /video/type/?fenlei=2 HTTP/1.1" 200 318
+INFO 2020-02-23 12:17:39,891 basehttp 154 "GET /video/num/?fenlei=1 HTTP/1.1" 200 1127
+INFO 2020-02-23 12:17:39,923 basehttp 154 "GET /video/type/?fenlei=1 HTTP/1.1" 200 1114
+INFO 2020-02-23 12:17:39,965 basehttp 154 "GET /video/image/ HTTP/1.1" 200 1128
+INFO 2020-02-23 12:17:40,008 basehttp 154 "GET /video/num/?fenlei=2 HTTP/1.1" 200 283
+INFO 2020-02-23 12:17:57,799 basehttp 154 "GET /video/video_type/ HTTP/1.1" 200 121
+INFO 2020-02-23 12:17:57,856 basehttp 154 "GET /video/info/?fenlei=1 HTTP/1.1" 200 1064
+INFO 2020-02-23 12:17:57,865 basehttp 154 "GET /video/num/?fenlei=1 HTTP/1.1" 200 1127
+INFO 2020-02-23 12:17:57,869 basehttp 154 "GET /video/type/?fenlei=2 HTTP/1.1" 200 318
+INFO 2020-02-23 12:17:57,872 basehttp 154 "GET /video/num/?fenlei=2 HTTP/1.1" 200 283
+INFO 2020-02-23 12:17:57,946 basehttp 154 "GET /video/image/ HTTP/1.1" 200 1128
+INFO 2020-02-23 12:17:57,951 basehttp 154 "GET /video/type/?fenlei=1 HTTP/1.1" 200 1114
+INFO 2020-02-23 12:18:55,234 basehttp 154 "GET /video/info/?fenlei=4 HTTP/1.1" 200 2

@@ -9,8 +9,8 @@ class BaseSetting(object):
 
 
 xadmin.site.register(views.BaseAdminView, BaseSetting)
-
-
+#
+#
 class GlobalSettings(object):
     """xadmin的全局配置"""
     site_title = "广理工学院后台管理"  # 设置站点标题
@@ -19,8 +19,8 @@ class GlobalSettings(object):
 
 
 xadmin.site.register(views.CommAdminView, GlobalSettings)
-
-# 轮播图
+#
+# # 轮播图
 from .models import Banner
 
 

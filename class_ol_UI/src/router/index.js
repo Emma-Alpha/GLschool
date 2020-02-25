@@ -12,6 +12,7 @@ import QQCallBack from "../components/QQCallBack";
 import Upload from "../components/Upload";
 import Detail from "../components/Detail";
 import CustomDetail from "../components/CustomDetail";
+import Search from "../components/Search";
 // 注册路由类
 Vue.use(Router);
 
@@ -84,6 +85,11 @@ export default new Router({
       name:"CustomDetail",
       component: CustomDetail,
       path: '/user_video_detail/:id',
+    },
+    {
+      name:"Search",
+      component: Search,
+      path: '/search',
     },
 
   ]

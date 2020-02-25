@@ -9,16 +9,16 @@
            src="javascript:;" alt="">
 
       <div class="mod_search">
-        <form id="searchForm" action="javascript:" method="get" target="_blank" class="search_form cf">
+        <form id="searchForm" action="javascript:" method="get" target="_blank" class="search_form cf" @submit.prevent="submit($event)">
           <label class="search_label" for="keywords">搜索关键词</label>
           <div class="search_keywords">
             <input type="text" name="q" id="keywords" class="search_input" autocomplete="off"
-                   _stat="顶部导航区_搜索框" :value="choice_search?'':search_word" @click.prevent="choice_search=true"
-                   @blur="choice_search=false">
+                   _stat="顶部导航区_搜索框" v-model="choice_search?'':search_word" @click.prevent="choice_search=false"
+                   @blur="choice_search=false" >
           </div>
           <input type="hidden" name="stag">
           <input type="hidden" name="smartbox_ab">
-          <button class="search_btn" type="submit" _stat="顶部导航区_搜索按钮">
+          <button class="search_btn" type="submit" _stat="顶部导航区_搜索按钮" >
             <svg class="svg_icon svg_icon_search" viewBox="0 0 18 18" width="18" height="18">
               <path
                 d="M4.5 4.5c-1.9 1.9-1.9 5.1 0 7.1s5.1 1.9 7.1 0 1.9-5.1 0-7.1-5.2-2-7.1 0zm10.8 12.2l-3.1-3.1c-2.7 2-6.6 1.9-9.1-.6C.3 10.2.3 5.8 3 3 5.7.3 10.2.3 12.9 3c2.5 2.5 2.7 6.4.6 9.1l3.1 3.1c.4.4.4 1 0 1.4-.3.5-.9.5-1.3.1z"
@@ -73,20 +73,6 @@
             <span class="quick_text">上传</span></a>
         </div>
 
-        <!-- pc客户端 -->
-        <div class="quick_item quick_client __lite_hide__" id="pc_client">
-          <a href="javascript:;" _hot="顶部导航区:客户端" class="quick_link" _stat="顶部导航区:客户端">
-
-            <svg class="svg_quick_icon svg_icon_client" viewBox="0 0 26 26" width="26" height="26">
-              <path
-                d="M15 18v2H7c-2.2 0-4-1.8-4-4V7c0-2.2 1.8-4 4-4h12c2.2 0 4 1.8 4 4v6h-2V7c0-1.1-.9-2-2-2H7c-1.1 0-2 .9-2 2v9c0 1.1.9 2 2 2h8zm0 5v2H9v-2h6zM21 23h2v-6c0-.6-.4-1-1-1s-1 .4-1 1v6z"
-                fill="currentColor"></path>
-              <path d="M19 21l3 2M25 21l-3 2" fill="none" stroke="currentColor" stroke-width="2"
-                    stroke-linecap="square"></path>
-            </svg>
-
-          </a>
-        </div>
 
         <div :class="[open_id==0?'quick_item quick_user':'quick_item quick_user open']" id="mod_head_user" @mouseover="open_id=1" >
           <router-link :to="token?'/upload':'/user/login'" class="quick_link _checklogin" id="mod_head_notice_trigger"
@@ -105,7 +91,7 @@
                  width="15">
             <i class="triangle_up"><i class="triangle_inner"></i></i>
           </router-link>
-          <div class="mod_quick_pop mod_pop_user"  id="mod_head_notice_pop"
+          <div class="mod_quick_pop mod_pop_user"  id="mod_head_notice_pop" v-show="token"
                _stat="顶部导航区:头像浮层" @mouseover="open_id=1" @mouseout="open_id=0">
             <div class="pop_info_content quick_pop_user">
               <div class="quick_pop_user_hd">
@@ -116,35 +102,9 @@
                        data-type="viplogo" width="24">
                 </a>
                 <a href="javascript:;" class="link_change" data-type="switchlogin" _stat="顶部导航区:头像浮层:切换账号" title="切换账号">切换</a>
-                <a href="javascript:;" class="link_quit" data-type="logout" _stat="顶部导航区:头像浮层:退出" title="退出">退出</a>
-                <div class="quick_vip_meta" id="quick_user_vip" data-version="3"><span class="vip_now">你的微信<span
-                  class="name" title="Jacksonville 😏">Jacksonville 😏</span>是会员</span> <span class="vip_next">	                            <a
-                  href="javascript:;" class="btn_em btn_vip_change">切换为微信</a>	                            <a
-                  href="javascript:;" class="link_vip __open_vip">为QQ号开通</a>	                            </span></div>
+                <a href="javascript:;" class="link_quit" data-type="logout" _stat="顶部导航区:头像浮层:退出" title="退出" @click="clear_token">退出</a>
               </div>
               <div class="quick_pop_user_bd">
-                <div class="quick_features cf">
-                  <a class="feature_item" href="http://v.qq.com/u/comment/" target="_blank"
-                     _hot="顶部导航区:头像浮层:user_message" _stat="顶部导航区:头像浮层:user_message">
-                    <i class="icon_feature icon_feature_comment"></i>
-                    <span class="icon_text" id="nav_user_message">评论消息</span>
-                  </a>
-                  <a class="feature_item" href="https://v.qq.com/biu/u/history/" target="_blank"
-                     _hot="顶部导航区:头像浮层:user_history" _stat="顶部导航区:头像浮层:user_history">
-                    <i class="icon_feature icon_feature_cloud"></i>
-                    <span class="icon_text">云同步观看记录</span>
-                  </a>
-                  <a class="feature_item" href="https://v.qq.com/u/wallet/vbshop.html#tab=lottery" target="_blank"
-                     _hot="顶部导航区:头像浮层:user_lottery" _stat="顶部导航区:头像浮层:user_lottery">
-                    <i class="icon_feature icon_feature_lottery"></i>
-                    <span class="icon_text">免费抽奖</span>
-                  </a>
-                  <a class="feature_item _download_pc" href="javascript:;" _hot="顶部导航区:头像浮层:download"
-                     _stat="顶部导航区:头像浮层:download">
-                    <i class="icon_feature icon_feature_client"></i>
-                    <span class="icon_text">用客户端看抢VIP</span>
-                  </a>
-                </div>
               </div>
             </div>
           </div>
@@ -163,11 +123,12 @@
         data() {
             return {
                 search_word: '热门搜索',
-                choice_search: false,
+                choice_search: '',
                 open_id: 0,
                 token: '',
                 nickname: '',
-                avatar:''
+                avatar:'',
+                title:'',
             }
         },
         created(){
@@ -175,12 +136,36 @@
           this.User_info()
         },
         methods:{
+            submit(event){
+                var formData = new FormData(event.target);
+
+                console.log("wwwwwwwwwww",this.search_word)
+
+                this.$router.push('/search/?title='+this.search_word)
+            },
+
             User_info(){
                 if(this.token){
                     this.nickname = localStorage.getItem('user_nickname') || sessionStorage.getItem('user_nickname')
                     this.avatar = localStorage.getItem('avatar') || sessionStorage.getItem('avatar')
                 }
             },
+            clear_token(){
+                console.log("点击清除成功~~")
+                localStorage.removeItem('user_token');
+                localStorage.removeItem('user_nickename');
+                localStorage.removeItem('avatar');
+                localStorage.removeItem('user_id');
+                localStorage.removeItem('user_name');
+
+                sessionStorage.removeItem('user_token');
+                sessionStorage.removeItem('avatar');
+                sessionStorage.removeItem('user_nickename');
+                sessionStorage.removeItem('user_id');
+                sessionStorage.removeItem('user_name');
+                // 刷新当前页面
+                location.reload()
+            }
         }
     }
 </script>

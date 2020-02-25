@@ -15,6 +15,7 @@ import logging
 
 logger = logging.error("django")
 
+
 # Create your views here.
 
 class QAuthQQAPIView(APIView):

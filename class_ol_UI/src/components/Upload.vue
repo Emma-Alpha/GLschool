@@ -9,7 +9,7 @@
         <div class="user_info __user_info_side">
           <!-- 头像 -->
           <div class="navi_avatar navi_avater">
-            <img src="//thirdqq.qlogo.cn/g?b=oidb&amp;k=u8ovAQBCkFQibURggAH2PaQ&amp;s=640&amp;t=1556857804" alt=""
+            <img :src='user_info_img' alt=""
                  class="avatar_pic __avatar">
             <button class="option_toggle">
               <svg class="svg_side_icon svg_icon_user" viewBox="0 0 18 18" width="18" height="18">
@@ -23,7 +23,7 @@
 
           <!-- 用户名 -->
           <div class="user_name">
-            <span class="__nickname">无奈之下</span>
+            <span class="__nickname">{{user_info_name}}</span>
           </div>
           <div class="user_vipinfo user_holly">
 
@@ -42,15 +42,15 @@
           </a>
           <div class="channel_info">
             <div class="item">
-              <div class="num" id="channelInfoVideo">2</div>
+              <div class="num" id="channelInfoVideo">0</div>
               <div class="text">视频</div>
             </div>
             <div class="item">
-              <div class="num" id="channelInfoSubs">1</div>
+              <div class="num" id="channelInfoSubs">0</div>
               <div class="text">订阅</div>
             </div>
             <div class="item">
-              <div class="num" id="channelInfoCounts">1982</div>
+              <div class="num" id="channelInfoCounts">0</div>
               <div class="text">播放量</div>
             </div>
           </div>
@@ -65,61 +65,6 @@
                       fill="none"></path>
               </svg>
               观看历史</a>
-          </div>
-
-          <div class="item">
-            <a href="/biu/u/playlist" class="navi_link _collect" _hot="uc.side._collect">
-              <svg class="svg_side_icon svg_icon_collect" viewBox="0 0 18 18" width="18" height="18">
-                <path d="M4.7 11C3.3 9.7 2 8 2 6.1 2 1.3 7.3 1 9 4c1.6-3 7-2.8 7 2" stroke="currentColor"
-                      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"></path>
-                <path d="M12 17a5 5 0 1 1 0-10 5 5 0 0 1 0 10zm1-6V9h-2v2H9v2h2v2h2v-2h2v-2h-2z" fill="currentColor"
-                      fill-rule="nonzero"></path>
-              </svg>
-              收藏<span class="mark_dot none" id="sidenav_notice_playlist"></span></a>
-          </div>
-
-          <div class="item">
-            <a href="/biu/u/subscribe" class="navi_link _follow" _hot="uc.side._follow">
-              <svg class="svg_side_icon svg_icon_follow" viewBox="0 0 18 18" width="18" height="18">
-                <path
-                  d="M8.5 14.2l-3 1.6a1 1 0 0 1-1.4-1l.5-3.4a1 1 0 0 0-.3-.9L2 8.1a1 1 0 0 1 .5-1.7L5.8 6a1 1 0 0 0 .8-.5l1.5-3a1 1 0 0 1 1.8 0l1.5 3a1 1 0 0 0 .8.5l3.4.5a1 1 0 0 1 .5 1.7l-2.4 2.4a1 1 0 0 0-.3 1l.5 3.3a1 1 0 0 1-1.4 1l-3-1.6a1 1 0 0 0-1 0z"
-                  stroke="currentColor" stroke-width="2" fill="none"></path>
-              </svg>
-              订阅</a>
-          </div>
-
-          <div class="item">
-            <a href="/u/doki.html" class="navi_link _doki">
-              <svg class="svg_side_icon svg_icon_doki" viewBox="0 0 18 18" width="18" height="18">
-                <path
-                  d="M14.6 10.3a4.1 4.1 0 1 0-5.9-5.9m.6 0a.5.5 0 0 1 0 .1l5.2 5.1a.5.5 0 0 1 0 .7l-4.8 4.8a1 1 0 0 1-1.4 0l-4.8-4.8a4.1 4.1 0 1 1 5.8-5.8z"
-                  fill="none" stroke="currentColor" stroke-width="2"></path>
-              </svg>
-              我的doki</a>
-          </div>
-
-          <div class="item">
-            <a href="/u/comment/" class="navi_link _message" _hot="uc.side._message">
-              <svg class="svg_side_icon svg_icon_message" viewBox="0 0 18 18" width="18" height="18">
-                <path
-                  d="M3.8 13.4A1.8 1.8 0 0 1 2 11.6V3.8C2 2.8 2.8 2 3.8 2h10.4c1 0 1.8.8 1.8 1.8v7.8a1.8 1.8 0 0 1-1.8 1.8h-6L5.4 16"
-                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                  fill="none"></path>
-                <path d="M6.5 9a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"
-                      fill="currentColor"></path>
-              </svg>
-              评论</a>
-          </div>
-
-          <div class="item">
-            <a href="/u/message/" class="navi_link _notice" _hot="uc.side._notice">
-              <svg class="svg_side_icon svg_icon_notice" viewBox="0 0 18 18" width="18" height="18">
-                <path
-                  d="M14 7v1.6l2.7 3c.2.4.1 1-.2 1.3a.8.8 0 0 1-.5.1H2c-.5 0-.8-.4-.8-.9l.1-.5 2.7-3V7m10 0A5 5 0 0 0 4 7M6 14c.5 1.2 1.7 2 3 2s2.5-.8 3-2"
-                  stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" stroke-width="2"
-                  fill="none"></path>
-              </svg>
-              消息</a>
           </div>
 
           <div class="item current">
@@ -144,28 +89,6 @@
               管理视频</a>
           </div>
 
-          <div class="item" role="realname-auth">
-            <a href="//v.qq.com/u/realname.html" class="navi_link _realname">
-              <svg class="svg_side_icon svg_icon_realname" viewBox="0 0 18 18" width="18" height="18">
-                <path
-                  d="M9 2a37.7 37.7 0 0 0 3.8.8l3 .5c.4 3.9.1 6.8-.8 8.7s-3 3.2-6 4c-3-.8-5-2.1-6-4s-1.2-4.8-.8-8.8l3-.4A37.7 37.7 0 0 0 9 2z"
-                  stroke="currentColor" stroke-width="2" fill="none"></path>
-                <path stroke-linecap="round" stroke-linejoin="round" d="M6 9l2 2 5-5" stroke="currentColor"
-                      stroke-width="2" fill="none"></path>
-              </svg>
-              实名认证</a>
-          </div>
-
-
-          <div class="item none" id="fans_admin">
-            <a href="//cp.doki.qq.com" target="_blank _fansadmin" class="navi_link" _hot="uc.side._fans">
-              <svg class="svg_side_icon svg_icon_stars" viewBox="0 0 18 18" width="18" height="18">
-                <path
-                  d="M20 8.2v.1l-.1.2-.1.1-9 8.9-.1.2-.2.1-.1.1h-.2l-.2.1h-.4l-.1-.1-.2-.2-.1-.2-9-8.8v-.1L0 8.2v-.8l3-5 .1-.1.1-.1.3-.2.6-.1h12.2v.1c.1 0 .2 0 .3.2l.2.2 3 5v.7zM15.4 4H4.6L2.2 7.9l7.8 7.7 7.8-7.7L15.4 4zM10 13h-.4l-.1-.1-.2-.2-.1-.2-4-4a1 1 0 0 1 .3-1.4 1 1 0 0 1 1.4.4l3.1 3.1 3.1-3.1a1 1 0 0 1 1.4-.4c.5.3.6 1 .4 1.4l-4 4-.2.2-.2.1-.1.1h-.2l-.2.1z"
-                  fill="currentColor"></path>
-              </svg>
-              明星社区</a>
-          </div>
         </div>
       </div>
       <div class="site_main">
@@ -221,10 +144,13 @@
             return {
                 token: '',
                 upload_url: '',
+                user_info_img:'',
+                user_info_name:'',
             }
         },
         created() {
-            this.token = this.$settings.check_user_login()
+            this.token = this.$settings.check_user_login();
+            this.get_user_Info()
         },
         methods: {
             upload_file() {
@@ -245,6 +171,10 @@
                     console.log(error.response)
                 })
 
+            },
+            get_user_Info(){
+                this.user_info_img = localStorage.getItem('avatar') || sessionStorage.getItem('avatar');
+                this.user_info_name = localStorage.getItem('user_nickname') || sessionStorage.getItem('user_nickname');
             },
         }
     }

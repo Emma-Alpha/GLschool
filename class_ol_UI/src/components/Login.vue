@@ -427,6 +427,7 @@
     padding-top: 0;
     padding-right: 30px;
     padding-bottom: 25px;
+    width: 400px;
   }
 
   .rember {
