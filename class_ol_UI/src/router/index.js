@@ -27,9 +27,6 @@ export default new Router({
       name : 'Home',  // name: "路由别名"
       path: '/', // path:"路由地址"
       component: Home,  // component:组件类名
-      meta:{
-        title: '线上课堂'
-      }
     },
     {  // 一个字典,代表一条url
       name : 'Home',  // name: "路由别名"

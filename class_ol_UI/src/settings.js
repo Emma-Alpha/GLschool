@@ -1,5 +1,5 @@
 export default {
-  Host: 'http://127.0.0.1:8000',
+  Host: 'http://api.feedertv.com:8000',
 
 
   check_user_login() {
